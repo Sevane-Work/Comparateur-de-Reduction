@@ -1,0 +1,34 @@
+name: Mise à jour quotidienne des taux Fnac Darty
+
+on:
+  schedule:
+    # Tous les jours à 6h00 UTC (7h ou 8h heure française selon la saison)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Permet aussi de lancer manuellement depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Lancer le script de récupération
+        run: python fetch_fnac_darty.py
+
+      - name: Enregistrer les nouvelles données si elles ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fnac_darty.json
+          git diff --staged --quiet && echo "Aucun changement" || git commit -m "Mise à jour automatique des taux"
+          git push
