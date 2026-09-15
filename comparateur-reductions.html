@@ -15,6 +15,8 @@
     --sage: #5E7A63;
     --hairline: #DAD5C4;
     --white: #FFFFFF;
+    --tag-direct-bg: #EFEAE0;
+    --tag-cadeau-bg: #E7EEE7;
   }
   * { box-sizing: border-box; }
   body {
@@ -34,7 +36,7 @@
     letter-spacing: -0.01em;
   }
   .sub { color: var(--sage); font-size: 15px; margin: 0; }
-  .search-box { position: relative; margin-bottom: 28px; }
+  .search-box { margin-bottom: 28px; }
   input[type="search"] {
     width: 100%;
     padding: 16px 18px;
@@ -56,20 +58,19 @@
     padding: 0 2px;
   }
   ul.results { list-style: none; margin: 0; padding: 0; }
-  li.offer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 16px 18px;
-    border-bottom: 1px solid var(--hairline);
-  }
-  li.offer:first-child {
+  li.merchant {
     background: var(--white);
-    border: 1.5px solid var(--gold);
+    border: 1px solid var(--hairline);
     border-radius: 10px;
+    padding: 16px 18px;
     margin-bottom: 10px;
-    padding: 18px;
+  }
+  li.merchant.top { border: 1.5px solid var(--gold); }
+  .merchant-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
   }
   .name { font-size: 16px; font-weight: 500; }
   .badge {
@@ -80,15 +81,37 @@
     display: block;
     margin-bottom: 2px;
   }
-  .percent {
-    font-family: 'Fraunces', serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--ink);
-    white-space: nowrap;
+  .offer-list { list-style: none; margin: 0; padding: 0; }
+  .offer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 14px;
   }
-  li.offer:first-child .percent { color: var(--gold); }
-  .source { font-size: 12px; color: var(--sage); }
+  .offer-type {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .tag.direct { background: var(--tag-direct-bg); color: var(--ink); }
+  .tag.carte_cadeau { background: var(--tag-cadeau-bg); color: var(--sage); }
+  .offer-percent { font-weight: 600; }
+  .cumul-note {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--hairline);
+    font-size: 13px;
+    color: var(--sage);
+  }
+  .cumul-note strong { color: var(--ink); }
+  .cumul-note.cumul-warning { color: #96632B; }
   .empty, .status {
     text-align: center;
     color: var(--sage);
@@ -124,6 +147,56 @@
     return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
+  const TYPE_LABELS = {
+    direct: 'Réduction directe',
+    carte_cadeau: 'Carte cadeau',
+  };
+
+  function offerRow(offer) {
+    return `
+      <li class="offer-row">
+        <span class="offer-type">
+          <span class="tag ${offer.type}">${TYPE_LABELS[offer.type] || offer.type}</span>
+          <span>${offer.platform}</span>
+        </span>
+        <span class="offer-percent">${offer.percent}%</span>
+      </li>
+    `;
+  }
+
+  function merchantCard(m, isTop) {
+    const offersHtml = m.offers
+      .slice()
+      .sort((a, b) => b.percent - a.percent)
+      .map(offerRow)
+      .join('');
+
+    const platforms = new Set(m.offers.map(o => o.platform));
+    let cumulNote = '';
+    if (platforms.size > 1) {
+      // Plusieurs plateformes différentes : le cumul entre elles n'est
+      // jamais garanti par les données, quelle que soit l'offre.
+      cumulNote = `<div class="cumul-note cumul-warning">⚠️ Ces offres viennent de plateformes différentes : rien ne garantit qu'elles se cumulent. À vérifier vous-même avant achat.</div>`;
+    } else if (m.cumulable_total) {
+      cumulNote = `<div class="cumul-note">Cumulables : <strong>jusqu'à ${m.cumulable_total}%</strong> en combinant les deux</div>`;
+    } else if (m.offers.length > 1) {
+      cumulNote = `<div class="cumul-note cumul-warning">⚠️ Rien n'indique que ces deux offres se cumulent. À vérifier vous-même avant achat.</div>`;
+    }
+
+    return `
+      <li class="merchant ${isTop ? 'top' : ''}">
+        <div class="merchant-head">
+          <div>
+            ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
+            <div class="name">${m.name}</div>
+          </div>
+        </div>
+        <ul class="offer-list">${offersHtml}</ul>
+        ${cumulNote}
+      </li>
+    `;
+  }
+
   function render(query) {
     const resultsEl = document.getElementById('results');
     const statusEl = document.getElementById('status');
@@ -137,8 +210,8 @@
     }
 
     const matches = merchants
-      .filter(m => m.percent !== null && normalize(m.name).includes(q))
-      .sort((a, b) => b.percent - a.percent);
+      .filter(m => normalize(m.name).includes(q))
+      .sort((a, b) => b.best_percent - a.best_percent);
 
     if (matches.length === 0) {
       statusEl.textContent = 'Aucune offre trouvée pour ce magasin.';
@@ -147,18 +220,8 @@
     }
 
     statusEl.style.display = 'none';
-    matches.slice(0, 20).forEach((m, i) => {
-      const li = document.createElement('li');
-      li.className = 'offer';
-      li.innerHTML = `
-        <div>
-          ${i === 0 ? '<span class="badge">Meilleure offre</span>' : ''}
-          <div class="name">${m.name}</div>
-          <div class="source">${m.source}</div>
-        </div>
-        <div class="percent">${m.percent}%</div>
-      `;
-      resultsEl.appendChild(li);
+    matches.slice(0, 15).forEach((m, i) => {
+      resultsEl.insertAdjacentHTML('beforeend', merchantCard(m, i === 0));
     });
   }
 
@@ -168,13 +231,9 @@
       return r.json();
     })
     .then(data => {
-      merchants = data.merchants.map(m => ({
-        name: m.name,
-        percent: m.percent,
-        source: 'Fnac Darty Pass'
-      }));
+      merchants = data.merchants;
       document.getElementById('count-label').textContent =
-        `${merchants.filter(m => m.percent !== null).length} offres actives`;
+        `${merchants.length} marchands avec offre active`;
       const d = new Date(data.fetched_at);
       document.getElementById('updated-label').textContent =
         'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
