@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparateur de réductions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FAF9F5;
+    --ink: #1C2A21;
+    --gold: #B8902E;
+    --sage: #5E7A63;
+    --hairline: #DAD5C4;
+    --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { margin-bottom: 32px; }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(32px, 6vw, 44px);
+    font-weight: 600;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .sub { color: var(--sage); font-size: 15px; margin: 0; }
+  .search-box { position: relative; margin-bottom: 28px; }
+  input[type="search"] {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 17px;
+    font-family: inherit;
+    border: 1.5px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--white);
+    color: var(--ink);
+    outline: none;
+  }
+  input[type="search"]:focus { border-color: var(--gold); }
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--sage);
+    margin-bottom: 16px;
+    padding: 0 2px;
+  }
+  ul.results { list-style: none; margin: 0; padding: 0; }
+  li.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  li.offer:first-child {
+    background: var(--white);
+    border: 1.5px solid var(--gold);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 18px;
+  }
+  .name { font-size: 16px; font-weight: 500; }
+  .badge {
+    font-size: 11px;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .percent {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  li.offer:first-child .percent { color: var(--gold); }
+  .source { font-size: 12px; color: var(--sage); }
+  .empty, .status {
+    text-align: center;
+    color: var(--sage);
+    padding: 40px 0;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Où profiter de la meilleure réduction ?</h1>
+      <p class="sub">Cherchez un magasin, on compare pour vous.</p>
+    </header>
+
+    <div class="search-box">
+      <input type="search" id="search" placeholder="Nom du magasin (ex. Carrefour, Fnac...)" autocomplete="off">
+    </div>
+
+    <div class="meta-row">
+      <span id="count-label"></span>
+      <span id="updated-label"></span>
+    </div>
+
+    <div id="status" class="status">Chargement des données…</div>
+    <ul class="results" id="results"></ul>
+  </div>
+
+<script>
+  let merchants = [];
+
+  function normalize(str) {
+    return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  function render(query) {
+    const resultsEl = document.getElementById('results');
+    const statusEl = document.getElementById('status');
+    resultsEl.innerHTML = '';
+
+    const q = normalize(query.trim());
+    if (!q) {
+      statusEl.textContent = 'Tapez le nom d\u2019un magasin pour voir les offres.';
+      statusEl.style.display = 'block';
+      return;
+    }
+
+    const matches = merchants
+      .filter(m => m.percent !== null && normalize(m.name).includes(q))
+      .sort((a, b) => b.percent - a.percent);
+
+    if (matches.length === 0) {
+      statusEl.textContent = 'Aucune offre trouvée pour ce magasin.';
+      statusEl.style.display = 'block';
+      return;
+    }
+
+    statusEl.style.display = 'none';
+    matches.slice(0, 20).forEach((m, i) => {
+      const li = document.createElement('li');
+      li.className = 'offer';
+      li.innerHTML = `
+        <div>
+          ${i === 0 ? '<span class="badge">Meilleure offre</span>' : ''}
+          <div class="name">${m.name}</div>
+          <div class="source">${m.source}</div>
+        </div>
+        <div class="percent">${m.percent}%</div>
+      `;
+      resultsEl.appendChild(li);
+    });
+  }
+
+  fetch('fnac_darty.json')
+    .then(r => {
+      if (!r.ok) throw new Error('Fichier introuvable');
+      return r.json();
+    })
+    .then(data => {
+      merchants = data.merchants.map(m => ({
+        name: m.name,
+        percent: m.percent,
+        source: 'Fnac Darty Pass'
+      }));
+      document.getElementById('count-label').textContent =
+        `${merchants.filter(m => m.percent !== null).length} offres actives`;
+      const d = new Date(data.fetched_at);
+      document.getElementById('updated-label').textContent =
+        'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+      render('');
+    })
+    .catch(err => {
+      document.getElementById('status').textContent =
+        'Impossible de charger les données (fnac_darty.json manquant ou invalide).';
+    });
+
+  document.getElementById('search').addEventListener('input', e => render(e.target.value));
+</script>
+</body>
+</html>
