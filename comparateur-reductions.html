@@ -130,6 +130,67 @@
   }
   .cumul-note strong { color: var(--ink); }
   .cumul-note.cumul-warning { color: #96632B; }
+  .rank-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 0 0;
+    border: none;
+    border-top: 1px dashed var(--hairline);
+    background: none;
+    color: var(--sage);
+    font-family: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+  }
+  .rank-toggle:hover { color: var(--ink); }
+  .rank-toggle .chevron {
+    display: inline-block;
+    transition: transform 0.15s ease;
+    font-size: 10px;
+  }
+  .rank-toggle.open .chevron { transform: rotate(180deg); }
+  .rank-list {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .rank-row {
+    display: grid;
+    grid-template-columns: 20px 1fr auto auto;
+    align-items: baseline;
+    gap: 10px;
+    padding: 5px 6px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .rank-row:nth-child(odd) { background: #F3F1EA; }
+  .rank-row .rank-num {
+    color: var(--sage);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+  .rank-row .rank-platform { color: var(--ink); }
+  .rank-row .rank-type {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--sage);
+    opacity: 0.85;
+    white-space: nowrap;
+  }
+  .rank-row .rank-value {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .rank-row.rank-best { background: var(--tag-cadeau-bg); }
+  .rank-row.rank-best .rank-value { color: var(--gold); }
   .empty, .status {
     text-align: center;
     color: var(--sage);
@@ -159,16 +220,108 @@
   </div>
 
 <script>
+  // Liste des fichiers de données à charger et fusionner. Chaque fichier peut
+  // suivre soit le schéma imbriqué "merchants" (ex. fnac_darty.json), soit le
+  // schéma plat "offers" (ex. igraal.json, ulys_offers.json, thecorner_offers.json,
+  // happypal.json à venir). Ajouter un nom de fichier ici suffit à l'intégrer au
+  // comparateur et au classement multi-plateformes par magasin.
+  const DATA_FILES = [
+    'fnac_darty.json',
+  ];
+
   let merchants = [];
 
   function normalize(str) {
-    return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return str.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   }
 
   const TYPE_LABELS = {
     direct: 'Réduction directe',
     carte_cadeau: 'Carte cadeau',
   };
+
+  // --- Normalisation des différents schémas de données vers une forme commune ---
+
+  // Schéma imbriqué (fnac_darty.json) : { merchants: [{ name, offers, best_percent, best_type, cumulable_total }] }
+  function nestedFileToMerchants(data) {
+    return (data.merchants || []).map(m => ({
+      name: m.name,
+      offers: (m.offers || []).map(o => ({
+        platform: o.platform,
+        type: o.type,
+        percent: typeof o.percent === 'number' ? o.percent : null,
+        rate_text: null,
+      })),
+      _singleSourceBestPercent: m.best_percent,
+      _singleSourceBestType: m.best_type,
+      _singleSourceCumulableTotal: m.cumulable_total,
+    }));
+  }
+
+  // Schéma plat (igraal.json, ulys_offers.json, thecorner_offers.json, happypal.json...) :
+  // { platform: "...", offers: [{ name, type, percent, rate_text }] }
+  function flatFileToMerchants(data) {
+    const byName = new Map();
+    (data.offers || []).forEach(o => {
+      const key = normalize(o.name || '').trim();
+      if (!key) return;
+      if (!byName.has(key)) byName.set(key, { name: o.name, offers: [] });
+      byName.get(key).offers.push({
+        platform: data.platform,
+        type: o.type,
+        percent: typeof o.percent === 'number' ? o.percent : null,
+        rate_text: o.rate_text || null,
+      });
+    });
+    return Array.from(byName.values());
+  }
+
+  function normalizeDataset(data) {
+    if (!data) return [];
+    if (Array.isArray(data.merchants)) return nestedFileToMerchants(data);
+    if (Array.isArray(data.offers)) return flatFileToMerchants(data);
+    return [];
+  }
+
+  // Fusionne les listes de marchands (une par fichier chargé) en une seule liste,
+  // en regroupant par nom (normalisé) et en combinant toutes leurs offres —
+  // c'est cette fusion qui permet le classement multi-plateformes par magasin.
+  function mergeMerchantLists(lists) {
+    const byKey = new Map();
+    lists.flat().forEach(m => {
+      const key = normalize(m.name).trim();
+      if (!key) return;
+      if (!byKey.has(key)) {
+        byKey.set(key, { name: m.name, offers: [], _sourceCount: 0, _singleSource: null });
+      }
+      const entry = byKey.get(key);
+      entry.offers.push(...m.offers);
+      entry._sourceCount += 1;
+      if (m._singleSourceBestPercent !== undefined) entry._singleSource = m;
+    });
+
+    return Array.from(byKey.values()).map(entry => {
+      let best_percent, best_type, cumulable_total;
+      if (entry._sourceCount === 1 && entry._singleSource) {
+        // Un seul fichier a fourni ce marchand : on garde exactement les
+        // valeurs déjà calculées par ce fichier (comportement inchangé).
+        best_percent = entry._singleSource._singleSourceBestPercent;
+        best_type = entry._singleSource._singleSourceBestType;
+        cumulable_total = entry._singleSource._singleSourceCumulableTotal;
+      } else {
+        // Fusion de plusieurs sources : on recalcule le meilleur taux connu.
+        // Le cumul entre plateformes différentes n'étant jamais garanti,
+        // cumulable_total reste vide (l'avertissement cumul s'en charge).
+        const withPercent = entry.offers
+          .filter(o => typeof o.percent === 'number')
+          .sort((a, b) => b.percent - a.percent);
+        best_percent = withPercent.length ? withPercent[0].percent : 0;
+        best_type = withPercent.length ? withPercent[0].type : null;
+        cumulable_total = null;
+      }
+      return { name: entry.name, offers: entry.offers, best_percent, best_type, cumulable_total };
+    });
+  }
 
   function offerLine(offer) {
     return `
@@ -192,7 +345,32 @@
     `;
   }
 
-  function merchantCard(m, isTop) {
+  // Classement unique, toutes plateformes et tous types (directe + carte
+  // cadeau) confondus, du meilleur au moins bon — c'est la liste qui s'ouvre
+  // au clic sur "Classement complet" pour un magasin donné.
+  function rankedOfferRows(offers) {
+    const withPercent = offers
+      .filter(o => typeof o.percent === 'number')
+      .sort((a, b) => b.percent - a.percent);
+    const withoutPercent = offers.filter(o => typeof o.percent !== 'number');
+    const ranked = withPercent.concat(withoutPercent);
+
+    return ranked.map((o, i) => {
+      const value = typeof o.percent === 'number'
+        ? `${o.percent}%`
+        : (o.rate_text || 'Voir l’offre');
+      return `
+        <div class="rank-row ${i === 0 && typeof o.percent === 'number' ? 'rank-best' : ''}">
+          <span class="rank-num">${i + 1}</span>
+          <span class="rank-platform">${o.platform}</span>
+          <span class="rank-type">${TYPE_LABELS[o.type] || o.type || ''}</span>
+          <span class="rank-value">${value}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function merchantCard(m, isTop, idx) {
     const direct = m.offers.filter(o => o.type === 'direct');
     const carteCadeau = m.offers.filter(o => o.type === 'carte_cadeau');
     const offersHtml = `
@@ -214,6 +392,17 @@
       cumulNote = `<div class="cumul-note cumul-warning">⚠️ Rien n'indique que ces deux offres se cumulent. À vérifier vous-même avant achat.</div>`;
     }
 
+    const rankId = `rank-${idx}`;
+    const rankToggle = m.offers.length > 1 ? `
+      <button type="button" class="rank-toggle" data-target="${rankId}" aria-expanded="false">
+        <span class="chevron">▾</span>
+        <span class="rank-toggle-label">Classement complet (${m.offers.length} offres, toutes plateformes)</span>
+      </button>
+      <div class="rank-list" id="${rankId}" hidden>
+        ${rankedOfferRows(m.offers)}
+      </div>
+    ` : '';
+
     return `
       <li class="merchant ${isTop ? 'top' : ''}">
         <div class="merchant-head">
@@ -224,6 +413,7 @@
         </div>
         ${offersHtml}
         ${cumulNote}
+        ${rankToggle}
       </li>
     `;
   }
@@ -235,7 +425,7 @@
 
     const q = normalize(query.trim());
     if (!q) {
-      statusEl.textContent = 'Tapez le nom d\u2019un magasin pour voir les offres.';
+      statusEl.textContent = 'Tapez le nom d’un magasin pour voir les offres.';
       statusEl.style.display = 'block';
       return;
     }
@@ -252,28 +442,61 @@
 
     statusEl.style.display = 'none';
     matches.slice(0, 15).forEach((m, i) => {
-      resultsEl.insertAdjacentHTML('beforeend', merchantCard(m, i === 0));
+      resultsEl.insertAdjacentHTML('beforeend', merchantCard(m, i === 0, i));
     });
   }
 
-  fetch('fnac_darty.json')
-    .then(r => {
-      if (!r.ok) throw new Error('Fichier introuvable');
-      return r.json();
-    })
-    .then(data => {
-      merchants = data.merchants;
-      document.getElementById('count-label').textContent =
-        `${merchants.length} marchands avec offre active`;
-      const d = new Date(data.fetched_at);
-      document.getElementById('updated-label').textContent =
-        'Mis à jour le ' + d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
-      render('');
-    })
-    .catch(err => {
+  // Ouvre/ferme le classement complet d'un magasin au clic (délégation
+  // d'événement car les cartes sont régénérées à chaque recherche).
+  document.getElementById('results').addEventListener('click', e => {
+    const btn = e.target.closest('.rank-toggle');
+    if (!btn) return;
+    const list = document.getElementById(btn.dataset.target);
+    if (!list) return;
+    const isHidden = list.hasAttribute('hidden');
+    if (isHidden) {
+      list.removeAttribute('hidden');
+      btn.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    } else {
+      list.setAttribute('hidden', '');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  Promise.all(
+    DATA_FILES.map(file =>
+      fetch(file)
+        .then(r => (r.ok ? r.json() : null))
+        .catch(() => null)
+    )
+  ).then(datasets => {
+    const loaded = datasets.filter(Boolean);
+    if (loaded.length === 0) {
       document.getElementById('status').textContent =
-        'Impossible de charger les données (fnac_darty.json manquant ou invalide).';
-    });
+        'Impossible de charger les données (aucun fichier trouvé ou invalide).';
+      return;
+    }
+
+    merchants = mergeMerchantLists(loaded.map(normalizeDataset));
+
+    document.getElementById('count-label').textContent =
+      `${merchants.length} marchands avec offre active`;
+
+    const dates = loaded
+      .map(d => d.fetched_at || d.captured_at)
+      .filter(Boolean)
+      .map(d => new Date(d))
+      .filter(d => !isNaN(d));
+    if (dates.length) {
+      const mostRecent = new Date(Math.max(...dates.map(d => d.getTime())));
+      document.getElementById('updated-label').textContent =
+        'Mis à jour le ' + mostRecent.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+    }
+
+    render('');
+  });
 
   document.getElementById('search').addEventListener('input', e => render(e.target.value));
 </script>
