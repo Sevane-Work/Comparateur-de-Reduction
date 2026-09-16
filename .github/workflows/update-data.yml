@@ -1,4 +1,4 @@
-name: Mise à jour quotidienne des taux (Fnac Darty + eBuyClub)
+name: Mise à jour quotidienne des taux (toutes plateformes publiques)
 
 on:
   schedule:
@@ -22,16 +22,22 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Lancer le script de récupération Fnac Darty
+      - name: Fnac Darty Pass
         run: python fetch_fnac_darty.py
 
-      - name: Lancer le script de récupération eBuyClub
+      - name: eBuyClub
         run: python fetch_ebuyclub.py
+
+      - name: iGraal
+        run: python fetch_igraal.py
+
+      - name: Banque Populaire (Extra+X)
+        run: python fetch_banque_populaire.py
 
       - name: Enregistrer les nouvelles données si elles ont changé
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add fnac_darty.json ebuyclub.json
+          git add fnac_darty.json ebuyclub.json igraal.json banque_populaire.json
           git diff --staged --quiet && echo "Aucun changement" || git commit -m "Mise à jour automatique des taux"
           git push

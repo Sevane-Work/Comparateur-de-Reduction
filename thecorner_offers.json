@@ -1,0 +1,1232 @@
+{
+  "platform": "Boursorama Shopping (The Corner)",
+  "captured_at": "2026-09-15",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisateur - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau).",
+  "offers": [
+    {
+      "name": "AMPM",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Alpiq",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "adidas",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Alamo – Enterprise – National",
+      "rate_text": "-5% à -15%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Aquarium de Paris",
+      "rate_text": "-15% et -18%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aquaboulevard",
+      "rate_text": "-18% et -20%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Apple",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Abritel",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Asos",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aubert",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Azureva",
+      "rate_text": "-10% à -25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Ayvens - Véhicules d'occasion",
+      "rate_text": "10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Belambra",
+      "rate_text": "-6% à -26%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Bosch",
+      "rate_text": "Jusqu'à -25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Auchan",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Brico Cash",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bricorama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cafeyn",
+      "rate_text": "6 mois à 3,99€ au lieu de 12,99€",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Bricomarché",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "C&A",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Campings.com",
+      "rate_text": "De -8% à -10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Camping and Co",
+      "rate_text": "-8% à 10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Carrefour",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Castorama",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Château du Clos Lucé",
+      "rate_text": "-10% et -15%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Center Parcs",
+      "rate_text": "-5% à -30%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Cinéchèque",
+      "rate_text": "7,60€ la place de ciné",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Château de Chantilly",
+      "rate_text": "-9% et -10%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CGR Cinémas",
+      "rate_text": "7,70€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cdiscount",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Cité des Sciences",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cité du vin",
+      "rate_text": "-22% et -43%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cyrillus",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Decathlon",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cobac Parc",
+      "rate_text": "-8% et -9%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cobac Parc + Aqua'Fun Park",
+      "rate_text": "-9% et -11%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Darty",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cultura",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Deezer Premium",
+      "rate_text": "De -22% à -37%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Deliveroo",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Du Pareil au Même",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dyson",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Dyson",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Ector",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Emma",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "EPISOD",
+      "rate_text": "-31% et -37%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "En Voiture Simone",
+      "rate_text": "Jusqu'à -110€",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Eplaque - immatriculation",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Fnac",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Eram",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Etam",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Europcar",
+      "rate_text": "-10% à -20%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Europcar",
+      "rate_text": "-10% à -20%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Fabrikus World",
+      "rate_text": "-8% et -10%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Expedia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Flixbus",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fnac Spectacles",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fram",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "France Miniature",
+      "rate_text": "-24%",
+      "percent": 24.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Futurness",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "FULLI Télépéage",
+      "rate_text": "14 mois offerts",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Galeries Lafayette",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Garmin",
+      "rate_text": "Jusqu'à -30%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Gemo",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Goélia",
+      "rate_text": "-8% à -40%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GoMoWorld eSIM",
+      "rate_text": "à partir de 0.99€",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "H&M",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Grévin",
+      "rate_text": "-7% et -11%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Homair",
+      "rate_text": "De -5% à -15%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HelloFresh",
+      "rate_text": "Jusqu'à -100€ + 1 poêle offerte",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Google Play",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Grand Aquarium Saint Malo",
+      "rate_text": "-10% et -13%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hotels.com",
+      "rate_text": "-9% au lieu de -6%",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "HP",
+      "rate_text": "-5% à -30%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "IKEA",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Interflora",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "I-RUN",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "INTERSPORT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "IZI by EDF",
+      "rate_text": "Jusqu'à -700€",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Jacadi",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jardiland",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jardin d'Acclimatation",
+      "rate_text": "-21%",
+      "percent": 21.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "King Jouet",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jet Tours",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Keep Cool",
+      "rate_text": "De -35% à -47%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'Orange Bleue",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Kinepolis",
+      "rate_text": "8,99€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Cité de l'Espace",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Grande Récré",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Redoute",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "lastminute.com",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Leroy Merlin",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Gentlemen du Déménagement",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Ligue 1+",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lumigny Safari Reserve",
+      "rate_text": "-13% et -16%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Clubs Forest Hill",
+      "rate_text": "-30%",
+      "percent": 30.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Magasins U",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maisons du Monde",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Marionnaud",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ManoMano",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Mer de Sable",
+      "rate_text": "-23%",
+      "percent": 23.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MK2",
+      "rate_text": "8,40€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MisterFly",
+      "rate_text": "Jusqu'à -9%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Megarama",
+      "rate_text": "8,60€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MMV",
+      "rate_text": "-8% à -25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Naturalia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mondial Tourisme",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Natalys",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Monoprix",
+      "rate_text": "-5% sur les e-cartes cadeaux",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nature & Découvertes",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nausicaá",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Netski",
+      "rate_text": "-10% à -15%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Nike",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Océanopolis",
+      "rate_text": "-13% et -17%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Odalys",
+      "rate_text": "-8% à -10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Nintendo",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Okaïdi",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ovoyages",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Oxybul",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "OZZAK",
+      "rate_text": "Jusqu'à -15%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Parc Astérix",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Parc Spirou",
+      "rate_text": "-18%",
+      "percent": 18.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Parc Sainte Croix",
+      "rate_text": "-16% et -18%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Parc de Branféré",
+      "rate_text": "-14%",
+      "percent": 14.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pathé",
+      "rate_text": "8,99€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Philips Hue",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Planète Sauvage",
+      "rate_text": "-17%",
+      "percent": 17.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Port Aventura World",
+      "rate_text": "Jusqu'à 25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Primark",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Promoséjours",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Promovacances",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "RED by SFR - Forfaits mobiles",
+      "rate_text": "Jusqu'à -10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Puy du Fou",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Rhinov",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RED by SFR - Box",
+      "rate_text": "Jusqu'à -5%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Rituals",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Safari de Peaugres",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Samsung",
+      "rate_text": "Jusqu'à -35%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Samsung Gaming",
+      "rate_text": "Jusqu'à -47%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Samsung Watch",
+      "rate_text": "-30%",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Sarenza",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct"
+    },
+    {
+      "name": "Sephora",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Samsung Maison",
+      "rate_text": "Jusqu'à -50%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Sergent Major",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Showroom Privé",
+      "rate_text": "5%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Siemens",
+      "rate_text": "Jusqu'à -25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Steam",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sony PlayStation® Store",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Spartoo",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Strava",
+      "rate_text": "De -17% à -22%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Swarovski",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Terra Botanica",
+      "rate_text": "-8% et -18%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TheFork",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Twitch",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber Eats",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber One",
+      "rate_text": "3 mois offerts",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Truffaut",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "UGC",
+      "rate_text": "9,99€",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Upway",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Uber VTC",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vertbaudet",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "VTF",
+      "rate_text": "-8% à -10%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Vulcania",
+      "rate_text": "-17% et -18%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Villa Thalgo",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "VVF Villages",
+      "rate_text": "-8% à -25%",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Walibi Rhône-Alpes",
+      "rate_text": "-17%",
+      "percent": 17.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wecandoo",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wonderbox",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wow Safari Thoiry",
+      "rate_text": "-12% et -21%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Xbox",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zalando",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Yves Rocher",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zoo de la flèche",
+      "rate_text": "-14% et -15%",
+      "percent": null,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zoo d'Amnéville",
+      "rate_text": "-19%",
+      "percent": 19.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ZooParc de Beauval",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Bon d'achat",
+      "type": "carte_cadeau"
+    }
+  ]
+}
