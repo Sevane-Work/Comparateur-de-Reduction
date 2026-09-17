@@ -1,12 +1,1426 @@
 {
   "platform": "Le Club Ulys",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. Mise a jour 2026-09-17 : les 13 offres marquees 'Indisponible' ont ete verifiees individuellement sur leur fiche partenaire (meme methode que pour Happypal / Uber VTC), a la recherche de reductions cachees non visibles sur la vignette liste. 3 reductions reelles recuperees : ODALYS VACANCES (jusqu'a 40%), VERISURE (camera offerte, valeur 199e HT, comptee comme -100% sur get produit), VUE EN VILLE (5% sur impression d'affiches). 10 offres confirmees sans reduction reelle et definitivement ecartees (avantages non chiffrables en %/e, essais gratuits, mois offerts, ou aucune offre du tout) : COYOTE (2 mois offerts app), YOUSCRIBE (1er mois a 0,99e), SHIVA (1 semaine de menage offerte), FRUGGR (3 mois offerts, B2B), QONTO (2 mois offerts), LES VERGERS DE GALLY (1ere corbeille offerte, B2B), MINDDAY (60 jours offerts), ADEQUASYS - STORHY (1 mois gratuit, B2B), PETIT BAMBOU (aucune offre, juste une invitation a mediter), ALLIANZ (bilan gratuit, aucune remise). A rafraichir periodiquement a la main.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. Mise a jour 2026-09-17 : les 13 offres marquees 'Indisponible' ont ete verifiees individuellement sur leur fiche partenaire (meme methode que pour Happypal / Uber VTC), a la recherche de reductions cachees non visibles sur la vignette liste. 3 reductions reelles recuperees : ODALYS VACANCES (jusqu'a 40%), VERISURE (camera offerte, valeur 199e HT, comptee comme -100% sur get produit), VUE EN VILLE (5% sur impression d'affiches). 10 offres confirmees sans reduction reelle et definitivement ecartees (avantages non chiffrables en %/e, essais gratuits, mois offerts, ou aucune offre du tout) : COYOTE (2 mois offerts app), YOUSCRIBE (1er mois a 0,99e), SHIVA (1 semaine de menage offerte), FRUGGR (3 mois offerts, B2B), QONTO (2 mois offerts), LES VERGERS DE GALLY (1ere corbeille offerte, B2B), MINDDAY (60 jours offerts), ADEQUASYS - STORHY (1 mois gratuit, B2B), PETIT BAMBOU (aucune offre, juste une invitation a mediter), ALLIANZ (bilan gratuit, aucune remise). A rafraichir periodiquement a la main. Mise a jour 2026-09-17 (bis) : ADIDAS confirmee toujours active par l'utilisatrice (15% via un code promo genere au clic, meme mecanisme qu'ECTOR) - le blocage de rendu rencontre lors de la verification automatisee etait bien un probleme d'affichage cote Claude, pas une disparition reelle du catalogue.",
   "offers": [
     {
-      "name": "INTERMARCHÉ",
-      "rate_text": "Jusqu'à - 3 %",
-      "percent": 3.0,
+      "name": "VERISURE",
+      "rate_text": "Caméra offerte (valeur 199€ HT)",
+      "percent": 100.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VIAPRESSE",
+      "rate_text": "Jusqu'à - 85 %",
+      "percent": 85.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "VIAPRESSE",
+      "rate_text": "Jusqu'à - 85 %",
+      "percent": 85.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "NORDVPN",
+      "rate_text": "Jusqu'à - 75 %",
+      "percent": 75.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CAMPING DIRECT",
+      "rate_text": "Jusqu'à - 75 %",
+      "percent": 75.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "DIGIPARF",
+      "rate_text": "Jusqu'à - 75 %",
+      "percent": 75.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CAMPING AND CO",
+      "rate_text": "Jusqu'à - 70 %",
+      "percent": 70.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "DELSEY",
+      "rate_text": "Jusqu'à - 70 %",
+      "percent": 70.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TRIP AND CO",
+      "rate_text": "Jusqu'à - 70 %",
+      "percent": 70.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HOTELOPIA",
+      "rate_text": "Jusqu'à - 65 %",
+      "percent": 65.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "THALASSEO",
+      "rate_text": "Jusqu'à - 62 %",
+      "percent": 62.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LEBON FRANCE",
+      "rate_text": "Jusqu'à - 61 %",
+      "percent": 61.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MONSIEUR VITRE",
+      "rate_text": "Jusqu'à - 61 %",
+      "percent": 61.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MOMA BIKES",
+      "rate_text": "Jusqu'à - 61 %",
+      "percent": 61.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MAEVA.COM",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MAEVA.COM",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CAMPINGS.COM",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LAGRANGE VACANCES",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ZECAMPING",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VACANSOLEIL",
+      "rate_text": "Jusqu'à - 60 %",
+      "percent": 60.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PHOTOBOX",
+      "rate_text": "Jusqu'à - 50 %",
+      "percent": 50.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BULTEX",
+      "rate_text": "Jusqu'à - 50 %",
+      "percent": 50.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EPEDA",
+      "rate_text": "Jusqu'à - 50 %",
+      "percent": 50.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ADELYA",
+      "rate_text": "Jusqu'à - 50 %",
+      "percent": 50.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PIMPANT",
+      "rate_text": "Jusqu'à - 46 %",
+      "percent": 46.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SANDAYA",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HOMAIR",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GOELIA",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SIBLU VILLAGES",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ODALYS CAMPING",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VACANCÉOLE",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ODALYS CITY",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ODALYS VACANCES",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SAMSUNG",
+      "rate_text": "Jusqu'à - 35 %",
+      "percent": 35.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "THALAZUR",
+      "rate_text": "Jusqu'à - 35 %",
+      "percent": 35.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GYMGLISH",
+      "rate_text": "Jusqu'à - 35 %",
+      "percent": 35.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "JOOKS",
+      "rate_text": "Jusqu'à - 33 %",
+      "percent": 33.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "DEEZER",
+      "rate_text": "Jusqu'à - 32 %",
+      "percent": 32.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "VILLAGES CLUBS DU SOLEIL",
+      "rate_text": "Jusqu'à - 31 %",
+      "percent": 31.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "DYSON",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CENTER PARCS",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "B&B HOTELS",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "AEG",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ROOLE",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HP",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ELECTROLUX",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VACANCES BLEUES",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TUPPERWARE",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BIOLANE",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SEC-CURE",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BRUNEAU",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PIXARTPRINTING",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MOODWORK",
+      "rate_text": "Jusqu'à - 30 %",
+      "percent": 30.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MS VACANCES",
+      "rate_text": "Jusqu'à - 28 %",
+      "percent": 28.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BEAUTY SUCCESS",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TEFAL",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GARMIN",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BEAUTY SUCCESS",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BOSCH HOME",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VVF",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SMARTBOX",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EPLAQUE",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EASYFLYER",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ULTRA PREMIUM DIRECT",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TERRÉSENS",
+      "rate_text": "Jusqu'à - 25 %",
+      "percent": 25.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PIERRE & VACANCES",
+      "rate_text": "Jusqu'à - 24 %",
+      "percent": 24.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BELAMBRA",
+      "rate_text": "Jusqu'à - 24 %",
+      "percent": 24.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MICROSOFT OFFICE 365",
+      "rate_text": "Jusqu'à - 21 %",
+      "percent": 21.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "EUROPCAR",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HERTZ",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "Q-PARK",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LG ELECTRONICS",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MMV",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "DELONGHI",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "JBL",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ECTOR",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SPEEDWAY",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CEWE",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KARCHER",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WASH&CHECK",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CHEERZ",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VAPIANO",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "COSMETICAR",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BRAUN",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LEGOLAND® DEUTSCHLAND",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LA POSTE MOBILE",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KENWOOD",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ZETHEBERGE",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SEA LIFE",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MADAME TUSSAUDS | AMSTERDAM",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WHIRLPOOL FR",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "NUTRIBULLET",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WEAPZY",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "INFOLEGALE",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "FINTHESIS",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LUCCA",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "NEA RH+",
+      "rate_text": "Jusqu'à - 20 %",
+      "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SIXT",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ALL ACCOR+ VOYAGER",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ÉLÉPHANT BLEU",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MOULINEX",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "AVIS",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ALAMO / ENTERPRISE / NATIONAL",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SMARTPHONE ID",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "APPART CITY",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PORTAVENTURA WORLD",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VOITURE POUR TOUS",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ROWENTA",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WONDERBOX",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KRUPS",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TOHAPI",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LA MAISON DU CHOCOLAT",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "INTERFLORA",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KITCHENAID",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "YMAGINE BIKES",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "THES DE LA PAGODE",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MADAME VACANCES",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CALOR",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BEYABLE",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CAPTAIN CONTRAT",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TOTEM SIGNALÉTIQUE",
+      "rate_text": "Jusqu'à - 15 %",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ADIDAS",
+      "rate_text": "-15 % (code promo à générer)",
+      "percent": 15.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ETAM",
+      "rate_text": "Jusqu'à - 14 %",
+      "percent": 14.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CAMPANILE",
+      "rate_text": "Jusqu'à - 14 %",
+      "percent": 14.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KYRIAD",
+      "rate_text": "Jusqu'à - 14 %",
+      "percent": 14.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PREMIÈRE CLASSE",
+      "rate_text": "Jusqu'à - 14 %",
+      "percent": 14.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GOLDEN TULIP",
+      "rate_text": "Jusqu'à - 14 %",
+      "percent": 14.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "JET TOURS",
+      "rate_text": "Jusqu'à - 13 %",
+      "percent": 13.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "PROMOSEJOURS-CE",
+      "rate_text": "Jusqu'à - 13 %",
+      "percent": 13.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "OKAIDI",
+      "rate_text": "Jusqu'à - 12 %",
+      "percent": 12.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'ORANGE BLEUE",
+      "rate_text": "Jusqu'à - 12 %",
+      "percent": 12.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "OXYBUL",
+      "rate_text": "Jusqu'à - 12 %",
+      "percent": 12.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BEMOVE",
+      "rate_text": "Jusqu'à - 12 %",
+      "percent": 12.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "KING JOUET",
+      "rate_text": "Jusqu'à - 11 %",
+      "percent": 11.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "C&A",
+      "rate_text": "Jusqu'à - 11 %",
+      "percent": 11.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LES GEORGETTES",
+      "rate_text": "Jusqu'à - 11 %",
+      "percent": 11.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CAP ADRENALINE",
+      "rate_text": "Jusqu'à - 11 %",
+      "percent": 11.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PROMOVACANCES",
+      "rate_text": "Jusqu'à - 11 %",
+      "percent": 11.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WASH",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LA REDOUTE",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PROMOD",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "NORAUTO",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "FEU VERT",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "AUTOSUR",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "AZUREVA",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "OSCARO",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TIQETS",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MIDAS",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "AD",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SPORT DECOUVERTE",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MOLOTOV",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CFC CROISIERES",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MILÉADE",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BRIT HOTEL",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "IL RISTORANTE",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EMMA",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "CROISILAND",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ABARTH",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "NIKON",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VACANCES ULVF",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SAILY",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "STATIONS EG",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MANAWA",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EVERPING",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SERVICES DE LIVRAISON TNT",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "NEATEMYS",
+      "rate_text": "Jusqu'à - 10 %",
+      "percent": 10.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ZALANDO",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LES 3 BRASSEURS",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RITUALS COSMETICS",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "GEMO",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "JARDILAND",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "YVES ROCHER",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "NATURE & DÉCOUVERTES",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'EQUIPE",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ABRACADAROOM",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "FRAM",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HELIADES",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VOYAMAR",
+      "rate_text": "Jusqu'à - 9 %",
+      "percent": 9.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MAISONS DU MONDE",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TRUFFAUT",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "STRAVA",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "WEEKENDESK",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AUBERT",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LA CHAISE LONGUE",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "WEDRESSFAIR",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SPOTEVENT",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "HOTEL POUR TOUS",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "WEEKENDESK",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "TRAVELSKI",
+      "rate_text": "Jusqu'à - 8 %",
+      "percent": 8.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "SERGENT MAJOR",
+      "rate_text": "Jusqu'à - 7.5 %",
+      "percent": 7.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "DPAM - DU PAREIL AU MÊME",
+      "rate_text": "Jusqu'à - 7.5 %",
+      "percent": 7.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "NATALYS",
+      "rate_text": "Jusqu'à - 7.5 %",
+      "percent": 7.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "HOTELS.COM",
+      "rate_text": "Jusqu'à - 7 %",
+      "percent": 7.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EXPEDIA",
+      "rate_text": "Jusqu'à - 7 %",
+      "percent": 7.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ATALANTE",
+      "rate_text": "Jusqu'à - 7 %",
+      "percent": 7.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LASTMINUTE.COM",
+      "rate_text": "Jusqu'à - 6.5 %",
+      "percent": 6.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ASOS",
+      "rate_text": "Jusqu'à - 6.5 %",
+      "percent": 6.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "THEFORK",
+      "rate_text": "Jusqu'à - 6 %",
+      "percent": 6.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LEGO",
+      "rate_text": "Jusqu'à - 6 %",
+      "percent": 6.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "DECITRE - FURET DU NORD",
+      "rate_text": "Jusqu'à - 6 %",
+      "percent": 6.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "1083",
+      "rate_text": "Jusqu'à - 6 %",
+      "percent": 6.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "FUNBOOKER",
+      "rate_text": "Jusqu'à - 6 %",
+      "percent": 6.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SHOWROOMPRIVÉ",
+      "rate_text": "Jusqu'à - 5.5 %",
+      "percent": 5.5,
       "type_detail_fr": "Cartes cadeaux",
       "type": "carte_cadeau"
     },
@@ -25,65 +1439,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "FNAC DARTY",
-      "rate_text": "Jusqu'à - 4.5 %",
-      "percent": 4.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "NETFLIX",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "MAEVA.COM",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "WASH",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "AUCHAN",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "CULTURA",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "INTERSPORT",
-      "rate_text": "Jusqu'à - 3 %",
-      "percent": 3.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ZALANDO",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DEEZER",
-      "rate_text": "Jusqu'à - 32 %",
-      "percent": 32.0,
       "type_detail_fr": "Cartes cadeaux",
       "type": "carte_cadeau"
     },
@@ -109,226 +1467,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "ELECTRO DEPOT",
-      "rate_text": "Jusqu'à - 3.5 %",
-      "percent": 3.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "OKAIDI",
-      "rate_text": "Jusqu'à - 12 %",
-      "percent": 12.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "CONFORAMA",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "LES 3 BRASSEURS",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "LA REDOUTE",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "MAISONS DU MONDE",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "RITUALS COSMETICS",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "GEMO",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "MICROSOFT OFFICE 365",
-      "rate_text": "Jusqu'à - 21 %",
-      "percent": 21.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "JARDILAND",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "THEFORK",
-      "rate_text": "Jusqu'à - 6 %",
-      "percent": 6.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ETAM",
-      "rate_text": "Jusqu'à - 14 %",
-      "percent": 14.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "VIAPRESSE",
-      "rate_text": "Jusqu'à - 85 %",
-      "percent": 85.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "BEAUTY SUCCESS",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "YVES ROCHER",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "LEGO",
-      "rate_text": "Jusqu'à - 6 %",
-      "percent": 6.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "UBER",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "GIFI",
-      "rate_text": "Jusqu'à - 3.5 %",
-      "percent": 3.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "KING JOUET",
-      "rate_text": "Jusqu'à - 11 %",
-      "percent": 11.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "UBER EATS",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "PROMOD",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "LASTMINUTE.COM",
-      "rate_text": "Jusqu'à - 6.5 %",
-      "percent": 6.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "L'ORANGE BLEUE",
-      "rate_text": "Jusqu'à - 12 %",
-      "percent": 12.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "SHOWROOMPRIVÉ",
-      "rate_text": "Jusqu'à - 5.5 %",
-      "percent": 5.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "TRUFFAUT",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "NATURE & DÉCOUVERTES",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "QUITOQUE",
-      "rate_text": "Jusqu'à - 90 €",
-      "percent": null,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "STRAVA",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "WEEKENDESK",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "MONOPRIX",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ASOS",
-      "rate_text": "Jusqu'à - 6.5 %",
-      "percent": 6.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "AUBERT",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
       "type_detail_fr": "Cartes cadeaux",
       "type": "carte_cadeau"
     },
@@ -340,72 +1481,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "C&A",
-      "rate_text": "Jusqu'à - 11 %",
-      "percent": 11.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DELIVEROO",
-      "rate_text": "Jusqu'à - 3.5 %",
-      "percent": 3.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "BRICOCASH",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "HAVAS VOYAGES",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "SERGENT MAJOR",
-      "rate_text": "Jusqu'à - 7.5 %",
-      "percent": 7.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "HEMA",
-      "rate_text": "Jusqu'à - 3.5 %",
-      "percent": 3.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DECITRE - FURET DU NORD",
-      "rate_text": "Jusqu'à - 6 %",
-      "percent": 6.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "OXYBUL",
-      "rate_text": "Jusqu'à - 12 %",
-      "percent": 12.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "LES GEORGETTES",
-      "rate_text": "Jusqu'à - 11 %",
-      "percent": 11.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "L'EQUIPE",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
       "type_detail_fr": "Cartes cadeaux",
       "type": "carte_cadeau"
     },
@@ -417,345 +1495,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "LA CHAISE LONGUE",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "1083",
-      "rate_text": "Jusqu'à - 6 %",
-      "percent": 6.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "CAP ADRENALINE",
-      "rate_text": "Jusqu'à - 11 %",
-      "percent": 11.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DPAM - DU PAREIL AU MÊME",
-      "rate_text": "Jusqu'à - 7.5 %",
-      "percent": 7.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ABRACADAROOM",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "FUNBOOKER",
-      "rate_text": "Jusqu'à - 6 %",
-      "percent": 6.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "PLACE DES TENDANCES",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "NATALYS",
-      "rate_text": "Jusqu'à - 7.5 %",
-      "percent": 7.5,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "WEDRESSFAIR",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Cartes cadeaux",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DYSON",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HELLOFRESH",
-      "rate_text": "Jusqu'à - 95 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "NORAUTO",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CENTER PARCS",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SAMSUNG",
-      "rate_text": "Jusqu'à - 35 %",
-      "percent": 35.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "B&B HOTELS",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "FEU VERT",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MAEVA.COM",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SPEEDY",
-      "rate_text": "Jusqu'à - 30 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "AUTOSUR",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TEFAL",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HOTELS.COM",
-      "rate_text": "Jusqu'à - 7 %",
-      "percent": 7.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "AZUREVA",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PIERRE & VACANCES",
-      "rate_text": "Jusqu'à - 24 %",
-      "percent": 24.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SIXT",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EUROPCAR",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ALL ACCOR+ VOYAGER",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "OSCARO",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "BUT",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HERTZ",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HOTELOPIA",
-      "rate_text": "Jusqu'à - 65 %",
-      "percent": 65.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SANDAYA",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CAMPINGS.COM",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "NORDVPN",
-      "rate_text": "Jusqu'à - 75 %",
-      "percent": 75.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ÉLÉPHANT BLEU",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TIQETS",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PROMOVACANCES",
-      "rate_text": "Jusqu'à - 11 %",
-      "percent": 11.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LEBON FRANCE",
-      "rate_text": "Jusqu'à - 61 %",
-      "percent": 61.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "Q-PARK",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "FRAM",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "THALASSEO",
-      "rate_text": "Jusqu'à - 62 %",
-      "percent": 62.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MOULINEX",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BELAMBRA",
-      "rate_text": "Jusqu'à - 24 %",
-      "percent": 24.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "AEG",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "AVIS",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HOMAIR",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "GARMIN",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MONSIEUR VITRE",
-      "rate_text": "Jusqu'à - 61 %",
-      "percent": 61.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ALAMO / ENTERPRISE / NATIONAL",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PHOTOBOX",
-      "rate_text": "Jusqu'à - 50 %",
-      "percent": 50.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -767,261 +1509,9 @@
       "type": "direct"
     },
     {
-      "name": "CAMPANILE",
-      "rate_text": "Jusqu'à - 14 %",
-      "percent": 14.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LG ELECTRONICS",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MIDAS",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MMV",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KYRIAD",
-      "rate_text": "Jusqu'à - 14 %",
-      "percent": 14.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SMARTPHONE ID",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ROOLE",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "1001PNEUS",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CAMPING DIRECT",
-      "rate_text": "Jusqu'à - 75 %",
-      "percent": 75.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "AD",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LAGRANGE VACANCES",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "APPART CITY",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HP",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BULTEX",
-      "rate_text": "Jusqu'à - 50 %",
-      "percent": 50.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SPORT DECOUVERTE",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ELECTROLUX",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VIAPRESSE",
-      "rate_text": "Jusqu'à - 85 %",
-      "percent": 85.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MOLOTOV",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BEAUTY SUCCESS",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CFC CROISIERES",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VILLAGES CLUBS DU SOLEIL",
-      "rate_text": "Jusqu'à - 31 %",
-      "percent": 31.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BOSCH HOME",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MISTER-AUTO",
-      "rate_text": "Jusqu'à - 10 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "DELONGHI",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "JBL",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MILÉADE",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PORTAVENTURA WORLD",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CAMPING AND CO",
-      "rate_text": "Jusqu'à - 70 %",
-      "percent": 70.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EXPEDIA",
-      "rate_text": "Jusqu'à - 7 %",
-      "percent": 7.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ZECAMPING",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VOITURE POUR TOUS",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SPOTEVENT",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SUNWEB",
-      "rate_text": "Jusqu'à - 70 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "THALAZUR",
-      "rate_text": "Jusqu'à - 35 %",
-      "percent": 35.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "DELSEY",
-      "rate_text": "Jusqu'à - 70 %",
-      "percent": 70.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CORSICA FERRIES",
-      "rate_text": "Jusqu'à - 15 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ECTOR",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1033,142 +1523,9 @@
       "type": "direct"
     },
     {
-      "name": "GOELIA",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EPEDA",
-      "rate_text": "Jusqu'à - 50 %",
-      "percent": 50.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VACANCES BLEUES",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BRIT HOTEL",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SIBLU VILLAGES",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SPEEDWAY",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "GÎTES DE FRANCE",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "IL RISTORANTE",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "A+GLASS",
-      "rate_text": "Jusqu'à - 120 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "JET TOURS",
-      "rate_text": "Jusqu'à - 13 %",
-      "percent": 13.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CEWE",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EMMA",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KARCHER",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VVF",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HOTEL POUR TOUS",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PREMIÈRE CLASSE",
-      "rate_text": "Jusqu'à - 14 %",
-      "percent": 14.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "QUITOQUE",
-      "rate_text": "Jusqu'à - 90 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ODALYS CAMPING",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CROISILAND",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ROWENTA",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1180,401 +1537,9 @@
       "type": "direct"
     },
     {
-      "name": "WEEKENDESK",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PROMOSEJOURS-CE",
-      "rate_text": "Jusqu'à - 13 %",
-      "percent": 13.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TUPPERWARE",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MS VACANCES",
-      "rate_text": "Jusqu'à - 28 %",
-      "percent": 28.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TRAVELSKI",
-      "rate_text": "Jusqu'à - 8 %",
-      "percent": 8.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "WONDERBOX",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "GOLDEN TULIP",
-      "rate_text": "Jusqu'à - 14 %",
-      "percent": 14.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MOMA BIKES",
-      "rate_text": "Jusqu'à - 61 %",
-      "percent": 61.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VACANCÉOLE",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KRUPS",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "WASH&CHECK",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CHEERZ",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BIOLANE",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SMARTBOX",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VAPIANO",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "DIGIPARF",
-      "rate_text": "Jusqu'à - 75 %",
-      "percent": 75.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VACANSOLEIL",
-      "rate_text": "Jusqu'à - 60 %",
-      "percent": 60.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ODALYS CITY",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BOURSE DES VOLS",
-      "rate_text": "Jusqu'à - 3 %",
-      "percent": 3.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "COSMETICAR",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "UCPA",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TOHAPI",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LA MAISON DU CHOCOLAT",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BRAUN",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "INTERFLORA",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MISTERFLY",
-      "rate_text": "Jusqu'à - 2 %",
-      "percent": 2.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "YESCAPA",
-      "rate_text": "Jusqu'à - 30 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KITCHENAID",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "GREENWEEZ",
-      "rate_text": "Jusqu'à - 10 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KOMBO",
-      "rate_text": "Jusqu'à - 4 %",
-      "percent": 4.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LEGOLAND® DEUTSCHLAND",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PIMPANT",
-      "rate_text": "Jusqu'à - 46 %",
-      "percent": 46.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ABARTH",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BFORBANK",
-      "rate_text": "Jusqu'à - 280 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "JOOKS",
-      "rate_text": "Jusqu'à - 33 %",
-      "percent": 33.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EPLAQUE",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EBORN",
-      "rate_text": "Jusqu'à - 10 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "NIKON",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TRIP AND CO",
-      "rate_text": "Jusqu'à - 70 %",
-      "percent": 70.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VACANCES ULVF",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LA POSTE MOBILE",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "YMAGINE BIKES",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "KENWOOD",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ZETHEBERGE",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "HELIADES",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "THES DE LA PAGODE",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "FLASHBIRD",
-      "rate_text": "Jusqu'à - 20 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MADAME VACANCES",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EASYFLYER",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VOYAMAR",
-      "rate_text": "Jusqu'à - 9 %",
-      "percent": 9.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ULTRA PREMIUM DIRECT",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SAILY",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "CALOR",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "TERRÉSENS",
-      "rate_text": "Jusqu'à - 25 %",
-      "percent": 25.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "STATIONS EG",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SEA LIFE",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ATALANTE",
-      "rate_text": "Jusqu'à - 7 %",
-      "percent": 7.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1593,100 +1558,9 @@
       "type": "direct"
     },
     {
-      "name": "MANAWA",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MADAME TUSSAUDS | AMSTERDAM",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "WHIRLPOOL FR",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SEC-CURE",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "LECAB",
-      "rate_text": "Jusqu'à - 10 €",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BRUNEAU",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "NUTRIBULLET",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BEMOVE",
-      "rate_text": "Jusqu'à - 12 %",
-      "percent": 12.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PIXARTPRINTING",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "GYMGLISH",
-      "rate_text": "Jusqu'à - 35 %",
-      "percent": 35.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "TELLIGO",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "EVERPING",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "BEYABLE",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ADELYA",
-      "rate_text": "Jusqu'à - 50 %",
-      "percent": 50.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1698,30 +1572,9 @@
       "type": "direct"
     },
     {
-      "name": "CAPTAIN CONTRAT",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "LA BALAGUERE",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "WEAPZY",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "INFOLEGALE",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1733,16 +1586,128 @@
       "type": "direct"
     },
     {
-      "name": "FINTHESIS",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
+      "name": "VUE EN VILLE",
+      "rate_text": "- 5 % sur l'impression des affiches",
+      "percent": 5.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "TOTEM SIGNALÉTIQUE",
-      "rate_text": "Jusqu'à - 15 %",
-      "percent": 15.0,
+      "name": "FNAC DARTY",
+      "rate_text": "Jusqu'à - 4.5 %",
+      "percent": 4.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "NETFLIX",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AUCHAN",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "UBER",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "UBER EATS",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MONOPRIX",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "HAVAS VOYAGES",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PLACE DES TENDANCES",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "KOMBO",
+      "rate_text": "Jusqu'à - 4 %",
+      "percent": 4.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ELECTRO DEPOT",
+      "rate_text": "Jusqu'à - 3.5 %",
+      "percent": 3.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "GIFI",
+      "rate_text": "Jusqu'à - 3.5 %",
+      "percent": 3.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "DELIVEROO",
+      "rate_text": "Jusqu'à - 3.5 %",
+      "percent": 3.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "HEMA",
+      "rate_text": "Jusqu'à - 3.5 %",
+      "percent": 3.5,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "INTERMARCHÉ",
+      "rate_text": "Jusqu'à - 3 %",
+      "percent": 3.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "INTERSPORT",
+      "rate_text": "Jusqu'à - 3 %",
+      "percent": 3.0,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BOURSE DES VOLS",
+      "rate_text": "Jusqu'à - 3 %",
+      "percent": 3.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "MISTERFLY",
+      "rate_text": "Jusqu'à - 2 %",
+      "percent": 2.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1754,58 +1719,100 @@
       "type": "direct"
     },
     {
-      "name": "LUCCA",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
+      "name": "QUITOQUE",
+      "rate_text": "Jusqu'à - 90 €",
+      "percent": null,
+      "type_detail_fr": "Cartes cadeaux",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "HELLOFRESH",
+      "rate_text": "Jusqu'à - 95 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "SERVICES DE LIVRAISON TNT",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
+      "name": "SPEEDY",
+      "rate_text": "Jusqu'à - 30 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "MOODWORK",
-      "rate_text": "Jusqu'à - 30 %",
-      "percent": 30.0,
+      "name": "MISTER-AUTO",
+      "rate_text": "Jusqu'à - 10 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "NEATEMYS",
-      "rate_text": "Jusqu'à - 10 %",
-      "percent": 10.0,
+      "name": "SUNWEB",
+      "rate_text": "Jusqu'à - 70 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "NEA RH+",
-      "rate_text": "Jusqu'à - 20 %",
-      "percent": 20.0,
+      "name": "CORSICA FERRIES",
+      "rate_text": "Jusqu'à - 15 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "ODALYS VACANCES",
-      "rate_text": "Jusqu'à - 40 %",
-      "percent": 40.0,
+      "name": "A+GLASS",
+      "rate_text": "Jusqu'à - 120 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "VERISURE",
-      "rate_text": "Caméra offerte (valeur 199€ HT)",
-      "percent": 100.0,
+      "name": "QUITOQUE",
+      "rate_text": "Jusqu'à - 90 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
-      "name": "VUE EN VILLE",
-      "rate_text": "- 5 % sur l'impression des affiches",
-      "percent": 5.0,
+      "name": "YESCAPA",
+      "rate_text": "Jusqu'à - 30 €",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "GREENWEEZ",
+      "rate_text": "Jusqu'à - 10 €",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "BFORBANK",
+      "rate_text": "Jusqu'à - 280 €",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "EBORN",
+      "rate_text": "Jusqu'à - 10 €",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "FLASHBIRD",
+      "rate_text": "Jusqu'à - 20 €",
+      "percent": null,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "LECAB",
+      "rate_text": "Jusqu'à - 10 €",
+      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     }
