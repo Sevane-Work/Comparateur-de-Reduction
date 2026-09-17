@@ -1,8 +1,8 @@
 {
   "platform": "iGraal",
-  "captured_at": "2026-09-17",
-  "generated_at": "2026-09-17T13:33:45.004741+00:00",
-  "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau. Donnees recuperees le 2026-09-17 via navigateur (reseau sandbox bloque sur ce host) ; fetch_igraal_bon_achat.py prend le relai pour les prochains runs automatises (GitHub Actions).",
+  "captured_at": null,
+  "generated_at": "2026-09-17T18:40:36.446326+00:00",
+  "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
       "name": "Netto",
@@ -672,7 +672,7 @@
       "category_seen": null
     },
     {
-      "name": "LEGO",
+      "name": "LEGO®",
       "slug": "lego",
       "rate_text": "5.1%",
       "percent": 5.1,
@@ -771,7 +771,7 @@
       "category_seen": null
     },
     {
-      "name": "Bréal",
+      "name": "Breal",
       "slug": "breal",
       "rate_text": "4.8%",
       "percent": 4.8,

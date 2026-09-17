@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "captured_at": "2026-09-17",
-  "generated_at": "2026-09-17T06:04:46.682118+00:00",
-  "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat paye directement au prix remise (pas de cashback a cumuler, confirme par l'utilisateur). 'direct' = reduction/cashback affiche en texte libre sur la fiche produit, taux extrait par recherche du premier pourcentage dans ce texte. Nettoyage manuel 2026-09-17 : les offres a 0% (marge nulle cote ReducFactory, pas une vraie reduction) ont ete retirees pour anticiper le correctif de fetch_banque_populaire.py (qui les filtrera desormais automatiquement lors des prochains runs GitHub Actions) - regle projet 'pas d'offre sans reduction reelle'. Corrige le 2026-09-17 (soir) : les bons d'achat a montant fixe (type fixed_amount, ex. billets de cinema Pathe/CGR/UGC/MK2/Cinecheque, mais aussi de nombreux parcs/zoos/musees et enseignes retail) etaient ignores car le script ne lisait que marginAmount (montant variable) ; le pourcentage est desormais aussi calcule via (facialAmount - saleAmount) / facialAmount pour ce type d'offre, en ne retenant que les sous-offres available=true et published=true.",
+  "generated_at": "2026-09-17T18:40:35.689834+00:00",
+  "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' regroupe deux mecanismes : bon d'achat paye directement au prix remise (voucher_product) ET cashback cumule sur une cagnotte a retirer plus tard (cashback_product) - meme convention que iGraal/eBuyClub, voir doc de suivi (corrige le 2026-09-17, cf. Nike). 'direct' = reduction appliquee immediatement au prix (direct_discount_product), taux extrait par recherche du premier pourcentage dans le texte libre de la fiche produit.",
   "offers": [
     {
       "name": "Manomano",
@@ -50,6 +50,15 @@
       "category_seen": null
     },
     {
+      "name": "Beauty Success",
+      "slug": "beauty-success",
+      "rate_text": "10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Sephora",
       "slug": "sephora",
       "rate_text": "8%",
@@ -68,6 +77,15 @@
       "category_seen": null
     },
     {
+      "name": "Aquarium de Paris",
+      "slug": "aquarium-de-paris",
+      "rate_text": "18.2%",
+      "percent": 18.2,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Asos",
       "slug": "asos",
       "rate_text": "7%",
@@ -79,8 +97,8 @@
     {
       "name": "Auchan",
       "slug": "auchan",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -104,6 +122,15 @@
       "category_seen": null
     },
     {
+      "name": "Parc de Branféré",
+      "slug": "parc-de-branfere",
+      "rate_text": "14%",
+      "percent": 14.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Bosch",
       "slug": "bosch",
       "rate_text": "Jusqu'à -30%*",
@@ -113,10 +140,47 @@
       "category_seen": null
     },
     {
+      "name": "Parc de Sainte Croix",
+      "slug": "parc-de-sainte-croix",
+      "rate_text": "18.5%",
+      "percent": 18.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Parc Spirou",
+      "slug": "parc-spirou",
+      "rate_text": "18.3%",
+      "percent": 18.3,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Pathé Gaumont",
+      "slug": "pathe-gaumont",
+      "rate_text": "43.8%",
+      "percent": 43.8,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Planète Sauvage",
+      "slug": "planete-sauvage",
+      "rate_text": "17.4%",
+      "percent": 17.4,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Primark",
       "slug": "primark",
-      "rate_text": "8%",
-      "percent": 8.0,
+      "rate_text": "10%",
+      "percent": 10.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -140,6 +204,15 @@
       "category_seen": null
     },
     {
+      "name": "Sergent Major",
+      "slug": "sergent-major",
+      "rate_text": "9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Siemens",
       "slug": "siemens",
       "rate_text": "Jusqu'à -35%*",
@@ -149,10 +222,37 @@
       "category_seen": null
     },
     {
+      "name": "Steam",
+      "slug": "steam",
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Strava",
+      "slug": "strava",
+      "rate_text": "21.7%",
+      "percent": 21.7,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Swarovski",
       "slug": "swarovski",
       "rate_text": "15%",
       "percent": 15.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Terra Botanica",
+      "slug": "terra-botanica",
+      "rate_text": "18%",
+      "percent": 18.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -194,6 +294,15 @@
       "category_seen": null
     },
     {
+      "name": "Jacadi",
+      "slug": "jacadi",
+      "rate_text": "12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Jardiland",
       "slug": "jardiland",
       "rate_text": "8%",
@@ -212,6 +321,15 @@
       "category_seen": null
     },
     {
+      "name": "Jardin d'Acclimatation",
+      "slug": "jardin-d-acclimatation",
+      "rate_text": "20.8%",
+      "percent": 20.8,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Decathlon",
       "slug": "decathlon",
       "rate_text": "4%",
@@ -221,10 +339,28 @@
       "category_seen": null
     },
     {
+      "name": "Deezer",
+      "slug": "deezer",
+      "rate_text": "23.5%",
+      "percent": 23.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Deliveroo",
       "slug": "deliveroo",
       "rate_text": "4%",
       "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Du Pareil au Même",
+      "slug": "du-pareil-au-meme",
+      "rate_text": "9%",
+      "percent": 9.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -241,6 +377,15 @@
     {
       "name": "King jouet",
       "slug": "king-jouet",
+      "rate_text": "10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "L'Orange Bleue",
+      "slug": "l-orange-bleue",
       "rate_text": "10%",
       "percent": 10.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
@@ -268,8 +413,17 @@
     {
       "name": "Etam",
       "slug": "etam",
-      "rate_text": "15%",
-      "percent": 15.0,
+      "rate_text": "10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Fabrikus World",
+      "slug": "fabrikus-world",
+      "rate_text": "9.5%",
+      "percent": 9.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -284,10 +438,28 @@
       "category_seen": null
     },
     {
+      "name": "La Cité de l'Espace",
+      "slug": "la-cite-de-l-espace",
+      "rate_text": "6.9%",
+      "percent": 6.9,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "La Redoute",
       "slug": "la-redoute",
       "rate_text": "5%",
       "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Grand aquarium de St-Malo",
+      "slug": "grand-aquarium-de-st-malo",
+      "rate_text": "12.6%",
+      "percent": 12.6,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -338,349 +510,6 @@
       "category_seen": null
     },
     {
-      "name": "Leroy Merlin",
-      "slug": "leroy-merlin",
-      "rate_text": "5%",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Cultura",
-      "slug": "cultura",
-      "rate_text": "5%",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Europcar",
-      "slug": "europcar",
-      "rate_text": "-10% à -20%",
-      "percent": 10.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Abritel",
-      "slug": "abritel",
-      "rate_text": "-4%",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Club Auto",
-      "slug": "club-auto",
-      "rate_text": "Jusqu'à -42%",
-      "percent": 42.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "MMV",
-      "slug": "mmv",
-      "rate_text": "-8% à -25%",
-      "percent": 8.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "VTF",
-      "slug": "vtf",
-      "rate_text": "Jusqu’à 30%*",
-      "percent": 30.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Interflora",
-      "slug": "interflora",
-      "rate_text": "-15%",
-      "percent": 15.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Vertbaudet",
-      "slug": "vertbaudet",
-      "rate_text": "8%",
-      "percent": 8.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "HP",
-      "slug": "hp",
-      "rate_text": "-5% à -30%",
-      "percent": 5.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Promoséjours",
-      "slug": "promosejours",
-      "rate_text": "-9%",
-      "percent": 9.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Nike",
-      "slug": "nike",
-      "rate_text": "-6% à -10%",
-      "percent": 6.0,
-      "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "MisterFly",
-      "slug": "misterfly",
-      "rate_text": "Jusqu'à -9%",
-      "percent": 9.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Skimium",
-      "slug": "skimium",
-      "rate_text": "-11%",
-      "percent": 11.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "PortAventura World",
-      "slug": "portaventura",
-      "rate_text": "Jusqu'à -25%",
-      "percent": 25.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Un hotel pour tous",
-      "slug": "un-hotel-pour-tous",
-      "rate_text": "-12%",
-      "percent": 12.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Alinea",
-      "slug": "alinea",
-      "rate_text": "7%",
-      "percent": 7.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Azureva",
-      "slug": "azureva",
-      "rate_text": "-10% à -25%",
-      "percent": 10.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Alamo - National - Enterprise",
-      "slug": "alamo-national-enterprise",
-      "rate_text": "-5% à -15%",
-      "percent": 5.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "category_seen": null
-    },
-    {
-      "name": "Beauty Success",
-      "slug": "beauty-success",
-      "rate_text": "10%",
-      "percent": 10.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Aquarium de Paris",
-      "slug": "aquarium-de-paris",
-      "rate_text": "18.2%",
-      "percent": 18.2,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Parc de Branféré",
-      "slug": "parc-de-branfere",
-      "rate_text": "14%",
-      "percent": 14.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Parc de Sainte Croix",
-      "slug": "parc-de-sainte-croix",
-      "rate_text": "18.5%",
-      "percent": 18.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Parc Spirou",
-      "slug": "parc-spirou",
-      "rate_text": "18.3%",
-      "percent": 18.3,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Pathé Gaumont",
-      "slug": "pathe-gaumont",
-      "rate_text": "43.8%",
-      "percent": 43.8,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null,
-      "category": "cinema"
-    },
-    {
-      "name": "Planète Sauvage",
-      "slug": "planete-sauvage",
-      "rate_text": "17.4%",
-      "percent": 17.4,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Sergent Major",
-      "slug": "sergent-major",
-      "rate_text": "9%",
-      "percent": 9.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Steam",
-      "slug": "steam",
-      "rate_text": "4%",
-      "percent": 4.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Strava",
-      "slug": "strava",
-      "rate_text": "21.7%",
-      "percent": 21.7,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Terra Botanica",
-      "slug": "terra-botanica",
-      "rate_text": "18%",
-      "percent": 18.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Jacadi",
-      "slug": "jacadi",
-      "rate_text": "12%",
-      "percent": 12.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Jardin d'Acclimatation",
-      "slug": "jardin-d-acclimatation",
-      "rate_text": "20.8%",
-      "percent": 20.8,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Deezer",
-      "slug": "deezer",
-      "rate_text": "23.5%",
-      "percent": 23.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Du Pareil au Même",
-      "slug": "du-pareil-au-meme",
-      "rate_text": "9%",
-      "percent": 9.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "L'Orange Bleue",
-      "slug": "l-orange-bleue",
-      "rate_text": "10%",
-      "percent": 10.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Fabrikus World",
-      "slug": "fabrikus-world",
-      "rate_text": "9.5%",
-      "percent": 9.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "La Cité de l'Espace",
-      "slug": "la-cite-de-l-espace",
-      "rate_text": "6.9%",
-      "percent": 6.9,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Grand aquarium de St-Malo",
-      "slug": "grand-aquarium-de-st-malo",
-      "rate_text": "12.6%",
-      "percent": 12.6,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "CGR",
       "slug": "cgr",
       "rate_text": "32.4%",
@@ -691,6 +520,15 @@
       "category": "cinema"
     },
     {
+      "name": "Leroy Merlin",
+      "slug": "leroy-merlin",
+      "rate_text": "5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "CinéChèque",
       "slug": "cinecheque",
       "rate_text": "29.4%",
@@ -699,6 +537,15 @@
       "type": "carte_cadeau",
       "category_seen": null,
       "category": "cinema"
+    },
+    {
+      "name": "Cultura",
+      "slug": "cultura",
+      "rate_text": "5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
     },
     {
       "name": "Cyrillus",
@@ -734,6 +581,15 @@
       "percent": 10.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Europcar",
+      "slug": "europcar",
+      "rate_text": "-10% à -20%",
+      "percent": 10.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -819,6 +675,15 @@
       "category_seen": null
     },
     {
+      "name": "Abritel",
+      "slug": "abritel",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "UGC",
       "slug": "ugc",
       "rate_text": "27.6%",
@@ -831,6 +696,51 @@
     {
       "name": "La Grande Récré",
       "slug": "la-grande-recre",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Club Auto",
+      "slug": "club-auto",
+      "rate_text": "Jusqu'à -42%",
+      "percent": 42.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "MMV",
+      "slug": "mmv",
+      "rate_text": "-8% à -25%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "VTF",
+      "slug": "vtf",
+      "rate_text": "-8% à -37%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Interflora",
+      "slug": "interflora",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Vertbaudet",
+      "slug": "vertbaudet",
       "rate_text": "7%",
       "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
@@ -883,6 +793,15 @@
       "category_seen": null
     },
     {
+      "name": "HP",
+      "slug": "hp",
+      "rate_text": "-5% à -30%",
+      "percent": 5.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
       "name": "Sony",
       "slug": "sony",
       "rate_text": "7%",
@@ -892,10 +811,325 @@
       "category_seen": null
     },
     {
+      "name": "Promoséjours",
+      "slug": "promosejours",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "rate_text": "-6% à -10%",
+      "percent": 6.0,
+      "type_detail_fr": "Cashback",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "MisterFly",
+      "slug": "misterfly",
+      "rate_text": "Jusqu'à -9%",
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
       "name": "Mathon",
       "slug": "mathon",
       "rate_text": "8%",
       "percent": 8.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Skimium",
+      "slug": "skimium",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "PortAventura World",
+      "slug": "portaventura",
+      "rate_text": "Jusqu'à -25%",
+      "percent": 25.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Un hotel pour tous",
+      "slug": "un-hotel-pour-tous",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Alinea",
+      "slug": "alinea",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Azureva",
+      "slug": "azureva",
+      "rate_text": "-10% à -25%",
+      "percent": 10.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Alamo - National - Enterprise",
+      "slug": "alamo-national-enterprise",
+      "rate_text": "-5% à -15%",
+      "percent": 5.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Demeco",
+      "slug": "demeco",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Airbnb",
+      "slug": "airbnb",
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Les Cercles de la Forme",
+      "slug": "les-cercles-de-la-forme",
+      "rate_text": "45.2%",
+      "percent": 45.2,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Episod",
+      "slug": "episod",
+      "rate_text": "36.7%",
+      "percent": 36.7,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "FRAM",
+      "slug": "fram",
+      "rate_text": "-9% à -25%*",
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Promovacances",
+      "slug": "promovacances",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "ZooParc de Beauval",
+      "slug": "zooparc-de-beauval",
+      "rate_text": "11.6%",
+      "percent": 11.6,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Megarama",
+      "slug": "megarama",
+      "rate_text": "27.1%",
+      "percent": 27.1,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Les Clubs Forest Hill",
+      "slug": "les-clubs-forest-hill",
+      "rate_text": "30.6%",
+      "percent": 30.6,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Camping and Co",
+      "slug": "camping-and-co",
+      "rate_text": "-8% à -70%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Homair",
+      "slug": "homair",
+      "rate_text": "-5% à -15%",
+      "percent": 5.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Lumigny Safari Reserve",
+      "slug": "lumigny-safari-reserve",
+      "rate_text": "15.6%",
+      "percent": 15.6,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Aquaboulevard",
+      "slug": "aquaboulevard",
+      "rate_text": "20.5%",
+      "percent": 20.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Vacancéole",
+      "slug": "vacanceole",
+      "rate_text": "-8% à -45%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Goélia",
+      "slug": "goelia",
+      "rate_text": "De -8% à -40%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Campings.com",
+      "slug": "campings-com",
+      "rate_text": "-8% à -10%",
+      "percent": 8.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Cité\tdes\tsciences et de l'industrie",
+      "slug": "cite-des-sciences-et-de-lindustrie",
+      "rate_text": "20%",
+      "percent": 20.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Vacances Bleues",
+      "slug": "vacances-bleues",
+      "rate_text": "-5% à -37%*",
+      "percent": 5.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "Cité du vin",
+      "slug": "cite-du-vin",
+      "rate_text": "42.9%",
+      "percent": 42.9,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Rituals - Montant fixe",
+      "slug": "rituals-montant-fixe",
+      "rate_text": "9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Swarovski - montant fixe",
+      "slug": "swarovski-montant-fixe",
+      "rate_text": "15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "L'Orange bleue",
+      "slug": "lorange-bleue",
+      "rate_text": "10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Naturalia",
+      "slug": "naturalia",
+      "rate_text": "5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "INTERSPORT",
+      "slug": "intersport",
+      "rate_text": "5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Apple",
+      "slug": "apple",
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Château du Clos Lucé",
+      "slug": "clos-luce",
+      "rate_text": "15%",
+      "percent": 15.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
