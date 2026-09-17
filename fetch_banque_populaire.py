@@ -137,7 +137,15 @@ def extract_offer(product):
 
 
 def fetch_all_products():
-    """Parcourt toute la collection paginée (view.next) et renvoie la liste brute des produits."""
+    """Parcourt toute la collection paginée et renvoie la liste brute des produits.
+
+    L'API ReducFactory (API Platform) peut répondre sous deux formes selon
+    la négociation de contenu : soit une simple liste JSON (observé en
+    conditions réelles avec l'en-tête Accept: application/json), soit une
+    collection JSON-LD/Hydra enveloppée ({"member"/"hydra:member": [...],
+    "view"/"hydra:view": {"next"/"hydra:next": "..."}}), comme documenté
+    initialement. On gère les deux pour rester robuste aux deux formats.
+    """
     products = []
     url = f"{TENANT_BASE}products?page=1&itemsPerPage=300"
     seen_urls = set()
@@ -146,8 +154,16 @@ def fetch_all_products():
         data = fetch_json(url)
         if data is None:
             break
-        products.extend(data.get("member") or [])
-        next_path = (data.get("view") or {}).get("next")
+        if isinstance(data, list):
+            # Réponse "plate" : pas d'enveloppe de pagination disponible.
+            # Le catalogue (127 produits) tient dans une seule page de 300,
+            # donc on s'arrête ici plutôt que de deviner une URL suivante.
+            products.extend(data)
+            break
+        member = data.get("member") or data.get("hydra:member") or []
+        products.extend(member)
+        view = data.get("view") or data.get("hydra:view") or {}
+        next_path = view.get("next") or view.get("hydra:next")
         if not next_path:
             break
         # "next" est un chemin relatif de type "/1.0/<tenant>/products?..."
