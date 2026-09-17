@@ -1,0 +1,206 @@
+{
+  "platform": "Banque Populaire (Extra+X)",
+  "captured_at": "2026-09-17",
+  "generated_at": "2026-09-17T19:02:55.589734+00:00",
+  "note": "Sous-ensemble 'reserve societaire' du catalogue Banque Populaire Extra+X : 22 enseignes presentes sur le vrai site mais absentes de l'API publique utilisee par fetch_banque_populaire.py (restrictions.member=true cote API, taux non recuperable sans authentification personnelle - verifie le 2026-09-17, endpoint direct renvoie 401 meme avec cookies de session). Capture manuelle, meme routine que The Corner/Ulys/Happypal : connexion personnelle de l'utilisateur + lecture en direct par Claude, a rafraichir ponctuellement (pas d'automatisation quotidienne possible pour ce sous-ensemble). Fusionne avec banque_populaire.json sous le meme filtre plateforme (memes valeurs 'platform').",
+  "offers": [
+    {
+      "name": "Monoprix",
+      "slug": "monoprix",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Truffaut",
+      "slug": "truffaut",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Bricomarché",
+      "slug": "bricomarche",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Brico Cash",
+      "slug": "brico-cash",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Bricorama",
+      "slug": "bricorama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Maisons du Monde",
+      "slug": "maisons-du-monde",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "The Fork",
+      "slug": "the-fork",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Aubert",
+      "slug": "aubert",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Yves Rocher",
+      "slug": "yves-rocher",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Nature & Découvertes",
+      "slug": "nature-decouvertes",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Oxybul",
+      "slug": "oxybul",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Okaidi",
+      "slug": "okaidi",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Uber VTC",
+      "slug": "uber-vtc",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Uber Eats",
+      "slug": "uber-eats",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Zalando",
+      "slug": "zalando",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Parc Astérix",
+      "slug": "parc-asterix",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "France Miniature",
+      "slug": "france-miniature",
+      "rate_text": "-24%",
+      "percent": 24.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Spartoo",
+      "slug": "spartoo",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Wonderbox",
+      "slug": "wonderbox",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Showroomprive",
+      "slug": "showroomprive",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "lastminute.com",
+      "slug": "lastminute-com",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Carrefour",
+      "slug": "carrefour",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    }
+  ]
+}
