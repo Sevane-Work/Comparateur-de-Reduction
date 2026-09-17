@@ -1,7 +1,7 @@
 {
   "platform": "Le Club Ulys",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. Rafraichissement complet du 2026-09-17 (precedente capture : 2026-09-15). ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. A rafraichir periodiquement a la main. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 13 offre(s) retiree(s) : COYOTE, ODALYS VACANCES, YOUSCRIBE, SHIVA, FRUGGR, VERISURE, PETIT BAMBOU, ALLIANZ, QONTO, LES VERGERS DE GALLY, MINDDAY, VUE EN VILLE, ADEQUASYS - STORHY.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. Mise a jour 2026-09-17 : les 13 offres marquees 'Indisponible' ont ete verifiees individuellement sur leur fiche partenaire (meme methode que pour Happypal / Uber VTC), a la recherche de reductions cachees non visibles sur la vignette liste. 3 reductions reelles recuperees : ODALYS VACANCES (jusqu'a 40%), VERISURE (camera offerte, valeur 199e HT, comptee comme -100% sur get produit), VUE EN VILLE (5% sur impression d'affiches). 10 offres confirmees sans reduction reelle et definitivement ecartees (avantages non chiffrables en %/e, essais gratuits, mois offerts, ou aucune offre du tout) : COYOTE (2 mois offerts app), YOUSCRIBE (1er mois a 0,99e), SHIVA (1 semaine de menage offerte), FRUGGR (3 mois offerts, B2B), QONTO (2 mois offerts), LES VERGERS DE GALLY (1ere corbeille offerte, B2B), MINDDAY (60 jours offerts), ADEQUASYS - STORHY (1 mois gratuit, B2B), PETIT BAMBOU (aucune offre, juste une invitation a mediter), ALLIANZ (bilan gratuit, aucune remise). A rafraichir periodiquement a la main.",
   "offers": [
     {
       "name": "INTERMARCHÉ",
@@ -1785,6 +1785,27 @@
       "name": "NEA RH+",
       "rate_text": "Jusqu'à - 20 %",
       "percent": 20.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "ODALYS VACANCES",
+      "rate_text": "Jusqu'à - 40 %",
+      "percent": 40.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VERISURE",
+      "rate_text": "Caméra offerte (valeur 199€ HT)",
+      "percent": 100.0,
+      "type_detail_fr": "Remise immédiate",
+      "type": "direct"
+    },
+    {
+      "name": "VUE EN VILLE",
+      "rate_text": "- 5 % sur l'impression des affiches",
+      "percent": 5.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     }
