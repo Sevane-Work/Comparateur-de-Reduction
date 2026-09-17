@@ -81,6 +81,32 @@
     display: block;
     margin-bottom: 2px;
   }
+  .badge-ambiguous {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--tag-cadeau-bg);
+    color: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  .ambiguous-toggle {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .ambiguous-toggle .chevron { margin-left: 2px; }
+  .ambiguous-hint {
+    font-size: 12px;
+    color: var(--sage);
+  }
   .offer-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -313,6 +339,176 @@
     return str.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   }
 
+  // Table de regroupement "enseigne mere" (alias) : construite le
+  // 2026-09-17 a partir de la revue "enseignes qui se ressemblent"
+  // (enseignes-a-fusionner.md, section 1, validee par l'utilisatrice) et
+  // des groupes "ambigus" identifies avec elle (Pathe, enseignes a
+  // adresses multiples). Cle = normalize(nom brut specifique), valeur =
+  // cle de groupe canonique. AMBIGUOUS_GROUPS marque les groupes dont les
+  // offres sous-jacentes ne sont PAS interchangeables (adresses ou
+  // produits/formules differents) : ceux-la n'affichent jamais un % seul,
+  // toujours le badge "plusieurs offres" (voir merchantCard).
+      const GROUP_ALIASES = {
+        "am pm": "ampm",
+        "am.pm": "ampm",
+        "ateliers wecandoo": "wecandoo",
+        "carrefour voyage": "carrefourvoyage",
+        "carrefour voyages": "carrefourvoyage",
+        "cinemas pathe": "pathe",
+        "cinemas pathe gaumont": "pathe",
+        "cinepass pathe": "pathe",
+        "controle technique moncade - anglet": "moncade",
+        "controle technique moncade - bayonne mousserolles": "moncade",
+        "controle technique moncade - bayonne sainte croix": "moncade",
+        "controle technique moncade - boucau": "moncade",
+        "controle technique moncade anglet": "moncade",
+        "controle technique moncade bayonne mousserolles": "moncade",
+        "controle technique moncade bayonne sainte croix": "moncade",
+        "controle technique moncade boucau": "moncade",
+        "controle technique moncade tarnos": "moncade",
+        "darty": "dartyfnac",
+        "domino s pizza eysines": "dominos",
+        "domino s pizza merignac": "dominos",
+        "domino s pizza poitiers av": "dominos",
+        "domino s pizza poitiers pont neuf": "dominos",
+        "domino s pizza poitiers sud": "dominos",
+        "domino's pizza - eysines": "dominos",
+        "domino's pizza - merignac": "dominos",
+        "domino's pizza - poitiers av. de nantes": "dominos",
+        "domino's pizza - poitiers pont-neuf": "dominos",
+        "domino's pizza - poitiers sud": "dominos",
+        "dpam": "dpam",
+        "du pareil au meme": "dpam",
+        "fnac darty": "dartyfnac",
+        "forest hill": "foresthill",
+        "gyl": "gyl",
+        "gyl bag": "gyl",
+        "h m": "hm",
+        "h&m": "hm",
+        "homair": "homair",
+        "homair vacances": "homair",
+        "hotel pour tous": "hotelpourtous",
+        "hotels & preference": "hotelspreference",
+        "hotels preference": "hotelspreference",
+        "inter caves - chateaurenard": "intercaves",
+        "inter caves chateaurenard": "intercaves",
+        "kinepolis": "kinepolis",
+        "kinepolis business": "kinepolis",
+        "lego": "lego",
+        "lego®": "lego",
+        "les clubs forest hill": "foresthill",
+        "maeva": "maeva",
+        "maeva.com": "maeva",
+        "mk2": "mk2",
+        "mk2 cinemas": "mk2",
+        "molotov": "molotov",
+        "molotov tv": "molotov",
+        "monoprix": "monoprix",
+        "monoprix magasins": "monoprix",
+        "nature & decouvertes": "naturedecouvertes",
+        "o green oak pub mont de marsan": "ogreenoak",
+        "o'green oak pub - mont de marsan": "ogreenoak",
+        "pathe": "pathe",
+        "pathe france": "pathe",
+        "playstation store": "playstationstore",
+        "pokoon - boulogne-sur-mer": "pokoon",
+        "pokoon - calais": "pokoon",
+        "pokoon boulogne sur mer": "pokoon",
+        "pokoon calais": "pokoon",
+        "port aventura world": "portaventura",
+        "portaventura world": "portaventura",
+        "prive by zalando": "zalando",
+        "promosejours": "promosejours",
+        "promosejours-ce": "promosejours",
+        "radisson hotel": "radissonhotel",
+        "radisson hotels": "radissonhotel",
+        "red by sfr - box": "redsfrbox",
+        "red by sfr - box internet": "redsfrbox",
+        "rituals": "rituals",
+        "rituals cosmetics": "rituals",
+        "sarenza": "sarenza",
+        "sarenza.com": "sarenza",
+        "save - saint-medard-en-jalles": "save",
+        "save saint medard en jalles": "save",
+        "steel rider - biard": "steelrider",
+        "steel rider biard": "steelrider",
+        "un hotel pour tous": "hotelpourtous",
+        "v and b - begles": "vandb",
+        "v and b - poitiers ouest": "vandb",
+        "v and b - poitiers sud": "vandb",
+        "v and b begles": "vandb",
+        "v and b poitiers ouest": "vandb",
+        "v and b poitiers sud": "vandb",
+        "vtf": "vtf",
+        "vtf vacances": "vtf",
+        "vvf": "vvf",
+        "vvf villages": "vvf",
+        "walibi rhone alpes": "walibi",
+        "walibi rhone-alpes": "walibi",
+        "walibi rhones alpes": "walibi",
+        "webrod - tourcoing": "webrod",
+        "webrod tourcoing": "webrod",
+        "wecandoo": "wecandoo",
+        "whirlpool": "whirlpool",
+        "whirlpool fr": "whirlpool",
+        "zalando": "zalando",
+      };
+
+      const GROUP_DISPLAY_NAMES = {
+        "pathe": "Pathé",
+        "moncade": "Contrôle Technique Moncade",
+        "dominos": "Domino's Pizza",
+        "vandb": "V and B",
+        "pokoon": "Pokoon",
+        "mk2": "MK2 Cinémas",
+        "kinepolis": "Kinepolis",
+        "portaventura": "PortAventura World",
+        "walibi": "Walibi Rhône-Alpes",
+        "steelrider": "Steel Rider",
+        "save": "Save",
+        "webrod": "WeBrod",
+        "ogreenoak": "O'Green Oak Pub",
+        "intercaves": "Inter Caves",
+        "ampm": "AM PM",
+        "wecandoo": "Ateliers WeCanDoo",
+        "dpam": "DPAM",
+        "foresthill": "Forest Hill",
+        "gyl": "GYL",
+        "hm": "H&M",
+        "hotelspreference": "Hôtels & Préférence",
+        "homair": "Homair Vacances",
+        "hotelpourtous": "Un hôtel pour tous",
+        "lego": "LEGO",
+        "maeva": "Maeva.com",
+        "molotov": "Molotov TV",
+        "monoprix": "Monoprix",
+        "naturedecouvertes": "Nature & Découvertes",
+        "promosejours": "Promoséjours",
+        "playstationstore": "PlayStation Store",
+        "radissonhotel": "Radisson Hotels",
+        "redsfrbox": "RED by SFR - Box Internet",
+        "rituals": "Rituals Cosmetics",
+        "sarenza": "Sarenza",
+        "vtf": "VTF Vacances",
+        "vvf": "VVF Villages",
+        "whirlpool": "Whirlpool",
+        "zalando": "Zalando",
+        "carrefourvoyage": "Carrefour Voyages",
+        "dartyfnac": "FNAC DARTY",
+      };
+
+      const AMBIGUOUS_GROUPS = new Set([
+        "pathe",
+        "moncade",
+        "dominos",
+        "vandb",
+        "pokoon",
+      ]);
+  function groupKeyFor(name) {
+    const n = normalize(name).trim();
+    return GROUP_ALIASES[n] || n;
+  }
+
   const TYPE_LABELS = {
     direct: 'Réduction directe',
     carte_cadeau: 'Carte cadeau',
@@ -414,15 +610,19 @@
   function mergeMerchantLists(lists) {
     const byKey = new Map();
     lists.flat().forEach(m => {
-      const key = normalize(m.name).trim();
-      if (!key) return;
-      if (!byKey.has(key)) byKey.set(key, { name: m.name, offers: [] });
+      const normName = normalize(m.name).trim();
+      if (!normName) return;
+      const key = groupKeyFor(m.name);
+      if (!byKey.has(key)) {
+        byKey.set(key, { name: GROUP_DISPLAY_NAMES[key] || m.name, offers: [] });
+      }
       byKey.get(key).offers.push(...m.offers);
     });
 
-    return Array.from(byKey.values()).map(entry => ({
+    return Array.from(byKey.entries()).map(([key, entry]) => ({
       name: entry.name,
       offers: entry.offers,
+      ambiguous: AMBIGUOUS_GROUPS.has(key),
       ...computeStats(entry.offers),
     }));
   }
@@ -436,7 +636,7 @@
       .map(m => {
         const offers = m.offers.filter(o => activePlatforms.has(o.platform));
         if (!offers.length) return null;
-        return { name: m.name, offers, ...computeStats(offers) };
+        return { name: m.name, offers, ambiguous: m.ambiguous, ...computeStats(offers) };
       })
       .filter(Boolean);
   }
@@ -562,6 +762,40 @@
   }
 
   function merchantCard(m, isTop, idx) {
+    const rankId = `rank-${idx}`;
+
+    // Groupe "ambigu" (adresses multiples type Domino's Pizza, ou produits
+    // differents sous le meme nom type Pathe) avec plus d'une offre : on
+    // n'affiche jamais un pourcentage seul qui pourrait passer pour LE taux
+    // de l'enseigne. A la place, un badge "plusieurs offres" cliquable, qui
+    // ouvre le meme detail que "Classement complet". Si le filtre "Mes
+    // plateformes" ne laisse plus qu'une seule offre, l'ambiguite disparait
+    // et on revient a l'affichage normal.
+    if (m.ambiguous && m.offers.length > 1) {
+      const hasPercent = m.offers.some(o => typeof o.percent === 'number');
+      const badgeLabel = hasPercent
+        ? `Plusieurs offres — à partir de ${m.best_percent}%`
+        : 'Plusieurs offres';
+
+      return `
+        <li class="merchant ${isTop ? 'top' : ''}">
+          <div class="merchant-head">
+            <div>
+              ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
+              <div class="name">${m.name}</div>
+            </div>
+          </div>
+          <button type="button" class="ambiguous-toggle rank-toggle" data-target="${rankId}" aria-expanded="false">
+            <span class="badge-ambiguous">${badgeLabel} <span class="chevron">▾</span></span>
+            <span class="ambiguous-hint">${m.offers.length} offres différentes (adresses ou formules) — cliquez pour voir laquelle vous concerne</span>
+          </button>
+          <div class="rank-list" id="${rankId}" hidden>
+            ${rankedOfferRows(m.offers)}
+          </div>
+        </li>
+      `;
+    }
+
     const direct = m.offers.filter(o => o.type === 'direct');
     const carteCadeau = m.offers.filter(o => o.type === 'carte_cadeau');
     const offersHtml = `
@@ -583,7 +817,6 @@
       cumulNote = `<div class="cumul-note cumul-warning">⚠️ Rien n'indique que ces deux offres se cumulent. À vérifier vous-même avant achat.</div>`;
     }
 
-    const rankId = `rank-${idx}`;
     const rankToggle = m.offers.length > 1 ? `
       <button type="button" class="rank-toggle" data-target="${rankId}" aria-expanded="false">
         <span class="chevron">▾</span>
@@ -682,7 +915,7 @@
 
   // Ouvre/ferme le classement complet d'un magasin au clic (délégation
   // d'événement car les cartes sont régénérées à chaque recherche).
-  document.getElementById('results').addEventListener('click', e => {
+  document.querySelector('.wrap').addEventListener('click', e => {
     const btn = e.target.closest('.rank-toggle');
     if (!btn) return;
     const list = document.getElementById(btn.dataset.target);
