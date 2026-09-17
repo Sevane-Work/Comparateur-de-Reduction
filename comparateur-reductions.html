@@ -278,6 +278,7 @@
     .platform-filters { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -1; }
     .platform-chips { flex-direction: row; flex-wrap: wrap; }
     .platform-chip { flex: 0 0 auto; }
+    .highlight-box { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -2; }
   }
   .loisirs-intro { margin-top: 0; margin-bottom: 20px; }
   .category-section { margin-bottom: 28px; }
@@ -293,10 +294,77 @@
     padding: 40px 0;
     font-size: 15px;
   }
+  /* Offres "du jour" iGraal boostees (fr.igraal.com/selection/), mises en
+     avant le 2026-09-17 a la demande de l'utilisatrice pour les enseignes
+     alimentaire / habillement / parfumerie (achats du quotidien) —
+     cote gauche du site, cadre dedie, masque entierement s'il n'y a aucune
+     offre boostee active dans ces categories. */
+  .highlight-box {
+    flex: 0 0 200px;
+    position: sticky;
+    top: 48px;
+    background: var(--white);
+    border: 1.5px solid var(--gold);
+    border-radius: 10px;
+    padding: 14px 14px 6px;
+  }
+  .highlight-box-label {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--gold);
+    margin: 0 0 10px;
+  }
+  .highlight-box-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 8px; }
+  .highlight-item {
+    border-bottom: 1px dashed var(--hairline);
+    padding-bottom: 8px;
+  }
+  .highlight-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .highlight-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .highlight-item-name { font-size: 13.5px; font-weight: 500; }
+  .highlight-item-value { font-size: 15px; font-weight: 600; color: var(--gold); white-space: nowrap; }
+  .highlight-item-normal { font-size: 11.5px; color: var(--sage); }
+  .highlight-item-expiry { font-size: 11px; color: var(--sage); opacity: 0.85; }
+  .boost-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--gold);
+    background: var(--tag-direct-bg);
+    border-radius: 999px;
+    padding: 2px 7px;
+    margin-left: 6px;
+  }
+  .offer-line-boosted .offer-percent { color: var(--gold); }
+  .boost-normal {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 400;
+    color: var(--sage);
+    text-align: right;
+  }
+  .boost-expiry {
+    font-size: 10.5px;
+    color: var(--sage);
+    opacity: 0.85;
+    text-align: right;
+    margin: -2px 0 3px;
+  }
 </style>
 </head>
 <body>
   <div class="page">
+    <aside class="highlight-box" id="highlight-box" hidden>
+      <p class="highlight-box-label">🔥 Offres du jour à ne pas manquer</p>
+      <div class="highlight-box-list" id="highlight-box-list"></div>
+    </aside>
     <div class="wrap">
     <header>
       <h1>Où profiter de la meilleure réduction ?</h1>
@@ -350,6 +418,7 @@
     'happypal_offers.json',
     'igraal_bon_achat.json',
     'banque_populaire_reserve.json',
+    'igraal_selection_du_jour.json',
   ];
 
   let merchants = [];
@@ -550,6 +619,17 @@
     musee: 'Musées',
   };
 
+  // Categories "conso du quotidien" pour la mise en avant des offres
+  // boostees iGraal cote gauche (highlight-box) — demande le 2026-09-17,
+  // volontairement restreinte (pas les abonnements/services annuels type
+  // assurance/energie/telecom/voyage, meme boostes). Doit correspondre a
+  // HIGHLIGHT_CATEGORY_PATTERNS dans fetch_igraal_selection.py.
+  const HIGHLIGHT_CATEGORY_LABELS = {
+    alimentaire: 'Alimentaire',
+    habillement: 'Habillement',
+    parfumerie: 'Parfumerie & beauté',
+  };
+
   // Noms courts pour les cases a cocher "Mes plateformes" (le nom complet
   // reste utilise partout ailleurs, notamment pour filtrer les offres par
   // data.platform). Une plateforme absente de cette table s'affiche avec
@@ -578,6 +658,50 @@
     return (isBanquePopulaire(a) ? 0 : 1) - (isBanquePopulaire(b) ? 0 : 1);
   }
 
+  // Offre "du jour" iGraal encore active (pas expirée) à l'heure actuelle
+  // du navigateur. Une offre boostée expirée n'est plus jamais une offre
+  // active — promesse faite à l'utilisatrice le 2026-09-17 : le site ne
+  // doit jamais afficher un boost périmé, même si igraal_selection_du_jour.json
+  // n'a pas encore été rafraîchi ce jour-là.
+  function isBoostActive(o) {
+    return !!o.boosted && !!o.expires_at && new Date(o.expires_at).getTime() > Date.now();
+  }
+
+  // Applique la décision produit "Remplace avec badge" (choisie le
+  // 2026-09-17) : tant qu'une offre boostée est active sur une plateforme
+  // donnée pour ce marchand, elle remplace toute autre offre de cette même
+  // plateforme (ex. le cashback iGraal "normal" du même marchand) plutôt
+  // que de s'y ajouter en doublon. Une offre boostée expirée est retirée
+  // silencieusement, ce qui fait automatiquement réapparaître le taux
+  // normal de cette plateforme s'il existe encore dans les données.
+  function applyBoostOverrides(offers) {
+    const activeBoostPlatforms = new Set(
+      offers.filter(isBoostActive).map(o => o.platform)
+    );
+    return offers.filter(o => {
+      if (o.boosted) return isBoostActive(o);
+      return !activeBoostPlatforms.has(o.platform);
+    });
+  }
+
+  // Texte court "Expire dans ..." pour une offre boostée active (null si
+  // deja expiree, ce qui ne devrait jamais arriver ici puisque
+  // applyBoostOverrides() a deja retire les offres expirees en amont).
+  function formatExpiry(iso) {
+    if (!iso) return null;
+    const diffMs = new Date(iso).getTime() - Date.now();
+    if (diffMs <= 0) return null;
+    const totalMin = Math.round(diffMs / 60000);
+    if (totalMin < 60) return `Expire dans ${totalMin} min`;
+    const totalH = Math.floor(totalMin / 60);
+    if (totalH < 24) {
+      const mm = totalMin % 60;
+      return `Expire dans ${totalH} h${mm ? ' ' + mm + ' min' : ''}`;
+    }
+    const days = Math.round(totalH / 24);
+    return `Expire dans ${days} j`;
+  }
+
   // Regroupe les offres d'un fichier par nom de marchand (normalisé).
   // { platform: "...", offers: [{ name, type, percent, rate_text, cumulative_with }] }
   function fileToMerchants(data) {
@@ -597,6 +721,15 @@
         cumulative_with: o.cumulative_with || null,
         // Etiquette loisirs optionnelle (ex. "cinema"), voir la vue "Loisirs".
         category: o.category || null,
+        // Offre "du jour" boostee iGraal (fr.igraal.com/selection/, ajouté
+        // le 2026-09-17) : boosted/normal_rate_text/expires_at pilotent le
+        // badge "Offre du jour" + le retour automatique au taux normal
+        // (voir applyBoostOverrides) ; highlight_category alimente le
+        // cadre "Offres du jour" côté gauche.
+        boosted: o.boosted === true,
+        normal_rate_text: o.normal_rate_text || null,
+        expires_at: o.expires_at || null,
+        highlight_category: o.highlight_category || null,
       });
     });
     return Array.from(byName.values());
@@ -660,12 +793,15 @@
       byKey.get(key).offers.push(...m.offers);
     });
 
-    return Array.from(byKey.entries()).map(([key, entry]) => ({
-      name: entry.name,
-      offers: entry.offers,
-      ambiguous: AMBIGUOUS_GROUPS.has(key),
-      ...computeStats(entry.offers),
-    }));
+    return Array.from(byKey.entries()).map(([key, entry]) => {
+      const offers = applyBoostOverrides(entry.offers);
+      return {
+        name: entry.name,
+        offers,
+        ambiguous: AMBIGUOUS_GROUPS.has(key),
+        ...computeStats(offers),
+      };
+    });
   }
 
   // Reconstruit la liste des marchands visibles en ne gardant, pour chacun,
@@ -691,6 +827,54 @@
       `${merchants.length} marchands avec offre active`;
     render(currentQuery);
     renderLoisirs();
+    renderHighlightBox();
+  }
+
+  // Cadre "Offres du jour" côté gauche (demandé le 2026-09-17) : ne
+  // reprend QUE les offres boostées iGraal actives dont la catégorie fait
+  // partie des achats "du quotidien" retenus (alimentaire / habillement /
+  // parfumerie) — respecte le filtre "Mes plateformes" comme le reste du
+  // site (utilise `merchants`, pas `allMerchants`). Entièrement masqué
+  // quand aucune offre ne qualifie aujourd'hui.
+  function renderHighlightBox() {
+    const box = document.getElementById('highlight-box');
+    const listEl = document.getElementById('highlight-box-list');
+    if (!box || !listEl) return;
+
+    const items = [];
+    merchants.forEach(m => {
+      m.offers.forEach(o => {
+        if (o.boosted && o.highlight_category) {
+          items.push({ merchant: m.name, offer: o });
+        }
+      });
+    });
+
+    if (!items.length) {
+      box.hidden = true;
+      listEl.innerHTML = '';
+      return;
+    }
+
+    items.sort((a, b) => (b.offer.percent || 0) - (a.offer.percent || 0));
+
+    listEl.innerHTML = items.map(({ merchant, offer }) => {
+      const value = typeof offer.percent === 'number' ? `${offer.percent}%` : (offer.rate_text || '');
+      const expiry = formatExpiry(offer.expires_at);
+      const catLabel = HIGHLIGHT_CATEGORY_LABELS[offer.highlight_category] || offer.highlight_category;
+      return `
+        <div class="highlight-item">
+          <div class="highlight-item-head">
+            <span class="highlight-item-name">${merchant} <span class="boost-badge">${catLabel}</span></span>
+            <span class="highlight-item-value">${value}</span>
+          </div>
+          ${offer.normal_rate_text ? `<div class="highlight-item-normal">au lieu de ${offer.normal_rate_text}</div>` : ''}
+          ${expiry ? `<div class="highlight-item-expiry">${expiry}</div>` : ''}
+        </div>
+      `;
+    }).join('');
+
+    box.hidden = false;
   }
 
   // Construit les cases à cocher "Mes plateformes" à partir des plateformes
@@ -749,6 +933,25 @@
     const value = typeof offer.percent === 'number'
       ? `${offer.percent}%`
       : (offer.rate_text || 'Voir l’offre');
+
+    // Offre "du jour" boostee iGraal (ajoute le 2026-09-17) : badge
+    // distinct + taux normal affiche en petit ("au lieu de X") + minuteur
+    // d'expiration — toujours active a ce stade (applyBoostOverrides a
+    // deja retire les offres perimees en amont).
+    if (offer.boosted) {
+      const expiry = formatExpiry(offer.expires_at);
+      return `
+        <div class="offer-line offer-line-boosted">
+          <span class="platform">${offer.platform}<span class="boost-badge">🔥 Offre du jour</span></span>
+          <span class="offer-percent">
+            ${value}
+            ${offer.normal_rate_text ? `<span class="boost-normal">au lieu de ${offer.normal_rate_text}</span>` : ''}
+          </span>
+        </div>
+        ${expiry ? `<div class="boost-expiry">${expiry}</div>` : ''}
+      `;
+    }
+
     return `
       <div class="offer-line">
         <span class="platform">${offer.platform}</span>
@@ -791,10 +994,11 @@
       const value = typeof o.percent === 'number'
         ? `${o.percent}%`
         : (o.rate_text || 'Voir l’offre');
+      const platformLabel = o.boosted ? `${o.platform} 🔥` : o.platform;
       return `
         <div class="rank-row ${i === 0 && typeof o.percent === 'number' ? 'rank-best' : ''}">
           <span class="rank-num">${i + 1}</span>
-          <span class="rank-platform">${o.platform}</span>
+          <span class="rank-platform">${platformLabel}</span>
           <span class="rank-type">${TYPE_LABELS[o.type] || o.type || ''}</span>
           <span class="rank-value">${value}</span>
         </div>

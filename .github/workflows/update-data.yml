@@ -42,11 +42,15 @@ jobs:
         run: python fetch_igraal_bon_achat.py
         continue-on-error: true
 
+      - name: iGraal Sélection du jour (offres boostées)
+        run: python fetch_igraal_selection.py
+        continue-on-error: true
+
       - name: Enregistrer les nouvelles données si elles ont changé
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add fnac_darty.json ebuyclub.json igraal.json banque_populaire.json igraal_bon_achat.json
+          git add fnac_darty.json ebuyclub.json igraal.json banque_populaire.json igraal_bon_achat.json igraal_selection_du_jour.json
           git diff --staged --quiet && echo "Aucun changement" || git commit -m "Mise à jour automatique des taux"
           git push
