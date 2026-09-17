@@ -24,20 +24,26 @@ jobs:
 
       - name: Fnac Darty Pass
         run: python fetch_fnac_darty.py
+        continue-on-error: true
 
       - name: eBuyClub
         run: python fetch_ebuyclub.py
+        continue-on-error: true
 
       - name: iGraal
         run: python fetch_igraal.py
+        continue-on-error: true
 
       - name: Banque Populaire (Extra+X)
         run: python fetch_banque_populaire.py
+        continue-on-error: true
 
       - name: iGraal Bon d'achat
         run: python fetch_igraal_bon_achat.py
+        continue-on-error: true
 
       - name: Enregistrer les nouvelles données si elles ont changé
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

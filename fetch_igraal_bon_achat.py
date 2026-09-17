@@ -74,8 +74,28 @@ BLOCK_RE = re.compile(
 )
 
 
+HEADERS = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9",
+    "user-agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+    ),
+    "referer": "https://fr.igraal.com/",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "upgrade-insecure-requests": "1",
+}
+
+
 def fetch_html():
-    req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"})
+    # En-tetes alignes sur ceux de fetch_igraal.py (2026-09-17, corrige apres
+    # un HTTP 403 en conditions reelles sur GitHub Actions) : le simple
+    # "User-Agent: Mozilla/5.0" utilise jusque-la ne suffisait plus, la page
+    # etant sur le meme domaine que fetch_igraal.py, qui n'a jamais echoue
+    # avec ces en-tetes plus complets.
+    req = urllib.request.Request(URL, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
