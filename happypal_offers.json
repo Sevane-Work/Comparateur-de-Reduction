@@ -1,7 +1,7 @@
 {
   "platform": "Happypal (Codes Club Rousseau)",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' du filtre Happypal (le plus fiable et le plus comparable aux autres plateformes du comparateur), hors 'E-billet', 'Code promo' et 'Site partenaire' (hors perimetre pour cette premiere version). 556 fiches lues au total sur la vignette liste ; 169 d'entre elles n'affichaient aucun pourcentage de reduction sur cette vignette (cartes multi-enseignes type Wonder-ecard/Gift.cool, associations/dons, quelques marques dont le taux n'est visible que sur la fiche produit individuelle) et ont ete exclues du fichier a la demande de l'utilisatrice : le comparateur ne doit lister que des offres avec une reduction reelle et verifiable, pas de simples cartes cadeau achetees a prix plein. Fichier final : 387 offres avec un pourcentage de reduction confirme. Donnees lues en direct dans le DOM apres connexion manuelle (aucun script de connexion, aucun jeton/campaignSelectionId extrait ni reutilise). Premiere capture Happypal du projet, aucune version anterieure a comparer.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' du filtre Happypal (le plus fiable et le plus comparable aux autres plateformes du comparateur), hors 'E-billet', 'Code promo' et 'Site partenaire' (hors perimetre pour cette premiere version). 556 fiches lues au total sur la vignette liste ; 169 d'entre elles n'affichaient aucun pourcentage de reduction sur cette vignette et ont d'abord ete exclues du fichier a la demande de l'utilisatrice. Verification complementaire du 2026-09-17 (suite a la remarque de l'utilisatrice sur Uber VTC, dont la reduction -5% n'apparait que sur sa fiche produit individuelle) : les 169 fiches sans pourcentage visible ont ete revérifiées une par une via l'API GraphQL interne de Happypal (requete 'CampaignOffers', rejouee directement dans l'onglet deja authentifie de l'utilisatrice via fetch(), sans navigation de page ni capture d'ecran, donc a cout tres faible - aucun jeton ni cookie extrait ou reutilise hors de cet onglet). 10 fiches sur les 169 avaient en realite une reduction reelle non affichee sur la vignette liste (Billetterie Fnac -4%, Pierre & Vacances -20%, lastminute.com -5%, Uber eats -5%, Uber VTC -5%, Nike -10%, Beauty Success -20%, Maisons du Monde -8%, Philibert -10%, Sarenza -5%) et ont ete reintegrees au fichier. Les 159 autres (cartes multi-enseignes type Wonder-ecard/Gift.cool, associations/dons, city pass, etc.) n'ont aucune reduction active confirmee par l'API et restent exclues, conformement a la regle : le comparateur ne liste que des offres avec une reduction reelle et verifiable. Une fiche (Beauty Mix) pointait vers une page 404 sur le site Happypal lui-meme (lien casse cote Happypal) et n'a pas pu etre verifiee ; laissee exclue par prudence. Fichier final : 397 offres avec un pourcentage de reduction confirme.",
   "offers": [
     {
       "name": "MMV",
@@ -2709,6 +2709,76 @@
       "name": "Eponi",
       "rate_text": "-15%",
       "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Billetterie Fnac",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pierre & Vacances",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "lastminute.com",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber eats",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber VTC",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nike",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Beauty Success",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maisons du Monde",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Philibert",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sarenza",
+      "rate_text": "-5%",
+      "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     }
