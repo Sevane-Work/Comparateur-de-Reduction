@@ -181,34 +181,59 @@ def fetch_all_products():
     """Parcourt toute la collection paginée et renvoie la liste brute des produits.
 
     L'API ReducFactory (API Platform) peut répondre sous deux formes selon
-    la négociation de contenu : soit une simple liste JSON (observé en
-    conditions réelles avec l'en-tête Accept: application/json), soit une
+    la négociation de contenu : soit une simple liste JSON, soit une
     collection JSON-LD/Hydra enveloppée ({"member"/"hydra:member": [...],
-    "view"/"hydra:view": {"next"/"hydra:next": "..."}}), comme documenté
-    initialement. On gère les deux pour rester robuste aux deux formats.
+    "view"/"hydra:view": {"next"/"hydra:next": "..."}}). On gère les deux.
+
+    Bug corrigé le 2026-09-17 (soir), signalé par l'utilisateur (Carrefour
+    absent des résultats malgré une offre réelle -5% "Bon d'achat" sur le
+    site) : en réponse "plate" (liste JSON simple), l'API PLAFONNE en
+    réalité à 100 produits par page quel que soit itemsPerPage demandé
+    (confirmé : itemsPerPage=300 renvoie quand même 100 items sur 127
+    réels) - l'ancien code prenait cette page tronquée pour le catalogue
+    complet et s'arrêtait après la 1ère page, faisant disparaître ~27
+    produits (dont Carrefour) de tous les runs automatisés. On boucle
+    désormais sur page=1,2,3... et on s'arrête seulement quand une page
+    renvoie moins de 100 résultats (page finale) ou est vide.
     """
     products = []
-    url = f"{TENANT_BASE}products?page=1&itemsPerPage=300"
     seen_urls = set()
-    while url and url not in seen_urls:
+
+    page = 1
+    while True:
+        url = f"{TENANT_BASE}products?page={page}&itemsPerPage=300"
+        if url in seen_urls or page > 20:  # garde-fou anti-boucle infinie
+            break
         seen_urls.add(url)
         data = fetch_json(url)
         if data is None:
             break
         if isinstance(data, list):
-            # Réponse "plate" : pas d'enveloppe de pagination disponible.
-            # Le catalogue (127 produits) tient dans une seule page de 300,
-            # donc on s'arrête ici plutôt que de deviner une URL suivante.
+            if not data:
+                break
             products.extend(data)
-            break
+            if len(data) < 100:
+                break  # dernière page (page pleine = 100, comme observé)
+            page += 1
+            continue
+        # Forme JSON-LD/Hydra : suit l'URL "next" fournie par l'API.
         member = data.get("member") or data.get("hydra:member") or []
         products.extend(member)
         view = data.get("view") or data.get("hydra:view") or {}
         next_path = view.get("next") or view.get("hydra:next")
         if not next_path:
             break
-        # "next" est un chemin relatif de type "/1.0/<tenant>/products?..."
-        url = "https://api.reducfactory.com" + next_path
+        next_url = "https://api.reducfactory.com" + next_path
+        if next_url in seen_urls:
+            break
+        seen_urls.add(next_url)
+        data2 = fetch_json(next_url)
+        if data2 is None:
+            break
+        member2 = data2.get("member") or data2.get("hydra:member") or []
+        products.extend(member2)
+        break
+
     return products
 
 
