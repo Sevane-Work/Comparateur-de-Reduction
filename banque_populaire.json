@@ -1,7 +1,7 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "captured_at": "2026-09-17",
-  "generated_at": "2026-09-17T01:07:39.536109+00:00",
+  "generated_at": "2026-09-17T06:04:46.682118+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat paye directement au prix remise (pas de cashback a cumuler, confirme par l'utilisateur). 'direct' = reduction/cashback affiche en texte libre sur la fiche produit, taux extrait par recherche du premier pourcentage dans ce texte.",
   "offers": [
     {
