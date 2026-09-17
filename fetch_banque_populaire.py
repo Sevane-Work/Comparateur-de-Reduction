@@ -30,11 +30,7 @@ Dépendances : uniquement la bibliothèque standard (urllib.request pour le
 HTTP), comme fetch_fnac_darty.py / fetch_igraal.py / fetch_ebuyclub.py. Pas
 de requirements.txt nécessaire.
 
-Limite connue / à valider avant le premier run réel : le champ exact utilisé
-pour un bon d'achat à MONTANT FIXE (plutôt que "variable_amount", le seul
-type observé dans l'échantillon inspecté) n'a pas été vérifié — si un tel
-produit existe dans le catalogue, il sera simplement ignoré (pas de
-percent exploitable) plutôt que de faire planter le script.
+Bug corrigé le 2026-09-17 (soir), signalé par l'utilisatrice (Pathé absent des résultats) : les bons d'achat à MONTANT FIXE (type "fixed_amount", ex. billets de cinéma Pathé/CGR/UGC/MK2/Cinéchèque, mais aussi de nombreux parcs/zoos/musées et enseignes retail) étaient entièrement ignorés - le script ne savait lire que le champ marginAmount, propre aux bons à MONTANT VARIABLE ("variable_amount"). Pour un bon à montant fixe, le taux réel se déduit de (facialAmount - saleAmount) / facialAmount. Les deux types sont désormais gérés, en ne retenant que les sous-offres "available": true ET "published": true (certaines sous-offres restent présentes dans l'API mais non publiées - à ne pas afficher).
 
 Usage :
     python fetch_banque_populaire.py [--output banque_populaire.json]
@@ -93,24 +89,38 @@ def extract_offer(product):
         return None
 
     if ptype == "voucher_product":
-        percent = None
+        best_percent = None
         for off in product.get("offers") or []:
-            margin = off.get("marginAmount")
-            if isinstance(margin, (int, float)):
-                percent = float(margin)
-                break
-        if percent is None or percent == 0.0:
-            # Carte a montant fixe ou structure non reconnue (percent is
-            # None), ou taux nul / offre desactivee cote ReducFactory
-            # (percent == 0.0) : on ignore dans les deux cas plutot que de
-            # publier une "reduction" a 0% (regle projet : pas d'offre sans
-            # reduction reelle, voir doc de suivi).
+            # Sous-offres non publiees ou indisponibles : ne jamais les
+            # afficher, meme si elles ont un taux exploitable (corrige le
+            # 2026-09-17 soir, cas Pathe ou seules 2 des 5 sous-offres
+            # etaient reellement publiees).
+            if off.get("available") is not True or off.get("published") is not True:
+                continue
+            percent = None
+            off_type = off.get("type")
+            if off_type == "fixed_amount":
+                sale = off.get("saleAmount")
+                facial = off.get("facialAmount")
+                if isinstance(sale, (int, float)) and isinstance(facial, (int, float)) and facial > 0:
+                    percent = (facial - sale) / facial * 100.0
+            else:
+                margin = off.get("marginAmount")
+                if isinstance(margin, (int, float)) and margin > 0:
+                    percent = float(margin)
+            if percent is not None and percent > 0:
+                if best_percent is None or percent > best_percent:
+                    best_percent = percent
+        if best_percent is None:
+            # Aucune sous-offre publiee/disponible avec un taux exploitable
+            # (regle projet : pas d'offre sans reduction reelle).
             return None
+        rounded = round(best_percent, 1)
         return {
             "name": name,
             "slug": slug,
-            "rate_text": f"{percent:g}%",
-            "percent": percent,
+            "rate_text": f"{rounded:g}%",
+            "percent": rounded,
             "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
             "type": "carte_cadeau",
             "category_seen": None,
@@ -146,6 +156,25 @@ def extract_offer(product):
         }
 
     return None
+
+
+import re as _re
+
+CATEGORY_PATTERNS = [
+    ("cinema", _re.compile(r"mk2|gaumont|path[ée]|\bugc\b|cin[ée]|\bcgr\b|kinepolis", _re.IGNORECASE)),
+]
+
+
+def tag_category(offers):
+    """Ajoute un champ 'category' (ex. 'cinema') aux offres dont le nom
+    correspond a une categorie loisirs connue - voir la vue "Loisirs" du
+    site et le doc de suivi de projet (2026-09-17)."""
+    for offer in offers:
+        for category, pattern in CATEGORY_PATTERNS:
+            if pattern.search(offer.get("name", "")):
+                offer["category"] = category
+                break
+    return offers
 
 
 def fetch_all_products():
@@ -202,6 +231,8 @@ def main():
             continue
         seen_slugs.add(key)
         offers.append(offer)
+
+    offers = tag_category(offers)
 
     result = {
         "platform": PLATFORM,
