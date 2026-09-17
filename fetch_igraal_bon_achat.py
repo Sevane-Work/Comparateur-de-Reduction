@@ -38,7 +38,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 URL = "https://fr.igraal.com/bon-achat"
-PLATFORM = "iGraal (Bon d'achat)"
+PLATFORM = "iGraal"
 OUT_PATH = "igraal_bon_achat.json"
 
 CATEGORY_PATTERNS = [
