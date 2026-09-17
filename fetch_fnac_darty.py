@@ -4,10 +4,14 @@ Récupère la liste des marchands et taux de réduction depuis les API publiques
 Fnac Darty Pass (cashback direct + remises carte cadeau / Ebon), et les
 enregistre dans un fichier JSON structuré pour le comparateur de réductions.
 
-Structure de sortie pensée pour accueillir d'autres plateformes plus tard :
-chaque marchand a une liste "offers", chacune avec sa plateforme, son type
-("direct" ou "carte_cadeau"), son taux, et si elle est cumulable avec les
-autres offres du même marchand.
+Structure de sortie : schéma plat commun à toutes les plateformes du projet
+({platform, captured_at, generated_at, note, offers: [...]}) — un marchand
+avec plusieurs offres (ex. cashback direct + carte cadeau) apparaît comme
+plusieurs entrées dans "offers" partageant le même "name", exactement comme
+pour les autres plateformes (iGraal, eBuyClub, Banque Populaire...). Chaque
+offre porte en plus deux champs propres à Fnac Darty Pass : "cumulative_with"
+(indique si elle est cumulable avec une autre offre du même marchand sur
+cette même plateforme) et "link" (lien d'affiliation direct, quand connu).
 
 Usage :
     python fetch_fnac_darty.py [--output fnac_darty.json]
@@ -19,7 +23,7 @@ GitHub Actions) pour garder les taux à jour.
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -58,17 +62,13 @@ def fetch_json(url):
         raise
 
 
-def build_merchants(cashback_raw, ebon_raw):
+def build_offers(cashback_raw, ebon_raw):
     """
-    Construit un dict {id: {name, logo_file, offers: [...]}} en combinant
-    les deux flux Fnac Darty Pass.
+    Construit la liste plate des offres (une entrée par offre, un même
+    marchand pouvant apparaître plusieurs fois) en combinant les deux flux
+    Fnac Darty Pass.
     """
-    merchants = {}
-
-    def get_or_create(mid, name, logo_file=None):
-        if mid not in merchants:
-            merchants[mid] = {"id": mid, "name": name, "logo_file": logo_file, "offers": []}
-        return merchants[mid]
+    offers = []
 
     # --- Cashback direct ---
     for entry in cashback_raw.get("payload", {}).values():
@@ -76,11 +76,12 @@ def build_merchants(cashback_raw, ebon_raw):
         percent = discount["percent"] if discount else None
         if percent is None or percent == 0.0:
             continue
-        m = get_or_create(entry["id"], entry.get("name"), entry.get("logo"))
-        m["offers"].append({
-            "platform": PLATFORM,
-            "type": "direct",
+        offers.append({
+            "name": entry.get("name"),
+            "rate_text": None,
             "percent": percent,
+            "type_detail_fr": "Réduction directe",
+            "type": "direct",
             "cumulative_with": None,  # pas d'info de cumul côté direct
             "link": entry.get("qwertysLink"),
         })
@@ -93,48 +94,19 @@ def build_merchants(cashback_raw, ebon_raw):
         percent = ebon.get("cashback", {}).get("percent", {}).get("value")
         if percent is None or percent == 0.0:
             continue
-        m = get_or_create(entry["id"], entry.get("name"), entry.get("logo"))
-        m["offers"].append({
-            "platform": PLATFORM,
-            "type": "carte_cadeau",
+        offers.append({
+            "name": entry.get("name"),
+            "rate_text": None,
             "percent": percent,
+            "type_detail_fr": "Carte cadeau",
+            "type": "carte_cadeau",
             # Indique si cette offre carte cadeau se cumule avec l'offre
             # cashback direct du même marchand sur la même plateforme.
             "cumulative_with": "direct" if ebon.get("cumulativeWithCashbackDiscount") else None,
             "link": None,
         })
 
-    return merchants
-
-
-def finalize(merchants):
-    """Ajoute un résumé par marchand (meilleure offre, total cumulable)."""
-    result = []
-    for m in merchants.values():
-        if not m["offers"]:
-            continue
-
-        best_offer = max(m["offers"], key=lambda o: o["percent"])
-
-        # Total si toutes les offres cumulables entre elles sont additionnées
-        cumulable_types = {o["type"] for o in m["offers"] if o["cumulative_with"]}
-        cumulable_total = sum(
-            o["percent"] for o in m["offers"]
-            if o["type"] in cumulable_types or o["cumulative_with"]
-        ) if cumulable_types else None
-
-        result.append({
-            "id": m["id"],
-            "name": m["name"],
-            "logo_file": m["logo_file"],
-            "offers": m["offers"],
-            "best_percent": best_offer["percent"],
-            "best_type": best_offer["type"],
-            "cumulable_total": cumulable_total,
-        })
-
-    result.sort(key=lambda m: -m["best_percent"])
-    return result
+    return offers
 
 
 def main():
@@ -148,21 +120,30 @@ def main():
     cashback_raw = fetch_json(CASHBACK_URL)
     ebon_raw = fetch_json(EBON_URL)
 
-    merchants = build_merchants(cashback_raw, ebon_raw)
-    merchants = finalize(merchants)
+    offers = build_offers(cashback_raw, ebon_raw)
+    offers.sort(key=lambda o: -o["percent"])
 
     output = {
-        "sources": [PLATFORM],
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "merchant_count": len(merchants),
-        "merchants": merchants,
+        "platform": PLATFORM,
+        "captured_at": date.today().isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "note": (
+            "Catalogue public (aucune connexion necessaire), deux API : cashback direct "
+            "et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres "
+            "apparait comme deux entrees distinctes partageant le meme 'name'. Le champ "
+            "'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable "
+            "avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune "
+            "info de cumul disponible dans l'autre sens)."
+        ),
+        "offers": offers,
     }
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"OK — {len(merchants)} marchands avec au moins une offre active "
-          f"enregistrés dans {args.output}")
+    merchant_count = len({o["name"] for o in offers})
+    print(f"OK — {len(offers)} offres ({merchant_count} marchands distincts) "
+          f"enregistrées dans {args.output}")
 
 
 if __name__ == "__main__":

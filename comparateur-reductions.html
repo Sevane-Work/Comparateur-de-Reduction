@@ -220,11 +220,12 @@
   </div>
 
 <script>
-  // Liste des fichiers de données à charger et fusionner. Chaque fichier peut
-  // suivre soit le schéma imbriqué "merchants" (ex. fnac_darty.json), soit le
-  // schéma plat "offers" (ex. igraal.json, ulys_offers.json, thecorner_offers.json,
-  // happypal_offers.json). Ajouter un nom de fichier ici suffit à l'intégrer au
-  // comparateur et au classement multi-plateformes par magasin.
+  // Liste des fichiers de données à charger et fusionner. Tous suivent le même
+  // schéma plat : { platform, captured_at, note, offers: [{ name, type, percent,
+  // rate_text, ... }] }. Un marchand avec plusieurs offres (ex. cashback direct
+  // + carte cadeau chez Fnac Darty Pass) apparaît comme plusieurs entrées dans
+  // "offers" partageant le même "name". Ajouter un nom de fichier ici suffit à
+  // l'intégrer au comparateur et au classement multi-plateformes par magasin.
   const DATA_FILES = [
     'fnac_darty.json',
     'igraal.json',
@@ -246,27 +247,9 @@
     carte_cadeau: 'Carte cadeau',
   };
 
-  // --- Normalisation des différents schémas de données vers une forme commune ---
-
-  // Schéma imbriqué (fnac_darty.json) : { merchants: [{ name, offers, best_percent, best_type, cumulable_total }] }
-  function nestedFileToMerchants(data) {
-    return (data.merchants || []).map(m => ({
-      name: m.name,
-      offers: (m.offers || []).map(o => ({
-        platform: o.platform,
-        type: o.type,
-        percent: typeof o.percent === 'number' ? o.percent : null,
-        rate_text: null,
-      })),
-      _singleSourceBestPercent: m.best_percent,
-      _singleSourceBestType: m.best_type,
-      _singleSourceCumulableTotal: m.cumulable_total,
-    }));
-  }
-
-  // Schéma plat (igraal.json, ulys_offers.json, thecorner_offers.json, happypal.json...) :
-  // { platform: "...", offers: [{ name, type, percent, rate_text }] }
-  function flatFileToMerchants(data) {
+  // Regroupe les offres d'un fichier par nom de marchand (normalisé).
+  // { platform: "...", offers: [{ name, type, percent, rate_text, cumulative_with }] }
+  function fileToMerchants(data) {
     const byName = new Map();
     (data.offers || []).forEach(o => {
       const key = normalize(o.name || '').trim();
@@ -277,16 +260,13 @@
         type: o.type,
         percent: typeof o.percent === 'number' ? o.percent : null,
         rate_text: o.rate_text || null,
+        // Cumulable avec une autre offre du même marchand sur la même
+        // plateforme (ex. Fnac Darty Pass : carte cadeau cumulable avec le
+        // cashback direct) — n'a de sens qu'entre offres d'une même source.
+        cumulative_with: o.cumulative_with || null,
       });
     });
     return Array.from(byName.values());
-  }
-
-  function normalizeDataset(data) {
-    if (!data) return [];
-    if (Array.isArray(data.merchants)) return nestedFileToMerchants(data);
-    if (Array.isArray(data.offers)) return flatFileToMerchants(data);
-    return [];
   }
 
   // Fusionne les listes de marchands (une par fichier chargé) en une seule liste,
@@ -297,34 +277,43 @@
     lists.flat().forEach(m => {
       const key = normalize(m.name).trim();
       if (!key) return;
-      if (!byKey.has(key)) {
-        byKey.set(key, { name: m.name, offers: [], _sourceCount: 0, _singleSource: null });
-      }
-      const entry = byKey.get(key);
-      entry.offers.push(...m.offers);
-      entry._sourceCount += 1;
-      if (m._singleSourceBestPercent !== undefined) entry._singleSource = m;
+      if (!byKey.has(key)) byKey.set(key, { name: m.name, offers: [] });
+      byKey.get(key).offers.push(...m.offers);
     });
 
     return Array.from(byKey.values()).map(entry => {
-      let best_percent, best_type, cumulable_total;
-      if (entry._sourceCount === 1 && entry._singleSource) {
-        // Un seul fichier a fourni ce marchand : on garde exactement les
-        // valeurs déjà calculées par ce fichier (comportement inchangé).
-        best_percent = entry._singleSource._singleSourceBestPercent;
-        best_type = entry._singleSource._singleSourceBestType;
-        cumulable_total = entry._singleSource._singleSourceCumulableTotal;
-      } else {
-        // Fusion de plusieurs sources : on recalcule le meilleur taux connu.
-        // Le cumul entre plateformes différentes n'étant jamais garanti,
-        // cumulable_total reste vide (l'avertissement cumul s'en charge).
-        const withPercent = entry.offers
-          .filter(o => typeof o.percent === 'number')
-          .sort((a, b) => b.percent - a.percent);
-        best_percent = withPercent.length ? withPercent[0].percent : 0;
-        best_type = withPercent.length ? withPercent[0].type : null;
-        cumulable_total = null;
+      const withPercent = entry.offers
+        .filter(o => typeof o.percent === 'number')
+        .sort((a, b) => b.percent - a.percent);
+      const best_percent = withPercent.length ? withPercent[0].percent : 0;
+      const best_type = withPercent.length ? withPercent[0].type : null;
+
+      // Le cumul n'est affiché comme garanti que si toutes les offres de ce
+      // marchand viennent d'une seule et même plateforme (un fichier), et que
+      // cette plateforme confirme explicitement un cumul entre deux de ses
+      // offres via "cumulative_with". Entre deux plateformes différentes,
+      // aucun cumul n'est jamais garanti (l'avertissement cumul s'en charge).
+      const platforms = new Set(entry.offers.map(o => o.platform));
+      let cumulable_total = null;
+      if (platforms.size === 1) {
+        // Un ensemble de types "combinables" : chaque offre qui déclare
+        // cumulative_with ajoute SON PROPRE type et le type qu'elle référence
+        // (ex. une carte cadeau avec cumulative_with:"direct" rend combinables
+        // à la fois "carte_cadeau" et "direct").
+        const cumulableTypes = new Set();
+        entry.offers.forEach(o => {
+          if (o.cumulative_with) {
+            cumulableTypes.add(o.type);
+            cumulableTypes.add(o.cumulative_with);
+          }
+        });
+        if (cumulableTypes.size) {
+          cumulable_total = entry.offers
+            .filter(o => cumulableTypes.has(o.type))
+            .reduce((sum, o) => sum + (o.percent || 0), 0);
+        }
       }
+
       return { name: entry.name, offers: entry.offers, best_percent, best_type, cumulable_total };
     });
   }
@@ -485,13 +474,13 @@
       return;
     }
 
-    merchants = mergeMerchantLists(loaded.map(normalizeDataset));
+    merchants = mergeMerchantLists(loaded.map(fileToMerchants));
 
     document.getElementById('count-label').textContent =
       `${merchants.length} marchands avec offre active`;
 
     const dates = loaded
-      .map(d => d.fetched_at || d.captured_at)
+      .map(d => d.captured_at)
       .filter(Boolean)
       .map(d => new Date(d))
       .filter(d => !isNaN(d));
