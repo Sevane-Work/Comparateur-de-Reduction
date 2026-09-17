@@ -210,6 +210,30 @@
     cursor: pointer;
   }
   .tab-btn.active { color: var(--ink); border-bottom-color: var(--gold); }
+  .platform-filters { margin-bottom: 20px; }
+  .platform-filters-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--sage);
+    margin: 0 0 8px;
+  }
+  .platform-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .platform-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    background: var(--white);
+    font-size: 13px;
+    color: var(--ink);
+    cursor: pointer;
+    user-select: none;
+  }
+  .platform-chip input { margin: 0; accent-color: var(--gold); }
+  .platform-chip.unchecked { color: var(--sage); opacity: 0.6; background: transparent; }
   .loisirs-intro { margin-top: 0; margin-bottom: 20px; }
   .category-section { margin-bottom: 28px; }
   .category-title {
@@ -236,6 +260,11 @@
     <div class="tabs" id="tabs">
       <button type="button" class="tab-btn active" data-tab="magasins">Magasins</button>
       <button type="button" class="tab-btn" data-tab="loisirs">Loisirs</button>
+    </div>
+
+    <div class="platform-filters" id="platform-filters">
+      <p class="platform-filters-label">Mes plateformes (décochez celles auxquelles vous n'avez pas accès)</p>
+      <div class="platform-chips" id="platform-chips"></div>
     </div>
 
     <div id="view-magasins">
@@ -276,6 +305,9 @@
   ];
 
   let merchants = [];
+  let allMerchants = [];
+  let activePlatforms = new Set();
+  let currentQuery = '';
 
   function normalize(str) {
     return str.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -295,6 +327,19 @@
     zoo: 'Zoos & aquariums',
     musee: 'Musées',
   };
+
+  // Noms courts pour les cases a cocher "Mes plateformes" (le nom complet
+  // reste utilise partout ailleurs, notamment pour filtrer les offres par
+  // data.platform). Une plateforme absente de cette table s'affiche avec
+  // son nom complet tel quel (pas de risque de case masquee).
+  const PLATFORM_SHORT_LABELS = {
+    'Fnac Darty Pass': 'Fnac Darty',
+    'Banque Populaire (Extra+X)': 'Banque Populaire',
+    'Boursorama Shopping (The Corner)': 'The Corner',
+    'Happypal (Codes Club Rousseau)': 'Happypal',
+  };
+
+  const PLATFORM_FILTER_STORAGE_KEY = 'comparateur-plateformes-actives';
 
   // Regroupe les offres d'un fichier par nom de marchand (normalisé).
   // { platform: "...", offers: [{ name, type, percent, rate_text, cumulative_with }] }
@@ -320,9 +365,52 @@
     return Array.from(byName.values());
   }
 
+  // Calcule les indicateurs d'un marchand (meilleur taux, type gagnant,
+  // cumul garanti) a partir de sa liste d'offres. Reutilise a la fois pour
+  // la fusion initiale (toutes plateformes) et pour la vue filtree par
+  // "Mes plateformes" (memes regles, sous-ensemble d'offres different).
+  function computeStats(offers) {
+    const withPercent = offers
+      .filter(o => typeof o.percent === 'number')
+      .sort((a, b) => b.percent - a.percent);
+    const best_percent = withPercent.length ? withPercent[0].percent : 0;
+    const best_type = withPercent.length ? withPercent[0].type : null;
+
+    // Le cumul n'est affiché comme garanti que si toutes les offres de ce
+    // marchand viennent d'une seule et même plateforme (un fichier), et que
+    // cette plateforme confirme explicitement un cumul entre deux de ses
+    // offres via "cumulative_with". Entre deux plateformes différentes,
+    // aucun cumul n'est jamais garanti (l'avertissement cumul s'en charge).
+    const platforms = new Set(offers.map(o => o.platform));
+    let cumulable_total = null;
+    if (platforms.size === 1) {
+      // Un ensemble de types "combinables" : chaque offre qui déclare
+      // cumulative_with ajoute SON PROPRE type et le type qu'elle référence
+      // (ex. une carte cadeau avec cumulative_with:"direct" rend combinables
+      // à la fois "carte_cadeau" et "direct").
+      const cumulableTypes = new Set();
+      offers.forEach(o => {
+        if (o.cumulative_with) {
+          cumulableTypes.add(o.type);
+          cumulableTypes.add(o.cumulative_with);
+        }
+      });
+      if (cumulableTypes.size) {
+        cumulable_total = offers
+          .filter(o => cumulableTypes.has(o.type))
+          .reduce((sum, o) => sum + (o.percent || 0), 0);
+      }
+    }
+
+    return { best_percent, best_type, cumulable_total };
+  }
+
   // Fusionne les listes de marchands (une par fichier chargé) en une seule liste,
   // en regroupant par nom (normalisé) et en combinant toutes leurs offres —
   // c'est cette fusion qui permet le classement multi-plateformes par magasin.
+  // Le resultat (allMerchants) contient TOUTES les offres, sans tenir compte
+  // du filtre "Mes plateformes" : c'est visibleMerchants() qui applique le
+  // filtre ensuite, a la demande.
   function mergeMerchantLists(lists) {
     const byKey = new Map();
     lists.flat().forEach(m => {
@@ -332,40 +420,83 @@
       byKey.get(key).offers.push(...m.offers);
     });
 
-    return Array.from(byKey.values()).map(entry => {
-      const withPercent = entry.offers
-        .filter(o => typeof o.percent === 'number')
-        .sort((a, b) => b.percent - a.percent);
-      const best_percent = withPercent.length ? withPercent[0].percent : 0;
-      const best_type = withPercent.length ? withPercent[0].type : null;
+    return Array.from(byKey.values()).map(entry => ({
+      name: entry.name,
+      offers: entry.offers,
+      ...computeStats(entry.offers),
+    }));
+  }
 
-      // Le cumul n'est affiché comme garanti que si toutes les offres de ce
-      // marchand viennent d'une seule et même plateforme (un fichier), et que
-      // cette plateforme confirme explicitement un cumul entre deux de ses
-      // offres via "cumulative_with". Entre deux plateformes différentes,
-      // aucun cumul n'est jamais garanti (l'avertissement cumul s'en charge).
-      const platforms = new Set(entry.offers.map(o => o.platform));
-      let cumulable_total = null;
-      if (platforms.size === 1) {
-        // Un ensemble de types "combinables" : chaque offre qui déclare
-        // cumulative_with ajoute SON PROPRE type et le type qu'elle référence
-        // (ex. une carte cadeau avec cumulative_with:"direct" rend combinables
-        // à la fois "carte_cadeau" et "direct").
-        const cumulableTypes = new Set();
-        entry.offers.forEach(o => {
-          if (o.cumulative_with) {
-            cumulableTypes.add(o.type);
-            cumulableTypes.add(o.cumulative_with);
-          }
-        });
-        if (cumulableTypes.size) {
-          cumulable_total = entry.offers
-            .filter(o => cumulableTypes.has(o.type))
-            .reduce((sum, o) => sum + (o.percent || 0), 0);
-        }
+  // Reconstruit la liste des marchands visibles en ne gardant, pour chacun,
+  // que les offres des plateformes cochées dans "Mes plateformes" — un
+  // marchand qui n'a plus aucune offre visible disparaît entièrement (des
+  // deux vues, Magasins et Loisirs).
+  function visibleMerchants() {
+    return allMerchants
+      .map(m => {
+        const offers = m.offers.filter(o => activePlatforms.has(o.platform));
+        if (!offers.length) return null;
+        return { name: m.name, offers, ...computeStats(offers) };
+      })
+      .filter(Boolean);
+  }
+
+  // Recalcule la vue filtrée puis redessine tout ce qui en dépend (recherche
+  // en cours, vue Loisirs, compteur) — appelé au chargement initial et à
+  // chaque case cochée/décochée dans "Mes plateformes".
+  function refreshVisibleMerchants() {
+    merchants = visibleMerchants();
+    document.getElementById('count-label').textContent =
+      `${merchants.length} marchands avec offre active`;
+    render(currentQuery);
+    renderLoisirs();
+  }
+
+  // Construit les cases à cocher "Mes plateformes" à partir des plateformes
+  // réellement présentes dans les données chargées (jamais de liste figée en
+  // dur, pour ne jamais désynchroniser avec DATA_FILES). Toutes cochées par
+  // défaut, sauf préférence déjà mémorisée dans ce navigateur.
+  function buildPlatformFilters(platforms) {
+    let saved = null;
+    try {
+      const raw = localStorage.getItem(PLATFORM_FILTER_STORAGE_KEY);
+      if (raw) saved = new Set(JSON.parse(raw));
+    } catch (e) {
+      saved = null;
+    }
+
+    activePlatforms = new Set(
+      saved ? platforms.filter(p => saved.has(p)) : platforms
+    );
+
+    const container = document.getElementById('platform-chips');
+    container.innerHTML = platforms.map(p => {
+      const label = PLATFORM_SHORT_LABELS[p] || p;
+      const checked = activePlatforms.has(p) ? 'checked' : '';
+      return `
+        <label class="platform-chip ${checked ? '' : 'unchecked'}">
+          <input type="checkbox" value="${p}" ${checked}>
+          ${label}
+        </label>
+      `;
+    }).join('');
+
+    container.addEventListener('change', e => {
+      const input = e.target.closest('input[type="checkbox"]');
+      if (!input) return;
+      if (input.checked) {
+        activePlatforms.add(input.value);
+      } else {
+        activePlatforms.delete(input.value);
       }
-
-      return { name: entry.name, offers: entry.offers, best_percent, best_type, cumulable_total };
+      input.closest('.platform-chip').classList.toggle('unchecked', !input.checked);
+      try {
+        localStorage.setItem(PLATFORM_FILTER_STORAGE_KEY, JSON.stringify(Array.from(activePlatforms)));
+      } catch (e) {
+        // Stockage indisponible (navigation privée, etc.) : la préférence ne
+        // sera simplement pas mémorisée d'une visite à l'autre.
+      }
+      refreshVisibleMerchants();
     });
   }
 
@@ -582,10 +713,11 @@
       return;
     }
 
-    merchants = mergeMerchantLists(loaded.map(fileToMerchants));
+    allMerchants = mergeMerchantLists(loaded.map(fileToMerchants));
 
-    document.getElementById('count-label').textContent =
-      `${merchants.length} marchands avec offre active`;
+    const platforms = Array.from(new Set(loaded.map(d => d.platform).filter(Boolean))).sort();
+    buildPlatformFilters(platforms);
+    refreshVisibleMerchants();
 
     const dates = loaded
       .map(d => d.captured_at)
@@ -597,12 +729,12 @@
       document.getElementById('updated-label').textContent =
         'Mis à jour le ' + mostRecent.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
     }
-
-    render('');
-    renderLoisirs();
   });
 
-  document.getElementById('search').addEventListener('input', e => render(e.target.value));
+  document.getElementById('search').addEventListener('input', e => {
+    currentQuery = e.target.value;
+    render(currentQuery);
+  });
 
   // Bascule entre la vue "Magasins" (recherche) et "Loisirs" (par catégorie).
   document.getElementById('tabs').addEventListener('click', e => {
