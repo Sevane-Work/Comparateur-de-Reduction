@@ -2,8 +2,8 @@
   "sources": [
     "Fnac Darty Pass"
   ],
-  "fetched_at": "2026-09-16T06:02:25.689646+00:00",
-  "merchant_count": 691,
+  "fetched_at": "2026-09-17T01:06:02.953548+00:00",
+  "merchant_count": 694,
   "merchants": [
     {
       "id": 159241,
@@ -809,6 +809,23 @@
       "cumulable_total": null
     },
     {
+      "id": 162839,
+      "name": "Aiper",
+      "logo_file": "logo-18574.gif",
+      "offers": [
+        {
+          "platform": "Fnac Darty Pass",
+          "type": "direct",
+          "percent": 10.2,
+          "cumulative_with": null,
+          "link": null
+        }
+      ],
+      "best_percent": 10.2,
+      "best_type": "direct",
+      "cumulable_total": null
+    },
+    {
       "id": 161070,
       "name": "Magnifaïk",
       "logo_file": "logo-18766.gif",
@@ -1392,7 +1409,7 @@
     },
     {
       "id": 160038,
-      "name": "Okaïdi - Obaïbi",
+      "name": "Okaïdi",
       "logo_file": "logo-3056.gif",
       "offers": [
         {
@@ -1507,6 +1524,23 @@
       ],
       "best_percent": 8.5,
       "best_type": "carte_cadeau",
+      "cumulable_total": null
+    },
+    {
+      "id": 162840,
+      "name": "Avis",
+      "logo_file": "logo-499.gif",
+      "offers": [
+        {
+          "platform": "Fnac Darty Pass",
+          "type": "direct",
+          "percent": 8.2,
+          "cumulative_with": null,
+          "link": null
+        }
+      ],
+      "best_percent": 8.2,
+      "best_type": "direct",
       "cumulable_total": null
     },
     {
@@ -2857,6 +2891,30 @@
       "cumulable_total": null
     },
     {
+      "id": 159441,
+      "name": "Eram",
+      "logo_file": "logo-1941.gif",
+      "offers": [
+        {
+          "platform": "Fnac Darty Pass",
+          "type": "direct",
+          "percent": 3.4,
+          "cumulative_with": null,
+          "link": null
+        },
+        {
+          "platform": "Fnac Darty Pass",
+          "type": "carte_cadeau",
+          "percent": 6.1,
+          "cumulative_with": null,
+          "link": null
+        }
+      ],
+      "best_percent": 6.1,
+      "best_type": "carte_cadeau",
+      "cumulable_total": null
+    },
+    {
       "id": 159749,
       "name": "Castorama",
       "logo_file": "logo-276.gif",
@@ -2895,30 +2953,6 @@
       ],
       "best_percent": 6.0,
       "best_type": "direct",
-      "cumulable_total": null
-    },
-    {
-      "id": 159441,
-      "name": "Eram",
-      "logo_file": "logo-1941.gif",
-      "offers": [
-        {
-          "platform": "Fnac Darty Pass",
-          "type": "direct",
-          "percent": 3.4,
-          "cumulative_with": null,
-          "link": null
-        },
-        {
-          "platform": "Fnac Darty Pass",
-          "type": "carte_cadeau",
-          "percent": 6.0,
-          "cumulative_with": null,
-          "link": null
-        }
-      ],
-      "best_percent": 6.0,
-      "best_type": "carte_cadeau",
       "cumulable_total": null
     },
     {
@@ -10421,6 +10455,23 @@
       "id": 159308,
       "name": "Le Roi de la Fenêtre",
       "logo_file": "logo-8872.gif",
+      "offers": [
+        {
+          "platform": "Fnac Darty Pass",
+          "type": "direct",
+          "percent": 2.8,
+          "cumulative_with": null,
+          "link": null
+        }
+      ],
+      "best_percent": 2.8,
+      "best_type": "direct",
+      "cumulable_total": null
+    },
+    {
+      "id": 160337,
+      "name": "Biotyfull Box",
+      "logo_file": "logo-9426.gif",
       "offers": [
         {
           "platform": "Fnac Darty Pass",
