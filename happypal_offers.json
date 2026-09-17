@@ -1,22 +1,8 @@
 {
   "platform": "Happypal (Codes Club Rousseau)",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' (556 offres), le plus fiable et le plus comparable aux autres plateformes du comparateur (taux affiche directement sur la vignette, prix remise). Les types 'E-billet', 'Code promo' et 'Site partenaire' du filtre Happypal n'ont pas ete captures (hors perimetre pour cette premiere version : billetterie evenementielle et codes a tester, moins fiables). Donnees lues en direct dans le DOM apres connexion manuelle (aucun script de connexion, aucun jeton/campaignSelectionId extrait ni reutilise). Certaines entrees n'affichent pas de pourcentage sur la vignette liste (ex. cartes multi-enseignes Wonder-ecard/Gift.cool, quelques associations/dons) : rate_text = 'Voir l'offre', percent = null - taux visible uniquement sur la fiche produit individuelle, non ouverte systematiquement pour ce premier passage. Premiere capture Happypal du projet, aucune version anterieure a comparer.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' du filtre Happypal (le plus fiable et le plus comparable aux autres plateformes du comparateur), hors 'E-billet', 'Code promo' et 'Site partenaire' (hors perimetre pour cette premiere version). 556 fiches lues au total sur la vignette liste ; 169 d'entre elles n'affichaient aucun pourcentage de reduction sur cette vignette (cartes multi-enseignes type Wonder-ecard/Gift.cool, associations/dons, quelques marques dont le taux n'est visible que sur la fiche produit individuelle) et ont ete exclues du fichier a la demande de l'utilisatrice : le comparateur ne doit lister que des offres avec une reduction reelle et verifiable, pas de simples cartes cadeau achetees a prix plein. Fichier final : 387 offres avec un pourcentage de reduction confirme. Donnees lues en direct dans le DOM apres connexion manuelle (aucun script de connexion, aucun jeton/campaignSelectionId extrait ni reutilise). Premiere capture Happypal du projet, aucune version anterieure a comparer.",
   "offers": [
-    {
-      "name": "E-carte cadeau multi-enseigne (Wonder-ecard)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Billetterie Fnac",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
     {
       "name": "MMV",
       "rate_text": "-20%",
@@ -28,20 +14,6 @@
       "name": "Camping and Co",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Pierre & Vacances",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "lastminute.com",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -60,13 +32,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Uber eats",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "IKEA",
       "rate_text": "-4%",
       "percent": 4.0,
@@ -74,30 +39,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Uber VTC",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Nike",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "E.Leclerc",
       "rate_text": "-4%",
       "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "adidas",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -112,27 +56,6 @@
       "name": "Campings.com",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - 100% Culture",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - 100% Voyage",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - 100% Sport",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -298,13 +221,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Amazon",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "JULES",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -326,23 +242,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "JouéClub",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "INTERSPORT",
       "rate_text": "-3%",
       "percent": 3.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Cdiscount",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -378,20 +280,6 @@
       "name": "Bonobo",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau Culture (Wonder-ecard)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Carte Cadeau multi-enseigne (Wondergift)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -452,23 +340,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Gift.cool",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Emarentrée",
       "rate_text": "-15%",
       "percent": 15.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Mango Home",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -501,20 +375,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Gift.cool - Foot",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Animaux",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Clarins",
       "rate_text": "-8%",
       "percent": 8.0,
@@ -525,153 +385,6 @@
       "name": "L'équipe",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-Carte Multi-Enseignes Noël Enfant",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau multi-enseignes - Mariage",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau multi-enseignes - Pot de départ",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau multi-enseignes - Noël",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau multi-enseignes - Naissance",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte cadeau multi-enseignes - Fête des Pères",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Mode",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Badminton",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Jeux",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Fêtes des mères",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Jardinage",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Fêtes des pères",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Pop Corn",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Cyclisme",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Beauté",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Lecture",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Saveurs",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Danse",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Sneakers",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gift.cool - Brico Déco",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Electro Dépot",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -774,13 +487,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Règles Élémentaires",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Decitre - Furet du Nord",
       "rate_text": "-6%",
       "percent": 6.0,
@@ -798,13 +504,6 @@
       "name": "Gorilla Wear",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "PLAY International",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -830,23 +529,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Sport dans la Ville",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Hindbag",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "GoodPlanet",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -879,13 +564,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Association ELA",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Kadoresto",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -910,13 +588,6 @@
       "name": "idGarages",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Habitat et Humanisme",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -991,13 +662,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Centre de soins LPO Aquitaine",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Permis École",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -1005,44 +669,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Croix-Rouge Insertion",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Mon Stylo Français",
       "rate_text": "-7%",
       "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Rakuten kobo",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Le Petit Fumeur",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Care France",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Allcolibri",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1075,20 +704,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Hema",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Carton Plein 75",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Swarovski",
       "rate_text": "-13%",
       "percent": 13.0,
@@ -1117,13 +732,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Courir",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "popcarte",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -1141,13 +749,6 @@
       "name": "Truffaut",
       "rate_text": "-8%",
       "percent": 8.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Les Enfants du Canal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1215,20 +816,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "EUROSTAR",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Mango",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Naturalia",
       "rate_text": "-3%",
       "percent": 3.0,
@@ -1239,13 +826,6 @@
       "name": "ECODAIR",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "FreemiumPlay",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1292,13 +872,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "City Pass La Rochelle",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "SOS JARDINAGE",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -1320,27 +893,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Beauty Success",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "La cravate solidaire",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "En avant toute(s)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "OCNI",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -1355,13 +907,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "N'GO SHOES",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Au Vieux Campeur",
       "rate_text": "-4%",
       "percent": 4.0,
@@ -1369,30 +914,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Association Quanta",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fondation Terre de Liens",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Cooltra",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Crésus",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1446,13 +970,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "City Pass Tours",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Je Suis à Vélo",
       "rate_text": "-6%",
       "percent": 6.0,
@@ -1467,44 +984,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "La Tablée des Chefs",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Mouvement Colibris",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "City Pass Lyon",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Citadium",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "MATY",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Valorant",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1516,13 +998,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "City Pass Mulhouse",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Marypop",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -1530,23 +1005,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Montpellier - Office du Tourisme",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "ChoosEmi",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Société Protectrice des Animaux",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1572,23 +1033,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "City Pass Lille",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Vino Club",
       "rate_text": "-8%",
       "percent": 8.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Geres",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1649,20 +1096,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Association Siel Bleu",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fondation Terre Solidaire",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Dr. Jonquille & Mr. Ail",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -1719,13 +1152,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "League of Legends",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "The Family Van",
       "rate_text": "-9%",
       "percent": 9.0,
@@ -1757,13 +1183,6 @@
       "name": "Carole & Co",
       "rate_text": "-7%",
       "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Planète Mer",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1824,23 +1243,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Certideal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Palais des Thés",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Ticketnunc",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1866,13 +1271,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Adie",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Liberté Dakotabox",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -1894,37 +1292,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Force Femmes",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Label Emmaüs",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Divine Box",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Devialet",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fondation Le Refuge",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1946,13 +1316,6 @@
       "name": "Amoseeds",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Pure Ocean",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2048,13 +1411,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Énergie Jeunes",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "NATUROPETS",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2076,13 +1432,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Impact - Allcolibri",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Seize Point Neuf",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2093,13 +1442,6 @@
       "name": "Artisans du Monde",
       "rate_text": "-4%",
       "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fermes d'Avenir",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2146,27 +1488,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Pépite Sexiste",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Renfe",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Gifi",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "The Game",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2181,30 +1502,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Konexio",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Colibri Peinture",
       "rate_text": "-7%",
       "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ViensVoirMonTaf",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Les Abeilles de Malescot",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2244,13 +1544,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Wake up Café",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "L'heure des plantes",
       "rate_text": "-20%",
       "percent": 20.0,
@@ -2261,13 +1554,6 @@
       "name": "Suzon et Suzette",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "FDNAP",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2286,23 +1572,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Jane Goodall Institute France",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "MS Pétanque",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "AVF (Association Végétarienne de France)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2338,13 +1610,6 @@
       "name": "Gayaskin",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "L'Envol",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2433,13 +1698,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Association La Cloche",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Inooko",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2457,13 +1715,6 @@
       "name": "LIB & LOU",
       "rate_text": "-3%",
       "percent": 3.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Entourage",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2503,13 +1754,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Maisons du Monde",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Intimissimi",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -2527,13 +1771,6 @@
       "name": "Jardiland",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Les Concerts de Poche",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2559,13 +1796,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Normal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "TERRE VIVANTE",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -2580,13 +1810,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "La Maison des Femmes de Saint-Denis",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Les Raffineurs",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -2597,13 +1820,6 @@
       "name": "Apprendre une langue",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "City Pass Toulouse",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2664,13 +1880,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Institut du Cerveau",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "PIGNON CLOTHING",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2688,13 +1897,6 @@
       "name": "Ancrée",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Halte à l'Obsolescence Programmée",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2727,20 +1929,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "E-carte cadeau multi-enseignes - Félicitations",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-Carte Multi-Enseignes Noël Solidaire/Local",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "E-recycle",
       "rate_text": "-4%",
       "percent": 4.0,
@@ -2755,30 +1943,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Espérance banlieues",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Médecin du Monde",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Elearn Gift EU",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Oé for Good",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2811,13 +1978,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "The SeaCleaners",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Franc jeu",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -2832,30 +1992,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Colorie Ma Vie",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Hyléria Paris",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "CAMELEON Association France",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Wings of the Ocean",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2895,13 +2034,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "E-carte cadeau Noël Enfant (Wonder-ecard)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Monka",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -2912,13 +2044,6 @@
       "name": "Mes Sorties Culture",
       "rate_text": "-4%",
       "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Nintendo eShop",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2944,13 +2069,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "La Source Garouste",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "C&A",
       "rate_text": "-8%",
       "percent": 8.0,
@@ -2968,41 +2086,6 @@
       "name": "Le Petit Fumeur",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "City Pass Nice",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "THOT",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Les Papillons",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Cartooning for Peace",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-graine",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3056,23 +2139,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Lire pour en Sortir",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Anatae",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Entrepreneurs du Monde",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3105,41 +2174,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Fondation Agir Contre l'Exclusion (FACE)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-Carte Multi-Enseignes Noël Adulte",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-Carte Multi-Enseignes Noël Jeux",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "DUO for a JOB",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "La Fourmilière",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Lunaa",
       "rate_text": "-8%",
       "percent": 8.0,
@@ -3147,23 +2181,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Deliveroo",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "OGARUN",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fondation Recherche Alzheimer",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3178,13 +2198,6 @@
       "name": "StickerApp",
       "rate_text": "-10%",
       "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "SPARADRAP",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3252,13 +2265,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "France Alzheimer et maladies apparentées",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "1083",
       "rate_text": "-4%",
       "percent": 4.0,
@@ -3301,23 +2307,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Fédération Française des Banques Alimentaires",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "EA SPORT",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Iberia",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3336,20 +2328,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Association Aïda",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "4myplanet",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "LOGIS HOTELS",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -3360,13 +2338,6 @@
       "name": "Greenweez",
       "rate_text": "-4%",
       "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte bleue HappyPal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3448,20 +2419,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "E-carte cadeau Rentrée Scolaire (Wonder-ecard)",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Association Lazare",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "MAURICE",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -3490,13 +2447,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Philibert",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Hôtels & Préférence",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -3507,13 +2457,6 @@
       "name": "Google Play",
       "rate_text": "-4%",
       "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Inspire Travel France",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3539,13 +2482,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Beauty Mix",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Billabong",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -3556,20 +2492,6 @@
       "name": "Best Western",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Dons Solidaires",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "ANAK-Tnk",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3644,13 +2566,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "E-carte bleue Culture HappyPal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "MARSAULT",
       "rate_text": "-10%",
       "percent": 10.0,
@@ -3668,13 +2583,6 @@
       "name": "Gymshark",
       "rate_text": "-5%",
       "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "City Pass Avignon",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3714,30 +2622,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "City Pass Bordeaux",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Les Georgettes",
       "rate_text": "-7%",
       "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "WeTechCare",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "City Pass Ajaccio",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3749,44 +2636,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "Alliance pour l'éducation - United Way",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Excellence Ruralités",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "E-carte bleue Vacances HappyPal",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Fédération Simon de Cyrène",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "BDFUGUE",
       "rate_text": "-6%",
       "percent": 6.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Solidarités Nouvelles pour le Logement",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -3847,13 +2699,6 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "On Est Prêt",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "La Belle Iloise",
       "rate_text": "-5%",
       "percent": 5.0,
@@ -3861,37 +2706,9 @@
       "type": "carte_cadeau"
     },
     {
-      "name": "CAMI Sport & Cancer",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Korus Ticket",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Sarenza",
-      "rate_text": "Voir l'offre",
-      "percent": null,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
       "name": "Eponi",
       "rate_text": "-15%",
       "percent": 15.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "Terre & Humanisme",
-      "rate_text": "Voir l'offre",
-      "percent": null,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     }

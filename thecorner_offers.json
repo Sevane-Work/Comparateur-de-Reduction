@@ -1,7 +1,7 @@
 {
   "platform": "Boursorama Shopping (The Corner)",
   "captured_at": "2026-09-16",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 1 offre(s) retiree(s) : La Grande Récré.",
   "offers": [
     {
       "name": "Abritel",
@@ -616,13 +616,6 @@
       "name": "La Cité de l'Espace",
       "rate_text": "-7%",
       "percent": 7.0,
-      "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau"
-    },
-    {
-      "name": "La Grande Récré",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },

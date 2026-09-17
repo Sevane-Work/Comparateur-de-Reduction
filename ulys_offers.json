@@ -1,7 +1,7 @@
 {
   "platform": "Le Club Ulys",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. Rafraichissement complet du 2026-09-17 (precedente capture : 2026-09-15). ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. A rafraichir periodiquement a la main.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (Club Ulys, propulse par la plateforme Obiz - api-godzilla.obiz.fr). Catalogue verifie comme protege par JWT (pas d'acces public, l'API a ete testee et bloquee - aucune tentative d'extraction/reutilisation de token). Liste obtenue via les filtres 'Cartes cadeaux' (68 marchands) et 'Remise immediate' (200 marchands) du catalogue complet, page par page, en lisant le DOM rendu apres connexion manuelle de l'utilisatrice. Rafraichissement complet du 2026-09-17 (precedente capture : 2026-09-15). ECTOR (Remise immediate) : taux verifie individuellement sur la fiche partenaire (20% sur la 1ere reservation, code promo) car non lisible depuis la vignette liste. A rafraichir periodiquement a la main. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 13 offre(s) retiree(s) : COYOTE, ODALYS VACANCES, YOUSCRIBE, SHIVA, FRUGGR, VERISURE, PETIT BAMBOU, ALLIANZ, QONTO, LES VERGERS DE GALLY, MINDDAY, VUE EN VILLE, ADEQUASYS - STORHY.",
   "offers": [
     {
       "name": "INTERMARCHÉ",
@@ -529,13 +529,6 @@
       "type": "direct"
     },
     {
-      "name": "COYOTE",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "MAEVA.COM",
       "rate_text": "Jusqu'à - 60 %",
       "percent": 60.0,
@@ -581,13 +574,6 @@
       "name": "PIERRE & VACANCES",
       "rate_text": "Jusqu'à - 24 %",
       "percent": 24.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ODALYS VACANCES",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -851,13 +837,6 @@
       "type": "direct"
     },
     {
-      "name": "YOUSCRIBE",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "LAGRANGE VACANCES",
       "rate_text": "Jusqu'à - 60 %",
       "percent": 60.0,
@@ -896,13 +875,6 @@
       "name": "ELECTROLUX",
       "rate_text": "Jusqu'à - 30 %",
       "percent": 30.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "SHIVA",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1250,13 +1222,6 @@
       "type": "direct"
     },
     {
-      "name": "FRUGGR",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "GOLDEN TULIP",
       "rate_text": "Jusqu'à - 14 %",
       "percent": 14.0,
@@ -1348,23 +1313,9 @@
       "type": "direct"
     },
     {
-      "name": "VERISURE",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "COSMETICAR",
       "rate_text": "Jusqu'à - 20 %",
       "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "PETIT BAMBOU",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1456,13 +1407,6 @@
       "name": "ABARTH",
       "rate_text": "Jusqu'à - 10 %",
       "percent": 10.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ALLIANZ",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1663,13 +1607,6 @@
       "type": "direct"
     },
     {
-      "name": "QONTO",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "WHIRLPOOL FR",
       "rate_text": "Jusqu'à - 20 %",
       "percent": 20.0,
@@ -1754,13 +1691,6 @@
       "type": "direct"
     },
     {
-      "name": "LES VERGERS DE GALLY",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
       "name": "COCOONR.FR",
       "rate_text": "Jusqu'à - 5 %",
       "percent": 5.0,
@@ -1771,20 +1701,6 @@
       "name": "CAPTAIN CONTRAT",
       "rate_text": "Jusqu'à - 15 %",
       "percent": 15.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "MINDDAY",
-      "rate_text": "Indisponible",
-      "percent": null,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "VUE EN VILLE",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1841,13 +1757,6 @@
       "name": "LUCCA",
       "rate_text": "Jusqu'à - 20 %",
       "percent": 20.0,
-      "type_detail_fr": "Remise immédiate",
-      "type": "direct"
-    },
-    {
-      "name": "ADEQUASYS - STORHY",
-      "rate_text": "Indisponible",
-      "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
