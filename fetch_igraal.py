@@ -35,14 +35,20 @@ Methode :
   dedupliques (on garde la premiere occurrence rencontree).
 
 Limite connue : cette collecte "en masse" par categorie ne recupere que le
-taux de cashback direct affiche sur les cartes de la page categorie. Elle ne
-visite PAS les ~2400 pages marchand individuelles
-(/codes-promo/<slug>/bon-de-reduction), qui peuvent aussi proposer une offre
-"Bon d'achat" (= carte cadeau) et des codes promo en plus du cashback.
-Toutes les offres de ce fichier sont donc classees type="direct" (cashback =
-reduction/remboursement direct, pas un bon d'achat). Une passe complementaire
-par marchand pourrait affiner ce point plus tard si besoin (voir le doc de
-suivi du projet).
+taux de cashback affiche sur les cartes de la page categorie. Elle ne visite
+PAS les pages marchand individuelles, ni le catalogue separe "Bon d'achat"
+du site (fr.igraal.com/bon-achat, ~130 marchands, catalogue a part du
+cashback classique) : ces deux sources peuvent proposer une offre "Bon
+d'achat" (= carte cadeau payee directement moins cher) distincte du taux de
+cashback recupere ici. Un marchand present uniquement sur le catalogue
+"Bon d'achat" (ex. Kiabi, signale par l'utilisatrice le 2026-09-17) est donc
+absent de ce fichier tant que cette source n'est pas ajoutee separement
+(voir doc de suivi du projet, section bugs de donnees).
+
+Toutes les offres de ce fichier sont du cashback credite sur une cagnotte a
+retirer plus tard (pas un prix remise paye directement) : classees
+type="carte_cadeau", comme eBuyClub/Banque Populaire (corrige le
+2026-09-17 - c'etait par erreur "direct" jusque-la, voir doc de suivi).
 
 Usage :
     python fetch_igraal.py [--output igraal.json]
@@ -187,7 +193,12 @@ def parse_category_html(html, category_slug):
             "rate_text": rate_text,
             "percent": percent,
             "type_detail_fr": "Cashback",
-            "type": "direct",
+            # Cashback credite sur une cagnotte a retirer plus tard (pas un
+            # prix remise paye directement) : classe carte_cadeau, meme
+            # convention que eBuyClub / Banque Populaire (corrige le
+            # 2026-09-17, la totalite du fichier etait par erreur en
+            # "direct" - voir doc de suivi).
+            "type": "carte_cadeau",
             "category_seen": category_slug,
         })
     return offers

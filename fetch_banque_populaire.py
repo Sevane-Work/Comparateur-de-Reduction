@@ -41,6 +41,7 @@ Usage :
 """
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -124,15 +125,23 @@ def extract_offer(product):
                 break
         if not rate_text:
             return None
-        m = PERCENT_RE.search(rate_text)
+        # Le champ peut contenir du HTML brut (balises <span>, entites HTML
+        # non decodees comme &#39; ou &agrave;) : on nettoie avant affichage.
+        clean_text = html.unescape(re.sub(r"<[^>]+>", "", rate_text)).strip()
+        m = PERCENT_RE.search(clean_text)
         percent = float(m.group(1).replace(",", ".")) if m else None
+        # "cashback_product" cumule sur une cagnotte a retirer plus tard,
+        # comme sur iGraal/eBuyClub : classe "carte_cadeau" (meme convention
+        # que le reste du projet), pas "direct" (reserve a une reduction
+        # appliquee immediatement au prix, cf. "direct_discount_product").
+        site_type = "carte_cadeau" if ptype == "cashback_product" else "direct"
         return {
             "name": name,
             "slug": slug,
-            "rate_text": rate_text.strip(),
+            "rate_text": clean_text,
             "percent": percent,
             "type_detail_fr": "Cashback" if ptype == "cashback_product" else "Réduction directe",
-            "type": "direct",
+            "type": site_type,
             "category_seen": None,
         }
 
@@ -188,7 +197,7 @@ def main():
         offer = extract_offer(product)
         if offer is None:
             continue
-        key = (offer["type"], offer["slug"])
+        key = (product.get("type"), offer["slug"])
         if key in seen_slugs:
             continue
         seen_slugs.add(key)
@@ -201,11 +210,14 @@ def main():
         "note": (
             "Catalogue public de l'espace avantages Banque Populaire (Extra+X), "
             "servi par l'API tierce publique ReducFactory (aucune connexion "
-            "necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat "
-            "paye directement au prix remise (pas de cashback a cumuler, "
-            "confirme par l'utilisateur). 'direct' = reduction/cashback affiche "
-            "en texte libre sur la fiche produit, taux extrait par recherche du "
-            "premier pourcentage dans ce texte."
+            "necessaire, verifie techniquement). 'carte_cadeau' regroupe deux "
+            "mecanismes : bon d'achat paye directement au prix remise "
+            "(voucher_product) ET cashback cumule sur une cagnotte a retirer "
+            "plus tard (cashback_product) - meme convention que iGraal/"
+            "eBuyClub, voir doc de suivi (corrige le 2026-09-17, cf. Nike). "
+            "'direct' = reduction appliquee immediatement au prix "
+            "(direct_discount_product), taux extrait par recherche du premier "
+            "pourcentage dans le texte libre de la fiche produit."
         ),
         "offers": offers,
     }

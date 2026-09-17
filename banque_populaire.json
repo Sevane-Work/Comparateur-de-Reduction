@@ -10,7 +10,7 @@
       "rate_text": "-4%",
       "percent": 4.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
@@ -91,22 +91,22 @@
       "rate_text": "5%",
       "percent": 5.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
       "name": "Expedia",
       "slug": "expedia",
-      "rate_text": "<span class=\"promoTxt\"><span class=\"promo\">5% &agrave; 7%</span></span>",
+      "rate_text": "5% à 7%",
       "percent": 5.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
       "name": "Bosch",
       "slug": "bosch",
-      "rate_text": "Jusqu&#39;&agrave; -30%*",
+      "rate_text": "Jusqu'à -30%*",
       "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -127,7 +127,7 @@
       "rate_text": "6%",
       "percent": 6.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
@@ -142,7 +142,7 @@
     {
       "name": "Siemens",
       "slug": "siemens",
-      "rate_text": "Jusqu&#39;&agrave; -35%*",
+      "rate_text": "Jusqu'à -35%*",
       "percent": 35.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -187,10 +187,10 @@
     {
       "name": "Sarenza",
       "slug": "sarenza",
-      "rate_text": "<span class=\"promo\">-8%</span>",
+      "rate_text": "-8%",
       "percent": 8.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
@@ -232,7 +232,7 @@
     {
       "name": "Odalys",
       "slug": "odalys",
-      "rate_text": "-8% &agrave; -25%",
+      "rate_text": "-8% à -25%",
       "percent": 8.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -331,7 +331,7 @@
     {
       "name": "Center Parcs",
       "slug": "center-parcs",
-      "rate_text": "<span class=\"promo\">-5% &agrave; -30%*</span>",
+      "rate_text": "-5% à -30%*",
       "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -358,7 +358,7 @@
     {
       "name": "Europcar",
       "slug": "europcar",
-      "rate_text": "-10% &agrave; -20%",
+      "rate_text": "-10% à -20%",
       "percent": 10.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -367,16 +367,16 @@
     {
       "name": "Abritel",
       "slug": "abritel",
-      "rate_text": "<span class=\"promo\">-4%</span>",
+      "rate_text": "-4%",
       "percent": 4.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
       "name": "Club Auto",
       "slug": "club-auto",
-      "rate_text": "Jusqu&#39;&agrave; -42%",
+      "rate_text": "Jusqu'à -42%",
       "percent": 42.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -385,7 +385,7 @@
     {
       "name": "MMV",
       "slug": "mmv",
-      "rate_text": "<span class=\"promo\">-8% &agrave; -25%</span>",
+      "rate_text": "-8% à -25%",
       "percent": 8.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -394,7 +394,7 @@
     {
       "name": "VTF",
       "slug": "vtf",
-      "rate_text": "Jusqu&rsquo;&agrave; 30%*",
+      "rate_text": "Jusqu’à 30%*",
       "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -421,7 +421,7 @@
     {
       "name": "HP",
       "slug": "hp",
-      "rate_text": "<span class=\"promo\">-5% &agrave; -30%</span>",
+      "rate_text": "-5% à -30%",
       "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -439,16 +439,16 @@
     {
       "name": "Nike",
       "slug": "nike",
-      "rate_text": "<span class=\"promo\">-6% &agrave; -10%</span>",
+      "rate_text": "-6% à -10%",
       "percent": 6.0,
       "type_detail_fr": "Cashback",
-      "type": "direct",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
       "name": "MisterFly",
       "slug": "misterfly",
-      "rate_text": "Jusqu&#39;&agrave; -9%",
+      "rate_text": "Jusqu'à -9%",
       "percent": 9.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -466,7 +466,7 @@
     {
       "name": "PortAventura World",
       "slug": "portaventura",
-      "rate_text": "Jusqu&#39;&agrave; -25%",
+      "rate_text": "Jusqu'à -25%",
       "percent": 25.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -493,7 +493,7 @@
     {
       "name": "Azureva",
       "slug": "azureva",
-      "rate_text": "-10% &agrave; -25%",
+      "rate_text": "-10% à -25%",
       "percent": 10.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -502,7 +502,7 @@
     {
       "name": "Alamo - National - Enterprise",
       "slug": "alamo-national-enterprise",
-      "rate_text": "<span class=\"promo\">-5% &agrave; -15%</span>",
+      "rate_text": "-5% à -15%",
       "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
