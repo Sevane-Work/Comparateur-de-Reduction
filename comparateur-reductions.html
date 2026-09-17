@@ -191,6 +191,33 @@
   }
   .rank-row.rank-best { background: var(--tag-cadeau-bg); }
   .rank-row.rank-best .rank-value { color: var(--gold); }
+  .tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .tab-btn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--sage);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 8px 4px 10px;
+    margin-bottom: -1px;
+    cursor: pointer;
+  }
+  .tab-btn.active { color: var(--ink); border-bottom-color: var(--gold); }
+  .loisirs-intro { margin-top: 0; margin-bottom: 20px; }
+  .category-section { margin-bottom: 28px; }
+  .category-title {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
   .empty, .status {
     text-align: center;
     color: var(--sage);
@@ -206,17 +233,29 @@
       <p class="sub">Cherchez un magasin, on compare pour vous.</p>
     </header>
 
-    <div class="search-box">
-      <input type="search" id="search" placeholder="Nom du magasin (ex. Carrefour, Fnac...)" autocomplete="off">
+    <div class="tabs" id="tabs">
+      <button type="button" class="tab-btn active" data-tab="magasins">Magasins</button>
+      <button type="button" class="tab-btn" data-tab="loisirs">Loisirs</button>
     </div>
 
-    <div class="meta-row">
-      <span id="count-label"></span>
-      <span id="updated-label"></span>
+    <div id="view-magasins">
+      <div class="search-box">
+        <input type="search" id="search" placeholder="Nom du magasin (ex. Carrefour, Fnac...)" autocomplete="off">
+      </div>
+
+      <div class="meta-row">
+        <span id="count-label"></span>
+        <span id="updated-label"></span>
+      </div>
+
+      <div id="status" class="status">Chargement des données…</div>
+      <ul class="results" id="results"></ul>
     </div>
 
-    <div id="status" class="status">Chargement des données…</div>
-    <ul class="results" id="results"></ul>
+    <div id="view-loisirs" hidden>
+      <p class="sub loisirs-intro">Réductions groupées par catégorie (cinéma pour l'instant, parcs/zoos/musées à venir), toutes plateformes et tous mécanismes confondus (carte cadeau, billet à l'unité, cashback...) — indépendant de la recherche par magasin.</p>
+      <div id="loisirs-content"></div>
+    </div>
   </div>
 
 <script>
@@ -247,6 +286,16 @@
     carte_cadeau: 'Carte cadeau',
   };
 
+  // Categories loisirs connues (vue "Loisirs") — un merchant peut y figurer
+  // dès qu'au moins une de ses offres porte ce champ "category" (ajouté aux
+  // fichiers de données le 2026-09-17, voir doc de suivi).
+  const CATEGORY_LABELS = {
+    cinema: 'Cinéma',
+    parc: 'Parcs & attractions',
+    zoo: 'Zoos & aquariums',
+    musee: 'Musées',
+  };
+
   // Regroupe les offres d'un fichier par nom de marchand (normalisé).
   // { platform: "...", offers: [{ name, type, percent, rate_text, cumulative_with }] }
   function fileToMerchants(data) {
@@ -264,6 +313,8 @@
         // plateforme (ex. Fnac Darty Pass : carte cadeau cumulable avec le
         // cashback direct) — n'a de sens qu'entre offres d'une même source.
         cumulative_with: o.cumulative_with || null,
+        // Etiquette loisirs optionnelle (ex. "cinema"), voir la vue "Loisirs".
+        category: o.category || null,
       });
     });
     return Array.from(byName.values());
@@ -319,16 +370,30 @@
   }
 
   function offerLine(offer) {
+    // Certaines offres n'ont pas de pourcentage exploitable (ex. carte
+    // cadeau a montant fixe en euros, comme UGC/Pathe/Kinepolis chez The
+    // Corner) : on affiche alors le texte du taux (ex. "9,99€") plutot que
+    // "null%" (bug corrige le 2026-09-17, decouvert via la vue "Loisirs").
+    const value = typeof offer.percent === 'number'
+      ? `${offer.percent}%`
+      : (offer.rate_text || 'Voir l’offre');
     return `
       <div class="offer-line">
         <span class="platform">${offer.platform}</span>
-        <span class="offer-percent">${offer.percent}%</span>
+        <span class="offer-percent">${value}</span>
       </div>
     `;
   }
 
   function offerColumn(type, offers) {
-    const sorted = offers.slice().sort((a, b) => b.percent - a.percent);
+    // Trie d'abord les offres avec un pourcentage connu (meilleure en tete),
+    // puis ajoute a la suite celles a montant fixe (pas de pourcentage) —
+    // meme logique que rankedOfferRows(), pour eviter un tri instable/NaN.
+    const withPercent = offers
+      .filter(o => typeof o.percent === 'number')
+      .sort((a, b) => b.percent - a.percent);
+    const withoutPercent = offers.filter(o => typeof o.percent !== 'number');
+    const sorted = withPercent.concat(withoutPercent);
     const content = sorted.length
       ? sorted.map(offerLine).join('')
       : `<div class="offer-col-empty">Aucune offre</div>`;
@@ -441,6 +506,49 @@
     });
   }
 
+  // Vue "Loisirs" : regroupe par catégorie (cinéma, parcs...) tous les
+  // marchands ayant au moins une offre taguée, toutes plateformes et tous
+  // mécanismes confondus, indépendamment de la recherche par magasin.
+  function renderLoisirs() {
+    const container = document.getElementById('loisirs-content');
+    container.innerHTML = '';
+
+    const byCategory = new Map();
+    merchants.forEach(m => {
+      const cats = new Set(m.offers.map(o => o.category).filter(Boolean));
+      cats.forEach(cat => {
+        if (!byCategory.has(cat)) byCategory.set(cat, []);
+        byCategory.get(cat).push(m);
+      });
+    });
+
+    if (byCategory.size === 0) {
+      container.innerHTML = `<div class="status">Aucune catégorie loisirs disponible pour l'instant.</div>`;
+      return;
+    }
+
+    // Ordre d'affichage stable : catégories connues dans l'ordre déclaré,
+    // puis toute catégorie inconnue rencontrée dans les données (par sécurité).
+    const orderedCats = Object.keys(CATEGORY_LABELS).filter(c => byCategory.has(c));
+    byCategory.forEach((_, cat) => { if (!orderedCats.includes(cat)) orderedCats.push(cat); });
+
+    orderedCats.forEach(cat => {
+      const list = byCategory.get(cat)
+        .slice()
+        .sort((a, b) => b.best_percent - a.best_percent);
+      const label = CATEGORY_LABELS[cat] || cat;
+      const cardsHtml = list
+        .map((m, i) => merchantCard(m, i === 0, `loisirs-${cat}-${i}`))
+        .join('');
+      container.insertAdjacentHTML('beforeend', `
+        <div class="category-section">
+          <h2 class="category-title">${label}</h2>
+          <ul class="results">${cardsHtml}</ul>
+        </div>
+      `);
+    });
+  }
+
   // Ouvre/ferme le classement complet d'un magasin au clic (délégation
   // d'événement car les cartes sont régénérées à chaque recherche).
   document.getElementById('results').addEventListener('click', e => {
@@ -491,9 +599,20 @@
     }
 
     render('');
+    renderLoisirs();
   });
 
   document.getElementById('search').addEventListener('input', e => render(e.target.value));
+
+  // Bascule entre la vue "Magasins" (recherche) et "Loisirs" (par catégorie).
+  document.getElementById('tabs').addEventListener('click', e => {
+    const btn = e.target.closest('.tab-btn');
+    if (!btn) return;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b === btn));
+    const isLoisirs = btn.dataset.tab === 'loisirs';
+    document.getElementById('view-magasins').hidden = isLoisirs;
+    document.getElementById('view-loisirs').hidden = !isLoisirs;
+  });
 </script>
 </body>
 </html>

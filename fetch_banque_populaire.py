@@ -98,9 +98,12 @@ def extract_offer(product):
             if isinstance(margin, (int, float)):
                 percent = float(margin)
                 break
-        if percent is None:
-            # Carte a montant fixe ou structure non reconnue : on ignore
-            # plutôt que de deviner un taux incorrect (voir limite connue).
+        if percent is None or percent == 0.0:
+            # Carte a montant fixe ou structure non reconnue (percent is
+            # None), ou taux nul / offre desactivee cote ReducFactory
+            # (percent == 0.0) : on ignore dans les deux cas plutot que de
+            # publier une "reduction" a 0% (regle projet : pas d'offre sans
+            # reduction reelle, voir doc de suivi).
             return None
         return {
             "name": name,

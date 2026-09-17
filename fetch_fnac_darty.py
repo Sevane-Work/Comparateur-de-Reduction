@@ -22,6 +22,7 @@ GitHub Actions) pour garder les taux à jour.
 
 import argparse
 import json
+import re
 import sys
 from datetime import date, datetime, timezone
 from urllib.request import Request, urlopen
@@ -109,6 +110,22 @@ def build_offers(cashback_raw, ebon_raw):
     return offers
 
 
+CATEGORY_PATTERNS = [
+    ("cinema", re.compile(r"mk2|gaumont|path[ée]|\bugc\b|cin[ée]|\bcgr\b|kinepolis", re.IGNORECASE)),
+]
+
+
+def tag_category(offers):
+    """Ajoute un champ 'category' (ex. 'cinema') aux offres dont le nom
+    correspond a une categorie loisirs connue - voir la vue "Loisirs" du
+    site et le doc de suivi de projet (2026-09-17)."""
+    for offer in offers:
+        for category, pattern in CATEGORY_PATTERNS:
+            if pattern.search(offer.get("name", "")):
+                offer["category"] = category
+                break
+    return offers
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -122,6 +139,7 @@ def main():
 
     offers = build_offers(cashback_raw, ebon_raw)
     offers.sort(key=lambda o: -o["percent"])
+    offers = tag_category(offers)
 
     output = {
         "platform": PLATFORM,

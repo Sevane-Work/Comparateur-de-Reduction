@@ -236,7 +236,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Malwarebytes",
@@ -4448,7 +4449,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Voyage Privé",
@@ -4502,7 +4504,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "La Grande Récré",
@@ -5879,7 +5882,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Castorama",
@@ -6221,7 +6225,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Label Emmaüs",
@@ -6266,7 +6271,8 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Blizzard Belgique",

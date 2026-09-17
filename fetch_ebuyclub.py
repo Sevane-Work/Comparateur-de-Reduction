@@ -270,6 +270,23 @@ def fetch_bons_dachat():
     return parse_offers(html, "/selection-bons-d-achat/", "carte_cadeau", "bons-d-achat")
 
 
+
+CATEGORY_PATTERNS = [
+    ("cinema", re.compile(r"mk2|gaumont|path[ée]|\bugc\b|cin[ée]|\bcgr\b|kinepolis", re.IGNORECASE)),
+]
+
+
+def tag_category(offers):
+    """Ajoute un champ 'category' (ex. 'cinema') aux offres dont le nom
+    correspond a une categorie loisirs connue - voir la vue "Loisirs" du
+    site et le doc de suivi de projet (2026-09-17)."""
+    for offer in offers:
+        for category, pattern in CATEGORY_PATTERNS:
+            if pattern.search(offer.get("name", "")):
+                offer["category"] = category
+                break
+    return offers
+
 def main():
     argp = argparse.ArgumentParser()
     argp.add_argument("--output", default="ebuyclub.json")
@@ -293,6 +310,8 @@ def main():
         if key not in all_offers:
             all_offers[key] = o
 
+    tagged_offers = tag_category(list(all_offers.values()))
+
     result = {
         "platform": PLATFORM,
         "captured_at": date.today().isoformat(),
@@ -307,7 +326,7 @@ def main():
             "sont exclus. Certaines offres carte_cadeau ont un taux de cashback "
             "en ligne cumulable, capture dans 'stackable_cashback_rate_text'."
         ),
-        "offers": list(all_offers.values()),
+        "offers": tagged_offers,
     }
 
     with open(args.output, "w", encoding="utf-8") as f:
