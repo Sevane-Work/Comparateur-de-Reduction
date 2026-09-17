@@ -1,0 +1,3899 @@
+{
+  "platform": "Happypal (Codes Club Rousseau)",
+  "captured_at": "2026-09-17",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' (556 offres), le plus fiable et le plus comparable aux autres plateformes du comparateur (taux affiche directement sur la vignette, prix remise). Les types 'E-billet', 'Code promo' et 'Site partenaire' du filtre Happypal n'ont pas ete captures (hors perimetre pour cette premiere version : billetterie evenementielle et codes a tester, moins fiables). Donnees lues en direct dans le DOM apres connexion manuelle (aucun script de connexion, aucun jeton/campaignSelectionId extrait ni reutilise). Certaines entrees n'affichent pas de pourcentage sur la vignette liste (ex. cartes multi-enseignes Wonder-ecard/Gift.cool, quelques associations/dons) : rate_text = 'Voir l'offre', percent = null - taux visible uniquement sur la fiche produit individuelle, non ouverte systematiquement pour ce premier passage. Premiere capture Happypal du projet, aucune version anterieure a comparer.",
+  "offers": [
+    {
+      "name": "E-carte cadeau multi-enseigne (Wonder-ecard)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Billetterie Fnac",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MMV",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Camping and Co",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pierre & Vacances",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "lastminute.com",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sephora",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Weekendesk",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber eats",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "IKEA",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Uber VTC",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nike",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E.Leclerc",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "adidas",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Marionnaud",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Campings.com",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - 100% Culture",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - 100% Voyage",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - 100% Sport",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zalando",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Apple",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "H&M",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Asos",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lacoste",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TheFork",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fnac",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Kombo",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Darty",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Intermarché",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Magasins U",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Monoprix",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Auchan",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cultura",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Auchan - Noël (hors alimentaire)",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Auchan Culture",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Auchan - Rentrée des Classes",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Candlelight expérience",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Conforama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BUT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Airbnb",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Petit Bateau",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Amazon",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "JULES",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bréal",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'Orange Bleue",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "JouéClub",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "INTERSPORT",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cdiscount",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Decathlon",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "King Jouet",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Yves Rocher",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cache Cache",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bonobo",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau Culture (Wonder-ecard)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carte Cadeau multi-enseigne (Wondergift)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour Voyage",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour Culture",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Rituals",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour Rentrée des classes",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour - Noël (hors alimentaire)",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Castorama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Kiosque Presse Easialy",
+      "rate_text": "-79%",
+      "percent": 79.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Galeries Lafayette",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Emarentrée",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mango Home",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CrunchyRoll",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ABO MANGA",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nature & Découvertes",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Foot Locker",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Foot",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Animaux",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Clarins",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'équipe",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-Carte Multi-Enseignes Noël Enfant",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Mariage",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Pot de départ",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Noël",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Naissance",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Fête des Pères",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Mode",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Badminton",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Jeux",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Fêtes des mères",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Jardinage",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Fêtes des pères",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Pop Corn",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Cyclisme",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Beauté",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Lecture",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Saveurs",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Danse",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Sneakers",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gift.cool - Brico Déco",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Electro Dépot",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fortnite",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Leroy Merlin",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LEGO",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dr. Pierre Ricaud",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Etam",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Tripgift EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Flystaygift EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Family Trip",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Flixbus",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "HotelsGift EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "GreenGo",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "GetYourGuide",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BookiBox",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SO FOOT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Règles Élémentaires",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Decitre - Furet du Nord",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Tamboor",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gorilla Wear",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PLAY International",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SAAJ Paris",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Accalmie",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Terre de Mars",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sport dans la Ville",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hindbag",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "GoodPlanet",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Karafun",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Equit'Achat",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Falconeri",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Toasty",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association ELA",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Kadoresto",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Primark",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Passage du Désir",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "idGarages",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Habitat et Humanisme",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Altermundi",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ateliers WeCanDoo",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Papate",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SoundGift",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Copo Design",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "YellowKorner",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Livrenpoche",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Culinaries",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Arsenal EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SodaStream",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Centre de soins LPO Aquitaine",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Permis École",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Croix-Rouge Insertion",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mon Stylo Français",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Rakuten kobo",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Petit Fumeur",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Care France",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Allcolibri",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Panafrica",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Unbonmaillot",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Marin d'eau douce",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vert Marine",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hema",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carton Plein 75",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Swarovski",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lukine",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cyrillus",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Promod",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Courir",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "popcarte",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bapheus",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Truffaut",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Enfants du Canal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Patine",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Alltricks",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dots.eco",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Slip Français",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "JD Sports",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ski à la carte",
+      "rate_text": "-69%",
+      "percent": 69.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nola Confiserie",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mondial Tissus",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pêcheur - Chasseur",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "EUROSTAR",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mango",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Naturalia",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ECODAIR",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "FreemiumPlay",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Armistice",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lupicia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "digiSchool",
+      "rate_text": "-50%",
+      "percent": 50.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "YouScribe",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Equalia",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jamzone",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass La Rochelle",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SOS JARDINAGE",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'avant Gardiste",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Toutou Vert",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Beauty Success",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La cravate solidaire",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "En avant toute(s)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "OCNI",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Au Fil Des Eaux",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "N'GO SHOES",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Au Vieux Campeur",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association Quanta",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fondation Terre de Liens",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cooltra",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Crésus",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Debongout",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Animalis",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nous Le Savons",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Oopla",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RENT A CAR GIFT EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Faguo",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Funbooker",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Tours",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Je Suis à Vélo",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Respire",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Tablée des Chefs",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mouvement Colibris",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Lyon",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Citadium",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MATY",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Valorant",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Émeu",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Mulhouse",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Marypop",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Montpellier - Office du Tourisme",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ChoosEmi",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Société Protectrice des Animaux",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MyVariations",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BOLT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "3 Suisses",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Lille",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vino Club",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Geres",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "We Dress Fair",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Groupon",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Eataly",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cléor",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Made in France Box",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Repaire de Bacchus",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sloli",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Okaïdi",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association Siel Bleu",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fondation Terre Solidaire",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dr. Jonquille & Mr. Ail",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Netflix",
+      "rate_text": "-2%",
+      "percent": 2.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Redoute",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cap Adrénaline",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Manucurist",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Homycat",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Natalys",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lindt & Sprüngli",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "League of Legends",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "The Family Van",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Yes-Yes",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bertyne",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Devred",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carole & Co",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Planète Mer",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Decathlon Travel",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hexagona",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zoomalia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maison Protéine",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Smeg",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pink Gellac",
+      "rate_text": "-42%",
+      "percent": 42.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SPRiNG",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ticketac",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Certideal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Palais des Thés",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ticketnunc",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Liou",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ane & Gramme",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Grand Optical",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Adie",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Liberté Dakotabox",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "EDELICES",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Abeilles de Malescot",
+      "rate_text": "-25%",
+      "percent": 25.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Force Femmes",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Label Emmaüs",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Divine Box",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Devialet",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fondation Le Refuge",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bienfaits",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PATYKA",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Amoseeds",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pure Ocean",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Global Auto Card",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ADN",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cheerz",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gémo",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Solikend",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Netto",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vanessa Bruno",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bobochic Paris",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Selency",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AIRLINE GIFT EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pâquerette",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bobbies",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fleurance Nature",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Énergie Jeunes",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "NATUROPETS",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ditur",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Showroomprivé",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Impact - Allcolibri",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Seize Point Neuf",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Artisans du Monde",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fermes d'Avenir",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Global Hotel Card",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Petit Ballon",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Umaï",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Spartoo",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RHINOV",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Réconciliation Végétale",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Pépite Sexiste",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Renfe",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gifi",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "The Game",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ma carte cadeau",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Konexio",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Colibri Peinture",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ViensVoirMonTaf",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Abeilles de Malescot",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Treatwell",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sixt",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Darjeeling",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Casa Olea",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wake up Café",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'heure des plantes",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Suzon et Suzette",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "FDNAP",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Myposter",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Petit Pote",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jane Goodall Institute France",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MS Pétanque",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AVF (Association Végétarienne de France)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "The Cocktailist",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Smartbox",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Du Pareil au Même",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Omum",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gayaskin",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'Envol",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Campanyon",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aubert",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BZB",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Oxybul",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'atelier des Chefs",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AM.PM",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Rakuten TV",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Billets d'avion",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Comme Avant",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hapik",
+      "rate_text": "-16%",
+      "percent": 16.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Blissim",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "la fée maraboutée",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association La Cloche",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Inooko",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dégust'émoi",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LIB & LOU",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Entourage",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Planet Compost",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ilya",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Xbox",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SDI-PARIS",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Abicyclette Voyages",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maisons du Monde",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Intimissimi",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Haras de la Vaillantière",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jardiland",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Concerts de Poche",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Reine Mère",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Huygens",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "écomiam",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Normal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TERRE VIVANTE",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Twitch",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Maison des Femmes de Saint-Denis",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Raffineurs",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Apprendre une langue",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Toulouse",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Potager City",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Very Chic",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Totemia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Five Guys",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "IMUSIC SCHOOL",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Belle au Naturel",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Molotov TV",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jacadi",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Institut du Cerveau",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PIGNON CLOTHING",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Balletto Dance Shop",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ancrée",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Halte à l'Obsolescence Programmée",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AbracadaRoom",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Gentle Factory",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Haut Les Cours",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "DAO",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau multi-enseignes - Félicitations",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-Carte Multi-Enseignes Noël Solidaire/Local",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-recycle",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Interflora",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Espérance banlieues",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Médecin du Monde",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Elearn Gift EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Oé for Good",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Calvin Klein",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Quitoque",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "3 Brasseurs",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Schmoove",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "The SeaCleaners",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Franc jeu",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Idée Sport",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Colorie Ma Vie",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hyléria Paris",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CAMELEON Association France",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wings of the Ocean",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Linvosges",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jaiio",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LA PLACE DU COQ",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hersée",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Petite Mendigote",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau Noël Enfant (Wonder-ecard)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Monka",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mes Sorties Culture",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nintendo eShop",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Graazie",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lenôtre",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Tours Gift EU",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Source Garouste",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "C&A",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maison 123",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Petit Fumeur",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Nice",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "THOT",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Papillons",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cartooning for Peace",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-graine",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Tezenis",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Trekaya",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RecycLivre",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "No Name",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lavinia",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Roblox",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MISTER TEE",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lire pour en Sortir",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Anatae",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Entrepreneurs du Monde",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Eram",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vertbaudet",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Batman Escape Paris - Billet",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jeux vidéo en streaming",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fondation Agir Contre l'Exclusion (FACE)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-Carte Multi-Enseignes Noël Adulte",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-Carte Multi-Enseignes Noël Jeux",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "DUO for a JOB",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Fourmilière",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lunaa",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Deliveroo",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "OGARUN",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fondation Recherche Alzheimer",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Petits Raffineurs",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "StickerApp",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SPARADRAP",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Des Mots et Des Arts",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Coaching sportif en ligne",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Spyder",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Satellite Paris",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Merci Maman",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Home24 France",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mon Petit Art",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Furet du Nord",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nintendo Switch Online France",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "France Alzheimer et maladies apparentées",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "1083",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Commown",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Canigourmand",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "El Market",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Biscaïa",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "IKO:NOTT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fédération Française des Banques Alimentaires",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "EA SPORT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Iberia",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fever",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Klapotis",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association Aïda",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "4myplanet",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "LOGIS HOTELS",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Greenweez",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte bleue HappyPal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Kärcher",
+      "rate_text": "-20%",
+      "percent": 20.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Prizoners Marne la Vallée",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ProDégustation",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Naturabox",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Olly Lingerie",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Yoojo",
+      "rate_text": "-50%",
+      "percent": 50.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Almé",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Saint Lazare",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "TeaTap",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bonsoirs",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ADN Spa",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte cadeau Rentrée Scolaire (Wonder-ecard)",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Association Lazare",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MAURICE",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Orchestra",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BRETAGNE EMOTION",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Générale d'Optique",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Philibert",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hôtels & Préférence",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Google Play",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Inspire Travel France",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Royalesse",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "PlayStation Store",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Unic Stay",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Beauty Mix",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Billabong",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Best Western",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Dons Solidaires",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "ANAK-Tnk",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Champmarket",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sergent Major",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Hotel Gift Card Europe",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Radior Bike",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maitre Savonitto",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Golden Moments",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Atelier Populaire",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aroma-zone",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SOS BRICOLAGE",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Panamien",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte bleue Culture HappyPal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "MARSAULT",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "RRRAW Cacao Chocolat Factory",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gymshark",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Avignon",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Costa Croisières",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nextory",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Ça va barber",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Calzedonia",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Potions&Co",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Bordeaux",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Les Georgettes",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "WeTechCare",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "City Pass Ajaccio",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aspinal Of London France",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Alliance pour l'éducation - United Way",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Excellence Ruralités",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "E-carte bleue Vacances HappyPal",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fédération Simon de Cyrène",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BDFUGUE",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Solidarités Nouvelles pour le Logement",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bagane",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Upway",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Apimani",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'Armoire de Bébé",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maxilivres",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Berceau magique",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Seasonly",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Grande Récré",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "On Est Prêt",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Belle Iloise",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CAMI Sport & Cancer",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Korus Ticket",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sarenza",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Eponi",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Terre & Humanisme",
+      "rate_text": "Voir l'offre",
+      "percent": null,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    }
+  ]
+}
