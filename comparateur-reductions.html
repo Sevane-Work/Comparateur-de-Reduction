@@ -26,7 +26,15 @@
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 640px; margin: 0 auto; padding: 48px 20px 80px; }
+  .page {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+  }
+  .wrap { max-width: 640px; flex: 1 1 640px; min-width: 0; }
   header { margin-bottom: 32px; }
   h1 {
     font-family: 'Fraunces', serif;
@@ -236,17 +244,22 @@
     cursor: pointer;
   }
   .tab-btn.active { color: var(--ink); border-bottom-color: var(--gold); }
-  .platform-filters { margin-bottom: 20px; }
+  .platform-filters {
+    flex: 0 0 180px;
+    position: sticky;
+    top: 48px;
+    margin-bottom: 0;
+  }
   .platform-filters-label {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--sage);
-    margin: 0 0 8px;
+    margin: 0 0 10px;
   }
-  .platform-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .platform-chips { display: flex; flex-direction: column; align-items: stretch; gap: 8px; }
   .platform-chip {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 6px;
     padding: 6px 12px;
@@ -260,6 +273,12 @@
   }
   .platform-chip input { margin: 0; accent-color: var(--gold); }
   .platform-chip.unchecked { color: var(--sage); opacity: 0.6; background: transparent; }
+  @media (max-width: 860px) {
+    .page { flex-direction: column; gap: 0; }
+    .platform-filters { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -1; }
+    .platform-chips { flex-direction: row; flex-wrap: wrap; }
+    .platform-chip { flex: 0 0 auto; }
+  }
   .loisirs-intro { margin-top: 0; margin-bottom: 20px; }
   .category-section { margin-bottom: 28px; }
   .category-title {
@@ -277,7 +296,8 @@
 </style>
 </head>
 <body>
-  <div class="wrap">
+  <div class="page">
+    <div class="wrap">
     <header>
       <h1>Où profiter de la meilleure réduction ?</h1>
       <p class="sub">Cherchez un magasin, on compare pour vous.</p>
@@ -286,11 +306,6 @@
     <div class="tabs" id="tabs">
       <button type="button" class="tab-btn active" data-tab="magasins">Magasins</button>
       <button type="button" class="tab-btn" data-tab="loisirs">Loisirs</button>
-    </div>
-
-    <div class="platform-filters" id="platform-filters">
-      <p class="platform-filters-label">Mes plateformes (décochez celles auxquelles vous n'avez pas accès)</p>
-      <div class="platform-chips" id="platform-chips"></div>
     </div>
 
     <div id="view-magasins">
@@ -311,6 +326,11 @@
       <p class="sub loisirs-intro">Réductions groupées par catégorie (cinéma pour l'instant, parcs/zoos/musées à venir), toutes plateformes et tous mécanismes confondus (carte cadeau, billet à l'unité, cashback...) — indépendant de la recherche par magasin.</p>
       <div id="loisirs-content"></div>
     </div>
+    </div>
+    <aside class="platform-filters" id="platform-filters">
+      <p class="platform-filters-label">Mes plateformes (décochez celles auxquelles vous n'avez pas accès)</p>
+      <div class="platform-chips" id="platform-chips"></div>
+    </aside>
   </div>
 
 <script>
