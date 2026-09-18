@@ -141,10 +141,12 @@ def extract_offer(product):
         m = PERCENT_RE.search(clean_text)
         percent = float(m.group(1).replace(",", ".")) if m else None
         # "cashback_product" cumule sur une cagnotte a retirer plus tard,
-        # comme sur iGraal/eBuyClub : classe "carte_cadeau" (meme convention
-        # que le reste du projet), pas "direct" (reserve a une reduction
-        # appliquee immediatement au prix, cf. "direct_discount_product").
-        site_type = "carte_cadeau" if ptype == "cashback_product" else "direct"
+        # mais AUCUNE carte/bon n'est achete (reduction sur un achat fait
+        # directement chez le marchand) : classe "direct", comme
+        # "direct_discount_product" - seul un mecanisme necessitant l'achat
+        # effectif d'une carte/d'un bon est "carte_cadeau" (corrige le
+        # 2026-09-18, memes conventions que iGraal - voir doc de suivi).
+        site_type = "direct"
         return {
             "name": name,
             "slug": slug,
@@ -266,14 +268,14 @@ def main():
         "note": (
             "Catalogue public de l'espace avantages Banque Populaire (Extra+X), "
             "servi par l'API tierce publique ReducFactory (aucune connexion "
-            "necessaire, verifie techniquement). 'carte_cadeau' regroupe deux "
-            "mecanismes : bon d'achat paye directement au prix remise "
-            "(voucher_product) ET cashback cumule sur une cagnotte a retirer "
-            "plus tard (cashback_product) - meme convention que iGraal/"
-            "eBuyClub, voir doc de suivi (corrige le 2026-09-17, cf. Nike). "
-            "'direct' = reduction appliquee immediatement au prix "
-            "(direct_discount_product), taux extrait par recherche du premier "
-            "pourcentage dans le texte libre de la fiche produit."
+            "necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat "
+            "achete et paye directement au prix remise (voucher_product), "
+            "seul mecanisme necessitant l'achat effectif d'une carte/d'un "
+            "bon. 'direct' = reduction sur un achat fait directement chez le "
+            "marchand, que le remboursement soit immediat "
+            "(direct_discount_product) ou differe sur une cagnotte "
+            "(cashback_product) - corrige le 2026-09-18, memes conventions "
+            "que iGraal/eBuyClub, voir doc de suivi."
         ),
         "offers": offers,
     }

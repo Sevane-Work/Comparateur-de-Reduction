@@ -2,7 +2,7 @@
   "platform": "Banque Populaire (Extra+X)",
   "captured_at": "2026-09-18",
   "generated_at": "2026-09-18T06:03:42.302564+00:00",
-  "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' regroupe deux mecanismes : bon d'achat paye directement au prix remise (voucher_product) ET cashback cumule sur une cagnotte a retirer plus tard (cashback_product) - meme convention que iGraal/eBuyClub, voir doc de suivi (corrige le 2026-09-17, cf. Nike). 'direct' = reduction appliquee immediatement au prix (direct_discount_product), taux extrait par recherche du premier pourcentage dans le texte libre de la fiche produit.",
+  "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
       "name": "Manomano",
@@ -10,7 +10,7 @@
       "rate_text": "-4%",
       "percent": 4.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -109,7 +109,7 @@
       "rate_text": "5%",
       "percent": 5.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -118,7 +118,7 @@
       "rate_text": "5% à 7%",
       "percent": 5.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -191,7 +191,7 @@
       "rate_text": "6%",
       "percent": 6.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -290,7 +290,7 @@
       "rate_text": "-8%",
       "percent": 8.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -680,7 +680,7 @@
       "rate_text": "-4%",
       "percent": 4.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -825,7 +825,7 @@
       "rate_text": "-6% à -10%",
       "percent": 6.0,
       "type_detail_fr": "Cashback",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null
     },
     {

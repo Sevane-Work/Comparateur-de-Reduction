@@ -46,9 +46,14 @@ absent de ce fichier tant que cette source n'est pas ajoutee separement
 (voir doc de suivi du projet, section bugs de donnees).
 
 Toutes les offres de ce fichier sont du cashback credite sur une cagnotte a
-retirer plus tard (pas un prix remise paye directement) : classees
-type="carte_cadeau", comme eBuyClub/Banque Populaire (corrige le
-2026-09-17 - c'etait par erreur "direct" jusque-la, voir doc de suivi).
+retirer plus tard, obtenu en achetant directement chez le marchand via un
+lien tracke : AUCUNE carte/bon n'est achetee (a la difference du catalogue
+separe "Bon d'achat" ci-dessus, ex. Kiabi, qui reste type="carte_cadeau").
+Classees type="direct" (corrige le 2026-09-18 - convention precedente du
+2026-09-17 les mettait par erreur en "carte_cadeau" ; seul un mecanisme
+necessitant l'achat effectif d'une carte/d'un bon est carte_cadeau, que le
+remboursement soit immediat ou differe n'entre pas en compte - voir doc de
+suivi du projet).
 
 Usage :
     python fetch_igraal.py [--output igraal.json]
@@ -193,12 +198,11 @@ def parse_category_html(html, category_slug):
             "rate_text": rate_text,
             "percent": percent,
             "type_detail_fr": "Cashback",
-            # Cashback credite sur une cagnotte a retirer plus tard (pas un
-            # prix remise paye directement) : classe carte_cadeau, meme
-            # convention que eBuyClub / Banque Populaire (corrige le
-            # 2026-09-17, la totalite du fichier etait par erreur en
-            # "direct" - voir doc de suivi).
-            "type": "carte_cadeau",
+            # Cashback credite sur une cagnotte a retirer plus tard, mais
+            # AUCUNE carte/bon achete (achat direct chez le marchand via
+            # lien tracke) : classe "direct", pas "carte_cadeau" (corrige le
+            # 2026-09-18 - voir doc de suivi du projet).
+            "type": "direct",
             "category_seen": category_slug,
         })
     return offers
