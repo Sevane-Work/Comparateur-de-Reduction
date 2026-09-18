@@ -273,6 +273,26 @@
   }
   .platform-chip input { margin: 0; accent-color: var(--gold); }
   .platform-chip.unchecked { color: var(--sage); opacity: 0.6; background: transparent; }
+  /* Offres "du jour" iGraal boostees (fr.igraal.com/selection/), mises en
+     avant le 2026-09-17 a la demande de l'utilisatrice pour les enseignes
+     alimentaire / habillement / parfumerie (achats du quotidien) —
+     cote gauche du site, cadre dedie, masque entierement s'il n'y a aucune
+     offre boostee active dans ces categories.
+     Regle placee ICI (avant la media query mobile ci-dessous), pas apres :
+     sinon, a specificite egale, elle l'emportait sur tous les ecrans y
+     compris mobile et le cadre restait "colle" en haut de l'ecran au
+     defilement au lieu de redevenir statique sous 860px - bug signale par
+     l'utilisatrice le 2026-09-18 (cadre "volant" impossible a fermer sur
+     telephone). */
+  .highlight-box {
+    flex: 0 0 200px;
+    position: sticky;
+    top: 48px;
+    background: var(--white);
+    border: 1.5px solid var(--gold);
+    border-radius: 10px;
+    padding: 14px 14px 6px;
+  }
   @media (max-width: 860px) {
     .page { flex-direction: column; gap: 0; }
     .platform-filters { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -1; }
@@ -293,20 +313,6 @@
     color: var(--sage);
     padding: 40px 0;
     font-size: 15px;
-  }
-  /* Offres "du jour" iGraal boostees (fr.igraal.com/selection/), mises en
-     avant le 2026-09-17 a la demande de l'utilisatrice pour les enseignes
-     alimentaire / habillement / parfumerie (achats du quotidien) —
-     cote gauche du site, cadre dedie, masque entierement s'il n'y a aucune
-     offre boostee active dans ces categories. */
-  .highlight-box {
-    flex: 0 0 200px;
-    position: sticky;
-    top: 48px;
-    background: var(--white);
-    border: 1.5px solid var(--gold);
-    border-radius: 10px;
-    padding: 14px 14px 6px;
   }
   .highlight-box-label {
     font-size: 12.5px;
