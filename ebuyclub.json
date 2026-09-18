@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "captured_at": "2026-09-18",
-  "generated_at": "2026-09-18T06:02:25.993726+00:00",
+  "generated_at": "2026-09-18T23:14:18.569848+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -69,17 +69,6 @@
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": "Jusqu'à 4,1%de cashback"
-    },
-    {
-      "name": "Zalando",
-      "slug": "zalando-3601",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": null
     },
     {
       "name": "Decathlon",
@@ -332,7 +321,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 1,6%de cashback"
     },
     {
       "name": "But",
@@ -475,7 +464,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 3%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2%de cashback"
     },
     {
       "name": "3Suisses",
@@ -739,7 +728,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 6,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 9%de cashback"
     },
     {
       "name": "Interflora",
@@ -2610,7 +2599,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 10%de cashback"
     },
     {
       "name": "L Atelier Du Dejante",

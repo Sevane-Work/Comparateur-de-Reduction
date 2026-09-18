@@ -1,7 +1,7 @@
 {
   "platform": "iGraal",
   "captured_at": null,
-  "generated_at": "2026-09-18T06:03:43.319472+00:00",
+  "generated_at": "2026-09-18T23:16:03.519973+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
@@ -14,7 +14,7 @@
       "boosted": true,
       "boost_du_jour": true,
       "normal_rate_text": "15 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -27,7 +27,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "0,8 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -40,7 +40,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "5,2 €",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -53,7 +53,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": null,
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -66,7 +66,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": null,
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -79,7 +79,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "3 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -92,7 +92,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "1,5 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": "alimentaire"
     },
     {
@@ -105,7 +105,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": null,
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -118,7 +118,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "10 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -131,7 +131,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": "3,5 %",
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -144,7 +144,7 @@
       "boosted": true,
       "boost_du_jour": false,
       "normal_rate_text": null,
-      "expires_at": "2026-09-18T22:00:00+00:00",
+      "expires_at": "2026-09-19T22:00:00+00:00",
       "highlight_category": null
     }
   ]

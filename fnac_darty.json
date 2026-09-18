@@ -1,7 +1,7 @@
 {
   "platform": "Fnac Darty Pass",
   "captured_at": "2026-09-18",
-  "generated_at": "2026-09-18T06:02:09.491294+00:00",
+  "generated_at": "2026-09-18T23:13:57.540475+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -240,6 +240,15 @@
       "category": "cinema"
     },
     {
+      "name": "CCleaner",
+      "rate_text": null,
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Malwarebytes",
       "rate_text": null,
       "percent": 20.4,
@@ -315,6 +324,24 @@
       "name": "myMaxicours",
       "rate_text": null,
       "percent": 14.7,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Udemy",
+      "rate_text": null,
+      "percent": 13.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Norton",
+      "rate_text": null,
+      "percent": 13.6,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -421,6 +448,24 @@
     },
     {
       "name": "Aiper",
+      "rate_text": null,
+      "percent": 10.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Bitdefender",
+      "rate_text": null,
+      "percent": 10.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Callie",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -960,6 +1005,15 @@
       "link": null
     },
     {
+      "name": "Nocibé",
+      "rate_text": null,
+      "percent": 7.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "NoFlyStore",
       "rate_text": null,
       "percent": 7.5,
@@ -1064,6 +1118,33 @@
       "percent": 7.0,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Ubigi",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Autodoc",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "SilkSilky",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -2139,7 +2220,7 @@
       "link": null
     },
     {
-      "name": "Nocibé",
+      "name": "NFL Shop",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2796,6 +2877,15 @@
       "link": null
     },
     {
+      "name": "Make Up For Ever",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "GetYourGuide",
       "rate_text": null,
       "percent": 4.8,
@@ -3395,6 +3485,24 @@
       "percent": 4.2,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Boden",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Click&Boat",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -4634,6 +4742,15 @@
       "link": null
     },
     {
+      "name": "Kitbag",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Ultra Premium Direct",
       "rate_text": null,
       "percent": 3.4,
@@ -5472,6 +5589,15 @@
     },
     {
       "name": "Crocs",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Boutique PSG",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
