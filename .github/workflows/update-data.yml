@@ -2,8 +2,14 @@ name: Mise à jour quotidienne des taux (toutes plateformes publiques)
 
 on:
   schedule:
-    # Tous les jours à 6h00 UTC (7h ou 8h heure française selon la saison)
-    - cron: '0 6 * * *'
+    # Tous les jours a 23h00 UTC, soit 1h00 du matin heure francaise en ete (CEST, UTC+2).
+    # Objectif : capturer la Selection du jour iGraal (offres boostees, qui changent a minuit)
+    # le plus tot possible apres le changement, plutot qu'a 6h ou une bonne partie de la
+    # journee etait deja passee. Attention : cron GitHub Actions ne s'ajuste pas seul au
+    # changement d'heure - en heure d'hiver (CET, UTC+1) ce run tombera a minuit pile (0h00)
+    # au lieu de 1h00 ; a corriger manuellement (cron '0 23 * * *' -> '0 0 * * *') si besoin
+    # de garder l'horaire local stable apres le passage a l'heure d'hiver fin octobre.
+    - cron: '0 23 * * *'
   workflow_dispatch:
     # Permet aussi de lancer manuellement depuis l'onglet Actions
 
