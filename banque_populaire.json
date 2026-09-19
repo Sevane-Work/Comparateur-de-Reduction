@@ -163,7 +163,7 @@
       "rate_text": "43.8%",
       "percent": 43.8,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },
@@ -515,7 +515,7 @@
       "rate_text": "32.4%",
       "percent": 32.4,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },
@@ -534,7 +534,7 @@
       "rate_text": "29.4%",
       "percent": 29.4,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },
@@ -625,7 +625,7 @@
       "rate_text": "34.9%",
       "percent": 34.9,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },
@@ -689,7 +689,7 @@
       "rate_text": "27.6%",
       "percent": 27.6,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },

@@ -1,7 +1,7 @@
 {
   "platform": "Boursorama Shopping (The Corner)",
   "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 1 offre(s) retiree(s) : La Grande Récré.",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 1 offre(s) retiree(s) : La Grande Récré. Mise a jour 2026-09-19 : les 6 offres cinema (category='cinema') sont desormais forcees en type='direct' (decision utilisatrice : dans l'onglet Loisirs, un billet/pass a prix reduit n'est pas presente comme une 'carte cadeau', meme quand il s'agit techniquement d'un achat de bon a l'avance - exception a la regle generale, reservee aux offres category-taguees, voir doc de suivi).",
   "offers": [
     {
       "name": "Abritel",
@@ -190,7 +190,7 @@
       "rate_text": "7,70€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {
@@ -212,7 +212,7 @@
       "rate_text": "7,60€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {
@@ -598,7 +598,7 @@
       "rate_text": "8,99€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {
@@ -725,7 +725,7 @@
       "rate_text": "8,40€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {
@@ -873,7 +873,7 @@
       "rate_text": "8,99€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {
@@ -1112,7 +1112,7 @@
       "rate_text": "9,99€",
       "percent": null,
       "type_detail_fr": "Bon d'achat",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category": "cinema"
     },
     {

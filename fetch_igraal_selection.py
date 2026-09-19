@@ -12,12 +12,20 @@ techniquement le 2026-09-17 (requete sans cookie, HTTP 200, contenu
 identique a ce qui s'affiche dans le navigateur - rendu cote serveur, pas
 besoin de JavaScript/navigateur pour recuperer les donnees).
 
-Contexte / decision produit (utilisateur, 2026-09-17) : la page melange
-un "BOOST DU JOUR" unique (offre vedette du jour) et une dizaine d'autres
-offres "negociees" a taux relance, avec ou sans minuteur d'expiration
-visible. Decision : tout capturer, platform="iGraal" (fusion avec le
-filtre iGraal existant, PAS de filtre separe). Chaque offre porte un flag
-"boosted": true et un champ "expires_at" (ISO) calcule a la capture :
+Contexte / decision produit (utilisateur, 2026-09-17, precise le 2026-09-18) :
+la page affiche une dizaine de cartes "Sponsorise", mais UNE SEULE porte
+reellement le badge "BOOST DU JOUR" (verifie via inspection live le
+2026-09-18 : 11 bannercards trouvees, 1 seule avec le badge, ex. adidas
+13% vs 2,5% normal). Les ~10 autres cartes n'ont ni taux reellement
+booste ni vraie date d'expiration - avant correction, elles etaient
+TOUTES marquees boosted=true avec une fausse expiration "minuit Paris",
+ce qui affichait des enseignes perimees (ex. Lidl, offre de la veille)
+dans le cadre "Boost du jour" du site meme quand leur taux n'avait pas
+change. Decision (corrigee le 2026-09-18) : on ne garde QUE la ou les
+cartes portant litteralement "BOOST DU JOUR", platform="iGraal" (fusion
+avec le filtre iGraal existant, PAS de filtre separe). Chaque offre
+retenue porte un flag "boosted": true et un champ "expires_at" (ISO)
+calcule a la capture :
 - si un minuteur "EXPIRE DANS HH:MM:SS" est visible sur la fiche, on
   ajoute cette duree a l'heure de capture ;
 - sinon, on prend par defaut minuit (Europe/Paris) suivant la capture,
@@ -236,7 +244,10 @@ def parse_card(text, now):
         "rate_text": reward_text or (f"{percent:g}%" if percent is not None else None),
         "percent": percent,
         "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
-        "type": "carte_cadeau",
+        # Meme mecanisme que le catalogue general iGraal (igraal.json,
+        # corrige le 2026-09-18) : cashback credite sur la cagnotte,
+        # aucune carte achetee -> "direct", jamais "carte_cadeau".
+        "type": "direct",
         "category_seen": None,
         "boosted": True,
         "boost_du_jour": is_boost_du_jour,
@@ -249,22 +260,49 @@ def parse_card(text, now):
 def main():
     argp = argparse.ArgumentParser()
     argp.add_argument("--output", default=OUT_PATH)
+    argp.add_argument(
+        "--input-html",
+        default=None,
+        help=(
+            "Mode test/local : lire depuis un fichier HTML deja telecharge "
+            "au lieu d'interroger le reseau (le reseau de cet environnement "
+            "Claude n'a pas acces a fr.igraal.com ; GitHub Actions, lui, l'a)."
+        ),
+    )
     args = argp.parse_args()
 
     now = datetime.now(timezone.utc)
 
-    try:
-        html = fetch_html()
-    except (HTTPError, URLError) as e:
-        print(f"[!] Erreur reseau sur {URL} : {e}", file=sys.stderr)
-        raise SystemExit(1)
+    if args.input_html:
+        with open(args.input_html, "r", encoding="utf-8", errors="replace") as f:
+            html = f.read()
+    else:
+        try:
+            html = fetch_html()
+        except (HTTPError, URLError) as e:
+            print(f"[!] Erreur reseau sur {URL} : {e}", file=sys.stderr)
+            raise SystemExit(1)
 
     parser = BannerCardParser()
     parser.feed(html)
 
+    if len(parser.cards) < 5:
+        raise SystemExit(
+            f"Seulement {len(parser.cards)} bannercards trouvees sur la page "
+            "(attendu ~10-15) - la structure de la page a probablement "
+            "change, a diagnostiquer avant de publier un fichier incomplet."
+        )
+
     offers = []
     seen_names = set()
     for card_text in parser.cards:
+        if "BOOST DU JOUR" not in card_text:
+            # Carte "Sponsorise" sans le badge "BOOST DU JOUR" : pas de taux
+            # reellement booste ni de vraie expiration (corrige le
+            # 2026-09-18, voir doc de suivi - ~10 des ~11 cartes de la page
+            # sont dans ce cas chaque jour). Son taux normal reste visible
+            # via le catalogue general igraal.json, pas ici.
+            continue
         offer = parse_card(card_text, now)
         if offer is None:
             continue
@@ -272,13 +310,6 @@ def main():
             continue
         seen_names.add(offer["name"])
         offers.append(offer)
-
-    if len(offers) < 5:
-        raise SystemExit(
-            f"Seulement {len(offers)} offres trouvees dans la Selection du "
-            "jour (attendu ~10-15) - la structure de la page a probablement "
-            "change, a diagnostiquer avant de publier un fichier incomplet."
-        )
 
     result = {
         "platform": PLATFORM,

@@ -47,10 +47,18 @@ CATEGORY_PATTERNS = [
 
 
 def tag_category(offers):
+    # Decision produit (utilisatrice, 2026-09-19) : dans l'onglet "Loisirs",
+    # on ne parle pas de "carte cadeau" mais de billet/pass a prix reduit -
+    # meme quand le mecanisme technique reel est un achat de bon a l'avance
+    # (ce qui, selon la regle generale du site, vaudrait carte_cadeau).
+    # Exception volontaire, reservee aux offres category-taguees (voir
+    # fetch_banque_populaire.py / fetch_ebuyclub.py / fetch_fnac_darty.py,
+    # meme convention).
     for offer in offers:
         for category, pattern in CATEGORY_PATTERNS:
             if pattern.search(offer.get("name", "")):
                 offer["category"] = category
+                offer["type"] = "direct"
                 break
     return offers
 

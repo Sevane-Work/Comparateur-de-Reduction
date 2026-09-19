@@ -64,7 +64,19 @@ RATE_RE = re.compile(
 
 
 def fetch_raw_html(url: str = ANNUAIRE_URL) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    # Referer obligatoire (confirme le 2026-09-19 via tests navigateur en
+    # direct) : cet endpoint ajax renvoie HTTP 404 sans le header Referer
+    # pointant vers la page annuaire/cashback qui l'appelle normalement.
+    # C'est la cause racine du run GitHub Actions du 2026-09-18 qui n'a
+    # silencieusement rien mis a jour (continue-on-error masquait l'echec) -
+    # voir doc de suivi du projet.
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Referer": "https://www.ebuyclub.com/cashback",
+        },
+    )
     with urllib.request.urlopen(req, timeout=60) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
@@ -137,6 +149,22 @@ def main():
         raw_html = fetch_raw_html()
 
     offers = parse_offers(raw_html)
+
+    # Garde-fou qualite (ajoute le 2026-09-19, suite au bug du Referer
+    # manquant qui faisait echouer silencieusement le run automatique) :
+    # le catalogue en compte plusieurs centaines en temps normal (1534 lors
+    # de la premiere capture le 2026-09-18) ; un chiffre nettement plus bas
+    # signale presque surement une reponse d'erreur (404, page de
+    # connexion...) plutot qu'un vrai catalogue, a ne jamais publier tel
+    # quel.
+    if len(offers) < 200:
+        raise SystemExit(
+            f"Seulement {len(offers)} offres eBuyClub (cashback en ligne) "
+            "trouvees (attendu > 200) - la reponse recue n'est "
+            "probablement pas le bon catalogue (404, page de connexion...), "
+            "a diagnostiquer avant de publier un fichier incomplet."
+        )
+
     offers.sort(key=lambda o: o["name"].lower())
 
     from datetime import datetime, timezone

@@ -586,7 +586,7 @@
       "rate_text": "18%",
       "percent": 18.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": null,
       "category": "cinema"
     },

@@ -155,6 +155,13 @@
   @media (max-width: 420px) {
     .offer-columns { grid-template-columns: 1fr; }
   }
+  /* Vue Loisirs : toutes les offres y sont forcees en type="direct" (aucune
+     n'est jamais en carte_cadeau, decision utilisatrice du 2026-09-19 - un
+     billet a prix reduit n'y est pas presente comme une carte cadeau), donc
+     la colonne "Carte cadeau" y serait toujours vide. On n'affiche qu'une
+     seule colonne pour ces cartes plutot que de montrer une case morte a
+     cote. */
+  .offer-columns-single { grid-template-columns: 1fr; }
   .cumul-note {
     margin-top: 8px;
     padding-top: 8px;
@@ -334,6 +341,7 @@
   }
   .highlight-item-name { font-size: 13.5px; font-weight: 500; }
   .highlight-item-value { font-size: 15px; font-weight: 600; color: var(--gold); white-space: nowrap; }
+  .highlight-item-platform { font-size: 11px; font-weight: 600; color: var(--sage); margin-top: 1px; }
   .highlight-item-normal { font-size: 11.5px; color: var(--sage); }
   .highlight-item-expiry { font-size: 11px; color: var(--sage); opacity: 0.85; }
   .boost-badge {
@@ -368,7 +376,7 @@
 <body>
   <div class="page">
     <aside class="highlight-box" id="highlight-box" hidden>
-      <p class="highlight-box-label">🔥 Offres du jour à ne pas manquer</p>
+      <p class="highlight-box-label">🔥 Boost du jour</p>
       <div class="highlight-box-list" id="highlight-box-list"></div>
     </aside>
     <div class="wrap">
@@ -397,7 +405,7 @@
     </div>
 
     <div id="view-loisirs" hidden>
-      <p class="sub loisirs-intro">Réductions groupées par catégorie (cinéma pour l'instant, parcs/zoos/musées à venir), toutes plateformes et tous mécanismes confondus (carte cadeau, billet à l'unité, cashback...) — indépendant de la recherche par magasin.</p>
+      <p class="sub loisirs-intro">Réductions groupées par catégorie (cinéma pour l'instant, parcs/zoos/musées à venir), toutes plateformes confondues : billet ou pass à prix réduit, quel que soit le mécanisme d'achat — indépendant de la recherche par magasin.</p>
       <div id="loisirs-content"></div>
     </div>
     </div>
@@ -869,12 +877,18 @@
       const value = typeof offer.percent === 'number' ? `${offer.percent}%` : (offer.rate_text || '');
       const expiry = formatExpiry(offer.expires_at);
       const catLabel = HIGHLIGHT_CATEGORY_LABELS[offer.highlight_category] || offer.highlight_category;
+      // Plateforme d'origine du boost affichee explicitement (demande de
+      // l'utilisatrice le 2026-09-19) : pour l'instant toujours iGraal,
+      // mais d'autres plateformes pourront proposer des boosts a l'avenir
+      // et il faut savoir ou aller l'activer.
+      const platformLabel = PLATFORM_SHORT_LABELS[offer.platform] || offer.platform;
       return `
         <div class="highlight-item">
           <div class="highlight-item-head">
             <span class="highlight-item-name">${merchant} <span class="boost-badge">${catLabel}</span></span>
             <span class="highlight-item-value">${value}</span>
           </div>
+          <div class="highlight-item-platform">${platformLabel}</div>
           ${offer.normal_rate_text ? `<div class="highlight-item-normal">au lieu de ${offer.normal_rate_text}</div>` : ''}
           ${expiry ? `<div class="highlight-item-expiry">${expiry}</div>` : ''}
         </div>
@@ -1013,7 +1027,8 @@
     }).join('');
   }
 
-  function merchantCard(m, isTop, idx) {
+  function merchantCard(m, isTop, idx, opts) {
+    opts = opts || {};
     const rankId = `rank-${idx}`;
 
     // Groupe "ambigu" (adresses multiples type Domino's Pizza, ou produits
@@ -1050,12 +1065,22 @@
 
     const direct = m.offers.filter(o => o.type === 'direct');
     const carteCadeau = m.offers.filter(o => o.type === 'carte_cadeau');
-    const offersHtml = `
-      <div class="offer-columns">
-        ${offerColumn('direct', direct)}
-        ${offerColumn('carte_cadeau', carteCadeau)}
-      </div>
-    `;
+    // Carte cadeau affichee a gauche, reduction directe a droite (demande
+    // de l'utilisatrice le 2026-09-19). Vue Loisirs (opts.singleColumn) :
+    // une seule colonne, la colonne carte cadeau y est toujours vide par
+    // construction (voir commentaire CSS .offer-columns-single).
+    const offersHtml = opts.singleColumn
+      ? `
+        <div class="offer-columns offer-columns-single">
+          ${offerColumn('direct', direct)}
+        </div>
+      `
+      : `
+        <div class="offer-columns">
+          ${offerColumn('carte_cadeau', carteCadeau)}
+          ${offerColumn('direct', direct)}
+        </div>
+      `;
 
     const platforms = new Set(m.offers.map(o => o.platform));
     let cumulNote = '';
@@ -1154,7 +1179,7 @@
         .sort((a, b) => b.best_percent - a.best_percent);
       const label = CATEGORY_LABELS[cat] || cat;
       const cardsHtml = list
-        .map((m, i) => merchantCard(m, i === 0, `loisirs-${cat}-${i}`))
+        .map((m, i) => merchantCard(m, i === 0, `loisirs-${cat}-${i}`, { singleColumn: true }))
         .join('');
       container.insertAdjacentHTML('beforeend', `
         <div class="category-section">

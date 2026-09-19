@@ -846,7 +846,7 @@
       "rate_text": "18% rembours",
       "percent": 18.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
       "stackable_cashback_rate_text": null,

@@ -170,11 +170,22 @@ CATEGORY_PATTERNS = [
 def tag_category(offers):
     """Ajoute un champ 'category' (ex. 'cinema') aux offres dont le nom
     correspond a une categorie loisirs connue - voir la vue "Loisirs" du
-    site et le doc de suivi de projet (2026-09-17)."""
+    site et le doc de suivi de projet (2026-09-17).
+
+    Decision produit (utilisatrice, 2026-09-19) : dans l'onglet "Loisirs",
+    on ne parle pas de "carte cadeau" mais de billet/pass a prix reduit -
+    meme quand le mecanisme technique reel est un achat de bon a l'avance
+    (ce qui, selon la regle generale du site, vaudrait carte_cadeau). Toute
+    offre taguee d'une categorie loisirs est donc forcee en type="direct",
+    y compris quand elle apparait hors de l'onglet Loisirs (ex. recherche
+    "Pathe" dans l'onglet Magasins) : c'est la meme offre, la categorie ne
+    depend pas de l'onglet affiche. Exception volontaire a la regle
+    generale carte_cadeau/direct, reservee aux offres category-taguees."""
     for offer in offers:
         for category, pattern in CATEGORY_PATTERNS:
             if pattern.search(offer.get("name", "")):
                 offer["category"] = category
+                offer["type"] = "direct"
                 break
     return offers
 

@@ -1,6 +1,6 @@
 {
   "platform": "eBuyClub",
-  "generated_at": "2026-09-18T12:39:38.436014+00:00",
+  "generated_at": "2026-09-19T01:24:16.587366+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -3126,8 +3126,8 @@
     {
       "name": "CyberGhost VPN",
       "slug": "10709",
-      "rate_text": "90% remboursés",
-      "percent": 90.0,
+      "rate_text": "45% remboursés",
+      "percent": 45.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Logiciels",
@@ -3746,7 +3746,7 @@
     {
       "name": "Dr Pierre Ricaud",
       "slug": "450",
-      "rate_text": "Jusqu'à 6,5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4016,7 +4016,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5476,7 +5476,7 @@
     {
       "name": "H&M",
       "slug": "6590",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 1,6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6336,7 +6336,7 @@
     {
       "name": "i-Run",
       "slug": "3748",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7546,8 +7546,8 @@
     {
       "name": "La Grande Récré",
       "slug": "6712",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Jouets, Coffrets Cadeaux, Déco",
@@ -11014,16 +11014,6 @@
       "link": "https://www.ebuyclub.com/reduction-piecesauto-16964"
     },
     {
-      "name": "Piecesauto24.com",
-      "slug": "8882",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Pneu, Pièces & Réparation",
-      "link": null
-    },
-    {
       "name": "Pierre & Vacances",
       "slug": "565",
       "rate_text": "1,6% remboursés",
@@ -12026,7 +12016,7 @@
     {
       "name": "Rougier & Plé",
       "slug": "5386",
-      "rate_text": "Jusqu'à 1,6% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13426,8 +13416,8 @@
     {
       "name": "Swarovski",
       "slug": "984",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bijoux, Luxe",
@@ -15162,6 +15152,16 @@
       "type": "direct",
       "category_seen": "Déco, Mode Bébé, Linge de Maison, Mode Enfant, Mode Homme, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-ysabel-mora-18068"
+    },
+    {
+      "name": "YSL beauty",
+      "slug": "9631",
+      "rate_text": "6,5% remboursés",
+      "percent": 6.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Coffrets Cadeaux, Santé et Bien-être, Parfums, Cosmétiques",
+      "link": "https://www.ebuyclub.com/reduction-ysl-beauty-9631"
     },
     {
       "name": "Yves Rocher",

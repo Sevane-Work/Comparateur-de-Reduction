@@ -234,7 +234,7 @@
       "rate_text": null,
       "percent": 25.0,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": "direct",
       "link": null,
       "category": "cinema"
@@ -4546,7 +4546,7 @@
       "rate_text": null,
       "percent": 4.0,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": null,
       "link": null,
       "category": "cinema"
@@ -4601,7 +4601,7 @@
       "rate_text": null,
       "percent": 3.9,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": null,
       "link": null,
       "category": "cinema"
@@ -6006,7 +6006,7 @@
       "rate_text": null,
       "percent": 2.5,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": null,
       "link": null,
       "category": "cinema"
@@ -6358,7 +6358,7 @@
       "rate_text": null,
       "percent": 2.0,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": null,
       "link": null,
       "category": "cinema"
@@ -6404,7 +6404,7 @@
       "rate_text": null,
       "percent": 1.6,
       "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "type": "direct",
       "cumulative_with": null,
       "link": null,
       "category": "cinema"
