@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "captured_at": "2026-09-19",
-  "generated_at": "2026-09-19T01:42:24.893316+00:00",
+  "generated_at": "2026-09-19T23:13:01.863996+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -619,17 +619,6 @@
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": "Jusqu'à 2,9%de cashback"
-    },
-    {
-      "name": "Orchestra",
-      "slug": "orchestra-1949",
-      "rate_text": "5,5% rembours",
-      "percent": 5.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1%de cashback"
     },
     {
       "name": "Center Parcs",
@@ -2599,7 +2588,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 10%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
     },
     {
       "name": "L Atelier Du Dejante",

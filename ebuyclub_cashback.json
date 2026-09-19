@@ -1,6 +1,6 @@
 {
   "platform": "eBuyClub",
-  "generated_at": "2026-09-19T01:42:26.292623+00:00",
+  "generated_at": "2026-09-19T23:13:03.369041+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -1466,7 +1466,7 @@
     {
       "name": "Bip&Go",
       "slug": "8367",
-      "rate_text": "5€ remboursés",
+      "rate_text": "9€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3116,7 +3116,7 @@
     {
       "name": "Cupshe",
       "slug": "11272",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4016,7 +4016,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5262,6 +5262,16 @@
       "type": "direct",
       "category_seen": "Voyagistes",
       "link": "https://www.ebuyclub.com/reduction-go-city-10333"
+    },
+    {
+      "name": "Go Voyages",
+      "slug": "7042",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Hotels, Vols, Location de voiture, Voyagistes",
+      "link": "https://www.ebuyclub.com/reduction-go-voyages-7042"
     },
     {
       "name": "GoDaddy",
@@ -7656,7 +7666,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8104,16 +8114,6 @@
       "link": "https://www.ebuyclub.com/reduction-leurre-de-la-peche-16796"
     },
     {
-      "name": "Levi's®",
-      "slug": "3658",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Mode Homme, Mode Enfant, Mode Femme, Chaussures, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-levi-s-3658"
-    },
-    {
       "name": "LG Electronics",
       "slug": "16427",
       "rate_text": "Jusqu'à 4% remboursés",
@@ -8136,7 +8136,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 13% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11626,8 +11626,8 @@
     {
       "name": "Qatar Airways",
       "slug": "5934",
-      "rate_text": "1,5% remboursés",
-      "percent": 1.5,
+      "rate_text": "0,8% remboursés",
+      "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Vols",
@@ -12526,7 +12526,7 @@
     {
       "name": "SharkNinja",
       "slug": "15725",
-      "rate_text": "Jusqu'à 2,5% remboursés",
+      "rate_text": "Jusqu'à 13% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13566,7 +13566,7 @@
     {
       "name": "Temu",
       "slug": "17329",
-      "rate_text": "Jusqu'à 20% remboursés",
+      "rate_text": "Jusqu'à 37% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14134,16 +14134,6 @@
       "link": null
     },
     {
-      "name": "Ultra Premium Direct",
-      "slug": "6648",
-      "rate_text": "Jusqu'à 5,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Animaux",
-      "link": "https://www.ebuyclub.com/reduction-ultra-premium-direct-6648"
-    },
-    {
       "name": "Ultra Premium Direct Belgique",
       "slug": "18236",
       "rate_text": "Jusqu'à 3,3% remboursés",
@@ -14172,6 +14162,16 @@
       "type": "direct",
       "category_seen": "Assurances",
       "link": null
+    },
+    {
+      "name": "Ulys (Particulier)",
+      "slug": "5823",
+      "rate_text": "6€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Transports",
+      "link": "https://www.ebuyclub.com/reduction-ulys-particulier-5823"
     },
     {
       "name": "Un Amour de Tapis",
