@@ -1,7 +1,7 @@
 {
   "platform": "Fnac Darty Pass",
-  "captured_at": "2026-09-18",
-  "generated_at": "2026-09-18T23:13:57.540475+00:00",
+  "captured_at": "2026-09-19",
+  "generated_at": "2026-09-19T01:42:03.204387+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {

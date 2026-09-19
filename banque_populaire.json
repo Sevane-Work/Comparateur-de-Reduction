@@ -1,7 +1,7 @@
 {
   "platform": "Banque Populaire (Extra+X)",
-  "captured_at": "2026-09-18",
-  "generated_at": "2026-09-18T23:16:02.587956+00:00",
+  "captured_at": "2026-09-19",
+  "generated_at": "2026-09-19T01:44:41.854796+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {

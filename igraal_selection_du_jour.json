@@ -1,7 +1,7 @@
 {
   "platform": "iGraal",
   "captured_at": null,
-  "generated_at": "2026-09-19T01:23:10.565525+00:00",
+  "generated_at": "2026-09-19T01:44:42.536983+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
