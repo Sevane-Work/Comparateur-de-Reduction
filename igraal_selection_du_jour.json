@@ -1,21 +1,21 @@
 {
   "platform": "iGraal",
   "captured_at": null,
-  "generated_at": "2026-09-19T23:14:08.871336+00:00",
+  "generated_at": "2026-09-20T23:16:02.613406+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
-      "name": "adidas",
-      "rate_text": "13 % de cashback",
-      "percent": 13.0,
+      "name": "Electrolux",
+      "rate_text": "15 % de cashback",
+      "percent": 15.0,
       "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
       "type": "direct",
       "category_seen": null,
       "boosted": true,
       "boost_du_jour": true,
-      "normal_rate_text": "2,5 %",
-      "expires_at": "2026-09-20T22:00:00+00:00",
-      "highlight_category": "habillement"
+      "normal_rate_text": "2 %",
+      "expires_at": "2026-09-21T22:00:00+00:00",
+      "highlight_category": null
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "platform": "eBuyClub",
-  "generated_at": "2026-09-19T23:13:03.369041+00:00",
+  "generated_at": "2026-09-20T23:14:27.709890+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -1162,16 +1162,6 @@
       "type": "direct",
       "category_seen": "Magazine & Presse",
       "link": "https://www.ebuyclub.com/reduction-bayard-jeunesse-3780"
-    },
-    {
-      "name": "BAZARCHIC",
-      "slug": "2192",
-      "rate_text": "Jusqu'à 5,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Enfant, Ventes Privées, Mode Homme, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-bazarchic-2192"
     },
     {
       "name": "BAÏJA",
@@ -2486,7 +2476,7 @@
     {
       "name": "Cheerz",
       "slug": "8184",
-      "rate_text": "Jusqu'à 6,5% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2856,7 +2846,7 @@
     {
       "name": "Corsair",
       "slug": "2195",
-      "rate_text": "12€ remboursés",
+      "rate_text": "8,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3116,7 +3106,7 @@
     {
       "name": "Cupshe",
       "slug": "11272",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3126,8 +3116,8 @@
     {
       "name": "CyberGhost VPN",
       "slug": "10709",
-      "rate_text": "45% remboursés",
-      "percent": 45.0,
+      "rate_text": "90% remboursés",
+      "percent": 90.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Logiciels",
@@ -3606,7 +3596,7 @@
     {
       "name": "Disneyland Paris",
       "slug": "4387",
-      "rate_text": "Jusqu'à 18€ remboursés",
+      "rate_text": "Jusqu'à 22,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6896,7 +6886,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7216,7 +7206,7 @@
     {
       "name": "Kinguin",
       "slug": "8390",
-      "rate_text": "Jusqu'à 8,5% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7666,7 +7656,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 2,9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7924,6 +7914,16 @@
       "link": null
     },
     {
+      "name": "LEGO",
+      "slug": "5933",
+      "rate_text": "Jusqu'à 3,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Jouets",
+      "link": "https://www.ebuyclub.com/reduction-lego-5933"
+    },
+    {
       "name": "Lelo",
       "slug": "8612",
       "rate_text": "1,6% remboursés",
@@ -7966,7 +7966,7 @@
     {
       "name": "Lenstore",
       "slug": "11341",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 2,9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8136,7 +8136,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 13% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9804,6 +9804,16 @@
       "link": "https://www.ebuyclub.com/reduction-myposter-8491"
     },
     {
+      "name": "Myprotein",
+      "slug": "4070",
+      "rate_text": "Jusqu'à 10% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Sportwear, Fitness et nutrition, Articles de sport",
+      "link": "https://www.ebuyclub.com/reduction-myprotein-4070"
+    },
+    {
       "name": "Myprotein Belgique",
       "slug": "9516",
       "rate_text": "4% remboursés",
@@ -10442,16 +10452,6 @@
       "type": "direct",
       "category_seen": "Pièces & Réparation",
       "link": "https://www.ebuyclub.com/reduction-opisto-18620"
-    },
-    {
-      "name": "Opodo",
-      "slug": "280",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Voyagistes, Vols, Location de vacances, Hotels",
-      "link": "https://www.ebuyclub.com/reduction-opodo-280"
     },
     {
       "name": "OPPO",
@@ -11116,8 +11116,8 @@
     {
       "name": "Place des tendances",
       "slug": "2655",
-      "rate_text": "1,6% remboursés",
-      "percent": 1.6,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Homme, Mode Enfant",
@@ -12526,7 +12526,7 @@
     {
       "name": "SharkNinja",
       "slug": "15725",
-      "rate_text": "Jusqu'à 13% remboursés",
+      "rate_text": "Jusqu'à 3,3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13566,7 +13566,7 @@
     {
       "name": "Temu",
       "slug": "17329",
-      "rate_text": "Jusqu'à 37% remboursés",
+      "rate_text": "Jusqu'à 20% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14132,6 +14132,16 @@
       "type": "direct",
       "category_seen": "Son Vidéo & Photo",
       "link": null
+    },
+    {
+      "name": "Ultra Premium Direct",
+      "slug": "6648",
+      "rate_text": "Jusqu'à 5,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Animaux",
+      "link": "https://www.ebuyclub.com/reduction-ultra-premium-direct-6648"
     },
     {
       "name": "Ultra Premium Direct Belgique",
@@ -15016,7 +15026,7 @@
     {
       "name": "XPPen",
       "slug": "13355",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 2% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -15252,16 +15262,6 @@
       "type": "direct",
       "category_seen": "Mode Homme, Mode Femme, Chaussures, Accessoires de mode",
       "link": null
-    },
-    {
-      "name": "Zonebourse",
-      "slug": "19043",
-      "rate_text": "Jusqu'à 409€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Banque",
-      "link": "https://www.ebuyclub.com/reduction-zonebourse-19043"
     },
     {
       "name": "Zoomalia",
