@@ -1,20 +1,20 @@
 {
   "platform": "iGraal",
   "captured_at": null,
-  "generated_at": "2026-09-20T23:16:02.613406+00:00",
+  "generated_at": "2026-09-21T23:15:32.062770+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
-      "name": "Electrolux",
-      "rate_text": "15 % de cashback",
-      "percent": 15.0,
+      "name": "Hello bank!",
+      "rate_text": "Jusqu'à 250 € de cashback",
+      "percent": null,
       "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
       "type": "direct",
       "category_seen": null,
       "boosted": true,
       "boost_du_jour": true,
-      "normal_rate_text": "2 %",
-      "expires_at": "2026-09-21T22:00:00+00:00",
+      "normal_rate_text": "60 €",
+      "expires_at": "2026-09-22T22:00:00+00:00",
       "highlight_category": null
     }
   ]

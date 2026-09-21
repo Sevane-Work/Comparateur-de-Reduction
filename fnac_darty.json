@@ -1,7 +1,7 @@
 {
   "platform": "Fnac Darty Pass",
-  "captured_at": "2026-09-20",
-  "generated_at": "2026-09-20T23:14:04.442234+00:00",
+  "captured_at": "2026-09-21",
+  "generated_at": "2026-09-21T23:13:39.802000+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1149,6 +1149,15 @@
       "link": null
     },
     {
+      "name": "Gandi",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Dolce Gusto",
       "rate_text": null,
       "percent": 6.8,
@@ -2229,7 +2238,7 @@
       "link": null
     },
     {
-      "name": "Orchestra",
+      "name": "Fanatics",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2238,7 +2247,7 @@
       "link": null
     },
     {
-      "name": "Yves Rocher",
+      "name": "Orchestra",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2886,6 +2895,15 @@
       "link": null
     },
     {
+      "name": "COEUR DE LION",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "GetYourGuide",
       "rate_text": null,
       "percent": 4.8,
@@ -3508,6 +3526,15 @@
     },
     {
       "name": "Click&Boat",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Guzzini",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4658,6 +4685,15 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Showroomprivé",
+      "rate_text": null,
+      "percent": 3.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
       "link": null
     },
     {

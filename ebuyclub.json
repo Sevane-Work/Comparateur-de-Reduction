@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
-  "captured_at": "2026-09-20",
-  "generated_at": "2026-09-20T23:14:26.234896+00:00",
+  "captured_at": "2026-09-21",
+  "generated_at": "2026-09-21T23:13:57.535692+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -621,6 +621,17 @@
       "stackable_cashback_rate_text": "Jusqu'à 2,9%de cashback"
     },
     {
+      "name": "Showroomprive",
+      "slug": "showroomprive-1403",
+      "rate_text": "3,5% rembours",
+      "percent": 3.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau",
+      "type": "carte_cadeau",
+      "category_seen": "bons-d-achat",
+      "usage_location": "UNIQUEMENT EN LIGNE",
+      "stackable_cashback_rate_text": null
+    },
+    {
       "name": "Center Parcs",
       "slug": "center-parcs-501",
       "rate_text": "3% rembours",
@@ -717,7 +728,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 9%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 6,5%de cashback"
     },
     {
       "name": "Interflora",
