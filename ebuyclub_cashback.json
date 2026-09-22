@@ -1,6 +1,6 @@
 {
   "platform": "eBuyClub",
-  "generated_at": "2026-09-21T23:13:58.632888+00:00",
+  "generated_at": "2026-09-22T23:13:13.919387+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -776,7 +776,7 @@
     {
       "name": "asambeauty",
       "slug": "14087",
-      "rate_text": "Jusqu'à 6,5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1624,16 +1624,6 @@
       "link": "https://www.ebuyclub.com/reduction-bongo-belgique-13275"
     },
     {
-      "name": "Bonne Maman",
-      "slug": "16913",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Confiseries & Chocolats",
-      "link": "https://www.ebuyclub.com/reduction-bonne-maman-16913"
-    },
-    {
       "name": "Bonobo",
       "slug": "3392",
       "rate_text": "Jusqu'à 4,5% remboursés",
@@ -1666,7 +1656,7 @@
     {
       "name": "boohooMAN",
       "slug": "10882",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1702,6 +1692,16 @@
       "type": "direct",
       "category_seen": "Electromenager",
       "link": "https://www.ebuyclub.com/reduction-bosch-home-8249"
+    },
+    {
+      "name": "Bose",
+      "slug": "874",
+      "rate_text": "Jusqu'à 1,6% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Son Vidéo & Photo, Musique",
+      "link": "https://www.ebuyclub.com/reduction-bose-874"
     },
     {
       "name": "Boticinal",
@@ -1836,7 +1836,7 @@
     {
       "name": "Bruneau",
       "slug": "3196",
-      "rate_text": "Jusqu'à 3,3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3116,8 +3116,8 @@
     {
       "name": "CyberGhost VPN",
       "slug": "10709",
-      "rate_text": "100% remboursés",
-      "percent": 100.0,
+      "rate_text": "90% remboursés",
+      "percent": 90.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Logiciels",
@@ -3944,6 +3944,16 @@
       "link": "https://www.ebuyclub.com/reduction-ebay-829"
     },
     {
+      "name": "EcoFlow",
+      "slug": "16972",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Energie",
+      "link": "https://www.ebuyclub.com/reduction-ecoflow-16972"
+    },
+    {
       "name": "Ecomatelas",
       "slug": "18481",
       "rate_text": "2,5% remboursés",
@@ -4086,7 +4096,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5736,8 +5746,8 @@
     {
       "name": "HEYDUDE",
       "slug": "17601",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "3,3% remboursés",
+      "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -6016,8 +6026,8 @@
     {
       "name": "HP",
       "slug": "733",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Matériel informatique, Cartouches d'encre & Consommables, Informatique",
@@ -8706,8 +8716,8 @@
     {
       "name": "Malaysia Airlines",
       "slug": "19221",
-      "rate_text": "0,4% remboursés",
-      "percent": 0.4,
+      "rate_text": "Jusqu'à 0,8% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Vols",
@@ -11014,6 +11024,16 @@
       "link": "https://www.ebuyclub.com/reduction-piecesauto-16964"
     },
     {
+      "name": "Piecesauto24.com",
+      "slug": "8882",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Pneu, Pièces & Réparation",
+      "link": null
+    },
+    {
       "name": "Pierre & Vacances",
       "slug": "565",
       "rate_text": "1,6% remboursés",
@@ -11284,16 +11304,6 @@
       "link": null
     },
     {
-      "name": "Potager City",
-      "slug": "10822",
-      "rate_text": "Jusqu'à 19% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Supermarché, Epicerie & Restaurants",
-      "link": "https://www.ebuyclub.com/reduction-potager-city-10822"
-    },
-    {
       "name": "Pranarom",
       "slug": "18291",
       "rate_text": "5% remboursés",
@@ -11396,7 +11406,7 @@
     {
       "name": "Prismashop",
       "slug": "3657",
-      "rate_text": "Jusqu'à 9€ remboursés",
+      "rate_text": "Jusqu'à 10€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13196,8 +13206,8 @@
     {
       "name": "Steelseries",
       "slug": "9227",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Jeux Vidéo & Console, Matériel informatique, Gadgets",
@@ -13412,16 +13422,6 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Chaussures, Mode Homme",
       "link": null
-    },
-    {
-      "name": "Swarovski",
-      "slug": "984",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Bijoux, Luxe",
-      "link": "https://www.ebuyclub.com/reduction-swarovski-984"
     },
     {
       "name": "SwissEcoShop.ch",

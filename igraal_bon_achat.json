@@ -1,9 +1,18 @@
 {
   "platform": "iGraal",
   "captured_at": null,
-  "generated_at": "2026-09-21T23:15:31.987781+00:00",
+  "generated_at": "2026-09-22T23:14:25.491913+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
+    {
+      "name": "Oxybul",
+      "slug": "oxybul",
+      "rate_text": "9%",
+      "percent": 9.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
     {
       "name": "Netto",
       "slug": "netto",
@@ -18,15 +27,6 @@
       "slug": "carrefour-courses-alimentaires",
       "rate_text": "5%",
       "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Oxybul",
-      "slug": "oxybul",
-      "rate_text": "9%",
-      "percent": 9.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
