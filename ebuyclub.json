@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
-  "captured_at": "2026-09-22",
-  "generated_at": "2026-09-22T23:13:12.289599+00:00",
+  "captured_at": "2026-09-23",
+  "generated_at": "2026-09-23T23:12:10.229611+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -68,7 +68,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
     },
     {
       "name": "Decathlon",
@@ -101,7 +101,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
     },
     {
       "name": "Tommy Hilfiger",
@@ -112,7 +112,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Netto",
@@ -321,7 +321,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 1,6%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 1,6% de cashback"
     },
     {
       "name": "But",
@@ -464,7 +464,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2% de cashback"
     },
     {
       "name": "3Suisses",
@@ -552,7 +552,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2,9%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
     },
     {
       "name": "Promod",
@@ -618,7 +618,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2,9%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
     },
     {
       "name": "Showroomprive",
@@ -662,7 +662,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
     },
     {
       "name": "Uber",
@@ -728,7 +728,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 6,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 6,5% de cashback"
     },
     {
       "name": "Interflora",
@@ -783,7 +783,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2,5% de cashback"
     },
     {
       "name": "Quiksilver",
@@ -816,7 +816,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 3,3%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3,3% de cashback"
     },
     {
       "name": "Monoprix Magasins",
@@ -883,7 +883,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 2,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2,5% de cashback"
     },
     {
       "name": "Mademoiselle Bio",
@@ -894,7 +894,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
     },
     {
       "name": "Clarins",
@@ -938,7 +938,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
     },
     {
       "name": "Breal",
@@ -949,7 +949,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
     },
     {
       "name": "Cache Cache",
@@ -960,7 +960,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 3,7%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3,7% de cashback"
     },
     {
       "name": "Bonobo",
@@ -971,7 +971,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
     },
     {
       "name": "Darjeeling",
@@ -1004,7 +1004,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Playstation Store",
@@ -1103,7 +1103,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
     },
     {
       "name": "Faguo",
@@ -1114,7 +1114,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 1,5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 1,5% de cashback"
     },
     {
       "name": "Sixt",
@@ -1180,7 +1180,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Florajet",
@@ -1345,7 +1345,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 1,6%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 1,6% de cashback"
     },
     {
       "name": "Selency",
@@ -1378,7 +1378,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 4%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Famileat",
@@ -1422,7 +1422,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5,8%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5,8% de cashback"
     },
     {
       "name": "Google Play",
@@ -1466,7 +1466,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 3,3%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3,3% de cashback"
     },
     {
       "name": "Les Raffineurs",
@@ -1532,7 +1532,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 3,3%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3,3% de cashback"
     },
     {
       "name": "Blizzard Belgique",
@@ -1719,7 +1719,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 8,3%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 8,3% de cashback"
     },
     {
       "name": "Theodore Maison De Peinture",
@@ -2599,7 +2599,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5%de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
     },
     {
       "name": "L Atelier Du Dejante",
