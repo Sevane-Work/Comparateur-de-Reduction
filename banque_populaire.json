@@ -1,7 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
-  "captured_at": "2026-09-23",
-  "generated_at": "2026-09-23T23:13:11.710104+00:00",
+  "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
+  "captured_at": "2026-09-24",
+  "generated_at": "2026-09-24T23:15:06.129987+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -133,8 +134,8 @@
     {
       "name": "Bosch",
       "slug": "bosch",
-      "rate_text": "Jusqu'à -30%*",
-      "percent": 30.0,
+      "rate_text": "-5% à -25%",
+      "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -1134,6 +1135,5 @@
       "type": "carte_cadeau",
       "category_seen": null
     }
-  ],
-  "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/"
+  ]
 }

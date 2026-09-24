@@ -1,7 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
-  "captured_at": "2026-09-23",
-  "generated_at": "2026-09-23T23:11:52.266748+00:00",
+  "platform_url": "https://www.passfnacdarty.com",
+  "captured_at": "2026-09-24",
+  "generated_at": "2026-09-24T23:13:44.419947+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -241,6 +242,15 @@
     },
     {
       "name": "CCleaner",
+      "rate_text": null,
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Filmora",
       "rate_text": null,
       "percent": 20.4,
       "type_detail_fr": "Réduction directe",
@@ -1275,15 +1285,6 @@
       "link": null
     },
     {
-      "name": "Devred",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "EasyFlyer",
       "rate_text": null,
       "percent": 6.8,
@@ -2239,6 +2240,15 @@
     },
     {
       "name": "Fanatics",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "BAZARCHIC",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -5669,6 +5679,15 @@
       "link": null
     },
     {
+      "name": "Sauthon",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "lastminute.com",
       "rate_text": null,
       "percent": 2.8,
@@ -6634,6 +6653,5 @@
       "cumulative_with": null,
       "link": null
     }
-  ],
-  "platform_url": "https://www.passfnacdarty.com"
+  ]
 }

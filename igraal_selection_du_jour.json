@@ -1,7 +1,8 @@
 {
   "platform": "iGraal",
+  "platform_url": "https://fr.igraal.com/selection/",
   "captured_at": null,
-  "generated_at": "2026-09-24T06:15:20.224312+00:00",
+  "generated_at": "2026-09-24T23:15:08.984887+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
@@ -14,7 +15,7 @@
       "boosted": true,
       "boost_du_jour": true,
       "normal_rate_text": "3 %",
-      "expires_at": "2026-09-24T22:00:00+00:00",
+      "expires_at": "2026-09-25T22:00:00+00:00",
       "highlight_category": "parfumerie"
     },
     {
@@ -147,6 +148,5 @@
       "expires_at": null,
       "highlight_category": "habillement"
     }
-  ],
-  "platform_url": "https://fr.igraal.com/selection/"
+  ]
 }

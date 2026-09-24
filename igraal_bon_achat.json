@@ -1,7 +1,8 @@
 {
   "platform": "iGraal",
+  "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-09-23T23:13:13.799778+00:00",
+  "generated_at": "2026-09-24T23:15:08.844072+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -1481,6 +1482,5 @@
       "type": "carte_cadeau",
       "category_seen": null
     }
-  ],
-  "platform_url": "https://fr.igraal.com/bon-achat"
+  ]
 }
