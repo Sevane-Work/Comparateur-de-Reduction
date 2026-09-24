@@ -171,6 +171,9 @@ def main():
 
     output = {
         "platform": "eBuyClub",
+        # Lien de secours affiche au clic sur le nom de l'enseigne quand aucune
+        # offre n'a de lien precis (demande de l'utilisatrice le 2026-09-24).
+        "platform_url": "https://www.ebuyclub.com/cashback",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "note": (
             "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' "

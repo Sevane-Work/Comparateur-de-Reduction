@@ -145,6 +145,9 @@ def main():
 
     result = {
         "platform": PLATFORM,
+        # Lien de secours affiche au clic sur le nom de l'enseigne quand aucune
+        # offre n'a de lien precis (demande de l'utilisatrice le 2026-09-24).
+        "platform_url": "https://fr.igraal.com/bon-achat",
         "captured_at": None,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "note": (

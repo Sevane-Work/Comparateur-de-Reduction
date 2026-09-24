@@ -88,6 +88,8 @@
     margin-bottom: 10px;
   }
   .name { font-size: 16px; font-weight: 500; overflow-wrap: anywhere; }
+  a.name { text-decoration: none; color: inherit; cursor: pointer; }
+  a.name:hover { text-decoration: underline; text-decoration-color: var(--gold); }
   .badge {
     font-size: 11px;
     color: var(--gold);
@@ -788,6 +790,12 @@
         // (demande de l'utilisatrice le 2026-09-24, gain de temps) — pas
         // encore disponible sur toutes les plateformes.
         link: o.link || null,
+        // Lien de secours vers la plateforme (accueil ou sous-categorie),
+        // utilise pour le clic sur le nom de l'enseigne quand aucune offre
+        // n'a de lien precis (simplification demandee le 2026-09-24: plus
+        // simple qu'un lien exact par enseigne, la recherche se termine
+        // manuellement sur la plateforme).
+        platform_url: data.platform_url || null,
       });
     });
     return Array.from(byName.values());
@@ -803,6 +811,15 @@
       .sort(compareOffersByPercent);
     const best_percent = withPercent.length ? withPercent[0].percent : 0;
     const best_type = withPercent.length ? withPercent[0].type : null;
+    // Lien affiche au clic sur le nom de l'enseigne (demande de
+    // l'utilisatrice le 2026-09-24) : celui de la meilleure offre si elle
+    // en a un de precis, sinon le lien de secours vers la plateforme
+    // correspondante (accueil/sous-categorie) pour terminer la recherche
+    // manuellement. best_offer retombe sur la premiere offre disponible
+    // quand aucune n'a de pourcentage exploitable (ex. carte cadeau a
+    // montant fixe).
+    const best_offer = withPercent.length ? withPercent[0] : (offers.length ? offers[0] : null);
+    const best_link = best_offer ? (best_offer.link || best_offer.platform_url || null) : null;
 
     // Le cumul n'est affiché comme garanti que si toutes les offres de ce
     // marchand viennent d'une seule et même plateforme (un fichier), et que
@@ -830,7 +847,7 @@
       }
     }
 
-    return { best_percent, best_type, cumulable_total };
+    return { best_percent, best_type, cumulable_total, best_link };
   }
 
   // Fusionne les listes de marchands (une par fichier chargé) en une seule liste,
@@ -1100,6 +1117,15 @@
   function merchantCard(m, isTop, idx, opts) {
     opts = opts || {};
     const rankId = `rank-${idx}`;
+    // Nom de l'enseigne cliquable vers la meilleure offre / la plateforme
+    // correspondante (demande de l'utilisatrice le 2026-09-24 : plus
+    // simple qu'un lien exact par offre, elle termine la recherche
+    // manuellement une fois sur la bonne plateforme).
+    const nameTag = m.best_link ? 'a' : 'div';
+    const nameLinkAttrs = m.best_link
+      ? ` href="${escapeAttr(m.best_link)}" target="_blank" rel="noopener noreferrer"`
+      : '';
+    const nameLinkIcon = m.best_link ? '<span class="offer-link-icon">↗</span>' : '';
 
     // Groupe "ambigu" (adresses multiples type Domino's Pizza, ou produits
     // differents sous le meme nom type Pathe) avec plus d'une offre : on
@@ -1119,7 +1145,7 @@
           <div class="merchant-head">
             <div>
               ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
-              <div class="name">${m.name}</div>
+              <${nameTag} class="name"${nameLinkAttrs}>${m.name}${nameLinkIcon}</${nameTag}>
             </div>
           </div>
           <button type="button" class="ambiguous-toggle rank-toggle" data-target="${rankId}" aria-expanded="false">
@@ -1179,7 +1205,7 @@
         <div class="merchant-head">
           <div>
             ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
-            <div class="name">${m.name}</div>
+            <${nameTag} class="name"${nameLinkAttrs}>${m.name}${nameLinkIcon}</${nameTag}>
           </div>
         </div>
         ${offersHtml}
