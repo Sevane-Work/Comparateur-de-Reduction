@@ -12,25 +12,47 @@ techniquement le 2026-09-17 (requete sans cookie, HTTP 200, contenu
 identique a ce qui s'affiche dans le navigateur - rendu cote serveur, pas
 besoin de JavaScript/navigateur pour recuperer les donnees).
 
-Contexte / decision produit (utilisateur, 2026-09-17, precise le 2026-09-18) :
-la page affiche une dizaine de cartes "Sponsorise", mais UNE SEULE porte
-reellement le badge "BOOST DU JOUR" (verifie via inspection live le
-2026-09-18 : 11 bannercards trouvees, 1 seule avec le badge, ex. adidas
-13% vs 2,5% normal). Les ~10 autres cartes n'ont ni taux reellement
-booste ni vraie date d'expiration - avant correction, elles etaient
-TOUTES marquees boosted=true avec une fausse expiration "minuit Paris",
-ce qui affichait des enseignes perimees (ex. Lidl, offre de la veille)
-dans le cadre "Boost du jour" du site meme quand leur taux n'avait pas
-change. Decision (corrigee le 2026-09-18) : on ne garde QUE la ou les
-cartes portant litteralement "BOOST DU JOUR", platform="iGraal" (fusion
-avec le filtre iGraal existant, PAS de filtre separe). Chaque offre
-retenue porte un flag "boosted": true et un champ "expires_at" (ISO)
-calcule a la capture :
-- si un minuteur "EXPIRE DANS HH:MM:SS" est visible sur la fiche, on
-  ajoute cette duree a l'heure de capture ;
-- sinon, on prend par defaut minuit (Europe/Paris) suivant la capture,
-  toute la page etant intitulee "Selection du jour" (reinitialisation
-  quotidienne, confirme par l'utilisateur : "en general jusqu'a minuit").
+Contexte / decision produit (utilisateur, 2026-09-17 ; precisions le
+2026-09-18 puis le 2026-09-24 apres un aller-retour sur le bon
+comportement) :
+la page affiche une dizaine de cartes "Sponsorise", et UNE SEULE porte
+litteralement le badge "BOOST DU JOUR" (verifie via inspection live,
+ex. Marionnaud 20% vs 3% normal le 2026-09-24). Le 2026-09-18, on avait
+conclu a tort que les ~10 autres cartes n'avaient pas de vraie date
+d'expiration et on ne gardait plus qu'elles-la - or elles ont bien
+chacune leur propre minuteur "EXPIRE DANS ..." (ex. Uniqlo "EXPIRE DANS
+6 JOURS"), simplement invisible dans le HTML brut recupere par ce script
+(rendu cote client en JavaScript, confirme par inspection du DOM vs de
+la reponse HTTP brute). Cette confusion avait fait disparaitre a tort
+des enseignes valides des categories "achats du quotidien" (ex.
+Marionnaud/Uniqlo/adidas signales absents par l'utilisatrice le
+2026-09-24), alors que la demande d'origine etait bien de TOUTES les
+montrer. Decision finale (2026-09-24) : on capture de nouveau TOUTES les
+cartes de la page, platform="iGraal" (fusion avec le filtre iGraal
+existant, PAS de filtre separe) ; le cadre "Boost du jour" du site ne
+filtre de toute facon que par categorie "achats du quotidien"
+(alimentaire/habillement/parfumerie, voir HIGHLIGHT_CATEGORY_PATTERNS),
+donc les cartes hors-categorie (assurance/energie/telecom/voyage...)
+n'y apparaissent jamais, boost_du_jour ou non. Chaque offre porte un
+flag "boosted": true (presente sur la page "Selection du jour" du
+jour) et un flag distinct "boost_du_jour" (vrai badge "BOOST DU JOUR",
+utilise par le site pour la mise en avant "🔥 Offre du jour" dans les
+resultats de recherche par magasin). Champ "expires_at" (ISO), calcule
+avec prudence puisque le minuteur reel n'est jamais visible dans le HTML
+brut recupere ici :
+- si un minuteur "EXPIRE DANS HH:MM:SS" ou "EXPIRE DANS N JOURS" est
+  malgre tout trouve dans le HTML brut, on l'utilise (garde au cas ou le
+  rendu deviendrait un jour cote serveur) ;
+- sinon, uniquement pour la carte "BOOST DU JOUR" (creneau vedette
+  explicitement quotidien) : on prend par defaut minuit (Europe/Paris)
+  suivant la capture ;
+- pour les autres cartes sans minuteur visible : "expires_at" reste
+  null plutot que de fabriquer une fausse date - c'est cette fausse date
+  "minuit" recalculee chaque jour qui donnait a tort l'impression d'une
+  offre toujours fraiche (bug signale par l'utilisatrice le 2026-09-19,
+  ex. Lidl "le timer est reparti pour 24h" alors que les offres avaient
+  change entre-temps). Sans minuteur fiable, mieux vaut ne rien afficher
+  que d'afficher un decompte invente.
 Le site (comparateur-reductions.html) doit IGNORER a l'affichage toute
 offre dont "expires_at" est deja passee, meme si ce fichier n'a pas
 encore ete rafraichi ce jour-la (retour automatique au taux normal
@@ -229,15 +251,21 @@ def parse_card(text, now):
         expires_at = now + timedelta(hours=h, minutes=mi, seconds=s)
     elif m_expire_days:
         expires_at = now + timedelta(days=int(m_expire_days.group(1)))
-    else:
-        # Pas de minuteur affiche sur cette fiche : par defaut, minuit
-        # (Europe/Paris) suivant la capture - toute la page etant une
-        # "Selection du jour" qui se renouvelle quotidiennement.
+    elif is_boost_du_jour:
+        # Pas de minuteur trouve dans le HTML brut (normal, il est rendu
+        # cote client - voir docstring), mais il s'agit du creneau vedette
+        # "BOOST DU JOUR", explicitement quotidien : minuit (Europe/Paris)
+        # suivant la capture reste une approximation raisonnable pour lui
+        # uniquement.
         now_paris = now.astimezone(PARIS_TZ)
         next_midnight_paris = (now_paris + timedelta(days=1)).replace(
             hour=0, minute=0, second=0, microsecond=0
         )
         expires_at = next_midnight_paris.astimezone(timezone.utc)
+    else:
+        # Carte "Sponsorisee" ordinaire sans minuteur visible dans le HTML
+        # brut : on ne fabrique pas de fausse date (voir docstring).
+        expires_at = None
 
     return {
         "name": name,
@@ -249,10 +277,14 @@ def parse_card(text, now):
         # aucune carte achetee -> "direct", jamais "carte_cadeau".
         "type": "direct",
         "category_seen": None,
+        # "boosted" = presente sur la page "Selection du jour" aujourd'hui
+        # (toutes les cartes) ; "boost_du_jour" = badge reel "BOOST DU
+        # JOUR" (une seule carte en general) - distinction ajoutee le
+        # 2026-09-24, voir docstring.
         "boosted": True,
         "boost_du_jour": is_boost_du_jour,
         "normal_rate_text": normal_rate_text,
-        "expires_at": expires_at.isoformat(),
+        "expires_at": expires_at.isoformat() if expires_at else None,
         "highlight_category": highlight_category_for(name),
     }
 
@@ -293,16 +325,15 @@ def main():
             "change, a diagnostiquer avant de publier un fichier incomplet."
         )
 
+    # On capture TOUTES les cartes de la page (pas seulement celle avec le
+    # badge "BOOST DU JOUR") - revenu le 2026-09-24 sur la restriction du
+    # 2026-09-18, qui avait fait disparaitre a tort des enseignes valides
+    # des categories "achats du quotidien" (voir docstring). Le champ
+    # "boost_du_jour" distingue toujours la carte vedette des autres, et
+    # "expires_at" n'est fabrique que pour elle (voir parse_card).
     offers = []
     seen_names = set()
     for card_text in parser.cards:
-        if "BOOST DU JOUR" not in card_text:
-            # Carte "Sponsorise" sans le badge "BOOST DU JOUR" : pas de taux
-            # reellement booste ni de vraie expiration (corrige le
-            # 2026-09-18, voir doc de suivi - ~10 des ~11 cartes de la page
-            # sont dans ce cas chaque jour). Son taux normal reste visible
-            # via le catalogue general igraal.json, pas ici.
-            continue
         offer = parse_card(card_text, now)
         if offer is None:
             continue
@@ -310,6 +341,14 @@ def main():
             continue
         seen_names.add(offer["name"])
         offers.append(offer)
+
+    if len(offers) < 5:
+        raise SystemExit(
+            f"Seulement {len(offers)} offres exploitables trouvees dans la "
+            "Selection du jour (attendu ~10-15) - la structure de la page a "
+            "probablement change, a diagnostiquer avant de publier un "
+            "fichier incomplet."
+        )
 
     result = {
         "platform": PLATFORM,

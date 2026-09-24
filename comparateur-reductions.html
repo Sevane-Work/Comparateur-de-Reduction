@@ -47,6 +47,13 @@
   .search-box { margin-bottom: 28px; }
   input[type="search"] {
     width: 100%;
+    max-width: 100%;
+    /* Neutralise l'apparence native de ce type de champ sur iOS/Safari
+       (case ronde avec espace reserve pour le bouton "x"), qui peut
+       depasser son conteneur sur certains telephones (signale le
+       2026-09-24). */
+    -webkit-appearance: none;
+    appearance: none;
     padding: 16px 18px;
     font-size: 17px;
     font-family: inherit;
@@ -80,7 +87,7 @@
     align-items: baseline;
     margin-bottom: 10px;
   }
-  .name { font-size: 16px; font-weight: 500; }
+  .name { font-size: 16px; font-weight: 500; overflow-wrap: anywhere; }
   .badge {
     font-size: 11px;
     color: var(--gold);
@@ -141,11 +148,23 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    /* Espace minimum garanti entre le nom de plateforme et le taux, meme
+       quand les deux ne tiennent pas sur la largeur disponible (bug
+       signale le 2026-09-24 : "iGraalJusqu.a 4,25 % cashback" colles sans
+       espace sur colonne etroite - justify-content seul ne garantit rien
+       une fois le contenu trop large pour repartir de l'espace libre). */
+    gap: 6px;
+    flex-wrap: wrap;
     font-size: 13px;
     padding: 3px 0;
   }
   .offer-line .platform { color: var(--ink); opacity: 0.75; }
   .offer-line .offer-percent { font-weight: 600; font-size: 15px; }
+  /* Lignes cliquables vers la fiche offre, quand le lien est disponible
+     (demande de l'utilisatrice le 2026-09-24). */
+  a.offer-line, a.rank-row { text-decoration: none; color: inherit; cursor: pointer; }
+  a.offer-line:hover, a.rank-row:hover { opacity: 0.85; }
+  .offer-link-icon { font-size: 11px; color: var(--gold); margin-left: 3px; }
   .offer-col-empty {
     font-size: 12px;
     color: var(--sage);
@@ -301,7 +320,14 @@
     padding: 14px 14px 6px;
   }
   @media (max-width: 860px) {
-    .page { flex-direction: column; gap: 0; }
+    /* Filet de securite anti-debordement horizontal (signale le
+       2026-09-24 : champ de recherche/carte/"Mis a jour le" coupes sur le
+       bord droit sur telephone). Sans danger ici : .platform-filters et
+       .highlight-box perdent deja leur position: sticky sous ce seuil
+       (overflow-x: hidden casse le sticky s'il est combine sur un ancetre,
+       mais aucun des deux n'est plus sticky a cette largeur). */
+    html, body { overflow-x: hidden; }
+    .page { flex-direction: column; gap: 0; max-width: 100%; }
     .platform-filters { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -1; }
     .platform-chips { flex-direction: row; flex-wrap: wrap; }
     .platform-chip { flex: 0 0 auto; }
@@ -321,6 +347,9 @@
     padding: 40px 0;
     font-size: 15px;
   }
+  /* Etat d'erreur de chargement (ajoute le 2026-09-24) : distinct du texte
+     d'attente/etat vide, sans casser la palette du site. */
+  .status-error { color: #A3432E; }
   .highlight-box-label {
     font-size: 12.5px;
     font-weight: 600;
@@ -339,7 +368,7 @@
     align-items: baseline;
     gap: 8px;
   }
-  .highlight-item-name { font-size: 13.5px; font-weight: 500; }
+  .highlight-item-name { font-size: 13.5px; font-weight: 500; overflow-wrap: anywhere; }
   .highlight-item-value { font-size: 15px; font-weight: 600; color: var(--gold); white-space: nowrap; }
   .highlight-item-platform { font-size: 11px; font-weight: 600; color: var(--sage); margin-top: 1px; }
   .highlight-item-normal { font-size: 11.5px; color: var(--sage); }
@@ -678,8 +707,18 @@
   // active — promesse faite à l'utilisatrice le 2026-09-17 : le site ne
   // doit jamais afficher un boost périmé, même si igraal_selection_du_jour.json
   // n'a pas encore été rafraîchi ce jour-là.
+  // Précision du 2026-09-24 : la plupart des offres de la "Sélection du
+  // jour" n'ont PAS de vraie date d'expiration connue (le minuteur réel
+  // est rendu côté client sur iGraal, invisible du script de récupération)
+  // — on ne leur en fabrique plus une fausse (ancien bug : un faux "minuit"
+  // recalculé chaque jour donnait l'impression d'une offre toujours
+  // fraîche). Sans date connue, l'offre reste donc active jusqu'au
+  // prochain rafraîchissement quotidien des données, qui la fera
+  // naturellement disparaître si elle n'est plus sur la page iGraal.
   function isBoostActive(o) {
-    return !!o.boosted && !!o.expires_at && new Date(o.expires_at).getTime() > Date.now();
+    if (!o.boosted) return false;
+    if (!o.expires_at) return true;
+    return new Date(o.expires_at).getTime() > Date.now();
   }
 
   // Applique la décision produit "Remplace avec badge" (choisie le
@@ -745,6 +784,10 @@
         normal_rate_text: o.normal_rate_text || null,
         expires_at: o.expires_at || null,
         highlight_category: o.highlight_category || null,
+        // Lien direct vers la fiche offre, quand la source le fournit
+        // (demande de l'utilisatrice le 2026-09-24, gain de temps) — pas
+        // encore disponible sur toutes les plateformes.
+        link: o.link || null,
       });
     });
     return Array.from(byName.values());
@@ -946,6 +989,18 @@
     });
   }
 
+  // Echappe une valeur pour une utilisation sans risque dans un attribut
+  // HTML (ex. href) - protection minimale, les liens viennent de nos
+  // propres fichiers JSON generes par nos scripts, pas d'une saisie
+  // utilisateur.
+  function escapeAttr(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
   function offerLine(offer) {
     // Certaines offres n'ont pas de pourcentage exploitable (ex. carte
     // cadeau a montant fixe en euros, comme UGC/Pathe/Kinepolis chez The
@@ -955,6 +1010,16 @@
       ? `${offer.percent}%`
       : (offer.rate_text || 'Voir l’offre');
 
+    // Lien direct vers l'offre, quand la source le fournit (demande de
+    // l'utilisatrice le 2026-09-24) : la ligne devient cliquable et ouvre
+    // la fiche offre dans un nouvel onglet, plutot que de forcer un clic
+    // sur le nom du magasin (ambigu des qu'il y a plusieurs offres).
+    const tag = offer.link ? 'a' : 'div';
+    const linkAttrs = offer.link
+      ? ` href="${escapeAttr(offer.link)}" target="_blank" rel="noopener noreferrer"`
+      : '';
+    const linkIcon = offer.link ? '<span class="offer-link-icon">↗</span>' : '';
+
     // Offre "du jour" boostee iGraal (ajoute le 2026-09-17) : badge
     // distinct + taux normal affiche en petit ("au lieu de X") + minuteur
     // d'expiration — toujours active a ce stade (applyBoostOverrides a
@@ -962,22 +1027,22 @@
     if (offer.boosted) {
       const expiry = formatExpiry(offer.expires_at);
       return `
-        <div class="offer-line offer-line-boosted">
+        <${tag} class="offer-line offer-line-boosted"${linkAttrs}>
           <span class="platform">${offer.platform}<span class="boost-badge">🔥 Offre du jour</span></span>
           <span class="offer-percent">
-            ${value}
+            ${value}${linkIcon}
             ${offer.normal_rate_text ? `<span class="boost-normal">au lieu de ${offer.normal_rate_text}</span>` : ''}
           </span>
-        </div>
+        </${tag}>
         ${expiry ? `<div class="boost-expiry">${expiry}</div>` : ''}
       `;
     }
 
     return `
-      <div class="offer-line">
+      <${tag} class="offer-line"${linkAttrs}>
         <span class="platform">${offer.platform}</span>
-        <span class="offer-percent">${value}</span>
-      </div>
+        <span class="offer-percent">${value}${linkIcon}</span>
+      </${tag}>
     `;
   }
 
@@ -1016,13 +1081,18 @@
         ? `${o.percent}%`
         : (o.rate_text || 'Voir l’offre');
       const platformLabel = o.boosted ? `${o.platform} 🔥` : o.platform;
+      const tag = o.link ? 'a' : 'div';
+      const linkAttrs = o.link
+        ? ` href="${escapeAttr(o.link)}" target="_blank" rel="noopener noreferrer"`
+        : '';
+      const linkIcon = o.link ? '<span class="offer-link-icon">↗</span>' : '';
       return `
-        <div class="rank-row ${i === 0 && typeof o.percent === 'number' ? 'rank-best' : ''}">
+        <${tag} class="rank-row ${i === 0 && typeof o.percent === 'number' ? 'rank-best' : ''}"${linkAttrs}>
           <span class="rank-num">${i + 1}</span>
           <span class="rank-platform">${platformLabel}</span>
           <span class="rank-type">${TYPE_LABELS[o.type] || o.type || ''}</span>
-          <span class="rank-value">${value}</span>
-        </div>
+          <span class="rank-value">${value}${linkIcon}</span>
+        </${tag}>
       `;
     }).join('');
   }
@@ -1209,6 +1279,22 @@
     }
   });
 
+  // Message d'erreur de chargement (ajoute le 2026-09-24, signale par
+  // l'utilisatrice : le "Chargement des données…" restait affiche
+  // indefiniment en cas d'echec au lieu de prevenir). Couvre a la fois le
+  // cas "aucun fichier recupere" et toute exception inattendue pendant le
+  // traitement des donnees (fichier JSON valide mais de structure
+  // inattendue, etc.) via le .catch() final de la chaine.
+  function showLoadError(detail) {
+    const statusEl = document.getElementById('status');
+    if (!statusEl) return;
+    statusEl.textContent =
+      'Impossible de charger les données pour le moment. Rechargez la page dans quelques instants ; si le problème persiste, revenez plus tard.';
+    statusEl.classList.add('status-error');
+    statusEl.style.display = 'block';
+    if (detail) console.error('[comparateur] échec du chargement des données :', detail);
+  }
+
   Promise.all(
     DATA_FILES.map(file =>
       fetch(file)
@@ -1218,8 +1304,7 @@
   ).then(datasets => {
     const loaded = datasets.filter(Boolean);
     if (loaded.length === 0) {
-      document.getElementById('status').textContent =
-        'Impossible de charger les données (aucun fichier trouvé ou invalide).';
+      showLoadError('aucun fichier de données récupéré');
       return;
     }
 
@@ -1239,7 +1324,7 @@
       document.getElementById('updated-label').textContent =
         'Mis à jour le ' + mostRecent.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
     }
-  });
+  }).catch(showLoadError);
 
   document.getElementById('search').addEventListener('input', e => {
     currentQuery = e.target.value;
