@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-09-24",
-  "generated_at": "2026-09-24T23:13:44.419947+00:00",
+  "captured_at": "2026-09-25",
+  "generated_at": "2026-09-25T23:13:29.031586+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -186,7 +186,7 @@
       "link": null
     },
     {
-      "name": "MMV Mer Montagne Vacances",
+      "name": "MMV",
       "rate_text": null,
       "percent": 25.0,
       "type_detail_fr": "Réduction directe",
@@ -359,6 +359,15 @@
     },
     {
       "name": "Fleurance Nature",
+      "rate_text": null,
+      "percent": 13.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Trend Micro",
       "rate_text": null,
       "percent": 13.6,
       "type_detail_fr": "Réduction directe",
@@ -1160,6 +1169,33 @@
     },
     {
       "name": "Gandi",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "City Sightseeing",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Saily",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Monkey Mum",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -4156,15 +4192,6 @@
       "link": null
     },
     {
-      "name": "The Cool Republic",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Warm-On",
       "rate_text": null,
       "percent": 4.1,
@@ -4806,6 +4833,15 @@
       "link": null
     },
     {
+      "name": "Snowrental",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Ultra Premium Direct",
       "rate_text": null,
       "percent": 3.4,
@@ -5320,15 +5356,6 @@
     },
     {
       "name": "Percko",
-      "rate_text": null,
-      "percent": 3.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Showroomprivé",
       "rate_text": null,
       "percent": 3.1,
       "type_detail_fr": "Réduction directe",
