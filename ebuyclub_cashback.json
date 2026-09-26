@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-09-25T23:13:48.005631+00:00",
+  "generated_at": "2026-09-26T23:13:51.306691+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -1017,8 +1017,8 @@
     {
       "name": "B&B HOTELS",
       "slug": "3980",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "13% remboursés",
+      "percent": 13.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -1667,7 +1667,7 @@
     {
       "name": "boohooMAN",
       "slug": "10882",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2447,8 +2447,8 @@
     {
       "name": "Charles Tyrwhitt",
       "slug": "8415",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Homme, Chaussures, Accessoires de mode",
@@ -4807,7 +4807,7 @@
     {
       "name": "Fortuneo",
       "slug": "4842",
-      "rate_text": "Jusqu'à 100€ remboursés",
+      "rate_text": "Jusqu'à 168€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5377,7 +5377,7 @@
     {
       "name": "Groupon",
       "slug": "2640",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6087,8 +6087,8 @@
     {
       "name": "Humble +",
       "slug": "18462",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques, Santé et Bien-être",
@@ -6867,7 +6867,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7707,7 +7707,7 @@
     {
       "name": "lastminute.com",
       "slug": "205",
-      "rate_text": "Jusqu'à 30€ remboursés",
+      "rate_text": "Jusqu'à 104€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9147,7 +9147,7 @@
     {
       "name": "Milan Jeunesse",
       "slug": "3246",
-      "rate_text": "Jusqu'à 10€ remboursés",
+      "rate_text": "Jusqu'à 6€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11317,7 +11317,7 @@
     {
       "name": "PrettyLittleThing",
       "slug": "8724",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
