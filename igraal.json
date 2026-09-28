@@ -1,10 +1,28 @@
 {
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/",
-  "captured_at": "2026-09-27",
-  "generated_at": "2026-09-27T23:15:00.452384+00:00",
+  "captured_at": "2026-09-28",
+  "generated_at": "2026-09-28T23:15:47.892026+00:00",
   "note": "Catalogue public (aucune connexion necessaire, verifie techniquement). Collecte en masse via les pages categories (taux de cashback affiche sur les cartes marchand). Toutes les offres sont de type 'direct' (cashback) : cette collecte ne visite pas les pages marchand individuelles, qui peuvent aussi proposer une offre 'Bon d'achat' (carte cadeau) ou des codes promo en plus du cashback.",
   "offers": [
+    {
+      "name": "Avis",
+      "slug": "avis",
+      "rate_text": "Jusqu'à 8 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "voyageloc"
+    },
+    {
+      "name": "Agoda",
+      "slug": "agoda",
+      "rate_text": "5,5 % de cashback",
+      "percent": 5.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "voyageloc"
+    },
     {
       "name": "lastminute.com",
       "slug": "lastminute-com",
@@ -62,7 +80,7 @@
     {
       "name": "Europcar",
       "slug": "europcar",
-      "rate_text": "Jusqu'à 15 % cashback",
+      "rate_text": "Jusqu'à 9 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -143,15 +161,6 @@
     {
       "name": "Holafly",
       "slug": "holafly",
-      "rate_text": "Jusqu'à 8 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyageloc"
-    },
-    {
-      "name": "Avis",
-      "slug": "avis",
       "rate_text": "Jusqu'à 8 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
@@ -278,7 +287,7 @@
     {
       "name": "Groupon",
       "slug": "groupon",
-      "rate_text": "Jusqu'à 5 % cashback",
+      "rate_text": "Jusqu'à 8 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -303,19 +312,19 @@
       "category_seen": "marchands-etrangers"
     },
     {
-      "name": "Lenovo",
-      "slug": "lenovo",
-      "rate_text": "8,5 % de cashback",
-      "percent": 8.5,
+      "name": "Geekbuying",
+      "slug": "geekbuying",
+      "rate_text": "2,5 % de cashback",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "high-tech"
+      "category_seen": "marchands-etrangers"
     },
     {
-      "name": "Lidl",
-      "slug": "lidl",
-      "rate_text": "3 % de cashback",
-      "percent": 3.0,
+      "name": "Bouygues Telecom - Forfaits Mobile",
+      "slug": "forfait-mobile-bouygues-telecom",
+      "rate_text": "Jusqu'à 30 € cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "high-tech"
@@ -350,8 +359,8 @@
     {
       "name": "Surfshark",
       "slug": "surfshark",
-      "rate_text": "60 % de cashback",
-      "percent": 60.0,
+      "rate_text": "40 % de cashback",
+      "percent": 40.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "high-tech"
@@ -404,8 +413,8 @@
     {
       "name": "ExpressVPN",
       "slug": "expressvpn",
-      "rate_text": "40 % de cashback",
-      "percent": 40.0,
+      "rate_text": "100 % de cashback",
+      "percent": 100.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "high-tech"
@@ -501,19 +510,19 @@
       "category_seen": "high-tech"
     },
     {
-      "name": "BAZARCHIC",
-      "slug": "bazarchic-com",
-      "rate_text": "Jusqu'à 5 % cashback",
-      "percent": null,
+      "name": "Pandora",
+      "slug": "pandora",
+      "rate_text": "3,5 % de cashback",
+      "percent": 3.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "modevetements"
     },
     {
-      "name": "Printemps",
-      "slug": "printemps",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
+      "name": "Mango",
+      "slug": "mango",
+      "rate_text": "4,5 % de cashback",
+      "percent": 4.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "modevetements"
@@ -636,10 +645,10 @@
       "category_seen": "modevetements"
     },
     {
-      "name": "Emma",
-      "slug": "emma-matelas",
-      "rate_text": "15 % de cashback",
-      "percent": 15.0,
+      "name": "Tediber",
+      "slug": "tediber",
+      "rate_text": "Jusqu'à 3,5 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "maisonjardin"
@@ -773,8 +782,8 @@
     {
       "name": "Eufy",
       "slug": "eufy",
-      "rate_text": "10 % de cashback",
-      "percent": 10.0,
+      "rate_text": "5 % de cashback",
+      "percent": 5.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "maisonjardin"
@@ -798,9 +807,18 @@
       "category_seen": "maisonjardin"
     },
     {
-      "name": "Nocibé",
-      "slug": "nocibe",
-      "rate_text": "Jusqu'à 5 % cashback",
+      "name": "Dr Pierre Ricaud",
+      "slug": "dr-pierre-ricaud",
+      "rate_text": "Jusqu'à 5,5 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "santebeaute"
+    },
+    {
+      "name": "LOOKFANTASTIC",
+      "slug": "look-fantastic",
+      "rate_text": "Jusqu'à 4 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -843,19 +861,19 @@
       "category_seen": "santebeaute"
     },
     {
-      "name": "Sinful",
-      "slug": "sinful",
-      "rate_text": "Jusqu'à 10,41 % cashback",
-      "percent": null,
+      "name": "Parship",
+      "slug": "parship",
+      "rate_text": "10,41 % de cashback",
+      "percent": 10.41,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "santebeaute"
     },
     {
-      "name": "Parship",
-      "slug": "parship",
-      "rate_text": "10,41 % de cashback",
-      "percent": 10.41,
+      "name": "Sinful",
+      "slug": "sinful",
+      "rate_text": "Jusqu'à 10,41 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "santebeaute"
@@ -933,15 +951,6 @@
       "category_seen": "santebeaute"
     },
     {
-      "name": "Dr Pierre Ricaud",
-      "slug": "dr-pierre-ricaud",
-      "rate_text": "Jusqu'à 5,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "santebeaute"
-    },
-    {
       "name": "MERIT Beauty",
       "slug": "merit-beauty",
       "rate_text": "5,5 % de cashback",
@@ -960,9 +969,9 @@
       "category_seen": "santebeaute"
     },
     {
-      "name": "Ulys",
-      "slug": "ulys",
-      "rate_text": "8 € de cashback",
+      "name": "RED by SFR - Box Internet",
+      "slug": "sfr-red-fai",
+      "rate_text": "Jusqu'à 22,5 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1016,7 +1025,7 @@
     {
       "name": "ENGIE",
       "slug": "engie-demenagement",
-      "rate_text": "Jusqu'à 41 € cashback",
+      "rate_text": "Jusqu'à 50 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1041,18 +1050,18 @@
       "category_seen": "services-contrats"
     },
     {
-      "name": "Hello Watt Energie",
-      "slug": "hellowatt-energie",
-      "rate_text": "Jusqu'à 50 € cashback",
+      "name": "Soldo",
+      "slug": "soldo",
+      "rate_text": "50 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "services-contrats"
     },
     {
-      "name": "Soldo",
-      "slug": "soldo",
-      "rate_text": "50 € de cashback",
+      "name": "Hello Watt Energie",
+      "slug": "hellowatt-energie",
+      "rate_text": "Jusqu'à 50 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1178,17 +1187,8 @@
     {
       "name": "Regatta",
       "slug": "regatta",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sport"
-    },
-    {
-      "name": "lululemon",
-      "slug": "lululemon",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
+      "rate_text": "2 % de cashback",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sport"
@@ -1207,6 +1207,15 @@
       "slug": "rdx-sport",
       "rate_text": "4 % de cashback",
       "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sport"
+    },
+    {
+      "name": "lululemon",
+      "slug": "lululemon",
+      "rate_text": "Jusqu'à 3 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sport"
@@ -1347,15 +1356,6 @@
       "category_seen": "culture-loisirs"
     },
     {
-      "name": "Uniqlo",
-      "slug": "uniqlo",
-      "rate_text": "Jusqu'à 6 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "famille-enfants"
-    },
-    {
       "name": "LEGO®",
       "slug": "lego",
       "rate_text": "Jusqu'à 3 % cashback",
@@ -1376,8 +1376,8 @@
     {
       "name": "Momcozy",
       "slug": "momcozy",
-      "rate_text": "7 % de cashback",
-      "percent": 7.0,
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "famille-enfants"
@@ -1475,7 +1475,7 @@
     {
       "name": "Santevet",
       "slug": "santevet",
-      "rate_text": "72,5 € de cashback",
+      "rate_text": "100 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1529,7 +1529,7 @@
     {
       "name": "HelloFresh",
       "slug": "hellofresh-fr",
-      "rate_text": "Jusqu'à 15 € cashback",
+      "rate_text": "Jusqu'à 13 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1574,7 +1574,7 @@
     {
       "name": "Franklin",
       "slug": "franklin-pet-food",
-      "rate_text": "Jusqu'à 6,5 % cashback",
+      "rate_text": "Jusqu'à 4,5 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1630,6 +1630,15 @@
       "slug": "carte-grise-minute",
       "rate_text": "12,5 % de cashback",
       "percent": 12.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "voiture"
+    },
+    {
+      "name": "Ulys",
+      "slug": "ulys",
+      "rate_text": "8 € de cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "voiture"
@@ -1761,10 +1770,10 @@
       "category_seen": "voiture"
     },
     {
-      "name": "Agoda",
-      "slug": "agoda",
-      "rate_text": "5,5 % de cashback",
-      "percent": 5.5,
+      "name": "PromoVacances",
+      "slug": "promovacances",
+      "rate_text": "3,5 % de cashback",
+      "percent": 3.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "voyage"
@@ -1772,7 +1781,7 @@
     {
       "name": "Expedia",
       "slug": "expedia",
-      "rate_text": "Jusqu'à 3 % cashback",
+      "rate_text": "Jusqu'à 5 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1833,6 +1842,24 @@
       "category_seen": "voyage"
     },
     {
+      "name": "Hotels.com",
+      "slug": "hotels-com",
+      "rate_text": "10 % de cashback",
+      "percent": 10.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "location"
+    },
+    {
+      "name": "IHG",
+      "slug": "intercontinental-hotels",
+      "rate_text": "Jusqu'à 7,5 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "location"
+    },
+    {
       "name": "B&B HOTELS",
       "slug": "hotels-betb",
       "rate_text": "3 % de cashback",
@@ -1853,8 +1880,8 @@
     {
       "name": "Abritel",
       "slug": "abritel",
-      "rate_text": "3 % de cashback",
-      "percent": 3.0,
+      "rate_text": "5 % de cashback",
+      "percent": 5.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "location"
@@ -2211,10 +2238,10 @@
       "category_seen": "informatique"
     },
     {
-      "name": "Dyson",
-      "slug": "dyson",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
+      "name": "Mova",
+      "slug": "mova",
+      "rate_text": "3,5 % de cashback",
+      "percent": 3.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "electromenager"
@@ -2344,6 +2371,15 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "logiciels-antivirus"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung",
+      "rate_text": "1,5 % de cashback",
+      "percent": 1.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "smartphones-tablettes"
     },
     {
       "name": "Xiaomi",
@@ -2571,17 +2607,8 @@
       "category_seen": "tv-video"
     },
     {
-      "name": "Samsung",
-      "slug": "samsung",
-      "rate_text": "Jusqu'à 15 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "tv-video"
-    },
-    {
-      "name": "GrosBill",
-      "slug": "grosbill",
+      "name": "Cybertek",
+      "slug": "cybertek",
       "rate_text": "0,8 % de cashback",
       "percent": 0.8,
       "type_detail_fr": "Cashback",
@@ -2589,8 +2616,8 @@
       "category_seen": "tv-video"
     },
     {
-      "name": "Cybertek",
-      "slug": "cybertek",
+      "name": "GrosBill",
+      "slug": "grosbill",
       "rate_text": "0,8 % de cashback",
       "percent": 0.8,
       "type_detail_fr": "Cashback",
@@ -2663,8 +2690,8 @@
     {
       "name": "VistaPrint",
       "slug": "vistaprint",
-      "rate_text": "Jusqu'à 6 % cashback",
-      "percent": null,
+      "rate_text": "15 % de cashback",
+      "percent": 15.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "photos"
@@ -2922,15 +2949,6 @@
       "category_seen": "vetements"
     },
     {
-      "name": "Pandora",
-      "slug": "pandora",
-      "rate_text": "3,5 % de cashback",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "bijoux-accessoires"
-    },
-    {
       "name": "Calvin Klein",
       "slug": "calvin-klein",
       "rate_text": "Jusqu'à 10 % cashback",
@@ -2944,15 +2962,6 @@
       "slug": "quay-australia",
       "rate_text": "5 % de cashback",
       "percent": 5.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "bijoux-accessoires"
-    },
-    {
-      "name": "Mango",
-      "slug": "mango",
-      "rate_text": "4,5 % de cashback",
-      "percent": 4.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "bijoux-accessoires"
@@ -3055,6 +3064,15 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "bijoux-accessoires"
+    },
+    {
+      "name": "Crocs",
+      "slug": "crocs",
+      "rate_text": "3,5 % de cashback",
+      "percent": 3.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "chaussures"
     },
     {
       "name": "Pikolinos",
@@ -3201,19 +3219,19 @@
       "category_seen": "sportswear"
     },
     {
-      "name": "i-Run Belgique",
-      "slug": "i-run-be",
-      "rate_text": "3 % de cashback",
-      "percent": 3.0,
+      "name": "Kitbag",
+      "slug": "kitbag",
+      "rate_text": "Jusqu'à 3 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sportswear"
     },
     {
-      "name": "Kitbag",
-      "slug": "kitbag",
-      "rate_text": "Jusqu'à 3 % cashback",
-      "percent": null,
+      "name": "i-Run Belgique",
+      "slug": "i-run-be",
+      "rate_text": "3 % de cashback",
+      "percent": 3.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sportswear"
@@ -3570,15 +3588,6 @@
       "category_seen": "decoration"
     },
     {
-      "name": "Brico Dépôt",
-      "slug": "brico-depot",
-      "rate_text": "7 % de cashback",
-      "percent": 7.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "maison-bricolage"
-    },
-    {
       "name": "NoFlyStore",
       "slug": "noflystore",
       "rate_text": "4,5 % de cashback",
@@ -3606,19 +3615,19 @@
       "category_seen": "maison-bricolage"
     },
     {
-      "name": "Au Forum du Bâtiment",
-      "slug": "afdb",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
+      "name": "Ooni",
+      "slug": "ooni",
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "maison-bricolage"
     },
     {
-      "name": "Ooni",
-      "slug": "ooni",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
+      "name": "Au Forum du Bâtiment",
+      "slug": "afdb",
+      "rate_text": "Jusqu'à 4 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "maison-bricolage"
@@ -3651,15 +3660,6 @@
       "category_seen": "maison-bricolage"
     },
     {
-      "name": "Jardins-Loisirs",
-      "slug": "jardins-loisirs",
-      "rate_text": "3 % de cashback",
-      "percent": 3.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "maison-bricolage"
-    },
-    {
       "name": "Stiga",
       "slug": "stiga",
       "rate_text": "3 % de cashback",
@@ -3669,8 +3669,8 @@
       "category_seen": "maison-bricolage"
     },
     {
-      "name": "HomeServe",
-      "slug": "homeserve",
+      "name": "Jardins-Loisirs",
+      "slug": "jardins-loisirs",
       "rate_text": "3 % de cashback",
       "percent": 3.0,
       "type_detail_fr": "Cashback",
@@ -3680,6 +3680,15 @@
     {
       "name": "Mammotion",
       "slug": "mammotion",
+      "rate_text": "3 % de cashback",
+      "percent": 3.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "maison-bricolage"
+    },
+    {
+      "name": "HomeServe",
+      "slug": "homeserve",
       "rate_text": "3 % de cashback",
       "percent": 3.0,
       "type_detail_fr": "Cashback",
@@ -3714,6 +3723,15 @@
       "category_seen": "cosmetiques"
     },
     {
+      "name": "Nocibé",
+      "slug": "nocibe",
+      "rate_text": "Jusqu'à 5 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "cosmetiques"
+    },
+    {
       "name": "The Ayurveda Experience",
       "slug": "theayurvedaexperience",
       "rate_text": "4,5 % de cashback",
@@ -3736,15 +3754,6 @@
       "slug": "bon-parfumeur",
       "rate_text": "4,5 % de cashback",
       "percent": 4.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "parfums"
-    },
-    {
-      "name": "LOOKFANTASTIC",
-      "slug": "look-fantastic",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "parfums"
@@ -3849,6 +3858,15 @@
       "category_seen": "parfums"
     },
     {
+      "name": "iHerb",
+      "slug": "iherb",
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sante"
+    },
+    {
       "name": "MyVitamins",
       "slug": "myvitamins",
       "rate_text": "Jusqu'à 5 % cashback",
@@ -3921,15 +3939,6 @@
       "category_seen": "sante"
     },
     {
-      "name": "iHerb",
-      "slug": "iherb",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sante"
-    },
-    {
       "name": "Adam et Eve",
       "slug": "adam-et-eve",
       "rate_text": "4 % de cashback",
@@ -3984,18 +3993,18 @@
       "category_seen": "finance"
     },
     {
-      "name": "Hello bank!",
-      "slug": "hello-bank",
-      "rate_text": "Jusqu'à 60 € cashback",
+      "name": "L by LCL Pro",
+      "slug": "l-by-lcl-pro",
+      "rate_text": "130 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "finance"
     },
     {
-      "name": "L by LCL Pro",
-      "slug": "l-by-lcl-pro",
-      "rate_text": "130 € de cashback",
+      "name": "Hello bank!",
+      "slug": "hello-bank",
+      "rate_text": "Jusqu'à 60 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4092,15 +4101,6 @@
       "category_seen": "finance"
     },
     {
-      "name": "Plenitude",
-      "slug": "eniplenitude",
-      "rate_text": "44 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "energie"
-    },
-    {
       "name": "Alterna Energie",
       "slug": "vattenfall",
       "rate_text": "25 € de cashback",
@@ -4113,6 +4113,15 @@
       "name": "Ohm Energie",
       "slug": "ohm-energie",
       "rate_text": "Jusqu'à 19 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
+      "name": "Plenitude",
+      "slug": "eniplenitude",
+      "rate_text": "44 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4164,9 +4173,18 @@
       "category_seen": "energie"
     },
     {
-      "name": "Bouygues Telecom - Forfaits Mobile",
-      "slug": "forfait-mobile-bouygues-telecom",
-      "rate_text": "Jusqu'à 30 € cashback",
+      "name": "Auchan Telecom",
+      "slug": "auchan-telecom",
+      "rate_text": "Jusqu'à 7 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "telephonietelecom"
+    },
+    {
+      "name": "Orange Internet",
+      "slug": "orange-internet",
+      "rate_text": "44 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4193,7 +4211,7 @@
     {
       "name": "Sosh - Forfaits Mobile",
       "slug": "sosh",
-      "rate_text": "Jusqu'à 20 € cashback",
+      "rate_text": "Jusqu'à 18 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4317,15 +4335,6 @@
       "category_seen": "telephonietelecom"
     },
     {
-      "name": "Auchan Telecom",
-      "slug": "auchan-telecom",
-      "rate_text": "Jusqu'à 7 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "telephonietelecom"
-    },
-    {
       "name": "Cdiscount Mobile",
       "slug": "cdiscount-mobile",
       "rate_text": "Jusqu'à 6 € cashback",
@@ -4335,27 +4344,9 @@
       "category_seen": "telephonietelecom"
     },
     {
-      "name": "Orange Internet",
-      "slug": "orange-internet",
-      "rate_text": "44 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
       "name": "Free - Box Internet",
       "slug": "free-internet",
       "rate_text": "Jusqu'à 41 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "RED by SFR - Box Internet",
-      "slug": "sfr-red-fai",
-      "rate_text": "Jusqu'à 22,5 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4373,7 +4364,7 @@
     {
       "name": "Sosh - Box Internet",
       "slug": "sosh-internet",
-      "rate_text": "11 € de cashback",
+      "rate_text": "20 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4506,10 +4497,10 @@
       "category_seen": "cd-dvd-bluray"
     },
     {
-      "name": "Prozon",
-      "slug": "prozon",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
+      "name": "SILAMP",
+      "slug": "silamp",
+      "rate_text": "5 % de cashback",
+      "percent": 5.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "fournitures-bureau"
@@ -4535,7 +4526,7 @@
     {
       "name": "PixartPrinting",
       "slug": "pixartprinting",
-      "rate_text": "Jusqu'à 5,5 % cashback",
+      "rate_text": "Jusqu'à 4 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4787,8 +4778,8 @@
     {
       "name": "CamperDays",
       "slug": "camperdays",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
+      "rate_text": "1,3 % de cashback",
+      "percent": 1.3,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "ski"
@@ -5100,8 +5091,8 @@
       "category_seen": "arts-creatifs-et-diy"
     },
     {
-      "name": "1001Hobbies",
-      "slug": "1001maquettes",
+      "name": "Leclerc Photo",
+      "slug": "photomoinscher-e-leclerc",
       "rate_text": "2 % de cashback",
       "percent": 2.0,
       "type_detail_fr": "Cashback",
@@ -5109,8 +5100,8 @@
       "category_seen": "arts-creatifs-et-diy"
     },
     {
-      "name": "Leclerc Photo",
-      "slug": "photomoinscher-e-leclerc",
+      "name": "1001Hobbies",
+      "slug": "1001maquettes",
       "rate_text": "2 % de cashback",
       "percent": 2.0,
       "type_detail_fr": "Cashback",
@@ -5125,6 +5116,15 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "jeux-argent"
+    },
+    {
+      "name": "Deliveroo",
+      "slug": "deliveroo",
+      "rate_text": "Jusqu'à 1,24 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "supermarches"
     },
     {
       "name": "Jow",
@@ -5172,18 +5172,18 @@
       "category_seen": "supermarches"
     },
     {
-      "name": "Monoprix",
-      "slug": "monoprix",
-      "rate_text": "Jusqu'à 2,75 € cashback",
-      "percent": null,
+      "name": "Lidl",
+      "slug": "lidl",
+      "rate_text": "1,5 % de cashback",
+      "percent": 1.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "supermarches"
     },
     {
-      "name": "Deliveroo",
-      "slug": "deliveroo",
-      "rate_text": "Jusqu'à 1,24 % cashback",
+      "name": "Monoprix",
+      "slug": "monoprix",
+      "rate_text": "Jusqu'à 3 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -5388,19 +5388,19 @@
       "category_seen": "pieces-detachees-auto"
     },
     {
-      "name": "Maxipieces",
-      "slug": "maxipieces",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
+      "name": "Maxiscoot",
+      "slug": "maxiscoot",
+      "rate_text": "Jusqu'à 2,5 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "moto"
     },
     {
-      "name": "Maxiscoot",
-      "slug": "maxiscoot",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
+      "name": "Maxipieces",
+      "slug": "maxipieces",
+      "rate_text": "2,5 % de cashback",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "moto"

@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-09-27T23:14:03.714428+00:00",
+  "generated_at": "2026-09-28T23:14:34.135741+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -787,7 +787,7 @@
     {
       "name": "asambeauty",
       "slug": "14087",
-      "rate_text": "Jusqu'à 9% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1017,8 +1017,8 @@
     {
       "name": "B&B HOTELS",
       "slug": "3980",
-      "rate_text": "13% remboursés",
-      "percent": 13.0,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -2157,7 +2157,7 @@
     {
       "name": "Canon",
       "slug": "8889",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3595,6 +3595,16 @@
       "link": null
     },
     {
+      "name": "Disneyland Paris",
+      "slug": "4387",
+      "rate_text": "Jusqu'à 18€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Parc de Loisirs, Hotels",
+      "link": "https://www.ebuyclub.com/reduction-disneyland-paris-4387"
+    },
+    {
       "name": "DisonsDemain",
       "slug": "8388",
       "rate_text": "42,5% remboursés",
@@ -4647,8 +4657,8 @@
     {
       "name": "FlashVentes",
       "slug": "12849",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bijoux, Articles de sport, Animaux, Jardin et Extérieur, Gadgets, Jouets, Déco, Santé et Bien-être, Bricolage, Accessoires de mode",
@@ -5285,6 +5295,16 @@
       "link": "https://www.ebuyclub.com/reduction-goodbro-17389"
     },
     {
+      "name": "Google Store",
+      "slug": "17355",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie, Son Vidéo & Photo, Informatique, Gadgets, Matériel informatique",
+      "link": "https://www.ebuyclub.com/reduction-google-store-17355"
+    },
+    {
       "name": "Gootickets",
       "slug": "6133",
       "rate_text": "1,2% remboursés",
@@ -5363,16 +5383,6 @@
       "type": "direct",
       "category_seen": "Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-granions-11369"
-    },
-    {
-      "name": "Groupon",
-      "slug": "2640",
-      "rate_text": "Jusqu'à 9% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Ventes Privées",
-      "link": "https://www.ebuyclub.com/reduction-groupon-2640"
     },
     {
       "name": "Groupon Belgique",
@@ -6417,8 +6427,8 @@
     {
       "name": "iHerb",
       "slug": "8251",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Fitness et nutrition, Santé et Bien-être, Epicerie & Restaurants",
@@ -6603,16 +6613,6 @@
       "type": "direct",
       "category_seen": "Fleurs",
       "link": "https://www.ebuyclub.com/reduction-interflora-512"
-    },
-    {
-      "name": "Intergard",
-      "slug": "6398",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Jardin et Extérieur",
-      "link": "https://www.ebuyclub.com/reduction-intergard-6398"
     },
     {
       "name": "Internxt",
@@ -7565,16 +7565,6 @@
       "link": "https://www.ebuyclub.com/reduction-la-poste-mobile-3916"
     },
     {
-      "name": "La Redoute",
-      "slug": "298",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Lingerie, Mode Enfant, Mode Homme, Articles de sport, Futures Mamans, Son Vidéo & Photo, Chaussures, Mode Femme, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Electromenager, Mode Bébé, Puériculture, Gadgets, Cuisine et Art de la table, Accessoires de mode, Jeux Vidéo & Console, Déco, Mobilier, Grande Taille",
-      "link": "https://www.ebuyclub.com/reduction-la-redoute-298"
-    },
-    {
       "name": "La Roche Posay",
       "slug": "8274",
       "rate_text": "2,9% remboursés",
@@ -7787,7 +7777,7 @@
     {
       "name": "Le Figaro",
       "slug": "938",
-      "rate_text": "Jusqu'à 18€ remboursés",
+      "rate_text": "Jusqu'à 12€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7883,16 +7873,6 @@
       "type": "direct",
       "category_seen": "Magazine & Presse, Logiciels professionnels, Livres",
       "link": null
-    },
-    {
-      "name": "LEGO",
-      "slug": "5933",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Jouets",
-      "link": "https://www.ebuyclub.com/reduction-lego-5933"
     },
     {
       "name": "Lelo",
@@ -8417,7 +8397,7 @@
     {
       "name": "Luminaire.fr",
       "slug": "4713",
-      "rate_text": "Jusqu'à 3,3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8737,8 +8717,8 @@
     {
       "name": "Mammotion",
       "slug": "18277",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Jardin et Extérieur",
@@ -10277,7 +10257,7 @@
     {
       "name": "NUXE",
       "slug": "8192",
-      "rate_text": "Jusqu'à 5,5% remboursés",
+      "rate_text": "Jusqu'à 3,7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10737,7 +10717,7 @@
     {
       "name": "Parc Astérix",
       "slug": "1488",
-      "rate_text": "Jusqu'à 5€ remboursés",
+      "rate_text": "Jusqu'à 6€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11097,8 +11077,8 @@
     {
       "name": "Place des tendances",
       "slug": "2655",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Homme, Mode Enfant",
@@ -11687,8 +11667,8 @@
     {
       "name": "Radisson Hotel",
       "slug": "6371",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -11957,8 +11937,8 @@
     {
       "name": "Roborock",
       "slug": "18162",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -12247,7 +12227,7 @@
     {
       "name": "Sarenza.com",
       "slug": "750",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14117,7 +14097,7 @@
     {
       "name": "Ultra Premium Direct",
       "slug": "6648",
-      "rate_text": "Jusqu'à 5,5% remboursés",
+      "rate_text": "Jusqu'à 12% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -15167,7 +15147,7 @@
     {
       "name": "Yves Rocher",
       "slug": "263",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
