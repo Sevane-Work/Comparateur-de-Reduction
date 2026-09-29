@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-09-28T23:14:34.135741+00:00",
+  "generated_at": "2026-09-29T23:14:48.333865+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -1345,16 +1345,6 @@
       "link": "https://www.ebuyclub.com/reduction-besson-chaussures-13550"
     },
     {
-      "name": "Best Western",
-      "slug": "1235",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Hotels",
-      "link": "https://www.ebuyclub.com/reduction-best-western-1235"
-    },
-    {
       "name": "Bett1",
       "slug": "16474",
       "rate_text": "4,1% remboursés",
@@ -1443,6 +1433,16 @@
       "type": "direct",
       "category_seen": "Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-biocalma-18524"
+    },
+    {
+      "name": "Biofloral",
+      "slug": "19247",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être",
+      "link": "https://www.ebuyclub.com/reduction-biofloral-19247"
     },
     {
       "name": "Biotyfull Box",
@@ -3515,16 +3515,6 @@
       "link": "https://www.ebuyclub.com/reduction-digixo-1184"
     },
     {
-      "name": "Direct Assurance MRH",
-      "slug": "15579",
-      "rate_text": "18€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Assurances",
-      "link": "https://www.ebuyclub.com/reduction-direct-assurance-mrh-15579"
-    },
-    {
       "name": "Direct Ferries",
       "slug": "5771",
       "rate_text": "Jusqu'à 1,6% remboursés",
@@ -3577,8 +3567,8 @@
     {
       "name": "Disney Store",
       "slug": "4100",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Bébé, Jouets, Mode Enfant, Déco",
@@ -4107,7 +4097,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 5,5% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4187,8 +4177,8 @@
     {
       "name": "Erborian",
       "slug": "11061",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "7,5% remboursés",
+      "percent": 7.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques",
@@ -4815,16 +4805,6 @@
       "link": "https://www.ebuyclub.com/reduction-foreo-8471"
     },
     {
-      "name": "Fortuneo",
-      "slug": "4842",
-      "rate_text": "Jusqu'à 100€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Assurances, Banque",
-      "link": "https://www.ebuyclub.com/reduction-fortuneo-4842"
-    },
-    {
       "name": "FOSSiBOT",
       "slug": "18459",
       "rate_text": "Jusqu'à 4,1% remboursés",
@@ -5383,6 +5363,16 @@
       "type": "direct",
       "category_seen": "Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-granions-11369"
+    },
+    {
+      "name": "Groupon",
+      "slug": "2640",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Ventes Privées",
+      "link": "https://www.ebuyclub.com/reduction-groupon-2640"
     },
     {
       "name": "Groupon Belgique",
@@ -8115,6 +8105,16 @@
       "link": "https://www.ebuyclub.com/reduction-lidl-7180"
     },
     {
+      "name": "LIEWOOD",
+      "slug": "19248",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Jouets, Mode Bébé, Puériculture, Mode Enfant",
+      "link": "https://www.ebuyclub.com/reduction-liewood-19248"
+    },
+    {
       "name": "LightInTheBox",
       "slug": "2548",
       "rate_text": "Jusqu'à 15% remboursés",
@@ -8885,6 +8885,16 @@
       "link": "https://www.ebuyclub.com/reduction-materiel-informatique-1630"
     },
     {
+      "name": "Maxi Zoo",
+      "slug": "13562",
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Animaux",
+      "link": "https://www.ebuyclub.com/reduction-maxi-zoo-13562"
+    },
+    {
       "name": "Maxiscoot",
       "slug": "5667",
       "rate_text": "Jusqu'à 2,5% remboursés",
@@ -9403,16 +9413,6 @@
       "type": "direct",
       "category_seen": "Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-mondial-tissus-7410"
-    },
-    {
-      "name": "Mondoffice",
-      "slug": "444",
-      "rate_text": "Jusqu'à 3,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Cartouches d'encre & Consommables, Papeterie, Fournitures & Mobilier, Matériel informatique, Informatique, Emballages & Expédition",
-      "link": "https://www.ebuyclub.com/reduction-mondoffice-444"
     },
     {
       "name": "Money Walkie",
@@ -10915,6 +10915,16 @@
       "link": "https://www.ebuyclub.com/reduction-pharmacie-prado-mermoz-14923"
     },
     {
+      "name": "Philips",
+      "slug": "2654",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Gadgets, Puériculture, Electromenager, Son Vidéo & Photo, Santé et Bien-être, Cuisine et Art de la table",
+      "link": "https://www.ebuyclub.com/reduction-philips-2654"
+    },
+    {
       "name": "Philips HUE",
       "slug": "13733",
       "rate_text": "3,3% remboursés",
@@ -12407,7 +12417,7 @@
     {
       "name": "Sephora",
       "slug": "683",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12977,7 +12987,7 @@
     {
       "name": "Sosh",
       "slug": "4731",
-      "rate_text": "Jusqu'à 48€ remboursés",
+      "rate_text": "Jusqu'à 45€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13657,8 +13667,8 @@
     {
       "name": "Tineco",
       "slug": "18502",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hygiène et entretien",
@@ -14097,7 +14107,7 @@
     {
       "name": "Ultra Premium Direct",
       "slug": "6648",
-      "rate_text": "Jusqu'à 12% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14612,6 +14622,16 @@
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Banque",
+      "link": null
+    },
+    {
+      "name": "Vodafone",
+      "slug": "11221",
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie",
       "link": null
     },
     {
