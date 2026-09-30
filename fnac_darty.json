@@ -1,7 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
-  "captured_at": "2026-09-23",
-  "generated_at": "2026-09-23T23:11:52.266748+00:00",
+  "platform_url": "https://www.passfnacdarty.com",
+  "captured_at": "2026-09-29",
+  "generated_at": "2026-09-29T23:14:24.690952+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -113,6 +114,15 @@
       "link": null
     },
     {
+      "name": "Homair Vacances",
+      "rate_text": null,
+      "percent": 40.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://cse.homair.com/ce/fnac-darty.html"
+    },
+    {
       "name": "VTF Vacances",
       "rate_text": null,
       "percent": 37.0,
@@ -185,7 +195,7 @@
       "link": null
     },
     {
-      "name": "MMV Mer Montagne Vacances",
+      "name": "MMV",
       "rate_text": null,
       "percent": 25.0,
       "type_detail_fr": "Réduction directe",
@@ -241,6 +251,24 @@
     },
     {
       "name": "CCleaner",
+      "rate_text": null,
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Filmora",
+      "rate_text": null,
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "F-Secure",
       "rate_text": null,
       "percent": 20.4,
       "type_detail_fr": "Réduction directe",
@@ -312,15 +340,6 @@
       "link": null
     },
     {
-      "name": "Homair Vacances",
-      "rate_text": null,
-      "percent": 15.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://cse.homair.com/ce/fnac-darty.html"
-    },
-    {
       "name": "myMaxicours",
       "rate_text": null,
       "percent": 14.7,
@@ -349,6 +368,15 @@
     },
     {
       "name": "Fleurance Nature",
+      "rate_text": null,
+      "percent": 13.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Trend Micro",
       "rate_text": null,
       "percent": 13.6,
       "type_detail_fr": "Réduction directe",
@@ -1158,6 +1186,42 @@
       "link": null
     },
     {
+      "name": "City Sightseeing",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Saily",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Monkey Mum",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Budget",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Dolce Gusto",
       "rate_text": null,
       "percent": 6.8,
@@ -1267,15 +1331,6 @@
     },
     {
       "name": "Clarins",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Devred",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1411,6 +1466,15 @@
     },
     {
       "name": "Donner",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Erborian",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -2247,7 +2311,34 @@
       "link": null
     },
     {
+      "name": "BAZARCHIC",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Vistaprint",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Orchestra",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Petit Bateau",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2913,7 +3004,7 @@
       "link": null
     },
     {
-      "name": "Groupon",
+      "name": "Groupon Belgique",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -2922,7 +3013,7 @@
       "link": null
     },
     {
-      "name": "Place des tendances",
+      "name": "Groupon",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3579,6 +3670,15 @@
       "link": null
     },
     {
+      "name": "Morin",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Footshop",
       "rate_text": null,
       "percent": 4.1,
@@ -4146,15 +4246,6 @@
       "link": null
     },
     {
-      "name": "The Cool Republic",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Warm-On",
       "rate_text": null,
       "percent": 4.1,
@@ -4192,15 +4283,6 @@
     },
     {
       "name": "Auto Europe",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Erborian",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4796,7 +4878,7 @@
       "link": null
     },
     {
-      "name": "Ultra Premium Direct",
+      "name": "Snowrental",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -4805,7 +4887,7 @@
       "link": null
     },
     {
-      "name": "Petit Bateau",
+      "name": "Ultra Premium Direct",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5318,15 +5400,6 @@
       "link": null
     },
     {
-      "name": "Showroomprivé",
-      "rate_text": null,
-      "percent": 3.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Carplug",
       "rate_text": null,
       "percent": 3.1,
@@ -5661,6 +5734,15 @@
     },
     {
       "name": "Appart'City",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Sauthon",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -6183,6 +6265,15 @@
       "link": null
     },
     {
+      "name": "Place des tendances",
+      "rate_text": null,
+      "percent": 2.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Lancôme",
       "rate_text": null,
       "percent": 2.1,
@@ -6634,6 +6725,5 @@
       "cumulative_with": null,
       "link": null
     }
-  ],
-  "platform_url": "https://www.passfnacdarty.com"
+  ]
 }

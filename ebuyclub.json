@@ -1,7 +1,8 @@
 {
   "platform": "eBuyClub",
-  "captured_at": "2026-09-23",
-  "generated_at": "2026-09-23T23:12:10.229611+00:00",
+  "platform_url": "https://www.ebuyclub.com/bons-d-achat",
+  "captured_at": "2026-09-29",
+  "generated_at": "2026-09-29T23:14:47.059406+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -522,17 +523,6 @@
       "stackable_cashback_rate_text": null
     },
     {
-      "name": "Netflix",
-      "slug": "netflix-12944",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": null
-    },
-    {
       "name": "Maty",
       "slug": "maty-701",
       "rate_text": "3% rembours",
@@ -552,7 +542,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 0,4% de cashback"
     },
     {
       "name": "Promod",
@@ -619,17 +609,6 @@
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
-    },
-    {
-      "name": "Showroomprive",
-      "slug": "showroomprive-1403",
-      "rate_text": "3,5% rembours",
-      "percent": 3.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": null
     },
     {
       "name": "Center Parcs",
@@ -750,17 +729,6 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN MAGASIN",
-      "stackable_cashback_rate_text": null
-    },
-    {
-      "name": "Ikks",
-      "slug": "ikks-3099",
-      "rate_text": "9% rembours",
-      "percent": 9.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": null
     },
     {
@@ -1532,7 +1500,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 3,3% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5,5% de cashback"
     },
     {
       "name": "Blizzard Belgique",
@@ -2645,6 +2613,5 @@
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": null
     }
-  ],
-  "platform_url": "https://www.ebuyclub.com/bons-d-achat"
+  ]
 }

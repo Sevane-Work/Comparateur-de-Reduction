@@ -1,6 +1,7 @@
 {
   "platform": "eBuyClub",
-  "generated_at": "2026-09-23T23:12:11.544079+00:00",
+  "platform_url": "https://www.ebuyclub.com/cashback",
+  "generated_at": "2026-09-29T23:14:48.333865+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -176,8 +177,8 @@
     {
       "name": "Abritel",
       "slug": "1911",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels, Location de vacances",
@@ -674,6 +675,16 @@
       "link": "https://www.ebuyclub.com/reduction-anker-16692"
     },
     {
+      "name": "Anker SOLIX",
+      "slug": "18292",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Energie",
+      "link": null
+    },
+    {
       "name": "Antalis",
       "slug": "16135",
       "rate_text": "2,5% remboursés",
@@ -776,7 +787,7 @@
     {
       "name": "asambeauty",
       "slug": "14087",
-      "rate_text": "Jusqu'à 9% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1334,16 +1345,6 @@
       "link": "https://www.ebuyclub.com/reduction-besson-chaussures-13550"
     },
     {
-      "name": "Best Western",
-      "slug": "1235",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Hotels",
-      "link": "https://www.ebuyclub.com/reduction-best-western-1235"
-    },
-    {
       "name": "Bett1",
       "slug": "16474",
       "rate_text": "4,1% remboursés",
@@ -1432,6 +1433,16 @@
       "type": "direct",
       "category_seen": "Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-biocalma-18524"
+    },
+    {
+      "name": "Biofloral",
+      "slug": "19247",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être",
+      "link": "https://www.ebuyclub.com/reduction-biofloral-19247"
     },
     {
       "name": "Biotyfull Box",
@@ -1666,7 +1677,7 @@
     {
       "name": "boohooMAN",
       "slug": "10882",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2146,7 +2157,7 @@
     {
       "name": "Canon",
       "slug": "8889",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2446,8 +2457,8 @@
     {
       "name": "Charles Tyrwhitt",
       "slug": "8415",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Homme, Chaussures, Accessoires de mode",
@@ -3444,16 +3455,6 @@
       "link": "https://www.ebuyclub.com/reduction-deubaxxl-13639"
     },
     {
-      "name": "Devred",
-      "slug": "4725",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Mode Homme, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-devred-4725"
-    },
-    {
       "name": "DFDS SEAWAYS",
       "slug": "5876",
       "rate_text": "Jusqu'à 2,9% remboursés",
@@ -3514,16 +3515,6 @@
       "link": "https://www.ebuyclub.com/reduction-digixo-1184"
     },
     {
-      "name": "Direct Assurance MRH",
-      "slug": "15579",
-      "rate_text": "18€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Assurances",
-      "link": "https://www.ebuyclub.com/reduction-direct-assurance-mrh-15579"
-    },
-    {
       "name": "Direct Ferries",
       "slug": "5771",
       "rate_text": "Jusqu'à 1,6% remboursés",
@@ -3576,8 +3567,8 @@
     {
       "name": "Disney Store",
       "slug": "4100",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Bébé, Jouets, Mode Enfant, Déco",
@@ -3596,7 +3587,7 @@
     {
       "name": "Disneyland Paris",
       "slug": "4387",
-      "rate_text": "Jusqu'à 22,50€ remboursés",
+      "rate_text": "Jusqu'à 18€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3734,6 +3725,16 @@
       "link": "https://www.ebuyclub.com/reduction-dr-martens-8340"
     },
     {
+      "name": "Dr Pierre Ricaud",
+      "slug": "450",
+      "rate_text": "Jusqu'à 6,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Parfums, Cosmétiques",
+      "link": "https://www.ebuyclub.com/reduction-dr-pierre-ricaud-450"
+    },
+    {
       "name": "Dragées & Chocolats",
       "slug": "7575",
       "rate_text": "3,5% remboursés",
@@ -3776,8 +3777,8 @@
     {
       "name": "Dyson",
       "slug": "10071",
-      "rate_text": "0,2% remboursés",
-      "percent": 0.2,
+      "rate_text": "1% remboursés",
+      "percent": 1.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hygiène et entretien, Santé et Bien-être, Electromenager",
@@ -3966,7 +3967,7 @@
     {
       "name": "eDreams",
       "slug": "903",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3996,7 +3997,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4096,7 +4097,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 5,5% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4176,8 +4177,8 @@
     {
       "name": "Erborian",
       "slug": "11061",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "7,5% remboursés",
+      "percent": 7.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques",
@@ -4646,8 +4647,8 @@
     {
       "name": "FlashVentes",
       "slug": "12849",
-      "rate_text": "7,5% remboursés",
-      "percent": 7.5,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bijoux, Articles de sport, Animaux, Jardin et Extérieur, Gadgets, Jouets, Déco, Santé et Bien-être, Bricolage, Accessoires de mode",
@@ -4702,16 +4703,6 @@
       "type": "direct",
       "category_seen": "Transports",
       "link": "https://www.ebuyclub.com/reduction-flixbus-7485"
-    },
-    {
-      "name": "Flunch Traiteur",
-      "slug": "17063",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Epicerie & Restaurants",
-      "link": "https://www.ebuyclub.com/reduction-flunch-traiteur-17063"
     },
     {
       "name": "Flying Tiger Copenhagen",
@@ -4814,16 +4805,6 @@
       "link": "https://www.ebuyclub.com/reduction-foreo-8471"
     },
     {
-      "name": "Fortuneo",
-      "slug": "4842",
-      "rate_text": "Jusqu'à 100€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Assurances, Banque",
-      "link": "https://www.ebuyclub.com/reduction-fortuneo-4842"
-    },
-    {
       "name": "FOSSiBOT",
       "slug": "18459",
       "rate_text": "Jusqu'à 4,1% remboursés",
@@ -4846,7 +4827,7 @@
     {
       "name": "France Abonnements",
       "slug": "7662",
-      "rate_text": "Jusqu'à 5,50€ remboursés",
+      "rate_text": "Jusqu'à 8,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5736,8 +5717,8 @@
     {
       "name": "HEYDUDE",
       "slug": "17601",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -6096,8 +6077,8 @@
     {
       "name": "Humble +",
       "slug": "18462",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques, Santé et Bien-être",
@@ -6624,16 +6605,6 @@
       "link": "https://www.ebuyclub.com/reduction-interflora-512"
     },
     {
-      "name": "Intergard",
-      "slug": "6398",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Jardin et Extérieur",
-      "link": "https://www.ebuyclub.com/reduction-intergard-6398"
-    },
-    {
       "name": "Internxt",
       "slug": "18326",
       "rate_text": "2,5% remboursés",
@@ -6876,7 +6847,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7416,7 +7387,7 @@
     {
       "name": "L'Occitane",
       "slug": "2064",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7584,16 +7555,6 @@
       "link": "https://www.ebuyclub.com/reduction-la-poste-mobile-3916"
     },
     {
-      "name": "La Redoute",
-      "slug": "298",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Lingerie, Mode Enfant, Mode Homme, Articles de sport, Futures Mamans, Son Vidéo & Photo, Chaussures, Mode Femme, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Electromenager, Mode Bébé, Puériculture, Gadgets, Cuisine et Art de la table, Accessoires de mode, Jeux Vidéo & Console, Déco, Mobilier, Grande Taille",
-      "link": "https://www.ebuyclub.com/reduction-la-redoute-298"
-    },
-    {
       "name": "La Roche Posay",
       "slug": "8274",
       "rate_text": "2,9% remboursés",
@@ -7716,7 +7677,7 @@
     {
       "name": "lastminute.com",
       "slug": "205",
-      "rate_text": "Jusqu'à 60€ remboursés",
+      "rate_text": "Jusqu'à 30€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7806,7 +7767,7 @@
     {
       "name": "Le Figaro",
       "slug": "938",
-      "rate_text": "Jusqu'à 18€ remboursés",
+      "rate_text": "Jusqu'à 12€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7902,16 +7863,6 @@
       "type": "direct",
       "category_seen": "Magazine & Presse, Logiciels professionnels, Livres",
       "link": null
-    },
-    {
-      "name": "LEGO",
-      "slug": "5933",
-      "rate_text": "Jusqu'à 3,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Jouets",
-      "link": "https://www.ebuyclub.com/reduction-lego-5933"
     },
     {
       "name": "Lelo",
@@ -8022,6 +7973,16 @@
       "type": "direct",
       "category_seen": "Transports",
       "link": "https://www.ebuyclub.com/reduction-lepermislibre-15091"
+    },
+    {
+      "name": "Les Caves",
+      "slug": "8708",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Vins & Alcool",
+      "link": "https://www.ebuyclub.com/reduction-les-caves-8708"
     },
     {
       "name": "Les cotons de Romane",
@@ -8142,6 +8103,16 @@
       "type": "direct",
       "category_seen": "Mode Femme, Mode Homme, Animaux, Supermarché, Jouets, Jardin et Extérieur, Electromenager, Mobilier, Déco, Bricolage",
       "link": "https://www.ebuyclub.com/reduction-lidl-7180"
+    },
+    {
+      "name": "LIEWOOD",
+      "slug": "19248",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Jouets, Mode Bébé, Puériculture, Mode Enfant",
+      "link": "https://www.ebuyclub.com/reduction-liewood-19248"
     },
     {
       "name": "LightInTheBox",
@@ -8426,7 +8397,7 @@
     {
       "name": "Luminaire.fr",
       "slug": "4713",
-      "rate_text": "Jusqu'à 3,3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8746,8 +8717,8 @@
     {
       "name": "Mammotion",
       "slug": "18277",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Jardin et Extérieur",
@@ -8792,6 +8763,16 @@
       "type": "direct",
       "category_seen": "Jardin et Extérieur, Mobilier, Déco, Bricolage",
       "link": null
+    },
+    {
+      "name": "Manutan",
+      "slug": "712",
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Emballages & Expédition, Matériel informatique, Fournitures & Mobilier",
+      "link": "https://www.ebuyclub.com/reduction-manutan-712"
     },
     {
       "name": "Marc Orian",
@@ -9031,16 +9012,6 @@
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Chaussures",
-      "link": null
-    },
-    {
-      "name": "Mer Montagne Vacances",
-      "slug": "4573",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Location de vacances, Divertissement, Parc de Loisirs",
       "link": null
     },
     {
@@ -9294,6 +9265,16 @@
       "link": "https://www.ebuyclub.com/reduction-mitchell-ness-19208"
     },
     {
+      "name": "MMV",
+      "slug": "4573",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Location de vacances, Divertissement, Parc de Loisirs",
+      "link": null
+    },
+    {
       "name": "Mobile24",
       "slug": "7894",
       "rate_text": "2,9% remboursés",
@@ -9432,16 +9413,6 @@
       "type": "direct",
       "category_seen": "Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-mondial-tissus-7410"
-    },
-    {
-      "name": "Mondoffice",
-      "slug": "444",
-      "rate_text": "Jusqu'à 3,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Cartouches d'encre & Consommables, Papeterie, Fournitures & Mobilier, Matériel informatique, Informatique, Emballages & Expédition",
-      "link": "https://www.ebuyclub.com/reduction-mondoffice-444"
     },
     {
       "name": "Money Walkie",
@@ -9586,8 +9557,8 @@
     {
       "name": "Mova",
       "slug": "18453",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "Jusqu'à 4% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hygiène et entretien, Electromenager",
@@ -10106,7 +10077,7 @@
     {
       "name": "Nocibé",
       "slug": "925",
-      "rate_text": "Jusqu'à 13% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10172,6 +10143,16 @@
       "type": "direct",
       "category_seen": "Logiciels professionnels, Informatique, Internet & Téléphonie",
       "link": null
+    },
+    {
+      "name": "NordVPN",
+      "slug": "8981",
+      "rate_text": "40% remboursés",
+      "percent": 40.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Logiciels, Informatique, Internet & Téléphonie",
+      "link": "https://www.ebuyclub.com/reduction-nordvpn-8981"
     },
     {
       "name": "North Sails",
@@ -10276,7 +10257,7 @@
     {
       "name": "NUXE",
       "slug": "8192",
-      "rate_text": "Jusqu'à 5,5% remboursés",
+      "rate_text": "Jusqu'à 3,7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10376,8 +10357,8 @@
     {
       "name": "Olight Store",
       "slug": "12897",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Déco, Gadgets",
@@ -10596,8 +10577,8 @@
     {
       "name": "Oxybul",
       "slug": "485",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "0,4% remboursés",
+      "percent": 0.4,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Enfant, Puériculture, Mode Bébé, Jouets",
@@ -10736,7 +10717,7 @@
     {
       "name": "Parc Astérix",
       "slug": "1488",
-      "rate_text": "Jusqu'à 5€ remboursés",
+      "rate_text": "Jusqu'à 6€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10904,16 +10885,6 @@
       "link": null
     },
     {
-      "name": "Perfume's Club",
-      "slug": "7456",
-      "rate_text": "Jusqu'à 4% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
-      "link": "https://www.ebuyclub.com/reduction-perfume-s-club-7456"
-    },
-    {
       "name": "Petite Mendigote",
       "slug": "11052",
       "rate_text": "3,3% remboursés",
@@ -10946,8 +10917,8 @@
     {
       "name": "Philips",
       "slug": "2654",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Gadgets, Puériculture, Electromenager, Son Vidéo & Photo, Santé et Bien-être, Cuisine et Art de la table",
@@ -11116,8 +11087,8 @@
     {
       "name": "Place des tendances",
       "slug": "2655",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Homme, Mode Enfant",
@@ -11382,16 +11353,6 @@
       "type": "direct",
       "category_seen": "Déco, Développement Photo",
       "link": "https://www.ebuyclub.com/reduction-printerpix-12878"
-    },
-    {
-      "name": "Prismashop",
-      "slug": "3657",
-      "rate_text": "Jusqu'à 10€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Magazine & Presse",
-      "link": "https://www.ebuyclub.com/reduction-prismashop-3657"
     },
     {
       "name": "Private Internet Access VPN",
@@ -11716,8 +11677,8 @@
     {
       "name": "Radisson Hotel",
       "slug": "6371",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -11986,8 +11947,8 @@
     {
       "name": "Roborock",
       "slug": "18162",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -12276,7 +12237,7 @@
     {
       "name": "Sarenza.com",
       "slug": "750",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12456,7 +12417,7 @@
     {
       "name": "Sephora",
       "slug": "683",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12516,7 +12477,7 @@
     {
       "name": "SharkNinja",
       "slug": "15725",
-      "rate_text": "Jusqu'à 3,3% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12806,8 +12767,8 @@
     {
       "name": "Slome",
       "slug": "7416",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mobilier, Linge de Maison",
@@ -13026,7 +12987,7 @@
     {
       "name": "Sosh",
       "slug": "4731",
-      "rate_text": "Jusqu'à 48€ remboursés",
+      "rate_text": "Jusqu'à 45€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13414,6 +13375,16 @@
       "link": null
     },
     {
+      "name": "Swarovski",
+      "slug": "984",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Bijoux, Luxe",
+      "link": "https://www.ebuyclub.com/reduction-swarovski-984"
+    },
+    {
       "name": "SwissEcoShop.ch",
       "slug": "10061",
       "rate_text": "2,9% remboursés",
@@ -13644,16 +13615,6 @@
       "link": "https://www.ebuyclub.com/reduction-the-ayurveda-experience-16878"
     },
     {
-      "name": "The Cool Republic",
-      "slug": "9650",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Déco",
-      "link": "https://www.ebuyclub.com/reduction-the-cool-republic-9650"
-    },
-    {
       "name": "The Originals Human Hotels & Resorts",
       "slug": "3718",
       "rate_text": "2% remboursés",
@@ -13706,8 +13667,8 @@
     {
       "name": "Tineco",
       "slug": "18502",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hygiène et entretien",
@@ -13984,6 +13945,16 @@
       "link": "https://www.ebuyclub.com/reduction-tucano-urbano-19188"
     },
     {
+      "name": "TUI",
+      "slug": "527",
+      "rate_text": "Jusqu'à 48€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Voyagistes",
+      "link": "https://www.ebuyclub.com/reduction-tui-527"
+    },
+    {
       "name": "Tupperware",
       "slug": "18578",
       "rate_text": "5% remboursés",
@@ -13992,6 +13963,16 @@
       "type": "direct",
       "category_seen": "Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-tupperware-18578"
+    },
+    {
+      "name": "Turkish Airlines",
+      "slug": "5647",
+      "rate_text": "1% remboursés",
+      "percent": 1.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Vols",
+      "link": null
     },
     {
       "name": "Turo France",
@@ -14246,8 +14227,8 @@
     {
       "name": "Uriage",
       "slug": "13350",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques, Santé et Bien-être",
@@ -14272,6 +14253,16 @@
       "type": "direct",
       "category_seen": "Location de vacances, Hotels",
       "link": null
+    },
+    {
+      "name": "Valebio",
+      "slug": "19243",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Cosmétiques, Santé et Bien-être, Régime et Minceur",
+      "link": "https://www.ebuyclub.com/reduction-valebio-19243"
     },
     {
       "name": "Valege Lingerie",
@@ -14634,6 +14625,16 @@
       "link": null
     },
     {
+      "name": "Vodafone",
+      "slug": "11221",
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie",
+      "link": null
+    },
+    {
       "name": "Vogel's",
       "slug": "15097",
       "rate_text": "4% remboursés",
@@ -14766,8 +14767,8 @@
     {
       "name": "Waterdrop",
       "slug": "18204",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -15164,6 +15165,16 @@
       "link": "https://www.ebuyclub.com/reduction-ysl-beauty-9631"
     },
     {
+      "name": "Yves Rocher",
+      "slug": "263",
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Parfums, Cosmétiques",
+      "link": "https://www.ebuyclub.com/reduction-yves-rocher-263"
+    },
+    {
       "name": "Zadig&Voltaire",
       "slug": "6697",
       "rate_text": "Jusqu'à 2% remboursés",
@@ -15333,6 +15344,5 @@
       "category_seen": "Transports",
       "link": null
     }
-  ],
-  "platform_url": "https://www.ebuyclub.com/cashback"
+  ]
 }
