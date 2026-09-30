@@ -253,6 +253,62 @@
   }
   .rank-row.rank-best { background: var(--tag-cadeau-bg); }
   .rank-row.rank-best .rank-value { color: var(--gold); }
+
+  /* Historique du meilleur taux par enseigne (ajoute le 2026-09-30) —
+     bouton discret dans l'en-tete de fiche, panneau depliable avec un
+     graphique en courbe (une seule serie : pas de legende necessaire,
+     voir skill dataviz). */
+  .history-toggle {
+    flex: none;
+    border: none;
+    background: none;
+    padding: 2px 4px;
+    font-size: 15px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0.55;
+    border-radius: 4px;
+  }
+  .history-toggle:hover, .history-toggle[aria-expanded="true"] { opacity: 1; background: #F3F1EA; }
+  .history-panel {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--hairline);
+  }
+  .history-empty, .history-loading {
+    font-size: 12.5px;
+    color: var(--sage);
+    margin: 0;
+  }
+  .history-chart-wrap { position: relative; }
+  .history-chart { display: block; width: 100%; height: auto; overflow: visible; }
+  .history-line {
+    fill: none;
+    stroke: var(--sage);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .history-dot { fill: var(--sage); }
+  .history-axis-label {
+    font-size: 10px;
+    fill: var(--sage);
+    opacity: 0.85;
+  }
+  .history-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--ink);
+    color: var(--white);
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  .history-tooltip.visible { opacity: 1; }
   .tabs {
     display: flex;
     gap: 6px;
@@ -485,166 +541,17 @@
   // offres sous-jacentes ne sont PAS interchangeables (adresses ou
   // produits/formules differents) : ceux-la n'affichent jamais un % seul,
   // toujours le badge "plusieurs offres" (voir merchantCard).
-      const GROUP_ALIASES = {
-        "am pm": "ampm",
-        "am.pm": "ampm",
-        "ateliers wecandoo": "wecandoo",
-        "carrefour voyage": "carrefourvoyage",
-        "carrefour voyages": "carrefourvoyage",
-        "cinemas pathe": "pathe",
-        "cinemas pathe gaumont": "pathe",
-        "cinepass pathe": "pathe",
-        "pathe gaumont": "pathe",
-        "cgr cinemas": "cgr",
-        "gaumont pathe": "pathe",
-        "controle technique moncade - anglet": "moncade",
-        "controle technique moncade - bayonne mousserolles": "moncade",
-        "controle technique moncade - bayonne sainte croix": "moncade",
-        "controle technique moncade - boucau": "moncade",
-        "controle technique moncade anglet": "moncade",
-        "controle technique moncade bayonne mousserolles": "moncade",
-        "controle technique moncade bayonne sainte croix": "moncade",
-        "controle technique moncade boucau": "moncade",
-        "controle technique moncade tarnos": "moncade",
-        "darty": "dartyfnac",
-        "domino s pizza eysines": "dominos",
-        "domino s pizza merignac": "dominos",
-        "domino s pizza poitiers av": "dominos",
-        "domino s pizza poitiers pont neuf": "dominos",
-        "domino s pizza poitiers sud": "dominos",
-        "domino's pizza - eysines": "dominos",
-        "domino's pizza - merignac": "dominos",
-        "domino's pizza - poitiers av. de nantes": "dominos",
-        "domino's pizza - poitiers pont-neuf": "dominos",
-        "domino's pizza - poitiers sud": "dominos",
-        "dpam": "dpam",
-        "du pareil au meme": "dpam",
-        "fnac darty": "dartyfnac",
-        "forest hill": "foresthill",
-        "gyl": "gyl",
-        "gyl bag": "gyl",
-        "h m": "hm",
-        "h&m": "hm",
-        "homair": "homair",
-        "homair vacances": "homair",
-        "hotel pour tous": "hotelpourtous",
-        "hotels & preference": "hotelspreference",
-        "hotels preference": "hotelspreference",
-        "inter caves - chateaurenard": "intercaves",
-        "inter caves chateaurenard": "intercaves",
-        "kinepolis": "kinepolis",
-        "kinepolis business": "kinepolis",
-        "lego": "lego",
-        "lego®": "lego",
-        "les clubs forest hill": "foresthill",
-        "maeva": "maeva",
-        "maeva.com": "maeva",
-        "mk2": "mk2",
-        "mk2 cinemas": "mk2",
-        "molotov": "molotov",
-        "molotov tv": "molotov",
-        "monoprix": "monoprix",
-        "monoprix magasins": "monoprix",
-        "nature & decouvertes": "naturedecouvertes",
-        "o green oak pub mont de marsan": "ogreenoak",
-        "o'green oak pub - mont de marsan": "ogreenoak",
-        "pathe": "pathe",
-        "pathe france": "pathe",
-        "playstation store": "playstationstore",
-        "pokoon - boulogne-sur-mer": "pokoon",
-        "pokoon - calais": "pokoon",
-        "pokoon boulogne sur mer": "pokoon",
-        "pokoon calais": "pokoon",
-        "port aventura world": "portaventura",
-        "portaventura world": "portaventura",
-        "prive by zalando": "zalando",
-        "promosejours": "promosejours",
-        "promosejours-ce": "promosejours",
-        "radisson hotel": "radissonhotel",
-        "radisson hotels": "radissonhotel",
-        "red by sfr - box": "redsfrbox",
-        "red by sfr - box internet": "redsfrbox",
-        "rituals": "rituals",
-        "rituals cosmetics": "rituals",
-        "sarenza": "sarenza",
-        "sarenza.com": "sarenza",
-        "save - saint-medard-en-jalles": "save",
-        "save saint medard en jalles": "save",
-        "steel rider - biard": "steelrider",
-        "steel rider biard": "steelrider",
-        "un hotel pour tous": "hotelpourtous",
-        "v and b - begles": "vandb",
-        "v and b - poitiers ouest": "vandb",
-        "v and b - poitiers sud": "vandb",
-        "v and b begles": "vandb",
-        "v and b poitiers ouest": "vandb",
-        "v and b poitiers sud": "vandb",
-        "vtf": "vtf",
-        "vtf vacances": "vtf",
-        "vvf": "vvf",
-        "vvf villages": "vvf",
-        "walibi rhone alpes": "walibi",
-        "walibi rhone-alpes": "walibi",
-        "walibi rhones alpes": "walibi",
-        "webrod - tourcoing": "webrod",
-        "webrod tourcoing": "webrod",
-        "wecandoo": "wecandoo",
-        "whirlpool": "whirlpool",
-        "whirlpool fr": "whirlpool",
-        "zalando": "zalando",
-      };
+  //
+  // Sortie dans merchant_groups.json le 2026-09-30 (au lieu d'un objet en
+  // dur ici) pour que compute_history.py (calcul de l'historique des
+  // meilleurs taux par enseigne, cote automatisation GitHub Actions)
+  // applique exactement la meme regle de regroupement que le site, sans
+  // jamais desynchroniser les deux — chargee au demarrage avec les
+  // fichiers de donnees (voir Promise.all plus bas).
+  let GROUP_ALIASES = {};
+  let GROUP_DISPLAY_NAMES = {};
+  let AMBIGUOUS_GROUPS = new Set();
 
-      const GROUP_DISPLAY_NAMES = {
-        "pathe": "Pathé",
-        "moncade": "Contrôle Technique Moncade",
-        "dominos": "Domino's Pizza",
-        "vandb": "V and B",
-        "pokoon": "Pokoon",
-        "mk2": "MK2 Cinémas",
-        "kinepolis": "Kinepolis",
-        "cgr": "CGR Cinémas",
-        "portaventura": "PortAventura World",
-        "walibi": "Walibi Rhône-Alpes",
-        "steelrider": "Steel Rider",
-        "save": "Save",
-        "webrod": "WeBrod",
-        "ogreenoak": "O'Green Oak Pub",
-        "intercaves": "Inter Caves",
-        "ampm": "AM PM",
-        "wecandoo": "Ateliers WeCanDoo",
-        "dpam": "DPAM",
-        "foresthill": "Forest Hill",
-        "gyl": "GYL",
-        "hm": "H&M",
-        "hotelspreference": "Hôtels & Préférence",
-        "homair": "Homair Vacances",
-        "hotelpourtous": "Un hôtel pour tous",
-        "lego": "LEGO",
-        "maeva": "Maeva.com",
-        "molotov": "Molotov TV",
-        "monoprix": "Monoprix",
-        "naturedecouvertes": "Nature & Découvertes",
-        "promosejours": "Promoséjours",
-        "playstationstore": "PlayStation Store",
-        "radissonhotel": "Radisson Hotels",
-        "redsfrbox": "RED by SFR - Box Internet",
-        "rituals": "Rituals Cosmetics",
-        "sarenza": "Sarenza",
-        "vtf": "VTF Vacances",
-        "vvf": "VVF Villages",
-        "whirlpool": "Whirlpool",
-        "zalando": "Zalando",
-        "carrefourvoyage": "Carrefour Voyages",
-        "dartyfnac": "FNAC DARTY",
-      };
-
-      const AMBIGUOUS_GROUPS = new Set([
-        "pathe",
-        "moncade",
-        "dominos",
-        "vandb",
-        "pokoon",
-      ]);
   function groupKeyFor(name) {
     const n = normalize(name).trim();
     return GROUP_ALIASES[n] || n;
@@ -872,6 +779,10 @@
       const offers = applyBoostOverrides(entry.offers);
       return {
         name: entry.name,
+        // Cle de regroupement canonique (identique a celle de
+        // compute_history.py), conservee sur le marchand pour retrouver
+        // son historique de taux (voir loadHistoryData/historique_meilleurs_taux.json).
+        key,
         offers,
         ambiguous: AMBIGUOUS_GROUPS.has(key),
         ...computeStats(offers),
@@ -888,7 +799,7 @@
       .map(m => {
         const offers = m.offers.filter(o => activePlatforms.has(o.platform));
         if (!offers.length) return null;
-        return { name: m.name, offers, ambiguous: m.ambiguous, ...computeStats(offers) };
+        return { name: m.name, key: m.key, offers, ambiguous: m.ambiguous, ...computeStats(offers) };
       })
       .filter(Boolean);
   }
@@ -1117,6 +1028,18 @@
   function merchantCard(m, isTop, idx, opts) {
     opts = opts || {};
     const rankId = `rank-${idx}`;
+    const histId = `hist-${idx}`;
+    // Bouton d'historique du meilleur taux (ajoute le 2026-09-30, demande
+    // de l'utilisatrice : "un historique des meilleurs % pour chaque
+    // site") — une courbe par enseigne, toutes plateformes confondues,
+    // chargee a la demande depuis historique_meilleurs_taux.json (voir
+    // loadHistoryData). data-key porte la cle de regroupement canonique
+    // (m.key), identique a celle utilisee par compute_history.py cote
+    // automatisation, pour retrouver l'entree correspondante.
+    const historyToggle = m.key ? `
+      <button type="button" class="history-toggle" data-key="${escapeAttr(m.key)}" data-target="${histId}" aria-expanded="false" title="Historique du meilleur taux">📈</button>
+    ` : '';
+    const historyPanel = m.key ? `<div class="history-panel" id="${histId}" hidden></div>` : '';
     // Nom de l'enseigne cliquable vers la meilleure offre / la plateforme
     // correspondante (demande de l'utilisatrice le 2026-09-24 : plus
     // simple qu'un lien exact par offre, elle termine la recherche
@@ -1147,6 +1070,7 @@
               ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
               <${nameTag} class="name"${nameLinkAttrs}>${m.name}${nameLinkIcon}</${nameTag}>
             </div>
+            ${historyToggle}
           </div>
           <button type="button" class="ambiguous-toggle rank-toggle" data-target="${rankId}" aria-expanded="false">
             <span class="badge-ambiguous">${badgeLabel} <span class="chevron">▾</span></span>
@@ -1155,6 +1079,7 @@
           <div class="rank-list" id="${rankId}" hidden>
             ${rankedOfferRows(m.offers)}
           </div>
+          ${historyPanel}
         </li>
       `;
     }
@@ -1207,10 +1132,12 @@
             ${isTop ? '<span class="badge">Meilleure offre</span>' : ''}
             <${nameTag} class="name"${nameLinkAttrs}>${m.name}${nameLinkIcon}</${nameTag}>
           </div>
+          ${historyToggle}
         </div>
         ${offersHtml}
         ${cumulNote}
         ${rankToggle}
+        ${historyPanel}
       </li>
     `;
   }
@@ -1305,6 +1232,129 @@
     }
   });
 
+  // Historique du meilleur taux par enseigne (ajoute le 2026-09-30) —
+  // fichier charge une seule fois, a la demande (au premier clic sur un
+  // bouton d'historique), pour ne pas alourdir le chargement initial du
+  // site avec un fichier qui ne fera que grossir avec le temps.
+  let historyDataPromise = null;
+  function loadHistoryData() {
+    if (!historyDataPromise) {
+      historyDataPromise = fetch('historique_meilleurs_taux.json')
+        .then(r => (r.ok ? r.json() : {}))
+        .catch(() => ({}));
+    }
+    return historyDataPromise;
+  }
+
+  function formatHistoryDate(iso) {
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+  }
+
+  // Construit le graphique en courbe (une seule serie -> pas de legende
+  // necessaire, voir skill dataviz) du meilleur taux au fil du temps pour
+  // une enseigne. Avec un seul releve (cas normal juste apres la mise en
+  // place du 2026-09-30, ou pour une enseigne apparue depuis peu), une
+  // courbe n'a pas de sens : on affiche juste la valeur.
+  function renderHistoryChart(entry) {
+    if (!entry || !entry.history || !entry.history.length) {
+      return '<p class="history-empty">Pas encore de relevé pour cette enseigne — revenez dans quelques jours.</p>';
+    }
+    const points = entry.history;
+    if (points.length === 1) {
+      const p = points[0];
+      return `<p class="history-empty">Premier relevé le ${formatHistoryDate(p.date)} : <strong>${p.percent}%</strong>. Revenez dans quelques jours pour voir l'évolution.</p>`;
+    }
+
+    const width = 560, height = 120, padL = 8, padR = 8, padT = 10, padB = 20;
+    const values = points.map(p => p.percent);
+    const minV = Math.min(...values);
+    const maxV = Math.max(...values);
+    // Garde une bande verticale visible meme quand le taux n'a pas bougé.
+    const spread = (maxV - minV) || 1;
+    const yFor = v => padT + (height - padT - padB) * (1 - (v - minV) / spread);
+    const xFor = i => padL + (width - padL - padR) * (i / (points.length - 1));
+    const coords = points.map((p, i) => [xFor(i), yFor(p.percent)]);
+
+    const pathD = coords.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+    const dots = coords.map(([x, y], i) =>
+      `<circle class="history-dot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3"></circle>`
+    ).join('');
+
+    return `
+      <div class="history-chart-wrap">
+        <svg class="history-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Évolution du meilleur taux pour ${escapeAttr(entry.name)}">
+          <path class="history-line" d="${pathD}"></path>
+          ${dots}
+          <text class="history-axis-label" x="${padL}" y="${height - 4}" text-anchor="start">${formatHistoryDate(points[0].date)}</text>
+          <text class="history-axis-label" x="${width - padR}" y="${height - 4}" text-anchor="end">${formatHistoryDate(points[points.length - 1].date)}</text>
+        </svg>
+        <div class="history-tooltip" hidden></div>
+      </div>
+    `;
+  }
+
+  // Couche d'interaction (survol -> infobulle avec date/taux/plateforme),
+  // requise par la skill dataviz pour tout graphique en courbe. Trouve le
+  // point le plus proche du curseur en X plutôt que de dépendre du survol
+  // pixel-perfect d'un petit rond de 3px.
+  function attachHistoryInteractivity(panel, points) {
+    const svg = panel.querySelector('.history-chart');
+    const tooltip = panel.querySelector('.history-tooltip');
+    const dots = panel.querySelectorAll('.history-dot');
+    if (!svg || !tooltip || !dots.length) return;
+    const vb = svg.viewBox.baseVal;
+
+    function showFor(index) {
+      const dot = dots[index];
+      const rect = svg.getBoundingClientRect();
+      const cx = parseFloat(dot.getAttribute('cx'));
+      const cy = parseFloat(dot.getAttribute('cy'));
+      tooltip.style.left = ((cx / vb.width) * rect.width) + 'px';
+      tooltip.style.top = ((cy / vb.height) * rect.height) + 'px';
+      const p = points[index];
+      tooltip.textContent = `${formatHistoryDate(p.date)} — ${p.percent}% (${p.platform})`;
+      tooltip.removeAttribute('hidden');
+      tooltip.classList.add('visible');
+    }
+
+    svg.addEventListener('mousemove', e => {
+      const rect = svg.getBoundingClientRect();
+      const relX = (e.clientX - rect.left) / rect.width;
+      const idx = Math.max(0, Math.min(points.length - 1, Math.round(relX * (points.length - 1))));
+      showFor(idx);
+    });
+    svg.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('visible');
+    });
+  }
+
+  // Ouvre/ferme le panneau d'historique d'une enseigne au clic (même
+  // principe de délégation que .rank-toggle ci-dessus). Le fichier
+  // d'historique n'est récupéré qu'au premier clic, puis mis en cache par
+  // loadHistoryData() pour les clics suivants.
+  document.querySelector('.wrap').addEventListener('click', e => {
+    const btn = e.target.closest('.history-toggle');
+    if (!btn) return;
+    const panel = document.getElementById(btn.dataset.target);
+    if (!panel) return;
+    if (!panel.hasAttribute('hidden')) {
+      panel.setAttribute('hidden', '');
+      btn.setAttribute('aria-expanded', 'false');
+      return;
+    }
+    panel.removeAttribute('hidden');
+    btn.setAttribute('aria-expanded', 'true');
+    panel.innerHTML = '<p class="history-loading">Chargement…</p>';
+    loadHistoryData().then(data => {
+      const entry = data[btn.dataset.key];
+      panel.innerHTML = renderHistoryChart(entry);
+      if (entry && entry.history && entry.history.length > 1) {
+        attachHistoryInteractivity(panel, entry.history);
+      }
+    });
+  });
+
   // Message d'erreur de chargement (ajoute le 2026-09-24, signale par
   // l'utilisatrice : le "Chargement des données…" restait affiche
   // indefiniment en cas d'echec au lieu de prevenir). Couvre a la fois le
@@ -1321,13 +1371,26 @@
     if (detail) console.error('[comparateur] échec du chargement des données :', detail);
   }
 
-  Promise.all(
-    DATA_FILES.map(file =>
-      fetch(file)
-        .then(r => (r.ok ? r.json() : null))
-        .catch(() => null)
-    )
-  ).then(datasets => {
+  Promise.all([
+    fetch('merchant_groups.json').then(r => (r.ok ? r.json() : null)).catch(() => null),
+    Promise.all(
+      DATA_FILES.map(file =>
+        fetch(file)
+          .then(r => (r.ok ? r.json() : null))
+          .catch(() => null)
+      )
+    ),
+  ]).then(([groups, datasets]) => {
+    // Table d'alias/regroupement chargee depuis merchant_groups.json (voir
+    // commentaire plus haut) — absence tolérée (fallback : chaque enseigne
+    // reste seule dans son propre groupe, pas de fusion, mais le site reste
+    // utilisable) plutôt que de bloquer tout l'affichage pour ça.
+    if (groups) {
+      GROUP_ALIASES = groups.aliases || {};
+      GROUP_DISPLAY_NAMES = groups.display_names || {};
+      AMBIGUOUS_GROUPS = new Set(groups.ambiguous || []);
+    }
+
     const loaded = datasets.filter(Boolean);
     if (loaded.length === 0) {
       showLoadError('aucun fichier de données récupéré');
