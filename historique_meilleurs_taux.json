@@ -256,8 +256,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 8.0,
-    "platform": "eBuyClub",
+    "percent": 5.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -971,8 +971,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.5,
-    "platform": "iGraal",
+    "percent": 4.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -1792,6 +1792,17 @@
   ],
   "name": "Batteries Online"
  },
+ "bazarchic": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 5.5,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "BAZARCHIC"
+ },
  "bdfugue": {
   "history": [
    {
@@ -2155,6 +2166,17 @@
   ],
   "name": "Biocalma"
  },
+ "biofloral": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 2.5,
+    "platform": "eBuyClub",
+    "type": "direct"
+   }
+  ],
+  "name": "Biofloral"
+ },
  "biolane": {
   "history": [
    {
@@ -2478,8 +2500,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 30.0,
-    "platform": "Banque Populaire (Extra+X)",
+    "percent": 25.0,
+    "platform": "Boursorama Shopping (The Corner)",
     "type": "direct"
    }
   ],
@@ -2610,8 +2632,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 10.0,
-    "platform": "iGraal",
+    "percent": 2.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -2698,8 +2720,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 6.0,
-    "platform": "iGraal",
+    "percent": 6.8,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -2792,6 +2814,17 @@
    }
   ],
   "name": "Buybestgear"
+ },
+ "bymydeco": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 3.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "ByMyDeco"
  },
  "bzb": {
   "history": [
@@ -3006,8 +3039,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.5,
-    "platform": "iGraal",
+    "percent": 2.1,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -3677,8 +3710,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.8,
-    "platform": "Fnac Darty Pass",
+    "percent": 4.5,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -3886,8 +3919,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 5.0,
-    "platform": "eBuyClub",
+    "percent": 6.8,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -3919,8 +3952,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 8.0,
-    "platform": "iGraal",
+    "percent": 2.5,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -4469,8 +4502,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.8,
-    "platform": "Fnac Darty Pass",
+    "percent": 3.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -5085,9 +5118,9 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 6.8,
-    "platform": "Fnac Darty Pass",
-    "type": "direct"
+    "percent": 5.0,
+    "platform": "Happypal (Codes Club Rousseau)",
+    "type": "carte_cadeau"
    }
   ],
   "name": "Devred"
@@ -5217,7 +5250,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.5,
+    "percent": 3.0,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -6075,7 +6108,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.1,
+    "percent": 7.5,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -6346,6 +6379,17 @@
   ],
   "name": "EZVIZ"
  },
+ "f-secure": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 20.4,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "F-Secure"
+ },
  "f1 store": {
   "history": [
    {
@@ -6603,8 +6647,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 15.0,
-    "platform": "eBuyClub",
+    "percent": 20.4,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -7148,6 +7192,17 @@
    }
   ],
   "name": "Gayaskin"
+ },
+ "geekbuying": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 2.5,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "GeekBuying"
  },
  "gemo": {
   "history": [
@@ -7699,6 +7754,17 @@
   ],
   "name": "Groupon"
  },
+ "groupon belgique": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 4.8,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "Groupon Belgique"
+ },
  "guard industrie": {
   "history": [
    {
@@ -8143,7 +8209,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.3,
+    "percent": 6.0,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -8309,7 +8375,7 @@
    {
     "date": "2026-09-30",
     "percent": 40.0,
-    "platform": "Le Club Ulys",
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -8671,8 +8737,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 7.0,
-    "platform": "iGraal",
+    "percent": 3.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -8704,7 +8770,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.0,
+    "percent": 2.9,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -8957,12 +9023,12 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 9.0,
-    "platform": "eBuyClub",
+    "percent": 8.7,
+    "platform": "Fnac Darty Pass",
     "type": "carte_cadeau"
    }
   ],
-  "name": "Ikks"
+  "name": "IKKS"
  },
  "iko:nott": {
   "history": [
@@ -11278,8 +11344,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 8.5,
-    "platform": "iGraal",
+    "percent": 1.6,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -11531,7 +11597,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.0,
+    "percent": 2.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -11608,8 +11674,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.0,
-    "platform": "iGraal",
+    "percent": 2.8,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -11685,8 +11751,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.0,
-    "platform": "eBuyClub",
+    "percent": 5.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -12389,8 +12455,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 1.7,
-    "platform": "Fnac Darty Pass",
+    "percent": 2.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -13159,9 +13225,9 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 20.0,
-    "platform": "Happypal (Codes Club Rousseau)",
-    "type": "carte_cadeau"
+    "percent": 25.0,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
    }
   ],
   "name": "MMV"
@@ -13247,7 +13313,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 7.0,
+    "percent": 4.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -13386,6 +13452,17 @@
   ],
   "name": "Monka"
  },
+ "monkey mum": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 6.8,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "Monkey Mum"
+ },
  "monoeuvre": {
   "history": [
    {
@@ -13440,6 +13517,17 @@
    }
   ],
   "name": "Morgan"
+ },
+ "morin": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 4.1,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "Morin"
  },
  "morphea": {
   "history": [
@@ -13522,8 +13610,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.5,
-    "platform": "eBuyClub",
+    "percent": 3.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -13786,8 +13874,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.1,
-    "platform": "eBuyClub",
+    "percent": 4.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -14589,7 +14677,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 6.0,
+    "percent": 4.1,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -15282,9 +15370,9 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 5.0,
-    "platform": "Happypal (Codes Club Rousseau)",
-    "type": "carte_cadeau"
+    "percent": 5.5,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
    }
   ],
   "name": "Petit Bateau"
@@ -15348,7 +15436,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.0,
+    "percent": 5.0,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -15524,9 +15612,9 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.8,
-    "platform": "Fnac Darty Pass",
-    "type": "direct"
+    "percent": 4.0,
+    "platform": "Le Club Ulys",
+    "type": "carte_cadeau"
    }
   ],
   "name": "Place Des Tendances"
@@ -16195,8 +16283,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 6.0,
-    "platform": "eBuyClub",
+    "percent": 5.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -16349,8 +16437,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.0,
-    "platform": "iGraal",
+    "percent": 2.5,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -16756,8 +16844,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.5,
-    "platform": "eBuyClub",
+    "percent": 4.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -17401,6 +17489,17 @@
   ],
   "name": "shark helmets"
  },
+ "shark ninja": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 2.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "Shark Ninja"
+ },
  "shelly": {
   "history": [
    {
@@ -17691,7 +17790,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.5,
+    "percent": 1.6,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -17801,8 +17900,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.2,
-    "platform": "iGraal",
+    "percent": 3.4,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -18230,8 +18329,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.1,
-    "platform": "eBuyClub",
+    "percent": 4.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -18527,7 +18626,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 3.25,
+    "percent": 3.5,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -18571,8 +18670,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.8,
-    "platform": "Fnac Darty Pass",
+    "percent": 3.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -18610,6 +18709,17 @@
    }
   ],
   "name": "Tempur"
+ },
+ "temu": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 14.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "Temu"
  },
  "tentbox": {
   "history": [
@@ -18912,7 +19022,7 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 2.0,
+    "percent": 3.0,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -19209,8 +19319,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 10.0,
-    "platform": "eBuyClub",
+    "percent": 13.6,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -19346,7 +19456,7 @@
     "type": "direct"
    }
   ],
-  "name": "Tui"
+  "name": "TUI"
  },
  "tupperware": {
   "history": [
@@ -19358,6 +19468,17 @@
    }
   ],
   "name": "Tupperware"
+ },
+ "turkish airlines": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 1.0,
+    "platform": "eBuyClub",
+    "type": "direct"
+   }
+  ],
+  "name": "Turkish Airlines"
  },
  "twitch": {
   "history": [
@@ -19726,8 +19847,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.1,
-    "platform": "Fnac Darty Pass",
+    "percent": 4.5,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -19792,8 +19913,8 @@
   "history": [
    {
     "date": "2026-09-30",
-    "percent": 4.16,
-    "platform": "iGraal",
+    "percent": 5.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -20162,6 +20283,17 @@
   ],
   "name": "Vision Direct"
  },
+ "vistaprint": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 5.5,
+    "platform": "Fnac Darty Pass",
+    "type": "direct"
+   }
+  ],
+  "name": "Vistaprint"
+ },
  "vitalco": {
   "history": [
    {
@@ -20205,6 +20337,17 @@
    }
   ],
   "name": "Vivara"
+ },
+ "vodafone": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 4.1,
+    "platform": "eBuyClub",
+    "type": "direct"
+   }
+  ],
+  "name": "Vodafone"
  },
  "vogel's": {
   "history": [
@@ -20502,6 +20645,17 @@
    }
   ],
   "name": "WeightWorld"
+ },
+ "welax": {
+  "history": [
+   {
+    "date": "2026-09-30",
+    "percent": 7.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "welax"
  },
  "weleda": {
   "history": [
