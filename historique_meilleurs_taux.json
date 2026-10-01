@@ -740,7 +740,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.5,
+    "percent": 6.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -768,6 +768,12 @@
   "history": [
    {
     "date": "2026-09-30",
+    "percent": 5.0,
+    "platform": "eBuyClub",
+    "type": "direct"
+   },
+   {
+    "date": "2026-10-01",
     "percent": 5.0,
     "platform": "eBuyClub",
     "type": "direct"
@@ -1068,7 +1074,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 2.5,
+    "percent": 12.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -1895,7 +1901,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 2.5,
+    "percent": 4.5,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -2405,8 +2411,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 20.0,
-    "platform": "iGraal",
+    "percent": 15.0,
+    "platform": "Le Club Ulys",
     "type": "direct"
    }
   ],
@@ -3738,6 +3744,17 @@
   ],
   "name": "Bongo Belgique"
  },
+ "bonne maman": {
+  "history": [
+   {
+    "date": "2026-10-01",
+    "percent": 2.9,
+    "platform": "eBuyClub",
+    "type": "direct"
+   }
+  ],
+  "name": "Bonne Maman"
+ },
  "bonobo": {
   "history": [
    {
@@ -4110,7 +4127,7 @@
     "type": "carte_cadeau"
    }
   ],
-  "name": "Bricocash"
+  "name": "BRICOCASH"
  },
  "bricomarche": {
   "history": [
@@ -4717,8 +4734,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 2.1,
-    "platform": "Fnac Darty Pass",
+    "percent": 2.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -5132,6 +5149,17 @@
   ],
   "name": "Carrefour Express"
  },
+ "carrefour location": {
+  "history": [
+   {
+    "date": "2026-10-01",
+    "percent": 2.0,
+    "platform": "eBuyClub",
+    "type": "direct"
+   }
+  ],
+  "name": "Carrefour location"
+ },
  "carrefour market": {
   "history": [
    {
@@ -5142,7 +5170,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 3.6,
+    "percent": 5.0,
     "platform": "eBuyClub",
     "type": "carte_cadeau"
    }
@@ -5211,7 +5239,7 @@
    {
     "date": "2026-10-01",
     "percent": 5.0,
-    "platform": "Happypal (Codes Club Rousseau)",
+    "platform": "eBuyClub",
     "type": "carte_cadeau"
    }
   ],
@@ -6961,7 +6989,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 3.15,
+    "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -7142,8 +7170,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 80.0,
-    "platform": "eBuyClub",
+    "percent": 100.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -8853,8 +8881,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 40.0,
-    "platform": "iGraal",
+    "percent": 4.1,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -9278,7 +9306,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.0,
+    "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -9499,8 +9527,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 10.2,
-    "platform": "Fnac Darty Pass",
+    "percent": 15.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -9646,7 +9674,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.0,
+    "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -9986,8 +10014,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.2,
-    "platform": "iGraal",
+    "percent": 4.1,
+    "platform": "Fnac Darty Pass",
     "type": "carte_cadeau"
    }
   ],
@@ -10071,8 +10099,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.0,
-    "platform": "iGraal",
+    "percent": 1.2,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -10507,6 +10535,12 @@
   "history": [
    {
     "date": "2026-09-30",
+    "percent": 3.5,
+    "platform": "eBuyClub",
+    "type": "direct"
+   },
+   {
+    "date": "2026-10-01",
     "percent": 3.5,
     "platform": "eBuyClub",
     "type": "direct"
@@ -11430,7 +11464,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 8.0,
+    "percent": 5.25,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -12603,8 +12637,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 2.5,
-    "platform": "eBuyClub",
+    "percent": 5.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -13895,8 +13929,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.0,
-    "platform": "iGraal",
+    "percent": 2.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -14348,7 +14382,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 3.5,
+    "percent": 3.6,
     "platform": "iGraal",
     "type": "carte_cadeau"
    }
@@ -14688,8 +14722,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 2.5,
-    "platform": "iGraal",
+    "percent": 2.9,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -16801,9 +16835,9 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.0,
-    "platform": "Happypal (Codes Club Rousseau)",
-    "type": "carte_cadeau"
+    "percent": 7.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Lacoste"
@@ -18104,7 +18138,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.0,
+    "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -18274,8 +18308,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.2,
-    "platform": "iGraal",
+    "percent": 4.0,
+    "platform": "Happypal (Codes Club Rousseau)",
     "type": "carte_cadeau"
    }
   ],
@@ -18988,8 +19022,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 3.6,
-    "platform": "iGraal",
+    "percent": 3.5,
+    "platform": "Fnac Darty Pass",
     "type": "carte_cadeau"
    }
   ],
@@ -19175,8 +19209,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 3.0,
-    "platform": "iGraal",
+    "percent": 1.6,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -19209,7 +19243,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.5,
+    "percent": 2.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -20158,6 +20192,12 @@
     "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
+   },
+   {
+    "date": "2026-10-01",
+    "percent": 3.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Miinto"
@@ -20596,7 +20636,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.0,
+    "percent": 5.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -20834,8 +20874,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.0,
-    "platform": "iGraal",
+    "percent": 4.1,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -21945,6 +21985,17 @@
    }
   ],
   "name": "NFL Shop"
+ },
+ "niche beauty": {
+  "history": [
+   {
+    "date": "2026-10-01",
+    "percent": 8.5,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "Niche Beauty"
  },
  "nike": {
   "history": [
@@ -24453,7 +24504,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.1,
+    "percent": 6.0,
     "platform": "eBuyClub",
     "type": "direct"
    }
@@ -25099,8 +25150,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 6.5,
-    "platform": "iGraal",
+    "percent": 5.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -25269,8 +25320,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.5,
-    "platform": "iGraal",
+    "percent": 2.8,
+    "platform": "Fnac Darty Pass",
     "type": "direct"
    }
   ],
@@ -26613,7 +26664,7 @@
    {
     "date": "2026-10-01",
     "percent": 12.0,
-    "platform": "Boursorama Shopping (The Corner)",
+    "platform": "Banque Populaire (Extra+X)",
     "type": "direct"
    }
   ],
@@ -28419,8 +28470,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 4.5,
-    "platform": "iGraal",
+    "percent": 4.1,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -29472,8 +29523,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 6.0,
-    "platform": "iGraal",
+    "percent": 3.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -30016,7 +30067,7 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 5.0,
+    "percent": 7.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -30475,8 +30526,8 @@
    },
    {
     "date": "2026-10-01",
-    "percent": 7.5,
-    "platform": "eBuyClub",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -32265,6 +32316,17 @@
    }
   ],
   "name": "Xbox Belgique"
+ },
+ "xbox design lab": {
+  "history": [
+   {
+    "date": "2026-10-01",
+    "percent": 6.5,
+    "platform": "iGraal",
+    "type": "carte_cadeau"
+   }
+  ],
+  "name": "Xbox Design Lab"
  },
  "xiaomi": {
   "history": [

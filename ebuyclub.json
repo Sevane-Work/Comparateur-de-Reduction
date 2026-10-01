@@ -1,15 +1,15 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-09-30",
-  "generated_at": "2026-09-30T23:14:09.641043+00:00",
+  "captured_at": "2026-10-01",
+  "generated_at": "2026-10-01T23:13:12.454323+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
       "name": "Carrefour",
       "slug": "carrefour-10310",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -19,8 +19,8 @@
     {
       "name": "Auchan",
       "slug": "auchan-307",
-      "rate_text": "3% rembours",
-      "percent": 3.0,
+      "rate_text": "4% rembours",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -41,8 +41,8 @@
     {
       "name": "Smartbox",
       "slug": "smartbox-1044",
-      "rate_text": "13% rembours",
-      "percent": 13.0,
+      "rate_text": "11% rembours",
+      "percent": 11.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -382,8 +382,8 @@
     {
       "name": "Carrefour Market",
       "slug": "carrefour-market-7155",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -542,7 +542,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 0,4% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
     },
     {
       "name": "Promod",
@@ -707,7 +707,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 6,5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
     },
     {
       "name": "Interflora",
@@ -851,7 +851,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 2,5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 1,5% de cashback"
     },
     {
       "name": "Mademoiselle Bio",
@@ -878,8 +878,8 @@
     {
       "name": "Carrefour Voyages",
       "slug": "carrefour-voyages-4988",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -1071,7 +1071,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3% de cashback"
     },
     {
       "name": "Faguo",
@@ -1500,7 +1500,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5,5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 3,3% de cashback"
     },
     {
       "name": "Blizzard Belgique",
@@ -1661,6 +1661,17 @@
       "slug": "molotov-tv-17104",
       "rate_text": "9% rembours",
       "percent": 9.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau",
+      "type": "carte_cadeau",
+      "category_seen": "bons-d-achat",
+      "usage_location": "UNIQUEMENT EN LIGNE",
+      "stackable_cashback_rate_text": null
+    },
+    {
+      "name": "Swarovski",
+      "slug": "swarovski-984",
+      "rate_text": "7% rembours",
+      "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",

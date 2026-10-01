@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-09-30",
-  "generated_at": "2026-09-30T23:15:35.696939+00:00",
+  "captured_at": "2026-10-01",
+  "generated_at": "2026-10-01T23:14:41.758648+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -288,8 +288,8 @@
     {
       "name": "Sarenza",
       "slug": "sarenza",
-      "rate_text": "-8%",
-      "percent": 8.0,
+      "rate_text": "12%* au lieu de 8%",
+      "percent": 12.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": null
