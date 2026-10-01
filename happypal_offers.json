@@ -1,7 +1,7 @@
 {
   "platform": "Happypal (Codes Club Rousseau)",
-  "captured_at": "2026-09-17",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' du filtre Happypal (le plus fiable et le plus comparable aux autres plateformes du comparateur), hors 'E-billet', 'Code promo' et 'Site partenaire' (hors perimetre pour cette premiere version). 556 fiches lues au total sur la vignette liste ; 169 d'entre elles n'affichaient aucun pourcentage de reduction sur cette vignette et ont d'abord ete exclues du fichier a la demande de l'utilisatrice. Verification complementaire du 2026-09-17 (suite a la remarque de l'utilisatrice sur Uber VTC, dont la reduction -5% n'apparait que sur sa fiche produit individuelle) : les 169 fiches sans pourcentage visible ont ete revérifiées une par une via l'API GraphQL interne de Happypal (requete 'CampaignOffers', rejouee directement dans l'onglet deja authentifie de l'utilisatrice via fetch(), sans navigation de page ni capture d'ecran, donc a cout tres faible - aucun jeton ni cookie extrait ou reutilise hors de cet onglet). 10 fiches sur les 169 avaient en realite une reduction reelle non affichee sur la vignette liste (Billetterie Fnac -4%, Pierre & Vacances -20%, lastminute.com -5%, Uber eats -5%, Uber VTC -5%, Nike -10%, Beauty Success -20%, Maisons du Monde -8%, Philibert -10%, Sarenza -5%) et ont ete reintegrees au fichier. Les 159 autres (cartes multi-enseignes type Wonder-ecard/Gift.cool, associations/dons, city pass, etc.) n'ont aucune reduction active confirmee par l'API et restent exclues, conformement a la regle : le comparateur ne liste que des offres avec une reduction reelle et verifiable. Une fiche (Beauty Mix) pointait vers une page 404 sur le site Happypal lui-meme (lien casse cote Happypal) et n'a pas pu etre verifiee ; laissee exclue par prudence. Fichier final : 397 offres avec un pourcentage de reduction confirme.",
+  "captured_at": "2026-09-30",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice (compte CSE 'Codes Club Rousseau', confirme personnel le 2026-09-16). Perimetre limite au type 'Carte cadeau' du filtre Happypal (le plus fiable et le plus comparable aux autres plateformes du comparateur), hors 'E-billet', 'Code promo' et 'Site partenaire' (hors perimetre pour cette premiere version). 556 fiches lues au total sur la vignette liste ; 169 d'entre elles n'affichaient aucun pourcentage de reduction sur cette vignette et ont d'abord ete exclues du fichier a la demande de l'utilisatrice. Verification complementaire du 2026-09-17 (suite a la remarque de l'utilisatrice sur Uber VTC, dont la reduction -5% n'apparait que sur sa fiche produit individuelle) : les 169 fiches sans pourcentage visible ont ete revérifiées une par une via l'API GraphQL interne de Happypal (requete 'CampaignOffers', rejouee directement dans l'onglet deja authentifie de l'utilisatrice via fetch(), sans navigation de page ni capture d'ecran, donc a cout tres faible - aucun jeton ni cookie extrait ou reutilise hors de cet onglet). 10 fiches sur les 169 avaient en realite une reduction reelle non affichee sur la vignette liste (Billetterie Fnac -4%, Pierre & Vacances -20%, lastminute.com -5%, Uber eats -5%, Uber VTC -5%, Nike -10%, Beauty Success -20%, Maisons du Monde -8%, Philibert -10%, Sarenza -5%) et ont ete reintegrees au fichier. Les 159 autres (cartes multi-enseignes type Wonder-ecard/Gift.cool, associations/dons, city pass, etc.) n'ont aucune reduction active confirmee par l'API et restent exclues, conformement a la regle : le comparateur ne liste que des offres avec une reduction reelle et verifiable. Une fiche (Beauty Mix) pointait vers une page 404 sur le site Happypal lui-meme (lien casse cote Happypal) et n'a pas pu etre verifiee ; laissee exclue par prudence. Fichier final : 397 offres avec un pourcentage de reduction confirme. | Rafraichissement du 2026-09-30 : capture complete des 550 fiches du catalogue filtre 'Carte cadeau' (methode Blob-download), safe-merge applique (taux mis a jour uniquement quand un pourcentage etait visible sur la vignette ; offres existantes non retrouvees ou dont la vignette n'affichait plus de pourcentage explicite conservees telles quelles).",
   "offers": [
     {
       "name": "MMV",
@@ -257,8 +257,8 @@
     },
     {
       "name": "King Jouet",
-      "rate_text": "-10%",
-      "percent": 10.0,
+      "rate_text": "-12%",
+      "percent": 12,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -474,8 +474,8 @@
     },
     {
       "name": "BookiBox",
-      "rate_text": "-10%",
-      "percent": 10.0,
+      "rate_text": "-20%",
+      "percent": 20,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -572,8 +572,8 @@
     },
     {
       "name": "Primark",
-      "rate_text": "-7%",
-      "percent": 7.0,
+      "rate_text": "-5%",
+      "percent": 5,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1146,8 +1146,8 @@
     },
     {
       "name": "Lindt & Sprüngli",
-      "rate_text": "-5%",
-      "percent": 5.0,
+      "rate_text": "-10%",
+      "percent": 10,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1223,8 +1223,8 @@
     },
     {
       "name": "Pink Gellac",
-      "rate_text": "-42%",
-      "percent": 42.0,
+      "rate_text": "-45%",
+      "percent": 45,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1454,8 +1454,8 @@
     },
     {
       "name": "Le Petit Ballon",
-      "rate_text": "-5%",
-      "percent": 5.0,
+      "rate_text": "-23%",
+      "percent": 23,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1678,8 +1678,8 @@
     },
     {
       "name": "Hapik",
-      "rate_text": "-16%",
-      "percent": 16.0,
+      "rate_text": "-10%",
+      "percent": 10,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -1958,8 +1958,8 @@
     },
     {
       "name": "Quitoque",
-      "rate_text": "-10%",
-      "percent": 10.0,
+      "rate_text": "-6%",
+      "percent": 6,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     },
@@ -2779,6 +2779,27 @@
       "name": "Sarenza",
       "rate_text": "-5%",
       "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cinéchèque",
+      "rate_text": "-18%",
+      "percent": 18,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Roxy",
+      "rate_text": "-5%",
+      "percent": 5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Molotov TV Extra",
+      "rate_text": "-8%",
+      "percent": 8,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau"
     }
