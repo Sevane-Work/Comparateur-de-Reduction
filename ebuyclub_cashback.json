@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-01T23:13:13.732224+00:00",
+  "generated_at": "2026-10-02T23:12:41.986502+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -253,16 +253,6 @@
       "type": "direct",
       "category_seen": "Logiciels",
       "link": null
-    },
-    {
-      "name": "Adopt",
-      "slug": "8959",
-      "rate_text": "Jusqu'à 2,9% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Bijoux, Cosmétiques, Parfums, Santé et Bien-être",
-      "link": "https://www.ebuyclub.com/reduction-adopt-8959"
     },
     {
       "name": "Adopte un mec",
@@ -1093,6 +1083,16 @@
       "type": "direct",
       "category_seen": "Voyagistes, Transports",
       "link": "https://www.ebuyclub.com/reduction-balearia-9201"
+    },
+    {
+      "name": "BALSAM HILL",
+      "slug": "19270",
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Déco",
+      "link": "https://www.ebuyclub.com/reduction-balsam-hill-19270"
     },
     {
       "name": "Banggood",
@@ -3267,7 +3267,7 @@
     {
       "name": "Darty",
       "slug": "846",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4355,6 +4355,16 @@
       "link": "https://www.ebuyclub.com/reduction-expressvpn-16107"
     },
     {
+      "name": "Extime Travel (ex : Paris City Vision)",
+      "slug": "6156",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Parc de Loisirs, Transports, Voyagistes",
+      "link": null
+    },
+    {
       "name": "EZIclean",
       "slug": "18006",
       "rate_text": "4,1% remboursés",
@@ -4447,8 +4457,8 @@
     {
       "name": "FARFETCH",
       "slug": "12030",
-      "rate_text": "0,8% remboursés",
-      "percent": 0.8,
+      "rate_text": "Jusqu'à 5,4% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Luxe, Mode Femme, Mode Enfant, Mode Homme",
@@ -4697,7 +4707,7 @@
     {
       "name": "Fnac",
       "slug": "58",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4827,7 +4837,7 @@
     {
       "name": "Franklin pet food",
       "slug": "18455",
-      "rate_text": "Jusqu'à 5,4% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5587,7 +5597,7 @@
     {
       "name": "HelloFresh",
       "slug": "10365",
-      "rate_text": "Jusqu'à 9€ remboursés",
+      "rate_text": "Jusqu'à 12€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7587,7 +7597,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7847,7 +7857,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 1,5% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7927,7 +7937,7 @@
     {
       "name": "Leocare",
       "slug": "17190",
-      "rate_text": "Jusqu'à 48€ remboursés",
+      "rate_text": "Jusqu'à 51€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9027,8 +9037,8 @@
     {
       "name": "Merit Beauty",
       "slug": "18457",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être, Cosmétiques",
@@ -10137,8 +10147,8 @@
     {
       "name": "NordVPN",
       "slug": "8981",
-      "rate_text": "40% remboursés",
-      "percent": 40.0,
+      "rate_text": "50% remboursés",
+      "percent": 50.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Logiciels, Informatique, Internet & Téléphonie",
@@ -10557,8 +10567,8 @@
     {
       "name": "Oxybul",
       "slug": "485",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "0,4% remboursés",
+      "percent": 0.4,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Enfant, Puériculture, Mode Bébé, Jouets",
@@ -10723,16 +10733,6 @@
       "type": "direct",
       "category_seen": "Parfums, Santé et Bien-être, Cosmétiques, Coffrets Cadeaux",
       "link": "https://www.ebuyclub.com/reduction-parfumsmoinschers-3075"
-    },
-    {
-      "name": "Paris City Vision",
-      "slug": "6156",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Parc de Loisirs, Transports, Voyagistes",
-      "link": null
     },
     {
       "name": "Paris Seine",
@@ -11827,7 +11827,7 @@
     {
       "name": "Redcare Pharmacie",
       "slug": "7079",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11933,6 +11933,16 @@
       "type": "direct",
       "category_seen": "Sportwear, Accessoires de mode, Articles de sport, Mode Homme, Mode Enfant, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-rip-curl-1493"
+    },
+    {
+      "name": "RMC Sport",
+      "slug": "10826",
+      "rate_text": "Jusqu'à 9€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Divertissement",
+      "link": "https://www.ebuyclub.com/reduction-rmc-sport-10826"
     },
     {
       "name": "Roborock",
@@ -12183,6 +12193,16 @@
       "type": "direct",
       "category_seen": "Electromenager, Matériel informatique, Internet & Téléphonie",
       "link": "https://www.ebuyclub.com/reduction-samsung-pro-16132"
+    },
+    {
+      "name": "Sandisk",
+      "slug": "19271",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Informatique",
+      "link": "https://www.ebuyclub.com/reduction-sandisk-19271"
     },
     {
       "name": "Sanferbike",
@@ -13887,7 +13907,7 @@
     {
       "name": "Trip.com",
       "slug": "7327",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14087,7 +14107,7 @@
     {
       "name": "Ultra Premium Direct",
       "slug": "6648",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14857,8 +14877,8 @@
     {
       "name": "Whirlpool",
       "slug": "17115",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "7% remboursés",
+      "percent": 7.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -14903,16 +14923,6 @@
       "type": "direct",
       "category_seen": "Pièces & Réparation",
       "link": "https://www.ebuyclub.com/reduction-winparts-12649"
-    },
-    {
-      "name": "Wish",
-      "slug": "7721",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Cosmétiques, Santé et Bien-être, Accessoires de mode, Sportwear, Bricolage, Gadgets, Puériculture, Mode Bébé, Chaussures, Mode Femme, Animaux, Mode Homme, Mode Enfant",
-      "link": "https://www.ebuyclub.com/reduction-wish-7721"
     },
     {
       "name": "Witt",

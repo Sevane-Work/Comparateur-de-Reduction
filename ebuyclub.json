@@ -1,8 +1,8 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-10-01",
-  "generated_at": "2026-10-01T23:13:12.454323+00:00",
+  "captured_at": "2026-10-02",
+  "generated_at": "2026-10-02T23:12:40.728947+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -69,7 +69,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
     },
     {
       "name": "Decathlon",
@@ -542,7 +542,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 2,9% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 0,4% de cashback"
     },
     {
       "name": "Promod",
@@ -907,39 +907,6 @@
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
-    },
-    {
-      "name": "Breal",
-      "slug": "breal-3948",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
-    },
-    {
-      "name": "Cache Cache",
-      "slug": "cache-cache-2989",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 3,7% de cashback"
-    },
-    {
-      "name": "Bonobo",
-      "slug": "bonobo-3392",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
     },
     {
       "name": "Darjeeling",
