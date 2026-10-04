@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-02T23:12:41.986502+00:00",
+  "generated_at": "2026-10-04T02:59:22.517677+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -2857,7 +2857,7 @@
     {
       "name": "Coriolis",
       "slug": "1340",
-      "rate_text": "Jusqu'à 21€ remboursés",
+      "rate_text": "Jusqu'à 15€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7597,7 +7597,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10147,8 +10147,8 @@
     {
       "name": "NordVPN",
       "slug": "8981",
-      "rate_text": "50% remboursés",
-      "percent": 50.0,
+      "rate_text": "40% remboursés",
+      "percent": 40.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Logiciels, Informatique, Internet & Téléphonie",
@@ -11387,7 +11387,7 @@
     {
       "name": "Prixtel",
       "slug": "2078",
-      "rate_text": "Jusqu'à 15,50€ remboursés",
+      "rate_text": "Jusqu'à 8€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13407,7 +13407,7 @@
     {
       "name": "Syma",
       "slug": "1962",
-      "rate_text": "Jusqu'à 15,50€ remboursés",
+      "rate_text": "Jusqu'à 9,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13907,7 +13907,7 @@
     {
       "name": "Trip.com",
       "slug": "7327",
-      "rate_text": "Jusqu'à 2,5% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14147,7 +14147,7 @@
     {
       "name": "Ulys (Particulier)",
       "slug": "5823",
-      "rate_text": "6€ remboursés",
+      "rate_text": "17€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
