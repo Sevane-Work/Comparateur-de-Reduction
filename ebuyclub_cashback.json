@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-04T02:59:22.517677+00:00",
+  "generated_at": "2026-10-04T23:13:24.420449+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -347,7 +347,7 @@
     {
       "name": "Air Caraïbes",
       "slug": "14076",
-      "rate_text": "Jusqu'à 7,20€ remboursés",
+      "rate_text": "Jusqu'à 10,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7377,7 +7377,7 @@
     {
       "name": "L'Occitane",
       "slug": "2064",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 2,9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12947,7 +12947,7 @@
     {
       "name": "Sonos",
       "slug": "5234",
-      "rate_text": "Jusqu'à 1,6% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14147,7 +14147,7 @@
     {
       "name": "Ulys (Particulier)",
       "slug": "5823",
-      "rate_text": "17€ remboursés",
+      "rate_text": "6€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14877,8 +14877,8 @@
     {
       "name": "Whirlpool",
       "slug": "17115",
-      "rate_text": "7% remboursés",
-      "percent": 7.0,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",

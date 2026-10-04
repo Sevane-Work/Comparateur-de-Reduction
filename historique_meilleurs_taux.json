@@ -1818,7 +1818,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 2.5,
+    "percent": 12.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -3378,7 +3378,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.0,
+    "percent": 20.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -6463,8 +6463,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 3.2,
-    "platform": "iGraal",
+    "percent": 2.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -9217,8 +9217,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.0,
-    "platform": "Boursorama Shopping (The Corner)",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -10551,9 +10551,9 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 10.0,
-    "platform": "Happypal (Codes Club Rousseau)",
-    "type": "carte_cadeau"
+    "percent": 12.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Cleor"
@@ -12215,7 +12215,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 100.0,
+    "percent": 105.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -16448,6 +16448,17 @@
   ],
   "name": "Etihad"
  },
+ "etsy": {
+  "history": [
+   {
+    "date": "2026-10-04",
+    "percent": 12.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "Etsy"
+ },
  "eufy": {
   "history": [
    {
@@ -16470,7 +16481,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 3.0,
+    "percent": 10.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -19194,9 +19205,9 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 6.0,
-    "platform": "eBuyClub",
-    "type": "carte_cadeau"
+    "percent": 12.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Getyourguide"
@@ -21833,8 +21844,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.1,
-    "platform": "Fnac Darty Pass",
+    "percent": 12.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -22906,8 +22917,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 7.0,
-    "platform": "Le Club Ulys",
+    "percent": 12.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -23080,8 +23091,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 3.0,
-    "platform": "eBuyClub",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -23138,8 +23149,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.0,
-    "platform": "eBuyClub",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -25063,8 +25074,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 2.9,
-    "platform": "eBuyClub",
+    "percent": 7.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -29963,8 +29974,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 1.6,
-    "platform": "eBuyClub",
+    "percent": 12.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -31036,7 +31047,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 5.0,
+    "percent": 12.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -31384,8 +31395,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 8.2,
-    "platform": "Fnac Darty Pass",
+    "percent": 20.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -32805,8 +32816,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.0,
-    "platform": "Banque Populaire (Extra+X)",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -32834,8 +32845,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 3.4,
-    "platform": "Fnac Darty Pass",
+    "percent": 13.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -33008,7 +33019,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.25,
+    "percent": 7.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -34052,8 +34063,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 8.5,
-    "platform": "eBuyClub",
+    "percent": 12.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -35141,7 +35152,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 5.0,
+    "percent": 10.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -35837,9 +35848,9 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 5.8,
-    "platform": "Fnac Darty Pass",
-    "type": "carte_cadeau"
+    "percent": 9.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Motoblouz"
@@ -35912,6 +35923,12 @@
    },
    {
     "date": "2026-10-01",
+    "percent": 3.5,
+    "platform": "iGraal",
+    "type": "direct"
+   },
+   {
+    "date": "2026-10-04",
     "percent": 3.5,
     "platform": "iGraal",
     "type": "direct"
@@ -36492,8 +36509,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 10.2,
-    "platform": "Fnac Darty Pass",
+    "percent": 12.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -36608,7 +36625,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.5,
+    "percent": 10.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -37936,7 +37953,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 25.0,
+    "percent": 50.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -37965,8 +37982,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 75.0,
-    "platform": "Le Club Ulys",
+    "percent": 80.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -40916,8 +40933,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 5.0,
-    "platform": "eBuyClub",
+    "percent": 10.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -45062,8 +45079,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 10.0,
-    "platform": "Le Club Ulys",
+    "percent": 12.0,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -45236,7 +45253,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 6.0,
+    "percent": 9.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -47688,9 +47705,9 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 7.0,
-    "platform": "Banque Populaire (Extra+X)",
-    "type": "carte_cadeau"
+    "percent": 15.0,
+    "platform": "iGraal",
+    "type": "direct"
    }
   ],
   "name": "Sony"
@@ -49358,7 +49375,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 1.5,
+    "percent": 10.0,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -50308,8 +50325,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 6.0,
-    "platform": "iGraal",
+    "percent": 3.0,
+    "platform": "eBuyClub",
     "type": "direct"
    }
   ],
@@ -52055,6 +52072,17 @@
   ],
   "name": "Ulygo"
  },
+ "ulys": {
+  "history": [
+   {
+    "date": "2026-10-04",
+    "percent": 24.0,
+    "platform": "iGraal",
+    "type": "direct"
+   }
+  ],
+  "name": "Ulys"
+ },
  "ulysse travel": {
   "history": [
    {
@@ -53161,7 +53189,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 4.0,
+    "percent": 13.5,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -53625,8 +53653,8 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 5.5,
-    "platform": "Fnac Darty Pass",
+    "percent": 12.5,
+    "platform": "iGraal",
     "type": "direct"
    }
   ],
@@ -54795,7 +54823,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 3.5,
+    "percent": 6.5,
     "platform": "iGraal",
     "type": "direct"
    }
@@ -55079,7 +55107,7 @@
    },
    {
     "date": "2026-10-04",
-    "percent": 15.0,
+    "percent": 3.0,
     "platform": "iGraal",
     "type": "direct"
    }
