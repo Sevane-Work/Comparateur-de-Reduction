@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-04",
-  "generated_at": "2026-10-04T23:13:06.905188+00:00",
+  "captured_at": "2026-10-05",
+  "generated_at": "2026-10-05T23:13:27.166504+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -3760,15 +3760,6 @@
       "link": null
     },
     {
-      "name": "Esdemarca",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Lenstore",
       "rate_text": null,
       "percent": 4.1,
@@ -5342,15 +5333,6 @@
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Archerie 27",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
       "cumulative_with": null,
       "link": null
     },
