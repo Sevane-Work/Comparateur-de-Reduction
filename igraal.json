@@ -1,14 +1,14 @@
 {
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/",
-  "captured_at": "2026-10-06",
-  "generated_at": "2026-10-06T23:15:06.760826+00:00",
+  "captured_at": "2026-10-07",
+  "generated_at": "2026-10-07T23:14:09.787627+00:00",
   "note": "Catalogue public (aucune connexion necessaire, verifie techniquement). Collecte en masse via les pages categories (taux de cashback affiche sur les cartes marchand). Toutes les offres sont de type 'direct' (cashback) : cette collecte ne visite pas les pages marchand individuelles, qui peuvent aussi proposer une offre 'Bon d'achat' (carte cadeau) ou des codes promo en plus du cashback.",
   "offers": [
     {
       "name": "Disneyland Paris",
       "slug": "disneyland-paris",
-      "rate_text": "Jusqu'à 26,5 € cashback",
+      "rate_text": "Jusqu'à 15 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -161,8 +161,8 @@
     {
       "name": "B&B HOTELS",
       "slug": "hotels-betb",
-      "rate_text": "20 % de cashback",
-      "percent": 20.0,
+      "rate_text": "3 % de cashback",
+      "percent": 3.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "voyageloc"
@@ -492,19 +492,10 @@
       "category_seen": "high-tech"
     },
     {
-      "name": "HUGO BOSS",
-      "slug": "hugo-boss",
+      "name": "Swarovski",
+      "slug": "swarovski",
       "rate_text": "10 % de cashback",
       "percent": 10.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "modevetements"
-    },
-    {
-      "name": "Printemps",
-      "slug": "printemps",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "modevetements"
@@ -548,7 +539,7 @@
     {
       "name": "boohoo",
       "slug": "boohoo",
-      "rate_text": "Jusqu'à 5,5 % cashback",
+      "rate_text": "Jusqu'à 10 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -629,8 +620,8 @@
     {
       "name": "Luminaire.fr",
       "slug": "luminaire-fr",
-      "rate_text": "Jusqu'à 5 % cashback",
-      "percent": null,
+      "rate_text": "12,5 % de cashback",
+      "percent": 12.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "maisonjardin"
@@ -800,7 +791,7 @@
     {
       "name": "Nocibé",
       "slug": "nocibe",
-      "rate_text": "Jusqu'à 15 % cashback",
+      "rate_text": "Jusqu'à 5 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -843,19 +834,19 @@
       "category_seen": "santebeaute"
     },
     {
-      "name": "Parship",
-      "slug": "parship",
-      "rate_text": "10,41 % de cashback",
-      "percent": 10.41,
+      "name": "Sinful",
+      "slug": "sinful",
+      "rate_text": "Jusqu'à 10,41 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "santebeaute"
     },
     {
-      "name": "Sinful",
-      "slug": "sinful",
-      "rate_text": "Jusqu'à 10,41 % cashback",
-      "percent": null,
+      "name": "Parship",
+      "slug": "parship",
+      "rate_text": "10,41 % de cashback",
+      "percent": 10.41,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "santebeaute"
@@ -899,7 +890,7 @@
     {
       "name": "Redcare Pharmacie",
       "slug": "redcare-pharmacie",
-      "rate_text": "Jusqu'à 10 % cashback",
+      "rate_text": "Jusqu'à 6 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -960,168 +951,6 @@
       "category_seen": "santebeaute"
     },
     {
-      "name": "Free - Box Internet",
-      "slug": "free-internet",
-      "rate_text": "Jusqu'à 45 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Crypto.com",
-      "slug": "crypto.com",
-      "rate_text": "Jusqu'à 425 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Hello Watt Panneaux solaires",
-      "slug": "hellowatt-panneaux-solaires",
-      "rate_text": "150 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Hello Watt Pompes à chaleur",
-      "slug": "hellowatt-pompes-a-chaleur",
-      "rate_text": "100 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "eToro",
-      "slug": "etoro",
-      "rate_text": "70 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Wallester",
-      "slug": "wallester",
-      "rate_text": "50 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "SeDomicilier",
-      "slug": "sedomicilier",
-      "rate_text": "Jusqu'à 50 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "ENGIE",
-      "slug": "engie-demenagement",
-      "rate_text": "Jusqu'à 120 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Carte bancaire Cdiscount par FLOA",
-      "slug": "carte-bancaire-cdiscount-par-floa",
-      "rate_text": "50 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Hello Watt Energie",
-      "slug": "hellowatt-energie",
-      "rate_text": "Jusqu'à 50 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Soldo",
-      "slug": "soldo",
-      "rate_text": "50 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "DAZN",
-      "slug": "dazn",
-      "rate_text": "Jusqu'à 40 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Preply",
-      "slug": "preply",
-      "rate_text": "Jusqu'à 28 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "EDF",
-      "slug": "edf",
-      "rate_text": "40 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Coinhouse",
-      "slug": "coinhouse-fr",
-      "rate_text": "35 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "Fundora",
-      "slug": "fundora",
-      "rate_text": "30 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "SFR - Box Internet",
-      "slug": "neufbox-de-sfr",
-      "rate_text": "Jusqu'à 27 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "services-contrats"
-    },
-    {
-      "name": "adidas",
-      "slug": "adidas",
-      "rate_text": "4,5 % de cashback",
-      "percent": 4.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sport"
-    },
-    {
       "name": "Myprotein",
       "slug": "myprotein",
       "rate_text": "12 % de cashback",
@@ -1167,10 +996,10 @@
       "category_seen": "sport"
     },
     {
-      "name": "Nutri&co",
-      "slug": "nutriandco",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
+      "name": "adidas",
+      "slug": "adidas",
+      "rate_text": "4,5 % de cashback",
+      "percent": 4.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sport"
@@ -1180,6 +1009,15 @@
       "slug": "regatta",
       "rate_text": "2 % de cashback",
       "percent": 2.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sport"
+    },
+    {
+      "name": "Nutri&co",
+      "slug": "nutriandco",
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sport"
@@ -1237,114 +1075,6 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sport"
-    },
-    {
-      "name": "Viator",
-      "slug": "viator",
-      "rate_text": "13,5 % de cashback",
-      "percent": 13.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "DisonsDemain",
-      "slug": "disonsdemain",
-      "rate_text": "35 % de cashback",
-      "percent": 35.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Meetic Belgique",
-      "slug": "meetic-be",
-      "rate_text": "33,32 % de cashback",
-      "percent": 33.32,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Meetic",
-      "slug": "meetic",
-      "rate_text": "33 % de cashback",
-      "percent": 33.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Pokerstars",
-      "slug": "pokerstars",
-      "rate_text": "32,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "PokerStars Sports",
-      "slug": "pokerstars-sports",
-      "rate_text": "32,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Ici Turf",
-      "slug": "ici-turf",
-      "rate_text": "13,33 % de cashback",
-      "percent": 13.33,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Betsson.fr",
-      "slug": "betsson",
-      "rate_text": "25 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Viapresse",
-      "slug": "viapresse",
-      "rate_text": "Jusqu'à 25 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Nature Journal",
-      "slug": "nature-journal",
-      "rate_text": "8,3 % de cashback",
-      "percent": 8.3,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "YouScribe",
-      "slug": "youscribe",
-      "rate_text": "Jusqu'à 20 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
-    },
-    {
-      "name": "Le Télégramme",
-      "slug": "le-telegramme",
-      "rate_text": "Jusqu'à 16 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture-loisirs"
     },
     {
       "name": "LEGO®",
@@ -1448,8 +1178,8 @@
     {
       "name": "Gémo",
       "slug": "gemo",
-      "rate_text": "Jusqu'à 3 % cashback",
-      "percent": null,
+      "rate_text": "10 % de cashback",
+      "percent": 10.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "famille-enfants"
@@ -1689,136 +1419,10 @@
       "category_seen": "voyage"
     },
     {
-      "name": "Brit Hotel",
-      "slug": "brit-hotel",
-      "rate_text": "3,33 % de cashback",
-      "percent": 3.33,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Abritel",
-      "slug": "abritel",
-      "rate_text": "5 % de cashback",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Premiere Classe",
-      "slug": "hotels-premiere-classe",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Radisson Hotels",
-      "slug": "radisson-hotels",
-      "rate_text": "10 % de cashback",
-      "percent": 10.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Campings Cybèle Vacances",
-      "slug": "cybele-vacances",
-      "rate_text": "4,2 % de cashback",
-      "percent": 4.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Futuroscope",
-      "slug": "futuroscope",
-      "rate_text": "Jusqu'à 5 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "location"
-    },
-    {
-      "name": "Emirates",
-      "slug": "emirates",
-      "rate_text": "1,5 % de cashback",
-      "percent": 1.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Ulysse Travel",
-      "slug": "ulysse-travel",
-      "rate_text": "10 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Corsair",
-      "slug": "corsair",
-      "rate_text": "8,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Air Caraïbes",
-      "slug": "air-caraibes",
-      "rate_text": "Jusqu'à 7,2 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Flightright",
-      "slug": "flightright",
-      "rate_text": "5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "ITA Airways",
-      "slug": "ita-airways",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Budget Air",
-      "slug": "budgetair-fr",
-      "rate_text": "4 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
-      "name": "Wingly.io",
-      "slug": "wingly-io",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vols"
-    },
-    {
       "name": "Avis",
       "slug": "avis",
-      "rate_text": "15 % de cashback",
-      "percent": 15.0,
+      "rate_text": "Jusqu'à 6 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "locationdevoitures"
@@ -1878,15 +1482,6 @@
       "category_seen": "locationdevoitures"
     },
     {
-      "name": "SNCF Connect",
-      "slug": "sncf-connect",
-      "rate_text": "Jusqu'à 2 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "trains"
-    },
-    {
       "name": "Magical Shuttle",
       "slug": "navette-vea-disneyland-paris",
       "rate_text": "3,5 € de cashback",
@@ -1908,6 +1503,15 @@
       "name": "Logitravel",
       "slug": "logitravel",
       "rate_text": "Jusqu'à 2,08 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "trains"
+    },
+    {
+      "name": "SNCF Connect",
+      "slug": "sncf-connect",
+      "rate_text": "Jusqu'à 2 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2058,132 +1662,6 @@
       "category_seen": "informatique"
     },
     {
-      "name": "Mova",
-      "slug": "mova",
-      "rate_text": "3,5 % de cashback",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Electrolux - Pièces détachées & accessoires",
-      "slug": "electrolux-pieces-detachees-et-accessoires",
-      "rate_text": "4,5 % de cashback",
-      "percent": 4.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Cosyneo",
-      "slug": "cosyneo",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "EZVIZ",
-      "slug": "ezviz",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Levoit",
-      "slug": "levoit",
-      "rate_text": "2 % de cashback",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Roborock",
-      "slug": "roborock",
-      "rate_text": "2,2 % de cashback",
-      "percent": 2.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Electrolux",
-      "slug": "electrolux",
-      "rate_text": "2 % de cashback",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Narwal",
-      "slug": "narwal",
-      "rate_text": "10 % de cashback",
-      "percent": 10.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Bosch Home",
-      "slug": "bosch-home",
-      "rate_text": "3,5 % de cashback",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Zwilling",
-      "slug": "zwilling-shop",
-      "rate_text": "3,33 % de cashback",
-      "percent": 3.33,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Delonghi",
-      "slug": "delonghi",
-      "rate_text": "1,2 % de cashback",
-      "percent": 1.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "laurastar",
-      "slug": "laurastar",
-      "rate_text": "3 % de cashback",
-      "percent": 3.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Kenwood",
-      "slug": "kenwood",
-      "rate_text": "2,91 % de cashback",
-      "percent": 2.91,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
-      "name": "Siemens",
-      "slug": "siemens",
-      "rate_text": "2,75 % de cashback",
-      "percent": 2.75,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "electromenager"
-    },
-    {
       "name": "Saily",
       "slug": "saily",
       "rate_text": "12 % de cashback",
@@ -2206,6 +1684,15 @@
       "slug": "huawei",
       "rate_text": "10 % de cashback",
       "percent": 10.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "smartphones-tablettes"
+    },
+    {
+      "name": "Bouygues Telecom - B&YOU",
+      "slug": "betyou",
+      "rate_text": "Jusqu'à 14 € cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "smartphones-tablettes"
@@ -2420,8 +1907,8 @@
     {
       "name": "Samsung",
       "slug": "samsung",
-      "rate_text": "1 % de cashback",
-      "percent": 1.0,
+      "rate_text": "Jusqu'à 12 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "tv-video"
@@ -2519,8 +2006,8 @@
     {
       "name": "VistaPrint",
       "slug": "vistaprint",
-      "rate_text": "12,5 % de cashback",
-      "percent": 12.5,
+      "rate_text": "Jusqu'à 4,5 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "photos"
@@ -2670,15 +2157,6 @@
       "category_seen": "jeux-video-console-jeu"
     },
     {
-      "name": "Corsair Components",
-      "slug": "corsair-pc",
-      "rate_text": "2 % de cashback",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "jeux-video-console-jeu"
-    },
-    {
       "name": "Loaded (CDkeys)",
       "slug": "cdkeys-com",
       "rate_text": "Jusqu'à 2 % cashback",
@@ -2688,10 +2166,10 @@
       "category_seen": "jeux-video-console-jeu"
     },
     {
-      "name": "Playstation Store",
-      "slug": "playstation-store",
-      "rate_text": "Jusqu'à 3 % cashback",
-      "percent": null,
+      "name": "Corsair Components",
+      "slug": "corsair-pc",
+      "rate_text": "2 % de cashback",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "jeux-video-console-jeu"
@@ -2701,6 +2179,15 @@
       "slug": "gamivo",
       "rate_text": "2 % de cashback",
       "percent": 2.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "jeux-video-console-jeu"
+    },
+    {
+      "name": "Playstation Store",
+      "slug": "playstation-store",
+      "rate_text": "Jusqu'à 3 % cashback",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "jeux-video-console-jeu"
@@ -2724,64 +2211,10 @@
       "category_seen": "jeux-video-console-jeu"
     },
     {
-      "name": "Gili's",
-      "slug": "gili-s",
-      "rate_text": "5 % de cashback",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vetements"
-    },
-    {
-      "name": "Levi's",
-      "slug": "levi-s",
-      "rate_text": "Jusqu'à 5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vetements"
-    },
-    {
-      "name": "Lacoste",
-      "slug": "lacoste",
-      "rate_text": "10 % de cashback",
-      "percent": 10.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vetements"
-    },
-    {
-      "name": "Darjeeling",
-      "slug": "darjeeling",
-      "rate_text": "Jusqu'à 5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vetements"
-    },
-    {
-      "name": "Sans complexe",
-      "slug": "sans-complexe",
-      "rate_text": "Jusqu'à 5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "vetements"
-    },
-    {
-      "name": "Calvin Klein",
-      "slug": "calvin-klein",
-      "rate_text": "Jusqu'à 3,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "bijoux-accessoires"
-    },
-    {
-      "name": "Swarovski",
-      "slug": "swarovski",
-      "rate_text": "10 % de cashback",
-      "percent": 10.0,
+      "name": "Zalando Privé",
+      "slug": "zalando-prive",
+      "rate_text": "6 % de cashback",
+      "percent": 6.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "bijoux-accessoires"
@@ -3201,15 +2634,6 @@
       "category_seen": "luxe"
     },
     {
-      "name": "EPEDA",
-      "slug": "epada",
-      "rate_text": "12 % de cashback",
-      "percent": 12.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "meubles"
-    },
-    {
       "name": "Desktronic",
       "slug": "desktronic",
       "rate_text": "2 % de cashback",
@@ -3336,6 +2760,15 @@
       "category_seen": "meubles"
     },
     {
+      "name": "EPEDA",
+      "slug": "epada",
+      "rate_text": "12 % de cashback",
+      "percent": 12.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "meubles"
+    },
+    {
       "name": "Bultex",
       "slug": "bultex",
       "rate_text": "16,5 % de cashback",
@@ -3392,6 +2825,15 @@
     {
       "name": "Tupperware",
       "slug": "tupperware",
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "decoration"
+    },
+    {
+      "name": "EZVIZ",
+      "slug": "ezviz",
       "rate_text": "4 % de cashback",
       "percent": 4.0,
       "type_detail_fr": "Cashback",
@@ -3759,33 +3201,6 @@
       "category_seen": "sante"
     },
     {
-      "name": "Adam et Eve",
-      "slug": "adam-et-eve",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "charme"
-    },
-    {
-      "name": "Womanizer",
-      "slug": "womanizer",
-      "rate_text": "6,5 % de cashback",
-      "percent": 6.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "charme"
-    },
-    {
-      "name": "loveandvibes",
-      "slug": "love-and-vibes",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "charme"
-    },
-    {
       "name": "Fortuneo - Compte Courant",
       "slug": "fortuneo",
       "rate_text": "Jusqu'à 90 € cashback",
@@ -3930,6 +3345,51 @@
       "category_seen": "energie"
     },
     {
+      "name": "Hello Watt Panneaux solaires",
+      "slug": "hellowatt-panneaux-solaires",
+      "rate_text": "150 € de cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
+      "name": "Hello Watt Pompes à chaleur",
+      "slug": "hellowatt-pompes-a-chaleur",
+      "rate_text": "100 € de cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
+      "name": "ENGIE",
+      "slug": "engie-demenagement",
+      "rate_text": "Jusqu'à 120 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
+      "name": "Hello Watt Energie",
+      "slug": "hellowatt-energie",
+      "rate_text": "Jusqu'à 50 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
+      "name": "EDF",
+      "slug": "edf",
+      "rate_text": "40 € de cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "energie"
+    },
+    {
       "name": "Alterna Energie",
       "slug": "vattenfall",
       "rate_text": "25 € de cashback",
@@ -3993,6 +3453,24 @@
       "category_seen": "energie"
     },
     {
+      "name": "Free - Box Internet",
+      "slug": "free-internet",
+      "rate_text": "Jusqu'à 45 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "telephonietelecom"
+    },
+    {
+      "name": "Auchan Telecom",
+      "slug": "auchan-telecom",
+      "rate_text": "Jusqu'à 16 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "telephonietelecom"
+    },
+    {
       "name": "SFR - Forfaits Mobile",
       "slug": "sfr",
       "rate_text": "Jusqu'à 24 € cashback",
@@ -4041,15 +3519,6 @@
       "name": "RED by SFR - Forfaits Mobile",
       "slug": "sfr-red",
       "rate_text": "Jusqu'à 9 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "telephonietelecom"
-    },
-    {
-      "name": "Bouygues Telecom - B&YOU",
-      "slug": "betyou",
-      "rate_text": "Jusqu'à 14 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4146,15 +3615,6 @@
       "category_seen": "telephonietelecom"
     },
     {
-      "name": "Auchan Telecom",
-      "slug": "auchan-telecom",
-      "rate_text": "Jusqu'à 16 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "telephonietelecom"
-    },
-    {
       "name": "Cdiscount Mobile",
       "slug": "cdiscount-mobile",
       "rate_text": "Jusqu'à 6 € cashback",
@@ -4164,49 +3624,13 @@
       "category_seen": "telephonietelecom"
     },
     {
-      "name": "Orange Internet",
-      "slug": "orange-internet",
-      "rate_text": "32,5 € de cashback",
+      "name": "DAZN",
+      "slug": "dazn",
+      "rate_text": "Jusqu'à 40 % cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "RED by SFR - Box Internet",
-      "slug": "sfr-red-fai",
-      "rate_text": "Jusqu'à 20 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Bouygues Telecom - Box Internet",
-      "slug": "bbox-bouygues-telecom-internet",
-      "rate_text": "Jusqu'à 17 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Sosh - Box Internet",
-      "slug": "sosh-internet",
-      "rate_text": "14,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Proximus Belgique",
-      "slug": "proximus-be",
-      "rate_text": "Jusqu'à 14 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
+      "category_seen": "cd-dvd-bluray"
     },
     {
       "name": "CANAL+",
@@ -4215,16 +3639,7 @@
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Bouygues Pro",
-      "slug": "plug-bouygues-pro",
-      "rate_text": "9,99 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
+      "category_seen": "cd-dvd-bluray"
     },
     {
       "name": "Ligue 1 +",
@@ -4233,61 +3648,7 @@
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Disney +",
-      "slug": "disneyplus",
-      "rate_text": "Jusqu'à 15,99 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Apple Music",
-      "slug": "apple-music",
-      "rate_text": "Jusqu'à 6,25 € cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Vimeo",
-      "slug": "vimeo",
-      "rate_text": "4 % de cashback",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Amazon Music",
-      "slug": "amazon-music",
-      "rate_text": "2,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "SOONER (FilmoTV)",
-      "slug": "filmotv",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
-    },
-    {
-      "name": "Molotov",
-      "slug": "molotov-tv",
-      "rate_text": "2,5 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "internet"
+      "category_seen": "cd-dvd-bluray"
     },
     {
       "name": "Deezer",
@@ -4303,6 +3664,24 @@
       "slug": "rmc-sport",
       "rate_text": "Jusqu'à 7,5 € cashback",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "cd-dvd-bluray"
+    },
+    {
+      "name": "Disney +",
+      "slug": "disneyplus",
+      "rate_text": "Jusqu'à 15,99 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "cd-dvd-bluray"
+    },
+    {
+      "name": "Vimeo",
+      "slug": "vimeo",
+      "rate_text": "4 % de cashback",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "cd-dvd-bluray"
@@ -4326,9 +3705,36 @@
       "category_seen": "cd-dvd-bluray"
     },
     {
+      "name": "SOONER (FilmoTV)",
+      "slug": "filmotv",
+      "rate_text": "Jusqu'à 2,5 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "cd-dvd-bluray"
+    },
+    {
+      "name": "Molotov",
+      "slug": "molotov-tv",
+      "rate_text": "2,5 € de cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "cd-dvd-bluray"
+    },
+    {
       "name": "Easyflyer",
       "slug": "easyflyer",
       "rate_text": "Jusqu'à 4,16 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fournitures-bureau"
+    },
+    {
+      "name": "Bouygues Pro",
+      "slug": "plug-bouygues-pro",
+      "rate_text": "9,99 € de cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4351,6 +3757,15 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "fournitures-bureau"
+    },
+    {
+      "name": "Preply",
+      "slug": "preply",
+      "rate_text": "Jusqu'à 28 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "formation-et-apprentissage"
     },
     {
       "name": "Maxicours",
@@ -4452,87 +3867,6 @@
       "category_seen": "formation-et-apprentissage"
     },
     {
-      "name": "Speedo",
-      "slug": "speedo",
-      "rate_text": "Jusqu'à 4,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Footcenter",
-      "slug": "foot-center",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Titleist",
-      "slug": "titleist",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Quiksilver Belgique",
-      "slug": "quiksilver-be",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Private Sport Shop",
-      "slug": "private-sport-shop",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Asics",
-      "slug": "asics",
-      "rate_text": "4,5 % de cashback",
-      "percent": 4.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Under Armour",
-      "slug": "under-armour",
-      "rate_text": "2,25 % de cashback",
-      "percent": 2.25,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "SnowRental",
-      "slug": "snowrental",
-      "rate_text": "2,2 % de cashback",
-      "percent": 2.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
-      "name": "Netski",
-      "slug": "netski",
-      "rate_text": "2,2 % de cashback",
-      "percent": 2.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "equipement-materiel-sport"
-    },
-    {
       "name": "BodyWorld",
       "slug": "bodyworld",
       "rate_text": "Jusqu'à 3 % cashback",
@@ -4560,6 +3894,15 @@
       "category_seen": "fitness-musculation"
     },
     {
+      "name": "Private Sport Shop",
+      "slug": "private-sport-shop",
+      "rate_text": "Jusqu'à 2,5 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fitness-musculation"
+    },
+    {
       "name": "On.com",
       "slug": "on-running",
       "rate_text": "Jusqu'à 2,5 % cashback",
@@ -4569,10 +3912,37 @@
       "category_seen": "fitness-musculation"
     },
     {
+      "name": "Asics",
+      "slug": "asics",
+      "rate_text": "4,5 % de cashback",
+      "percent": 4.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fitness-musculation"
+    },
+    {
+      "name": "Under Armour",
+      "slug": "under-armour",
+      "rate_text": "2,25 % de cashback",
+      "percent": 2.25,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fitness-musculation"
+    },
+    {
       "name": "Ekoi",
       "slug": "ekoi",
       "rate_text": "Jusqu'à 2,25 % cashback",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fitness-musculation"
+    },
+    {
+      "name": "Netski",
+      "slug": "netski",
+      "rate_text": "2,2 % de cashback",
+      "percent": 2.2,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "fitness-musculation"
@@ -4605,6 +3975,15 @@
       "category_seen": "ski"
     },
     {
+      "name": "Quiksilver Belgique",
+      "slug": "quiksilver-be",
+      "rate_text": "2,5 % de cashback",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "ski"
+    },
+    {
       "name": "Nature et découvertes",
       "slug": "nature-et-decouvertes",
       "rate_text": "2,5 % de cashback",
@@ -4618,6 +3997,15 @@
       "slug": "alpinstore",
       "rate_text": "2,5 % de cashback",
       "percent": 2.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "ski"
+    },
+    {
+      "name": "SnowRental",
+      "slug": "snowrental",
+      "rate_text": "2,2 % de cashback",
+      "percent": 2.2,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "ski"
@@ -4713,10 +4101,46 @@
       "category_seen": "cadeaux"
     },
     {
+      "name": "DisonsDemain",
+      "slug": "disonsdemain",
+      "rate_text": "35 % de cashback",
+      "percent": 35.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "billetsspectacles"
+    },
+    {
+      "name": "Meetic Belgique",
+      "slug": "meetic-be",
+      "rate_text": "33,32 % de cashback",
+      "percent": 33.32,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "billetsspectacles"
+    },
+    {
+      "name": "Meetic",
+      "slug": "meetic",
+      "rate_text": "33 % de cashback",
+      "percent": 33.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "billetsspectacles"
+    },
+    {
       "name": "Fever",
       "slug": "fever",
       "rate_text": "Jusqu'à 6,25 % cashback",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "billetsspectacles"
+    },
+    {
+      "name": "Viator",
+      "slug": "viator",
+      "rate_text": "13,5 % de cashback",
+      "percent": 13.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "billetsspectacles"
@@ -4758,6 +4182,15 @@
       "category_seen": "billetsspectacles"
     },
     {
+      "name": "Futuroscope",
+      "slug": "futuroscope",
+      "rate_text": "Jusqu'à 5 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "billetsspectacles"
+    },
+    {
       "name": "EXTIME TRAVEL",
       "slug": "paris-city-vision",
       "rate_text": "4 % de cashback",
@@ -4774,6 +4207,42 @@
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "billetsspectacles"
+    },
+    {
+      "name": "Viapresse",
+      "slug": "viapresse",
+      "rate_text": "Jusqu'à 25 % cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "livres"
+    },
+    {
+      "name": "Nature Journal",
+      "slug": "nature-journal",
+      "rate_text": "8,3 % de cashback",
+      "percent": 8.3,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "livres"
+    },
+    {
+      "name": "YouScribe",
+      "slug": "youscribe",
+      "rate_text": "Jusqu'à 20 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "livres"
+    },
+    {
+      "name": "Le Télégramme",
+      "slug": "le-telegramme",
+      "rate_text": "Jusqu'à 16 € cashback",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "livres"
     },
     {
       "name": "Je m'abonne.fr",
@@ -4848,87 +4317,6 @@
       "category_seen": "livres"
     },
     {
-      "name": "Cricut",
-      "slug": "cricut",
-      "rate_text": "Jusqu'à 4 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Buttinette",
-      "slug": "buttinette",
-      "rate_text": "Jusqu'à 3,33 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Mondial Tissus",
-      "slug": "mondial-tissus",
-      "rate_text": "2,5 % de cashback",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Woodbrass",
-      "slug": "woodbrass",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Eufy Make",
-      "slug": "eufy-make",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Le Géant des Beaux Arts",
-      "slug": "le-geant-des-beaux-arts",
-      "rate_text": "Jusqu'à 2,5 % cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "1001Hobbies",
-      "slug": "1001maquettes",
-      "rate_text": "2 % de cashback",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Leclerc Photo",
-      "slug": "photomoinscher-e-leclerc",
-      "rate_text": "2 % de cashback",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "arts-creatifs-et-diy"
-    },
-    {
-      "name": "Eurotiercé",
-      "slug": "eurotierce",
-      "rate_text": "15 € de cashback",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "jeux-argent"
-    },
-    {
       "name": "Jow",
       "slug": "jow",
       "rate_text": "Jusqu'à 4 % cashback",
@@ -4967,7 +4355,7 @@
     {
       "name": "Carrefour Courses Alimentaires",
       "slug": "carrefour-drive",
-      "rate_text": "Jusqu'à 10 € cashback",
+      "rate_text": "Jusqu'à 5 € cashback",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -4976,8 +4364,8 @@
     {
       "name": "Lidl",
       "slug": "lidl",
-      "rate_text": "12 % de cashback",
-      "percent": 12.0,
+      "rate_text": "1,5 % de cashback",
+      "percent": 1.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "supermarches"
