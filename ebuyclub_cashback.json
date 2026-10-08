@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-07T23:13:06.596539+00:00",
+  "generated_at": "2026-10-08T23:15:17.281610+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -343,16 +343,6 @@
       "type": "direct",
       "category_seen": "Déco, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-air-and-me-2878"
-    },
-    {
-      "name": "Air Caraïbes",
-      "slug": "14076",
-      "rate_text": "Jusqu'à 10,50€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Voyagistes, Vols",
-      "link": "https://www.ebuyclub.com/reduction-air-caraibes-14076"
     },
     {
       "name": "Air France",
@@ -1043,6 +1033,16 @@
       "type": "direct",
       "category_seen": "Services à la personne",
       "link": "https://www.ebuyclub.com/reduction-babbel-6049"
+    },
+    {
+      "name": "Babybio",
+      "slug": "16961",
+      "rate_text": "Jusqu'à 5,8% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Puériculture, Supermarché",
+      "link": "https://www.ebuyclub.com/reduction-babybio-16961"
     },
     {
       "name": "BabyBjörn",
@@ -3587,7 +3587,7 @@
     {
       "name": "Disneyland Paris",
       "slug": "4387",
-      "rate_text": "Jusqu'à 19€ remboursés",
+      "rate_text": "Jusqu'à 18€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4303,6 +4303,16 @@
       "type": "direct",
       "category_seen": "Informatique, Gadgets",
       "link": "https://www.ebuyclub.com/reduction-eufy-17165"
+    },
+    {
+      "name": "Eureka",
+      "slug": "19273",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Electromenager",
+      "link": "https://www.ebuyclub.com/reduction-eureka-19273"
     },
     {
       "name": "Europcar",
@@ -8345,6 +8355,16 @@
       "link": "https://www.ebuyclub.com/reduction-loop-earplugs-10788"
     },
     {
+      "name": "Lord Of CBD",
+      "slug": "17551",
+      "rate_text": "10,8% remboursés",
+      "percent": 10.8,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être",
+      "link": null
+    },
+    {
       "name": "Lorena Canals",
       "slug": "15962",
       "rate_text": "2,9% remboursés",
@@ -8687,8 +8707,8 @@
     {
       "name": "Make Up For Ever",
       "slug": "14472",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques",
@@ -10457,7 +10477,7 @@
     {
       "name": "Oral-B",
       "slug": "13615",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11243,6 +11263,16 @@
       "type": "direct",
       "category_seen": "Jardin et Extérieur",
       "link": null
+    },
+    {
+      "name": "Potager City",
+      "slug": "10822",
+      "rate_text": "Jusqu'à 22,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Supermarché, Epicerie & Restaurants",
+      "link": "https://www.ebuyclub.com/reduction-potager-city-10822"
     },
     {
       "name": "Pranarom",
@@ -12667,7 +12697,7 @@
     {
       "name": "Sixt",
       "slug": "631",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13475,6 +13505,16 @@
       "link": null
     },
     {
+      "name": "TASSIMO",
+      "slug": "6294",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Cafés & Thés, Electromenager",
+      "link": "https://www.ebuyclub.com/reduction-tassimo-6294"
+    },
+    {
       "name": "Teddy Smith",
       "slug": "6231",
       "rate_text": "2,9% remboursés",
@@ -13657,7 +13697,7 @@
     {
       "name": "Timberland",
       "slug": "6717",
-      "rate_text": "Jusqu'à 2,5% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
