@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-08T23:15:17.281610+00:00",
+  "generated_at": "2026-10-09T23:14:57.786052+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -161,7 +161,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Articles de sport, Lingerie, Chaussures, Mode Femme, Vêtements personnalisés, Accessoires de mode",
+      "category_seen": "Accessoires de mode, Articles de sport, Mode Homme, Vêtements personnalisés, Lingerie, Chaussures, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-about-you-11489"
     },
     {
@@ -201,7 +201,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être",
+      "category_seen": "Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-activa-store-7265"
     },
     {
@@ -221,7 +221,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Charme, Lingerie",
+      "category_seen": "Lingerie, Charme",
       "link": "https://www.ebuyclub.com/reduction-adam-et-eve-295"
     },
     {
@@ -231,7 +231,7 @@
       "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Enfant, Mode Homme, Articles de sport",
+      "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-adidas-1356"
     },
     {
@@ -301,7 +301,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Transports, Vols, Hotels, Location de vacances",
+      "category_seen": "Voyagistes, Transports, Vols, Location de vacances, Hotels",
       "link": "https://www.ebuyclub.com/reduction-agoda-5389"
     },
     {
@@ -431,7 +431,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Supermarché, Matériel informatique, Emballages & Expédition, Informatique, Bijoux, Chaussures, Mode Femme, Mode Homme, Articles de sport, Santé et Bien-être, Cosmétiques, Pièces & Réparation, Internet & Téléphonie, Pneu, Accessoires de mode",
+      "category_seen": "Supermarché, Matériel informatique, Informatique, Bijoux, Emballages & Expédition, Chaussures, Mode Femme, Articles de sport, Mode Homme, Santé et Bien-être, Cosmétiques, Pneu, Pièces & Réparation, Internet & Téléphonie, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-alibaba-10446"
     },
     {
@@ -561,7 +561,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Coffrets Sport & Sensation, Fitness et nutrition",
+      "category_seen": "Fitness et nutrition, Coffrets Sport & Sensation",
       "link": "https://www.ebuyclub.com/reduction-am-nutrition-14800"
     },
     {
@@ -591,7 +591,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Déco, Mobilier",
+      "category_seen": "Jardin et Extérieur, Mobilier, Déco",
       "link": null
     },
     {
@@ -671,7 +671,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Déco, Santé et Bien-être, Cosmétiques, Accessoires de mode",
+      "category_seen": "Mode Femme, Accessoires de mode, Cosmétiques, Santé et Bien-être, Déco",
       "link": "https://www.ebuyclub.com/reduction-anthropologie-6832"
     },
     {
@@ -701,7 +701,7 @@
       "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Animaux, Articles de sport, Jardin et Extérieur, Jouets, Déco, Santé et Bien-être, Mobilier, Bricolage",
+      "category_seen": "Articles de sport, Animaux, Jardin et Extérieur, Jouets, Bricolage, Déco, Mobilier, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-aosom-8486"
     },
     {
@@ -721,7 +721,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
+      "category_seen": "Cosmétiques, Parfums, Santé et Bien-être",
       "link": null
     },
     {
@@ -751,7 +751,7 @@
       "percent": 6.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Coffrets Cadeaux, Cosmétiques, Parfums, Santé et Bien-être",
+      "category_seen": "Coffrets Cadeaux, Cosmétiques, Santé et Bien-être, Parfums",
       "link": "https://www.ebuyclub.com/reduction-armani-beauty-12295"
     },
     {
@@ -971,7 +971,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Puériculture, Jouets, Divertissement, Déco",
+      "category_seen": "Divertissement, Déco, Puériculture, Jouets",
       "link": "https://www.ebuyclub.com/reduction-avenue-des-jeux-532"
     },
     {
@@ -1131,7 +1131,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Accessoires de mode, Chaussures, Mode Femme, Mode Homme, Articles de sport",
+      "category_seen": "Sportwear, Accessoires de mode, Mode Homme, Articles de sport, Chaussures, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-basket-center-18005"
     },
     {
@@ -1171,7 +1171,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Enfant, Ventes Privées, Mode Homme, Accessoires de mode",
+      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Ventes Privées, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-bazarchic-2192"
     },
     {
@@ -1231,7 +1231,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-beauty-success-5316"
     },
     {
@@ -1311,7 +1311,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Enfant, Mode Homme, Mode Femme",
+      "category_seen": "Accessoires de mode, Mode Homme, Mode Enfant, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-bermudes-10741"
     },
     {
@@ -1381,7 +1381,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Transports, Voyagistes",
+      "category_seen": "Voyagistes, Transports",
       "link": "https://www.ebuyclub.com/reduction-big-bus-tours-13123"
     },
     {
@@ -1391,7 +1391,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Cosmétiques, Hygiène et entretien",
+      "category_seen": "Hygiène et entretien, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-biggreensmile-5344"
     },
     {
@@ -1461,7 +1461,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Santé et Bien-être, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-biovea-3559"
     },
     {
@@ -1521,7 +1521,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Mode Homme, Mode Femme, Lingerie, Grande Taille",
+      "category_seen": "Linge de Maison, Mode Homme, Lingerie, Mode Femme, Grande Taille",
       "link": "https://www.ebuyclub.com/reduction-blancheporte-1126"
     },
     {
@@ -1621,7 +1621,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Fitness et nutrition, Articles de sport",
+      "category_seen": "Fitness et nutrition, Sportwear, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-bodyworld-17098"
     },
     {
@@ -1671,7 +1671,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Mode Bébé, Mode Enfant, Mode Homme, Mode Femme, Lingerie, Chaussures, Accessoires de mode",
+      "category_seen": "Linge de Maison, Mode Bébé, Lingerie, Mode Enfant, Mode Homme, Mode Femme, Chaussures, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-bonprix-577"
     },
     {
@@ -1691,7 +1691,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Homme, Chaussures",
+      "category_seen": "Accessoires de mode, Chaussures, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-boohooman-10882"
     },
     {
@@ -1761,7 +1761,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Transports, Voyagistes",
+      "category_seen": "Voyagistes, Transports",
       "link": "https://www.ebuyclub.com/reduction-bourse-des-voyages-18537"
     },
     {
@@ -1781,7 +1781,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Vêtements personnalisés, Sportwear",
+      "category_seen": "Vêtements personnalisés, Articles de sport, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-boutique-psg-13197"
     },
     {
@@ -1891,7 +1891,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Transports",
+      "category_seen": "Transports, Location de voiture",
       "link": "https://www.ebuyclub.com/reduction-bsp-auto-10854"
     },
     {
@@ -1921,7 +1921,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Hotels, Voyagistes, Vols",
+      "category_seen": "Hotels, Voyagistes, Location de voiture, Vols",
       "link": "https://www.ebuyclub.com/reduction-budgetair-4113"
     },
     {
@@ -2081,7 +2081,7 @@
       "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Lingerie, Chaussures, Mode Femme, Mode Bébé, Accessoires de mode",
+      "category_seen": "Lingerie, Mode Homme, Chaussures, Mode Femme, Mode Bébé, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-calvin-klein-12218"
     },
     {
@@ -2131,7 +2131,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Transports, Location de voiture",
+      "category_seen": "Location de voiture, Transports",
       "link": "https://www.ebuyclub.com/reduction-camperdays-15296"
     },
     {
@@ -2271,7 +2271,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Parc de Loisirs, Hotels, Location de vacances",
+      "category_seen": "Voyagistes, Parc de Loisirs, Location de vacances, Hotels",
       "link": "https://www.ebuyclub.com/reduction-carrefour-voyages-4988"
     },
     {
@@ -2361,7 +2361,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Déco, Cosmétiques, Jeux Vidéo & Console, Pièces & Réparation, Internet & Téléphonie, Accessoires de mode, Articles de sport, Mode Homme, Mode Femme, Son Vidéo & Photo, Chaussures, Electromenager, Informatique, Vins & Alcool",
+      "category_seen": "Parfums, Déco, Cosmétiques, Jeux Vidéo & Console, Pièces & Réparation, Internet & Téléphonie, Accessoires de mode, Mode Homme, Articles de sport, Mode Femme, Son Vidéo & Photo, Chaussures, Electromenager, Informatique, Vins & Alcool",
       "link": "https://www.ebuyclub.com/reduction-cdiscount-104"
     },
     {
@@ -2371,7 +2371,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vols, Voyagistes, Hotels",
+      "category_seen": "Voyagistes, Vols, Hotels",
       "link": "https://www.ebuyclub.com/reduction-cdiscount-voyages-9920"
     },
     {
@@ -2401,7 +2401,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Déco, Cuisine et Art de la table, Bricolage",
+      "category_seen": "Déco, Cuisine et Art de la table, Bricolage, Jardin et Extérieur",
       "link": null
     },
     {
@@ -2421,7 +2421,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Mobilier, Déco",
+      "category_seen": "Linge de Maison, Déco, Mobilier",
       "link": "https://www.ebuyclub.com/reduction-chambrekids-16390"
     },
     {
@@ -2471,7 +2471,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Bijoux, Mode Femme, Luxe, Accessoires de mode",
+      "category_seen": "Chaussures, Bijoux, Mode Femme, Accessoires de mode, Luxe",
       "link": "https://www.ebuyclub.com/reduction-charles-keith-9911"
     },
     {
@@ -2521,7 +2521,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Puériculture, Mode Bébé, Futures Mamans",
+      "category_seen": "Futures Mamans, Mode Enfant, Puériculture, Mode Bébé",
       "link": "https://www.ebuyclub.com/reduction-chicco-18631"
     },
     {
@@ -2561,7 +2561,7 @@
       "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Chaussures, Mode Femme, Accessoires de mode",
+      "category_seen": "Accessoires de mode, Chaussures, Mode Femme, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-citadium-646"
     },
     {
@@ -2651,7 +2651,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Futures Mamans, Mode Femme, Accessoires de mode",
+      "category_seen": "Mode Femme, Futures Mamans, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-club-l-london-17040"
     },
     {
@@ -2671,7 +2671,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cuisine et Art de la table, Cafés & Thés",
+      "category_seen": "Cafés & Thés, Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-coffee-friend-16933"
     },
     {
@@ -2731,7 +2731,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Articles de sport, Mode Enfant, Chaussures, Mode Femme, Accessoires de mode",
+      "category_seen": "Mode Homme, Mode Enfant, Articles de sport, Chaussures, Mode Femme, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-columbia-7590"
     },
     {
@@ -2741,7 +2741,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mobilier, Déco",
+      "category_seen": "Déco, Mobilier",
       "link": "https://www.ebuyclub.com/reduction-compactor-2830"
     },
     {
@@ -2801,7 +2801,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Hotels, Voyagistes, Transports, Vols",
+      "category_seen": "Hotels, Voyagistes, Location de voiture, Transports, Vols",
       "link": "https://www.ebuyclub.com/reduction-connections-belgique-9768"
     },
     {
@@ -2901,7 +2901,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Electromenager, Puériculture, Jouets, Articles de sport, Déco, Mobilier, Cuisine et Art de la table",
+      "category_seen": "Jardin et Extérieur, Electromenager, Puériculture, Jouets, Articles de sport, Cuisine et Art de la table, Mobilier, Déco",
       "link": "https://www.ebuyclub.com/reduction-costway-11595"
     },
     {
@@ -2931,7 +2931,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vêtements personnalisés, Déco, Linge de Maison",
+      "category_seen": "Déco, Linge de Maison, Vêtements personnalisés",
       "link": "https://www.ebuyclub.com/reduction-coupons-couture-18873"
     },
     {
@@ -2975,16 +2975,6 @@
       "link": "https://www.ebuyclub.com/reduction-couteauxduchef-8214"
     },
     {
-      "name": "Coverd",
-      "slug": "11904",
-      "rate_text": "Jusqu'à 12€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Assurances",
-      "link": null
-    },
-    {
       "name": "Coyote",
       "slug": "898",
       "rate_text": "Jusqu'à 12€ remboursés",
@@ -3007,8 +2997,8 @@
     {
       "name": "Creality",
       "slug": "18540",
-      "rate_text": "Jusqu'à 2,9% remboursés",
-      "percent": null,
+      "rate_text": "1,6% remboursés",
+      "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Informatique, Cartouches d'encre & Consommables",
@@ -3067,7 +3057,7 @@
     {
       "name": "Crypto.com",
       "slug": "18738",
-      "rate_text": "Jusqu'à 509,50€ remboursés",
+      "rate_text": "Jusqu'à 25% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3091,7 +3081,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme",
+      "category_seen": "Mode Homme, Mode Femme",
       "link": null
     },
     {
@@ -3211,7 +3201,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme, Mode Enfant, Linge de Maison",
+      "category_seen": "Mode Homme, Mode Enfant, Mode Femme, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-damart-824"
     },
     {
@@ -3221,7 +3211,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Femme, Chaussures",
+      "category_seen": "Accessoires de mode, Chaussures, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-dancing-queens-19184"
     },
     {
@@ -3271,7 +3261,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Enfant, Articles de sport, Mode Homme, Fitness et nutrition",
+      "category_seen": "Mode Femme, Mode Enfant, Mode Homme, Articles de sport, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-dare-2b-10602"
     },
     {
@@ -3301,7 +3291,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Lingerie, Chaussures, Mode Femme, Mode Homme, Linge de Maison",
+      "category_seen": "Chaussures, Mode Femme, Mode Homme, Lingerie, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-daxon-6375"
     },
     {
@@ -3311,7 +3301,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Articles de sport, Mode Homme, Chaussures, Mode Femme",
+      "category_seen": "Articles de sport, Mode Homme, Mode Enfant, Chaussures, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-dc-shoes-2631"
     },
     {
@@ -3321,7 +3311,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Accessoires de mode",
+      "category_seen": "Mode Femme, Chaussures, Mode Enfant, Mode Homme, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-deeluxe-7948"
     },
     {
@@ -3341,7 +3331,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Bébé, Mode Femme, Chaussures, Mode Homme, Mode Enfant, Parfums, Santé et Bien-être, Accessoires de mode",
+      "category_seen": "Mode Bébé, Mode Femme, Chaussures, Mode Homme, Mode Enfant, Santé et Bien-être, Parfums, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-degriffstock-6990"
     },
     {
@@ -3421,7 +3411,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Enfant, Mode Homme, Chaussures, Mode Femme",
+      "category_seen": "Accessoires de mode, Mode Homme, Mode Enfant, Chaussures, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-desigual-4556"
     },
     {
@@ -3461,7 +3451,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de vacances, Voyagistes, Transports",
+      "category_seen": "Location de vacances, Transports, Voyagistes",
       "link": null
     },
     {
@@ -3471,7 +3461,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Articles de sport, Bijoux, Chaussures, Mode Femme, Jouets, Jardin et Extérieur, Sportwear, Déco, Internet & Téléphonie, Pièces & Réparation, Accessoires de mode",
+      "category_seen": "Articles de sport, Mode Homme, Bijoux, Chaussures, Mode Femme, Jouets, Jardin et Extérieur, Déco, Internet & Téléphonie, Pièces & Réparation, Sportwear, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-dhgate-7300"
     },
     {
@@ -3801,7 +3791,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Internet & Téléphonie, Pièces & Réparation, GPS & Accessoires, Cosmétiques, Divertissement, Jeux Vidéo & Console, Santé et Bien-être, Mobilier, Sportwear, Déco, Bricolage, Cuisine et Art de la table, Accessoires de mode, Vins & Alcool, Livres, Jouets, Musique, Papeterie, Linge de Maison, Jardin et Extérieur, Développement Photo, Logiciels, Informatique, Mode Bébé, Electromenager, Gadgets, Puériculture, Animaux, Mode Enfant, Articles de sport, Mode Homme, Mode Femme, Chaussures, Bijoux, Son Vidéo & Photo",
+      "category_seen": "Internet & Téléphonie, Pièces & Réparation, GPS & Accessoires, Cosmétiques, Divertissement, Jeux Vidéo & Console, Santé et Bien-être, Mobilier, Déco, Bricolage, Cuisine et Art de la table, Sportwear, Accessoires de mode, Vins & Alcool, Livres, Jouets, Musique, Papeterie, Linge de Maison, Jardin et Extérieur, Développement Photo, Logiciels, Informatique, Mode Bébé, Electromenager, Gadgets, Puériculture, Animaux, Articles de sport, Mode Homme, Mode Enfant, Mode Femme, Chaussures, Bijoux, Son Vidéo & Photo",
       "link": "https://www.ebuyclub.com/reduction-e-17263"
     },
     {
@@ -3931,7 +3921,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Articles de sport, Mode Femme, Informatique, Electromenager, Jouets, Bricolage, Mobilier, Internet & Téléphonie, Pièces & Réparation",
+      "category_seen": "Articles de sport, Mode Homme, Mode Femme, Informatique, Electromenager, Jouets, Mobilier, Internet & Téléphonie, Pièces & Réparation, Bricolage",
       "link": "https://www.ebuyclub.com/reduction-ebay-829"
     },
     {
@@ -3951,7 +3941,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mobilier, Linge de Maison",
+      "category_seen": "Mobilier, Déco, Linge de Maison",
       "link": null
     },
     {
@@ -3971,7 +3961,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hotels, Location de vacances, Location de voiture, Vols, Voyagistes",
+      "category_seen": "Location de vacances, Hotels, Vols, Voyagistes, Location de voiture",
       "link": "https://www.ebuyclub.com/reduction-edreams-903"
     },
     {
@@ -4001,7 +3991,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hygiène et entretien, Cuisine et Art de la table, Electromenager",
+      "category_seen": "Cuisine et Art de la table, Hygiène et entretien, Electromenager",
       "link": "https://www.ebuyclub.com/reduction-electrolux-16361"
     },
     {
@@ -4021,7 +4011,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Mode Homme, Articles de sport, Mode Femme",
+      "category_seen": "Mode Homme, Mode Enfant, Articles de sport, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-element-14398"
     },
     {
@@ -4137,7 +4127,7 @@
     {
       "name": "ENGIE",
       "slug": "16499",
-      "rate_text": "Jusqu'à 49€ remboursés",
+      "rate_text": "Jusqu'à 60€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4161,7 +4151,7 @@
       "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mobilier, Déco",
+      "category_seen": "Déco, Mobilier",
       "link": null
     },
     {
@@ -4201,7 +4191,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Fitness et nutrition, Régime et Minceur, Sportwear, Santé et Bien-être",
+      "category_seen": "Articles de sport, Sportwear, Fitness et nutrition, Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-eric-favre-10390"
     },
     {
@@ -4315,6 +4305,16 @@
       "link": "https://www.ebuyclub.com/reduction-eureka-19273"
     },
     {
+      "name": "Euromaster",
+      "slug": "5251",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Pneu, Pièces & Réparation, GPS & Accessoires",
+      "link": "https://www.ebuyclub.com/reduction-euromaster-5251"
+    },
+    {
       "name": "Europcar",
       "slug": "800",
       "rate_text": "Jusqu'à 6% remboursés",
@@ -4361,7 +4361,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Hotels, Vols, Voyagistes",
+      "category_seen": "Hotels, Vols, Voyagistes, Location de voiture",
       "link": "https://www.ebuyclub.com/reduction-expedia-belgique-9508"
     },
     {
@@ -4391,7 +4391,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parc de Loisirs, Voyagistes, Transports",
+      "category_seen": "Parc de Loisirs, Transports, Voyagistes",
       "link": null
     },
     {
@@ -4411,7 +4411,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vêtements personnalisés, Mode Femme, Mode Homme",
+      "category_seen": "Mode Femme, Mode Homme, Vêtements personnalisés",
       "link": "https://www.ebuyclub.com/reduction-f1-store-11765"
     },
     {
@@ -4441,7 +4441,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mobilier, Santé et Bien-être, Déco, Bijoux, Fournitures & Mobilier, Epicerie & Restaurants",
+      "category_seen": "Santé et Bien-être, Mobilier, Déco, Bijoux, Fournitures & Mobilier, Epicerie & Restaurants",
       "link": "https://www.ebuyclub.com/reduction-faire-18867"
     },
     {
@@ -4641,7 +4641,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Chaussures",
+      "category_seen": "Mode Homme, Chaussures, Mode Femme",
       "link": null
     },
     {
@@ -4661,7 +4661,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Bijoux, Articles de sport, Animaux, Jardin et Extérieur, Gadgets, Jouets, Déco, Santé et Bien-être, Bricolage, Accessoires de mode",
+      "category_seen": "Bijoux, Animaux, Articles de sport, Jardin et Extérieur, Gadgets, Jouets, Déco, Santé et Bien-être, Bricolage, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-flashventes-12849"
     },
     {
@@ -4731,7 +4731,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Epicerie & Restaurants, Jouets, Coffrets Cadeaux, Accessoires de mode, Déco",
+      "category_seen": "Déco, Accessoires de mode, Epicerie & Restaurants, Jouets, Coffrets Cadeaux",
       "link": "https://www.ebuyclub.com/reduction-flying-tiger-copenhagen-802"
     },
     {
@@ -4741,7 +4741,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Bricolage, Internet & Téléphonie, Santé et Bien-être, Mobilier, Déco, Son Vidéo & Photo, Jouets, Coffrets Cadeaux, Electromenager, Jardin et Extérieur, Informatique",
+      "category_seen": "Bricolage, Internet & Téléphonie, Santé et Bien-être, Déco, Mobilier, Son Vidéo & Photo, Jouets, Coffrets Cadeaux, Electromenager, Jardin et Extérieur, Informatique",
       "link": "https://www.ebuyclub.com/reduction-fnac-58"
     },
     {
@@ -4781,7 +4781,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Chaussures, Sportwear",
+      "category_seen": "Chaussures, Articles de sport, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-foot-store-17408"
     },
     {
@@ -4901,7 +4901,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mobilier, Linge de Maison",
+      "category_seen": "Mobilier, Déco, Linge de Maison",
       "link": null
     },
     {
@@ -5041,7 +5041,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Accessoires de mode",
+      "category_seen": "Accessoires de mode, Mode Femme",
       "link": null
     },
     {
@@ -5251,7 +5251,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Vols, Voyagistes",
+      "category_seen": "Hotels, Location de voiture, Voyagistes, Vols",
       "link": "https://www.ebuyclub.com/reduction-go-voyages-7042"
     },
     {
@@ -5281,7 +5281,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Transports",
+      "category_seen": "Transports, Location de voiture",
       "link": "https://www.ebuyclub.com/reduction-goldcar-9049"
     },
     {
@@ -5401,7 +5401,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Déco, Accessoires de mode, Mode Homme, Articles de sport, Chaussures, Mode Femme, Billetterie",
+      "category_seen": "Santé et Bien-être, Déco, Accessoires de mode, Mode Homme, Articles de sport, Mode Femme, Chaussures, Billetterie",
       "link": "https://www.ebuyclub.com/reduction-groupon-belgique-3399"
     },
     {
@@ -5421,7 +5421,7 @@
       "percent": 3.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Luxe, Accessoires de mode, Chaussures, Mode Femme, Mode Homme, Mode Enfant, Mode Bébé",
+      "category_seen": "Luxe, Accessoires de mode, Mode Femme, Chaussures, Mode Homme, Mode Enfant, Mode Bébé",
       "link": "https://www.ebuyclub.com/reduction-guess-1506"
     },
     {
@@ -5451,7 +5451,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Accessoires de mode",
+      "category_seen": "Accessoires de mode, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-gymshark-8846"
     },
     {
@@ -5501,7 +5501,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fournitures & Mobilier, Hygiène et entretien, Bricolage",
+      "category_seen": "Fournitures & Mobilier, Bricolage, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-hailo-14712"
     },
     {
@@ -5561,7 +5561,7 @@
       "percent": 1.2,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Transports, Voyagistes, Vols, Location de vacances, Hotels",
+      "category_seen": "Voyagistes, Transports, Vols, Location de vacances, Hotels",
       "link": "https://www.ebuyclub.com/reduction-havas-voyages-4917"
     },
     {
@@ -5601,7 +5601,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Lingerie, Déco, Accessoires de mode",
+      "category_seen": "Lingerie, Mode Femme, Chaussures, Accessoires de mode, Déco",
       "link": "https://www.ebuyclub.com/reduction-helline-2021"
     },
     {
@@ -5691,7 +5691,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Bébé, Puériculture, Linge de Maison, Développement Photo, Mode Homme, Mode Enfant, Mode Femme, Déco, Santé et Bien-être, Cosmétiques, Accessoires de mode, Cuisine et Art de la table",
+      "category_seen": "Mode Bébé, Puériculture, Linge de Maison, Développement Photo, Mode Homme, Mode Enfant, Mode Femme, Déco, Santé et Bien-être, Cosmétiques, Cuisine et Art de la table, Accessoires de mode",
       "link": null
     },
     {
@@ -6021,7 +6021,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Informatique, Matériel informatique, Cartouches d'encre & Consommables",
+      "category_seen": "Matériel informatique, Cartouches d'encre & Consommables, Informatique",
       "link": "https://www.ebuyclub.com/reduction-hp-733"
     },
     {
@@ -6071,7 +6071,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-huda-beauty-17847"
     },
     {
@@ -6121,7 +6121,7 @@
       "percent": 7.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Femme, Lingerie",
+      "category_seen": "Accessoires de mode, Lingerie, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-hunkemoller-7852"
     },
     {
@@ -6131,7 +6131,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Lingerie, Mode Femme",
+      "category_seen": "Mode Femme, Lingerie",
       "link": "https://www.ebuyclub.com/reduction-hunkemoller-belgique-9453"
     },
     {
@@ -6141,7 +6141,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Mode Homme, Mode Enfant, Mode Femme, Sportwear, Accessoires de mode",
+      "category_seen": "Articles de sport, Mode Enfant, Mode Homme, Mode Femme, Accessoires de mode, Sportwear",
       "link": null
     },
     {
@@ -6311,7 +6311,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Cuisine et Art de la table, Bricolage",
+      "category_seen": "Jardin et Extérieur, Bricolage, Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-hofats-18872"
     },
     {
@@ -6321,7 +6321,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Transports, Divertissement, Hotels",
+      "category_seen": "Hotels, Divertissement, Transports, Voyagistes",
       "link": "https://www.ebuyclub.com/reduction-i-amsterdam-9232"
     },
     {
@@ -6401,7 +6401,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Linge de Maison, Mobilier, Déco",
+      "category_seen": "Déco, Mobilier, Jardin et Extérieur, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-id-market-10950"
     },
     {
@@ -6421,7 +6421,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "GPS & Accessoires, Pièces & Réparation, Pneu",
+      "category_seen": "Pneu, GPS & Accessoires, Pièces & Réparation",
       "link": "https://www.ebuyclub.com/reduction-idgarages-6934"
     },
     {
@@ -6441,7 +6441,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fitness et nutrition, Santé et Bien-être, Epicerie & Restaurants",
+      "category_seen": "Santé et Bien-être, Fitness et nutrition, Epicerie & Restaurants",
       "link": "https://www.ebuyclub.com/reduction-iherb-8251"
     },
     {
@@ -6561,7 +6561,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Lingerie, Mode Homme, Accessoires de mode, Parfums, Santé et Bien-être",
+      "category_seen": "Mode Homme, Lingerie, Accessoires de mode, Santé et Bien-être, Parfums",
       "link": "https://www.ebuyclub.com/reduction-inderwear-3397"
     },
     {
@@ -6661,7 +6661,7 @@
       "percent": 5.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Lingerie",
+      "category_seen": "Mode Homme, Lingerie, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-intimissimi-7101"
     },
     {
@@ -6881,7 +6881,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Mode Homme, Articles de sport, Mode Femme, Chaussures",
+      "category_seen": "Articles de sport, Mode Enfant, Mode Homme, Mode Femme, Chaussures",
       "link": "https://www.ebuyclub.com/reduction-jd-sports-belgique-10344"
     },
     {
@@ -6961,7 +6961,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Bricolage, Fitness et nutrition, Hygiène et entretien, Cuisine et Art de la table, Accessoires de mode, Santé et Bien-être, Mobilier, Parfums, Déco, Cosmétiques, Jeux Vidéo & Console, Internet & Téléphonie, Gadgets, Puériculture, Electromenager, Développement Photo, Informatique, Papeterie, Jouets, Supermarché, Epicerie & Restaurants, Son Vidéo & Photo, Mode Femme, Mode Homme, Articles de sport, Animaux",
+      "category_seen": "Bricolage, Cuisine et Art de la table, Accessoires de mode, Hygiène et entretien, Santé et Bien-être, Parfums, Fitness et nutrition, Mobilier, Déco, Cosmétiques, Jeux Vidéo & Console, Internet & Téléphonie, Gadgets, Puériculture, Electromenager, Développement Photo, Informatique, Papeterie, Jouets, Supermarché, Epicerie & Restaurants, Son Vidéo & Photo, Mode Femme, Mode Homme, Animaux, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-joybuy-9968"
     },
     {
@@ -7021,7 +7021,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Luxe, Mode Femme, Mode Enfant, Mode Homme, Articles de sport",
+      "category_seen": "Luxe, Sportwear, Mode Femme, Articles de sport, Mode Enfant, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-kappa-13578"
     },
     {
@@ -7031,7 +7031,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Accessoires de mode",
+      "category_seen": "Mode Femme, Mode Homme, Accessoires de mode",
       "link": null
     },
     {
@@ -7041,7 +7041,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mobilier, Déco, Linge de Maison",
+      "category_seen": "Déco, Mobilier, Linge de Maison",
       "link": null
     },
     {
@@ -7071,7 +7071,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Enfant, Mode Homme, Accessoires de mode",
+      "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-karl-lagerfeld-11033"
     },
     {
@@ -7271,7 +7271,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Transports, Voyagistes, Parc de Loisirs, Hotels",
+      "category_seen": "Voyagistes, Transports, Parc de Loisirs, Hotels",
       "link": "https://www.ebuyclub.com/reduction-klook-10974"
     },
     {
@@ -7401,7 +7401,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Mode Homme, Coffrets Cadeaux, Jardin et Extérieur, Accessoires de mode, Bricolage, Hygiène et entretien, Santé et Bien-être, Mobilier, Déco, Divertissement, Internet & Téléphonie",
+      "category_seen": "Chaussures, Mode Homme, Coffrets Cadeaux, Jardin et Extérieur, Accessoires de mode, Bricolage, Hygiène et entretien, Mobilier, Déco, Santé et Bien-être, Divertissement, Internet & Téléphonie",
       "link": "https://www.ebuyclub.com/reduction-l-homme-moderne-3575"
     },
     {
@@ -7411,7 +7411,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cosmétiques, Santé et Bien-être, Parfums",
+      "category_seen": "Cosmétiques, Parfums, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-l-occitane-2064"
     },
     {
@@ -7491,7 +7491,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme, Accessoires de mode, Sportwear",
+      "category_seen": "Mode Femme, Mode Homme, Sportwear, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-la-boutique-officielle-fff-5778"
     },
     {
@@ -7571,7 +7571,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Mode Homme, Articles de sport, Lingerie, Son Vidéo & Photo, Chaussures, Mode Femme, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Futures Mamans, Electromenager, Mode Bébé, Puériculture, Gadgets, Cuisine et Art de la table, Accessoires de mode, Jeux Vidéo & Console, Déco, Mobilier, Grande Taille",
+      "category_seen": "Articles de sport, Lingerie, Mode Enfant, Mode Homme, Futures Mamans, Son Vidéo & Photo, Chaussures, Mode Femme, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Electromenager, Mode Bébé, Puériculture, Gadgets, Cuisine et Art de la table, Accessoires de mode, Jeux Vidéo & Console, Déco, Mobilier, Grande Taille",
       "link": "https://www.ebuyclub.com/reduction-la-redoute-298"
     },
     {
@@ -7631,7 +7631,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Luxe, Mode Enfant, Mode Homme, Chaussures, Mode Femme",
+      "category_seen": "Luxe, Chaussures, Mode Femme, Mode Enfant, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-lacoste-3680"
     },
     {
@@ -7681,7 +7681,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Cosmétiques, Santé et Bien-être, Parfums",
       "link": "https://www.ebuyclub.com/reduction-lancome-661"
     },
     {
@@ -7701,7 +7701,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vols, Parc de Loisirs, Voyagistes, Hotels, Location de vacances, Location de voiture",
+      "category_seen": "Vols, Parc de Loisirs, Location de voiture, Voyagistes, Hotels, Location de vacances",
       "link": "https://www.ebuyclub.com/reduction-lastminute-205"
     },
     {
@@ -7871,7 +7871,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
+      "category_seen": "Accessoires de mode, Mode Enfant, Mode Homme, Mode Femme",
       "link": null
     },
     {
@@ -7887,7 +7887,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8031,7 +8031,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Parfums",
+      "category_seen": "Parfums, Déco",
       "link": "https://www.ebuyclub.com/reduction-les-lumieres-du-temps-17688"
     },
     {
@@ -8095,16 +8095,6 @@
       "link": "https://www.ebuyclub.com/reduction-leurre-de-la-peche-16796"
     },
     {
-      "name": "Levi's®",
-      "slug": "3658",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-levi-s-3658"
-    },
-    {
       "name": "LG Electronics",
       "slug": "16427",
       "rate_text": "Jusqu'à 1,6% remboursés",
@@ -8127,11 +8117,11 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme, Animaux, Supermarché, Jouets, Jardin et Extérieur, Electromenager, Mobilier, Déco, Bricolage",
+      "category_seen": "Mode Femme, Animaux, Mode Homme, Supermarché, Jouets, Jardin et Extérieur, Electromenager, Déco, Mobilier, Bricolage",
       "link": "https://www.ebuyclub.com/reduction-lidl-7180"
     },
     {
@@ -8151,7 +8141,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Mode Homme, Articles de sport, Mode Femme, Son Vidéo & Photo, Chaussures, Gadgets, Linge de Maison, Déco, Accessoires de mode",
+      "category_seen": "Articles de sport, Mode Enfant, Mode Homme, Mode Femme, Son Vidéo & Photo, Chaussures, Gadgets, Linge de Maison, Déco, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-lightinthebox-2548"
     },
     {
@@ -8221,7 +8211,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Futures Mamans, Mode Bébé, Coffrets Cadeaux, Puériculture, Mode Enfant",
+      "category_seen": "Déco, Mode Bébé, Coffrets Cadeaux, Puériculture, Mode Enfant, Futures Mamans",
       "link": null
     },
     {
@@ -8241,7 +8231,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hygiène et entretien, Cuisine et Art de la table",
+      "category_seen": "Cuisine et Art de la table, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-livea-13741"
     },
     {
@@ -8321,7 +8311,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Voyagistes, Vols",
+      "category_seen": "Hotels, Voyagistes, Location de voiture, Vols",
       "link": "https://www.ebuyclub.com/reduction-lol-10087"
     },
     {
@@ -8411,7 +8401,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Lingerie, Charme",
+      "category_seen": "Charme, Lingerie",
       "link": "https://www.ebuyclub.com/reduction-love-and-vibes-5559"
     },
     {
@@ -8421,7 +8411,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Transports, Vols, Location de vacances, Hotels",
+      "category_seen": "Transports, Voyagistes, Vols, Location de vacances, Hotels",
       "link": "https://www.ebuyclub.com/reduction-ltur-8658"
     },
     {
@@ -8451,7 +8441,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Son Vidéo & Photo, Développement Photo, Logiciels",
+      "category_seen": "Son Vidéo & Photo, Logiciels, Développement Photo",
       "link": null
     },
     {
@@ -8471,7 +8461,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Vêtements personnalisés, Mobilier, Déco, Hygiène et entretien, Cuisine et Art de la table",
+      "category_seen": "Vêtements personnalisés, Linge de Maison, Mobilier, Déco, Cuisine et Art de la table, Hygiène et entretien",
       "link": null
     },
     {
@@ -8491,7 +8481,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme, Accessoires de mode, Régime et Minceur, Sportwear",
+      "category_seen": "Mode Femme, Mode Homme, Sportwear, Accessoires de mode, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-lytess-15490"
     },
     {
@@ -8501,7 +8491,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Cosmétiques, Santé et Bien-être",
+      "category_seen": "Cosmétiques, Régime et Minceur, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-lea-nature-1540"
     },
     {
@@ -8561,7 +8551,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Jardin et Extérieur, Mobilier, Déco, Cuisine et Art de la table",
+      "category_seen": "Linge de Maison, Jardin et Extérieur, Déco, Mobilier, Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-made-in-design-932"
     },
     {
@@ -8631,7 +8621,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme",
+      "category_seen": "Mode Homme, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-magnifaik-18766"
     },
     {
@@ -8691,7 +8681,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mobilier, Déco, Linge de Maison",
+      "category_seen": "Déco, Mobilier, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-maisons-du-monde-belgique-13502"
     },
     {
@@ -8771,7 +8761,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Divertissement, Coffrets Sport & Sensation",
+      "category_seen": "Coffrets Sport & Sensation, Divertissement",
       "link": null
     },
     {
@@ -8787,11 +8777,11 @@
     {
       "name": "ManoMano",
       "slug": "8183",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mobilier, Bricolage, Jardin et Extérieur",
+      "category_seen": "Mobilier, Déco, Bricolage, Jardin et Extérieur",
       "link": "https://www.ebuyclub.com/reduction-manomano-8183"
     },
     {
@@ -8801,7 +8791,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Mobilier, Déco, Bricolage",
+      "category_seen": "Jardin et Extérieur, Déco, Mobilier, Bricolage",
       "link": null
     },
     {
@@ -8811,7 +8801,7 @@
       "percent": 1.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Matériel informatique, Fournitures & Mobilier, Emballages & Expédition",
+      "category_seen": "Emballages & Expédition, Matériel informatique, Fournitures & Mobilier",
       "link": "https://www.ebuyclub.com/reduction-manutan-712"
     },
     {
@@ -8831,7 +8821,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-marionnaud-522"
     },
     {
@@ -8841,7 +8831,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mode Enfant, Mode Homme, Mode Femme, Chaussures, Lingerie, Mode Bébé, Linge de Maison",
+      "category_seen": "Déco, Mode Enfant, Lingerie, Mode Homme, Mode Femme, Chaussures, Mode Bébé, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-marks-spencer-4571"
     },
     {
@@ -8881,7 +8871,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mobilier",
+      "category_seen": "Mobilier, Déco",
       "link": "https://www.ebuyclub.com/reduction-massivmoebel24-13043"
     },
     {
@@ -9021,7 +9011,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Banque, Assurances",
+      "category_seen": "Assurances, Banque",
       "link": null
     },
     {
@@ -9031,7 +9021,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Cosmétiques",
+      "category_seen": "Cosmétiques, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-melvita-5331"
     },
     {
@@ -9077,8 +9067,8 @@
     {
       "name": "Merit Beauty",
       "slug": "18457",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être, Cosmétiques",
@@ -9121,13 +9111,13 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Chaussures, Mode Femme, Mode Homme, Mode Enfant",
+      "category_seen": "Accessoires de mode, Chaussures, Mode Femme, Mode Enfant, Mode Homme",
       "link": null
     },
     {
       "name": "Michael Kors",
       "slug": "8735",
-      "rate_text": "Jusqu'à 1,5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9231,7 +9221,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-miniweight-8707"
     },
     {
@@ -9321,7 +9311,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Lingerie, Mode Femme",
+      "category_seen": "Lingerie, Mode Homme, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-moda-vilona-5646"
     },
     {
@@ -9361,7 +9351,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Futures Mamans, Puériculture",
+      "category_seen": "Puériculture, Futures Mamans",
       "link": "https://www.ebuyclub.com/reduction-momcozy-18954"
     },
     {
@@ -9391,7 +9381,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Assurances, Banque",
+      "category_seen": "Banque, Assurances",
       "link": "https://www.ebuyclub.com/reduction-mon-petit-placement-17353"
     },
     {
@@ -9447,11 +9437,11 @@
     {
       "name": "Mondoffice",
       "slug": "444",
-      "rate_text": "Jusqu'à 1,6% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cartouches d'encre & Consommables, Papeterie, Fournitures & Mobilier, Matériel informatique, Emballages & Expédition, Informatique",
+      "category_seen": "Cartouches d'encre & Consommables, Papeterie, Fournitures & Mobilier, Matériel informatique, Informatique, Emballages & Expédition",
       "link": "https://www.ebuyclub.com/reduction-mondoffice-444"
     },
     {
@@ -9501,7 +9491,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Cuisine et Art de la table, Accessoires de mode, Mode Femme, Mode Homme, Mode Enfant, Linge de Maison, Mode Bébé, Confiseries & Chocolats, Supermarché, Epicerie & Restaurants",
+      "category_seen": "Cuisine et Art de la table, Accessoires de mode, Déco, Mode Femme, Mode Enfant, Mode Homme, Linge de Maison, Mode Bébé, Confiseries & Chocolats, Supermarché, Epicerie & Restaurants",
       "link": "https://www.ebuyclub.com/reduction-monoprix-1264"
     },
     {
@@ -9701,7 +9691,7 @@
       "percent": 0.4,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Divertissement, Articles de sport, Musique",
+      "category_seen": "Divertissement, Sportwear, Articles de sport, Musique",
       "link": "https://www.ebuyclub.com/reduction-muziker-8991"
     },
     {
@@ -9751,7 +9741,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jouets, Jeux Vidéo & Console, Vêtements personnalisés",
+      "category_seen": "Jouets, Vêtements personnalisés, Jeux Vidéo & Console",
       "link": null
     },
     {
@@ -9821,7 +9811,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Fitness et nutrition, Articles de sport",
+      "category_seen": "Fitness et nutrition, Sportwear, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-myprotein-4070"
     },
     {
@@ -9831,7 +9821,7 @@
       "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Santé et Bien-être, Fitness et nutrition, Articles de sport",
+      "category_seen": "Santé et Bien-être, Fitness et nutrition, Sportwear, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-myprotein-belgique-9516"
     },
     {
@@ -9901,7 +9891,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être",
+      "category_seen": "Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-nat-et-form-18449"
     },
     {
@@ -10001,7 +9991,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Bijoux, Chaussures, Santé et Bien-être, Luxe, Cosmétiques, Accessoires de mode",
+      "category_seen": "Bijoux, Chaussures, Mode Femme, Luxe, Santé et Bien-être, Cosmétiques, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-net-a-porter-8615"
     },
     {
@@ -10011,7 +10001,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Informatique, Gadgets",
+      "category_seen": "Gadgets, Informatique",
       "link": "https://www.ebuyclub.com/reduction-netgear-17049"
     },
     {
@@ -10031,7 +10021,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Homme, Articles de sport, Mode Enfant",
+      "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-new-balance-7344"
     },
     {
@@ -10081,7 +10071,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
+      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
       "link": null
     },
     {
@@ -10111,7 +10101,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fournitures & Mobilier, Jardin et Extérieur, Electromenager, Hygiène et entretien, Cuisine et Art de la table",
+      "category_seen": "Fournitures & Mobilier, Electromenager, Jardin et Extérieur, Cuisine et Art de la table, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-nisbets-6081"
     },
     {
@@ -10201,7 +10191,7 @@
       "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Enfant, Mode Femme, Accessoires de mode",
+      "category_seen": "Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-north-sails-16609"
     },
     {
@@ -10211,7 +10201,7 @@
       "percent": 10.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Logiciels, Informatique, Logiciels professionnels, Matériel informatique",
+      "category_seen": "Informatique, Logiciels, Logiciels professionnels, Matériel informatique",
       "link": "https://www.ebuyclub.com/reduction-norton-1065"
     },
     {
@@ -10221,7 +10211,7 @@
       "percent": 0.2,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
+      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-notino-8778"
     },
     {
@@ -10321,7 +10311,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Articles de sport, Mode Homme, Accessoires de mode, Sportwear",
+      "category_seen": "Mode Femme, Mode Homme, Articles de sport, Accessoires de mode, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-oakley-7123"
     },
     {
@@ -10331,7 +10321,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Cuisine et Art de la table, Cosmétiques, Mobilier, Santé et Bien-être, Déco, Mode Femme, Chaussures, Linge de Maison, Electromenager",
+      "category_seen": "Accessoires de mode, Cuisine et Art de la table, Cosmétiques, Santé et Bien-être, Mobilier, Déco, Mode Femme, Chaussures, Linge de Maison, Electromenager",
       "link": "https://www.ebuyclub.com/reduction-oasis-5819"
     },
     {
@@ -10351,7 +10341,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vêtements personnalisés, Chaussures, Mode Femme, Articles de sport, Mode Homme, Mode Enfant",
+      "category_seen": "Chaussures, Mode Femme, Articles de sport, Mode Homme, Mode Enfant, Vêtements personnalisés",
       "link": "https://www.ebuyclub.com/reduction-odlo-12453"
     },
     {
@@ -10511,7 +10501,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Jouets, Futures Mamans, Mode Bébé, Puériculture",
+      "category_seen": "Mode Enfant, Futures Mamans, Jouets, Mode Bébé, Puériculture",
       "link": "https://www.ebuyclub.com/reduction-orchestra-1949"
     },
     {
@@ -10521,7 +10511,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pneu, GPS & Accessoires, Pièces & Réparation",
+      "category_seen": "GPS & Accessoires, Pièces & Réparation, Pneu",
       "link": "https://www.ebuyclub.com/reduction-oscaro-963"
     },
     {
@@ -10581,7 +10571,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Pièces & Réparation, Santé et Bien-être, Cuisine et Art de la table, Hygiène et entretien, Bricolage",
+      "category_seen": "Jardin et Extérieur, Pièces & Réparation, Santé et Bien-être, Cuisine et Art de la table, Bricolage, Hygiène et entretien",
       "link": null
     },
     {
@@ -10591,7 +10581,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Vols, Transports, Voyagistes",
+      "category_seen": "Hotels, Vols, Transports, Location de voiture, Voyagistes",
       "link": "https://www.ebuyclub.com/reduction-ovoyages-7699"
     },
     {
@@ -10631,7 +10621,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Emballages & Expédition, Fournitures & Mobilier",
+      "category_seen": "Fournitures & Mobilier, Emballages & Expédition",
       "link": "https://www.ebuyclub.com/reduction-packdiscount-6065"
     },
     {
@@ -10691,7 +10681,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Gadgets, Coffrets Cadeaux, Emballages & Expédition, Informatique, Jardin et Extérieur, Jouets, Fournitures & Mobilier, Animaux, Vêtements personnalisés, Santé et Bien-être, Déco, Bricolage",
+      "category_seen": "Gadgets, Coffrets Cadeaux, Informatique, Jardin et Extérieur, Jouets, Fournitures & Mobilier, Emballages & Expédition, Vêtements personnalisés, Animaux, Santé et Bien-être, Déco, Bricolage",
       "link": null
     },
     {
@@ -10731,7 +10721,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Mode Homme",
+      "category_seen": "Mode Homme, Mode Femme",
       "link": null
     },
     {
@@ -10741,7 +10731,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Divertissement, Parc de Loisirs, Hotels, Billetterie",
+      "category_seen": "Parc de Loisirs, Divertissement, Hotels, Billetterie",
       "link": "https://www.ebuyclub.com/reduction-parc-asterix-1488"
     },
     {
@@ -10751,7 +10741,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-parfumdreams-10030"
     },
     {
@@ -10761,7 +10751,7 @@
       "percent": 1.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques, Coffrets Cadeaux",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques, Coffrets Cadeaux",
       "link": "https://www.ebuyclub.com/reduction-parfumsmoinschers-3075"
     },
     {
@@ -10811,7 +10801,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Futures Mamans, Puériculture, Mode Bébé, Mode Enfant, Accessoires de mode",
+      "category_seen": "Puériculture, Mode Bébé, Mode Enfant, Futures Mamans, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-patpat-12620"
     },
     {
@@ -10871,7 +10861,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Santé et Bien-être, Articles de sport",
+      "category_seen": "Santé et Bien-être, Sportwear, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-percko-9064"
     },
     {
@@ -10891,7 +10881,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
+      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-perfume-s-club-7456"
     },
     {
@@ -10925,24 +10915,24 @@
       "link": "https://www.ebuyclub.com/reduction-pharmacie-prado-mermoz-14923"
     },
     {
-      "name": "Philips",
-      "slug": "2654",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Gadgets, Puériculture, Electromenager, Son Vidéo & Photo, Santé et Bien-être, Cuisine et Art de la table",
-      "link": "https://www.ebuyclub.com/reduction-philips-2654"
-    },
-    {
-      "name": "Philips HUE",
+      "name": "Philips Hue (Éclairage connecté)",
       "slug": "13733",
       "rate_text": "3,3% remboursés",
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Gadgets, Déco",
-      "link": "https://www.ebuyclub.com/reduction-philips-hue-13733"
+      "link": "https://www.ebuyclub.com/reduction-philips-hue-eclairage-connecte-13733"
+    },
+    {
+      "name": "Philips PH (Santé & Soin)",
+      "slug": "2654",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Gadgets, Puériculture, Electromenager, Son Vidéo & Photo, Santé et Bien-être, Cuisine et Art de la table",
+      "link": "https://www.ebuyclub.com/reduction-philips-ph-sante-soin-2654"
     },
     {
       "name": "Photo Univers",
@@ -10951,7 +10941,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Développement Photo, Son Vidéo & Photo",
+      "category_seen": "Son Vidéo & Photo, Développement Photo",
       "link": "https://www.ebuyclub.com/reduction-photo-univers-16123"
     },
     {
@@ -10991,7 +10981,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pièces & Réparation, Pneu",
+      "category_seen": "Pneu, Pièces & Réparation",
       "link": null
     },
     {
@@ -11031,7 +11021,7 @@
       "percent": 1.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hygiène et entretien, Cuisine et Art de la table, Linge de Maison",
+      "category_seen": "Cuisine et Art de la table, Hygiène et entretien, Linge de Maison",
       "link": null
     },
     {
@@ -11051,7 +11041,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Papeterie, Fournitures & Mobilier, Emballages & Expédition, Carte de visite et impression",
+      "category_seen": "Emballages & Expédition, Papeterie, Fournitures & Mobilier, Carte de visite et impression",
       "link": "https://www.ebuyclub.com/reduction-pixartprinting-7392"
     },
     {
@@ -11081,7 +11071,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pneu, Pièces & Réparation",
+      "category_seen": "Pièces & Réparation, Pneu",
       "link": "https://www.ebuyclub.com/reduction-pieces-et-pneus-1664"
     },
     {
@@ -11097,11 +11087,11 @@
     {
       "name": "Place des tendances",
       "slug": "2655",
-      "rate_text": "1,6% remboursés",
-      "percent": 1.6,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Homme, Mode Enfant",
+      "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Enfant, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-place-des-tendances-2655"
     },
     {
@@ -11111,7 +11101,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mobilier, Cuisine et Art de la table, Linge de Maison, Jouets",
+      "category_seen": "Mobilier, Déco, Cuisine et Art de la table, Linge de Maison, Jouets",
       "link": "https://www.ebuyclub.com/reduction-planete-discount-459"
     },
     {
@@ -11121,7 +11111,7 @@
       "percent": 12.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Logiciels, Informatique",
+      "category_seen": "Informatique, Logiciels",
       "link": "https://www.ebuyclub.com/reduction-planethoster-10265"
     },
     {
@@ -11327,7 +11317,7 @@
     {
       "name": "PrettyLittleThing",
       "slug": "8724",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11361,7 +11351,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Bijoux, Chaussures, Mode Femme, Mode Homme, Santé et Bien-être, Parfums, Cosmétiques, Accessoires de mode",
+      "category_seen": "Bijoux, Chaussures, Mode Femme, Mode Homme, Parfums, Santé et Bien-être, Cosmétiques, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-printemps-7147"
     },
     {
@@ -11401,7 +11391,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Ventes Privées",
+      "category_seen": "Ventes Privées, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-private-sport-shop-8196"
     },
     {
@@ -11411,7 +11401,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Ventes Privées",
+      "category_seen": "Chaussures, Mode Femme, Ventes Privées, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-prive-by-zalando-9777"
     },
     {
@@ -11461,7 +11451,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Informatique, Jardin et Extérieur, Gadgets, Mode Homme, Bijoux, Mode Femme, GPS & Accessoires, Santé et Bien-être, Accessoires de mode, Bricolage, Cuisine et Art de la table",
+      "category_seen": "Informatique, Jardin et Extérieur, Gadgets, Bijoux, Mode Femme, Mode Homme, GPS & Accessoires, Santé et Bien-être, Accessoires de mode, Bricolage, Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-promodepot-boutique-12989"
     },
     {
@@ -11481,7 +11471,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Location de voiture, Location de vacances, Hotels, Voyagistes, Vols",
+      "category_seen": "Location de vacances, Hotels, Voyagistes, Location de voiture, Vols",
       "link": "https://www.ebuyclub.com/reduction-promovacances-157"
     },
     {
@@ -11501,7 +11491,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
+      "category_seen": "Fitness et nutrition, Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-protein-works-6796"
     },
     {
@@ -11551,7 +11541,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme",
+      "category_seen": "Mode Femme, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-pull-bear-7263"
     },
     {
@@ -11561,7 +11551,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Bébé, Mode Enfant, Mode Homme, Articles de sport, Chaussures, Mode Femme, Sportwear",
+      "category_seen": "Mode Bébé, Articles de sport, Mode Enfant, Mode Homme, Mode Femme, Chaussures, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-puma-2788"
     },
     {
@@ -11571,7 +11561,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Mode Bébé, Mode Femme, Chaussures, Mode Homme, Mode Enfant",
+      "category_seen": "Sportwear, Mode Bébé, Mode Enfant, Mode Homme, Mode Femme, Chaussures",
       "link": "https://www.ebuyclub.com/reduction-puma-belgique-9452"
     },
     {
@@ -11581,7 +11571,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Fitness et nutrition",
+      "category_seen": "Fitness et nutrition, Santé et Bien-être",
       "link": null
     },
     {
@@ -11701,7 +11691,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pneu, Pièces & Réparation, GPS & Accessoires",
+      "category_seen": "Pièces & Réparation, GPS & Accessoires, Pneu",
       "link": "https://www.ebuyclub.com/reduction-rad-11914"
     },
     {
@@ -11731,7 +11721,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Luxe, Accessoires de mode, Chaussures, Mode Femme, Mode Homme, Mode Enfant, Linge de Maison",
+      "category_seen": "Luxe, Accessoires de mode, Mode Enfant, Mode Homme, Chaussures, Mode Femme, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-ralph-lauren-6695"
     },
     {
@@ -11851,7 +11841,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Déco, Mode Femme, Mode Homme, Mode Enfant, Puériculture, Mode Bébé, Coffrets Cadeaux, Papeterie",
+      "category_seen": "Accessoires de mode, Déco, Mode Enfant, Mode Homme, Mode Femme, Papeterie, Puériculture, Mode Bébé, Coffrets Cadeaux",
       "link": "https://www.ebuyclub.com/reduction-redbubble-10261"
     },
     {
@@ -11871,7 +11861,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Chaussures, Accessoires de mode, Sportwear",
+      "category_seen": "Mode Homme, Mode Femme, Chaussures, Sportwear, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-reebok-2220"
     },
     {
@@ -11951,8 +11941,18 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Sportwear, Accessoires de mode, Mode Enfant, Mode Homme, Articles de sport, Mode Femme",
+      "category_seen": "Sportwear, Accessoires de mode, Articles de sport, Mode Homme, Mode Enfant, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-rip-curl-1493"
+    },
+    {
+      "name": "RMC Sport",
+      "slug": "10826",
+      "rate_text": "Jusqu'à 18€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Divertissement",
+      "link": "https://www.ebuyclub.com/reduction-rmc-sport-10826"
     },
     {
       "name": "Roborock",
@@ -12021,7 +12021,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Mode Homme, Mode Femme, Chaussures, Sportwear, Grande Taille",
+      "category_seen": "Articles de sport, Mode Homme, Mode Femme, Chaussures, Grande Taille, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-ruckfield-6449"
     },
     {
@@ -12041,7 +12041,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Chaussures, Accessoires de mode",
+      "category_seen": "Chaussures, Mode Homme, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-rue-des-hommes-1210"
     },
     {
@@ -12261,7 +12261,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Enfant, Mode Homme, Accessoires de mode",
+      "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Chaussures, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-sarenza-belgique-9456"
     },
     {
@@ -12371,7 +12371,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Energie, Vêtements personnalisés, Bricolage, Hygiène et entretien",
+      "category_seen": "Vêtements personnalisés, Jardin et Extérieur, Energie, Bricolage, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-screwfix-17317"
     },
     {
@@ -12441,7 +12441,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être",
+      "category_seen": "Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-sensilab-14022"
     },
     {
@@ -12451,7 +12451,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-sephora-683"
     },
     {
@@ -12481,7 +12481,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Charme, Lingerie",
+      "category_seen": "Lingerie, Charme",
       "link": "https://www.ebuyclub.com/reduction-sexyavenue-225"
     },
     {
@@ -12591,7 +12591,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Gadgets, Musique",
+      "category_seen": "Musique, Gadgets",
       "link": null
     },
     {
@@ -12781,7 +12781,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Vols, Hotels, Location de voiture",
+      "category_seen": "Voyagistes, Location de voiture, Vols, Hotels",
       "link": "https://www.ebuyclub.com/reduction-skyscanner-5772"
     },
     {
@@ -12791,7 +12791,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Accessoires de mode",
+      "category_seen": "Mode Homme, Chaussures, Mode Femme, Accessoires de mode",
       "link": null
     },
     {
@@ -12821,7 +12821,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Divertissement, Coffrets Cadeaux, Hotels",
+      "category_seen": "Hotels, Coffrets Cadeaux, Divertissement",
       "link": "https://www.ebuyclub.com/reduction-smartbox-1044"
     },
     {
@@ -12871,7 +12871,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Enfant, Mode Homme, Sportwear",
+      "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Chaussures, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-sneakin-17427"
     },
     {
@@ -13051,7 +13051,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cosmétiques, Parfums, Santé et Bien-être",
+      "category_seen": "Cosmétiques, Santé et Bien-être, Parfums",
       "link": "https://www.ebuyclub.com/reduction-space-nk-9783"
     },
     {
@@ -13081,7 +13081,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Accessoires de mode, Mode Enfant, Mode Homme, Chaussures, Mode Femme",
+      "category_seen": "Chaussures, Mode Femme, Mode Enfant, Mode Homme, Accessoires de mode, Déco",
       "link": "https://www.ebuyclub.com/reduction-spartoo-811"
     },
     {
@@ -13091,7 +13091,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Linge de Maison, Mode Enfant, Mode Homme, Mode Femme, Chaussures, Sportwear, Déco, Accessoires de mode",
+      "category_seen": "Linge de Maison, Mode Enfant, Mode Homme, Mode Femme, Chaussures, Déco, Accessoires de mode, Sportwear",
       "link": null
     },
     {
@@ -13141,7 +13141,7 @@
       "percent": 1.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Sportwear",
+      "category_seen": "Mode Femme, Mode Homme, Mode Enfant, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-sports-direct-8293"
     },
     {
@@ -13251,7 +13251,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Accessoires de mode, Sportwear",
+      "category_seen": "Mode Femme, Chaussures, Sportwear, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-stradivarius-6933"
     },
     {
@@ -13271,7 +13271,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Femme, Mode Homme",
+      "category_seen": "Accessoires de mode, Mode Homme, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-street-one-6972"
     },
     {
@@ -13281,7 +13281,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Luxe, Mode Homme",
+      "category_seen": "Luxe, Accessoires de mode, Mode Homme",
       "link": null
     },
     {
@@ -13361,7 +13361,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
+      "category_seen": "Santé et Bien-être, Régime et Minceur, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-supspace-16931"
     },
     {
@@ -13381,7 +13381,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pièces & Réparation, Pneu",
+      "category_seen": "Pneu, Pièces & Réparation",
       "link": "https://www.ebuyclub.com/reduction-surplus-motos-9992"
     },
     {
@@ -13427,7 +13427,7 @@
     {
       "name": "Syma",
       "slug": "1962",
-      "rate_text": "Jusqu'à 9,50€ remboursés",
+      "rate_text": "Jusqu'à 15,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13561,7 +13561,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Parfums, Sportwear, Déco, Mobilier, Santé et Bien-être, Coffrets Sport & Sensation, Jeux Vidéo & Console, Cosmétiques, Cuisine et Art de la table, Hygiène et entretien, Bricolage, Fitness et nutrition, Accessoires de mode, Jouets, Livres, Electromenager, Mode Bébé, Gadgets, Jardin et Extérieur, Linge de Maison, Développement Photo, Bijoux, Son Vidéo & Photo, Lingerie, Chaussures, Mode Femme, Animaux, Fleurs, Mode Enfant, Articles de sport, Mode Homme",
+      "category_seen": "Parfums, Coffrets Sport & Sensation, Santé et Bien-être, Fitness et nutrition, Mobilier, Déco, Jeux Vidéo & Console, Cosmétiques, Cuisine et Art de la table, Bricolage, Sportwear, Accessoires de mode, Hygiène et entretien, Jouets, Livres, Electromenager, Mode Bébé, Gadgets, Jardin et Extérieur, Linge de Maison, Développement Photo, Bijoux, Son Vidéo & Photo, Chaussures, Mode Femme, Fleurs, Lingerie, Mode Enfant, Mode Homme, Animaux, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-temu-17329"
     },
     {
@@ -13611,7 +13611,7 @@
       "percent": 5.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Lingerie, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
+      "category_seen": "Mode Femme, Mode Homme, Mode Enfant, Lingerie, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-tezenis-8931"
     },
     {
@@ -13671,7 +13671,7 @@
       "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Bébé, Chaussures, Mode Femme, Mode Homme, Mode Enfant",
+      "category_seen": "Accessoires de mode, Mode Bébé, Chaussures, Mode Femme, Mode Enfant, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-thedoublef-13336"
     },
     {
@@ -13741,7 +13741,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Homme, Mode Enfant, Mode Femme",
+      "category_seen": "Accessoires de mode, Mode Femme, Mode Homme, Mode Enfant",
       "link": "https://www.ebuyclub.com/reduction-tissus-de-reve-17425"
     },
     {
@@ -13761,7 +13761,7 @@
       "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Femme, Mode Homme, Mode Enfant",
+      "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-tommy-hilfiger-7032"
     },
     {
@@ -13841,7 +13841,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Coffrets Cadeaux, Déco, Vêtements personnalisés",
+      "category_seen": "Vêtements personnalisés, Coffrets Cadeaux, Déco",
       "link": "https://www.ebuyclub.com/reduction-tostadora-6677"
     },
     {
@@ -13851,7 +13851,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Location de vacances, Voyagistes, Transports, Vols",
+      "category_seen": "Hotels, Location de vacances, Location de voiture, Voyagistes, Transports, Vols",
       "link": null
     },
     {
@@ -13941,7 +13941,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vols, Voyagistes, Transports, Hotels, Location de voiture",
+      "category_seen": "Vols, Location de voiture, Voyagistes, Transports, Hotels",
       "link": "https://www.ebuyclub.com/reduction-trip-7327"
     },
     {
@@ -14057,7 +14057,7 @@
     {
       "name": "Uber Eats",
       "slug": "11040",
-      "rate_text": "Jusqu'à 1,50€ remboursés",
+      "rate_text": "Jusqu'à 3€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14241,7 +14241,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Electromenager, Cuisine et Art de la table, Bricolage, Déco, Mobilier",
+      "category_seen": "Jardin et Extérieur, Electromenager, Bricolage, Cuisine et Art de la table, Mobilier, Déco",
       "link": null
     },
     {
@@ -14411,7 +14411,7 @@
       "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Futures Mamans, Puériculture, Mode Bébé, Mode Enfant",
+      "category_seen": "Puériculture, Mode Bébé, Mode Enfant, Futures Mamans",
       "link": "https://www.ebuyclub.com/reduction-vertbaudet-belgique-11005"
     },
     {
@@ -14421,7 +14421,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Vêtements personnalisés, Mode Femme, Mode Homme",
+      "category_seen": "Mode Femme, Mode Homme, Vêtements personnalisés",
       "link": "https://www.ebuyclub.com/reduction-vetementpro-15581"
     },
     {
@@ -14481,7 +14481,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Pièces & Réparation, Mobilier, Bricolage, Articles de sport, Animaux, Puériculture, Jardin et Extérieur, Jouets",
+      "category_seen": "Mobilier, Pièces & Réparation, Bricolage, Animaux, Articles de sport, Puériculture, Jardin et Extérieur, Jouets",
       "link": "https://www.ebuyclub.com/reduction-vidaxl-3863"
     },
     {
@@ -14621,7 +14621,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Jardin et Extérieur, Santé et Bien-être, Déco, Accessoires de mode, Hygiène et entretien, Cuisine et Art de la table, Fitness et nutrition",
+      "category_seen": "Mode Femme, Chaussures, Jardin et Extérieur, Fitness et nutrition, Déco, Santé et Bien-être, Accessoires de mode, Cuisine et Art de la table, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-vitrine-magique-1241"
     },
     {
@@ -14711,7 +14711,7 @@
       "percent": 1.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Voyagistes, Transports, Vols, Location de vacances, Hotels",
+      "category_seen": "Voyagistes, Transports, Vols, Hotels, Location de vacances",
       "link": "https://www.ebuyclub.com/reduction-voyages-auchan-665"
     },
     {
@@ -14961,7 +14961,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Accessoires de mode, Déco, Grande Taille, Mode Homme, Lingerie, Mode Femme, Linge de Maison",
+      "category_seen": "Déco, Grande Taille, Accessoires de mode, Mode Homme, Lingerie, Mode Femme, Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-witt-3209"
     },
     {
@@ -14971,7 +14971,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Bijoux, Déco, Accessoires de mode",
+      "category_seen": "Bijoux, Mode Femme, Mode Homme, Déco, Accessoires de mode",
       "link": null
     },
     {
@@ -14991,7 +14991,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Homme, Mode Femme, Accessoires de mode",
+      "category_seen": "Mode Femme, Mode Homme, Accessoires de mode",
       "link": null
     },
     {
@@ -15001,7 +15001,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Santé et Bien-être, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-ww-weight-watchers-2462"
     },
     {
@@ -15041,7 +15041,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Mode Femme, Chaussures, Mode Homme, Sportwear, Pièces & Réparation, GPS & Accessoires, Pneu",
+      "category_seen": "Mode Femme, Chaussures, Mode Homme, Pneu, Pièces & Réparation, GPS & Accessoires, Sportwear",
       "link": "https://www.ebuyclub.com/reduction-xlmoto-9908"
     },
     {
@@ -15071,7 +15071,7 @@
       "percent": 1.6,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Parfums",
+      "category_seen": "Parfums, Déco",
       "link": "https://www.ebuyclub.com/reduction-yankee-candle-11324"
     },
     {
@@ -15091,7 +15091,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Cosmétiques, Accessoires de mode, Mode Homme, Chaussures, Mode Femme",
+      "category_seen": "Santé et Bien-être, Cosmétiques, Accessoires de mode, Chaussures, Mode Femme, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-yesstyle-2105"
     },
     {
@@ -15161,7 +15161,7 @@
       "percent": 5.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Confiseries & Chocolats, Livres, Vins & Alcool, Linge de Maison, Puériculture, Gadgets, Coffrets Cadeaux, Mode Bébé, Mode Enfant, Mode Homme, Bijoux, Mode Femme, Cuisine et Art de la table, Accessoires de mode, Déco, Vêtements personnalisés",
+      "category_seen": "Confiseries & Chocolats, Livres, Vins & Alcool, Linge de Maison, Puériculture, Gadgets, Coffrets Cadeaux, Mode Bébé, Mode Homme, Mode Enfant, Vêtements personnalisés, Bijoux, Mode Femme, Cuisine et Art de la table, Accessoires de mode, Déco",
       "link": "https://www.ebuyclub.com/reduction-yoursurprise-3875"
     },
     {
@@ -15181,7 +15181,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Déco, Mode Enfant, Mode Homme, Mode Femme, Mode Bébé, Linge de Maison",
+      "category_seen": "Déco, Mode Bébé, Linge de Maison, Mode Homme, Mode Enfant, Mode Femme",
       "link": "https://www.ebuyclub.com/reduction-ysabel-mora-18068"
     },
     {
@@ -15191,7 +15191,7 @@
       "percent": 6.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Coffrets Cadeaux, Santé et Bien-être, Parfums, Cosmétiques",
+      "category_seen": "Coffrets Cadeaux, Parfums, Santé et Bien-être, Cosmétiques",
       "link": "https://www.ebuyclub.com/reduction-ysl-beauty-9631"
     },
     {
@@ -15211,7 +15211,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Enfant, Mode Homme, Accessoires de mode",
+      "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Chaussures, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-zadig-voltaire-6697"
     },
     {
@@ -15361,7 +15361,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fitness et nutrition, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-zumub-15226"
     },
     {
