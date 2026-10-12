@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-10-11",
-  "generated_at": "2026-10-11T23:15:40.317545+00:00",
+  "captured_at": "2026-10-12",
+  "generated_at": "2026-10-12T23:17:13.102464+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -17,8 +17,8 @@
     {
       "name": "Jet Tours",
       "slug": "jet-tours",
-      "rate_text": "-9%",
-      "percent": 9.0,
+      "rate_text": "Jusqu’à -50%*",
+      "percent": 50.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -823,8 +823,8 @@
     {
       "name": "Promoséjours",
       "slug": "promosejours",
-      "rate_text": "-9%",
-      "percent": 9.0,
+      "rate_text": "Jusqu’à -35%*",
+      "percent": 35.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -868,8 +868,8 @@
     {
       "name": "PortAventura World",
       "slug": "portaventura",
-      "rate_text": "Jusqu'à -25%",
-      "percent": 25.0,
+      "rate_text": "*-30% billets ou hotels",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
