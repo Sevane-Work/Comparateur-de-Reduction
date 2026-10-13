@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-12T23:16:15.984020+00:00",
+  "generated_at": "2026-10-13T23:22:15.381117+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -3657,7 +3657,7 @@
     {
       "name": "DoktorABC",
       "slug": "18452",
-      "rate_text": "7,50€ remboursés",
+      "rate_text": "27€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6327,7 +6327,7 @@
     {
       "name": "i-Run",
       "slug": "3748",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8137,7 +8137,7 @@
     {
       "name": "LIEWOOD",
       "slug": "19248",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9113,16 +9113,6 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Chaussures, Mode Femme, Mode Enfant, Mode Homme",
       "link": null
-    },
-    {
-      "name": "Michael Kors",
-      "slug": "8735",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-michael-kors-8735"
     },
     {
       "name": "Michenaud",
@@ -11845,6 +11835,16 @@
       "link": "https://www.ebuyclub.com/reduction-redbubble-10261"
     },
     {
+      "name": "Redcare Pharmacie",
+      "slug": "7079",
+      "rate_text": "Jusqu'à 7,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être",
+      "link": "https://www.ebuyclub.com/reduction-redcare-pharmacie-7079"
+    },
+    {
       "name": "Redmagic",
       "slug": "10664",
       "rate_text": "1% remboursés",
@@ -12187,7 +12187,7 @@
     {
       "name": "Samsung",
       "slug": "1288",
-      "rate_text": "Jusqu'à 1% remboursés",
+      "rate_text": "Jusqu'à 2% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13157,8 +13157,8 @@
     {
       "name": "SportsShoes",
       "slug": "7802",
-      "rate_text": "0,8% remboursés",
-      "percent": 0.8,
+      "rate_text": "0,4% remboursés",
+      "percent": 0.4,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures, Articles de sport, Sportwear",
@@ -13907,8 +13907,8 @@
     {
       "name": "Transavia Holidays",
       "slug": "18567",
-      "rate_text": "0,8% remboursés",
-      "percent": 0.8,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Voyagistes",
