@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-13",
-  "generated_at": "2026-10-13T23:21:53.032291+00:00",
+  "captured_at": "2026-10-14",
+  "generated_at": "2026-10-14T23:24:08.672892+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1708,6 +1708,15 @@
       "link": null
     },
     {
+      "name": "Eram",
+      "rate_text": null,
+      "percent": 6.1,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Bab'in",
       "rate_text": null,
       "percent": 6.0,
@@ -1736,15 +1745,6 @@
     },
     {
       "name": "Castorama",
-      "rate_text": null,
-      "percent": 6.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Eram",
       "rate_text": null,
       "percent": 6.0,
       "type_detail_fr": "Carte cadeau",

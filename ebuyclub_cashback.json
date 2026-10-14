@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-13T23:22:15.381117+00:00",
+  "generated_at": "2026-10-14T23:24:30.183048+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -745,6 +745,16 @@
       "link": "https://www.ebuyclub.com/reduction-aqua-hotel-17487"
     },
     {
+      "name": "Araw",
+      "slug": "19280",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être, Cafés & Thés",
+      "link": "https://www.ebuyclub.com/reduction-araw-19280"
+    },
+    {
       "name": "Arlo",
       "slug": "18239",
       "rate_text": "5% remboursés",
@@ -1471,7 +1481,7 @@
       "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être, Fitness et nutrition",
+      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-biovea-3559"
     },
     {
@@ -2681,7 +2691,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cafés & Thés, Cuisine et Art de la table",
+      "category_seen": "Cuisine et Art de la table, Cafés & Thés",
       "link": "https://www.ebuyclub.com/reduction-coffee-friend-16933"
     },
     {
@@ -4201,7 +4211,7 @@
       "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Articles de sport, Sportwear, Fitness et nutrition, Santé et Bien-être, Régime et Minceur",
+      "category_seen": "Articles de sport, Sportwear, Régime et Minceur, Fitness et nutrition, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-eric-favre-10390"
     },
     {
@@ -6057,8 +6067,8 @@
     {
       "name": "Huawei",
       "slug": "12090",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Gadgets, Informatique",
@@ -7991,7 +8001,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Chaussures, Articles de sport, Fitness et nutrition, Sportwear",
+      "category_seen": "Chaussures, Articles de sport, Sportwear, Fitness et nutrition",
       "link": "https://www.ebuyclub.com/reduction-lepape-777"
     },
     {
@@ -8107,7 +8117,7 @@
     {
       "name": "LG Electronics",
       "slug": "16427",
-      "rate_text": "Jusqu'à 1,6% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8501,7 +8511,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Cosmétiques, Régime et Minceur, Santé et Bien-être",
+      "category_seen": "Régime et Minceur, Cosmétiques, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-lea-nature-1540"
     },
     {
@@ -8687,8 +8697,8 @@
     {
       "name": "Maje",
       "slug": "7929",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Luxe, Accessoires de mode, Mode Femme",
@@ -8817,7 +8827,7 @@
     {
       "name": "Marionnaud",
       "slug": "522",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9011,7 +9021,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Assurances, Banque",
+      "category_seen": "Banque, Assurances",
       "link": null
     },
     {
@@ -9211,7 +9221,7 @@
       "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être",
+      "category_seen": "Santé et Bien-être, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-miniweight-8707"
     },
     {
@@ -9337,8 +9347,8 @@
     {
       "name": "Momcozy",
       "slug": "18954",
-      "rate_text": "1,6% remboursés",
-      "percent": 1.6,
+      "rate_text": "Jusqu'à 5,8% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Puériculture, Futures Mamans",
@@ -9371,7 +9381,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Banque, Assurances",
+      "category_seen": "Assurances, Banque",
       "link": "https://www.ebuyclub.com/reduction-mon-petit-placement-17353"
     },
     {
@@ -9423,16 +9433,6 @@
       "type": "direct",
       "category_seen": "Linge de Maison",
       "link": "https://www.ebuyclub.com/reduction-mondial-tissus-7410"
-    },
-    {
-      "name": "Money Walkie",
-      "slug": "19152",
-      "rate_text": "12,5% remboursés",
-      "percent": 12.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Banque",
-      "link": "https://www.ebuyclub.com/reduction-money-walkie-19152"
     },
     {
       "name": "MoneyGram",
@@ -9671,7 +9671,7 @@
       "percent": 0.4,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Divertissement, Sportwear, Articles de sport, Musique",
+      "category_seen": "Sportwear, Divertissement, Articles de sport, Musique",
       "link": "https://www.ebuyclub.com/reduction-muziker-8991"
     },
     {
@@ -9871,7 +9871,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-nat-et-form-18449"
     },
     {
@@ -10067,7 +10067,7 @@
     {
       "name": "Nirio",
       "slug": "18981",
-      "rate_text": "16€ remboursés",
+      "rate_text": "23€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11481,7 +11481,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fitness et nutrition, Santé et Bien-être, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Fitness et nutrition, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-protein-works-6796"
     },
     {
@@ -12441,7 +12441,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Régime et Minceur",
+      "category_seen": "Régime et Minceur, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-sensilab-14022"
     },
     {
@@ -13371,7 +13371,7 @@
       "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Santé et Bien-être, Régime et Minceur, Fitness et nutrition",
+      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-supspace-16931"
     },
     {
@@ -13517,8 +13517,8 @@
     {
       "name": "TASSIMO",
       "slug": "6294",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cafés & Thés, Electromenager",
@@ -15021,7 +15021,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Régime et Minceur, Santé et Bien-être, Fitness et nutrition",
+      "category_seen": "Santé et Bien-être, Fitness et nutrition, Régime et Minceur",
       "link": "https://www.ebuyclub.com/reduction-ww-weight-watchers-2462"
     },
     {
