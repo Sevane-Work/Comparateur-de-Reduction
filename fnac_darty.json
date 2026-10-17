@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-15",
-  "generated_at": "2026-10-15T23:21:13.929039+00:00",
+  "captured_at": "2026-10-17",
+  "generated_at": "2026-10-17T01:11:19.172106+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1129,6 +1129,15 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Qobuz",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
       "link": null
     },
     {
@@ -2420,15 +2429,6 @@
     },
     {
       "name": "BAZARCHIC",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Monkey Mum",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -4994,6 +4994,15 @@
     },
     {
       "name": "Kitbag",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Monkey Mum",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
