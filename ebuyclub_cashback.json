@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-17T01:11:45.015665+00:00",
+  "generated_at": "2026-10-18T00:45:57.317910+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -163,6 +163,16 @@
       "type": "direct",
       "category_seen": "Vêtements personnalisés, Accessoires de mode, Chaussures, Mode Femme, Articles de sport, Mode Homme, Lingerie",
       "link": "https://www.ebuyclub.com/reduction-about-you-11489"
+    },
+    {
+      "name": "Abritel",
+      "slug": "1911",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Hotels, Location de vacances",
+      "link": "https://www.ebuyclub.com/reduction-abritel-1911"
     },
     {
       "name": "Acer",
@@ -1847,8 +1857,8 @@
     {
       "name": "Brico Dépôt",
       "slug": "6377",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bricolage",
@@ -3987,7 +3997,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4073,6 +4083,16 @@
       "type": "direct",
       "category_seen": "Mode Homme",
       "link": null
+    },
+    {
+      "name": "Emirates",
+      "slug": "1249",
+      "rate_text": "1,5% remboursés",
+      "percent": 1.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Transports, Vols, Hotels",
+      "link": "https://www.ebuyclub.com/reduction-emirates-1249"
     },
     {
       "name": "Emirates Holidays",
@@ -5243,16 +5263,6 @@
       "type": "direct",
       "category_seen": "Voyagistes",
       "link": "https://www.ebuyclub.com/reduction-go-city-10333"
-    },
-    {
-      "name": "Go Voyages",
-      "slug": "7042",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Voyagistes, Vols",
-      "link": "https://www.ebuyclub.com/reduction-go-voyages-7042"
     },
     {
       "name": "GoDaddy",
@@ -6867,7 +6877,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9115,16 +9125,6 @@
       "link": null
     },
     {
-      "name": "Michael Kors",
-      "slug": "8735",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-michael-kors-8735"
-    },
-    {
       "name": "Michenaud",
       "slug": "2012",
       "rate_text": "2,5% remboursés",
@@ -10203,16 +10203,6 @@
       "type": "direct",
       "category_seen": "Logiciels, Informatique, Logiciels professionnels, Matériel informatique",
       "link": "https://www.ebuyclub.com/reduction-norton-1065"
-    },
-    {
-      "name": "Notino",
-      "slug": "8778",
-      "rate_text": "0,2% remboursés",
-      "percent": 0.2,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
-      "link": "https://www.ebuyclub.com/reduction-notino-8778"
     },
     {
       "name": "Notre Temps",
