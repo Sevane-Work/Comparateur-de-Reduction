@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-19T00:59:24.718034+00:00",
+  "generated_at": "2026-10-20T01:39:33.977020+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -337,7 +337,7 @@
     {
       "name": "Air Caraïbes",
       "slug": "14076",
-      "rate_text": "Jusqu'à 10,50€ remboursés",
+      "rate_text": "Jusqu'à 7,20€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -887,7 +887,7 @@
     {
       "name": "Auchan Telecom",
       "slug": "6248",
-      "rate_text": "Jusqu'à 5,40€ remboursés",
+      "rate_text": "Jusqu'à 8,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1777,7 +1777,7 @@
     {
       "name": "BoursoBank",
       "slug": "2430",
-      "rate_text": "50€ remboursés",
+      "rate_text": "30€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3295,6 +3295,16 @@
       "link": "https://www.ebuyclub.com/reduction-daxon-6375"
     },
     {
+      "name": "DAZN",
+      "slug": "14890",
+      "rate_text": "Jusqu'à 54% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Divertissement",
+      "link": "https://www.ebuyclub.com/reduction-dazn-14890"
+    },
+    {
       "name": "DC Shoes",
       "slug": "2631",
       "rate_text": "2,5% remboursés",
@@ -4735,16 +4745,6 @@
       "link": "https://www.ebuyclub.com/reduction-flunch-traiteur-17063"
     },
     {
-      "name": "Flying Tiger Copenhagen",
-      "slug": "802",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Déco, Accessoires de mode, Epicerie & Restaurants, Jouets, Coffrets Cadeaux",
-      "link": "https://www.ebuyclub.com/reduction-flying-tiger-copenhagen-802"
-    },
-    {
       "name": "Fnac",
       "slug": "58",
       "rate_text": "Jusqu'à 4,1% remboursés",
@@ -4803,16 +4803,6 @@
       "type": "direct",
       "category_seen": "Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-footcenter-1169"
-    },
-    {
-      "name": "Footpatrol",
-      "slug": "15418",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Homme, Chaussures, Mode Femme",
-      "link": "https://www.ebuyclub.com/reduction-footpatrol-15418"
     },
     {
       "name": "Footshop",
@@ -5135,6 +5125,16 @@
       "link": "https://www.ebuyclub.com/reduction-geekbuying-10630"
     },
     {
+      "name": "Gemme Les Bijoux",
+      "slug": "17200",
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Bijoux, Luxe",
+      "link": "https://www.ebuyclub.com/reduction-gemme-les-bijoux-17200"
+    },
+    {
       "name": "Genybet Turf",
       "slug": "4972",
       "rate_text": "27€ remboursés",
@@ -5297,8 +5297,8 @@
     {
       "name": "Google Store",
       "slug": "17355",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Son Vidéo & Photo, Informatique, Gadgets, Matériel informatique",
@@ -6697,8 +6697,8 @@
     {
       "name": "iSinwheel",
       "slug": "16855",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "Jusqu'à 4,1% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Pièces & Réparation, Gadgets",
@@ -6943,6 +6943,16 @@
       "type": "direct",
       "category_seen": "Fournitures & Mobilier, Déco, Cuisine et Art de la table",
       "link": "https://www.ebuyclub.com/reduction-joseph-joseph-11080"
+    },
+    {
+      "name": "JouéClub",
+      "slug": "4914",
+      "rate_text": "Jusqu'à 2% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Puériculture, Jouets",
+      "link": "https://www.ebuyclub.com/reduction-joueclub-4914"
     },
     {
       "name": "Jow",
@@ -12705,16 +12715,6 @@
       "link": "https://www.ebuyclub.com/reduction-sixt-631"
     },
     {
-      "name": "Size?",
-      "slug": "8848",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Accessoires de mode, Mode Homme, Mode Femme, Chaussures",
-      "link": "https://www.ebuyclub.com/reduction-size-8848"
-    },
-    {
       "name": "SkatePro",
       "slug": "18283",
       "rate_text": "1,2% remboursés",
@@ -13537,7 +13537,7 @@
     {
       "name": "Temu",
       "slug": "17329",
-      "rate_text": "Jusqu'à 35% remboursés",
+      "rate_text": "Jusqu'à 20% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",

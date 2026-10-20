@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-10-19",
-  "generated_at": "2026-10-19T01:01:16.751785+00:00",
+  "captured_at": "2026-10-20",
+  "generated_at": "2026-10-20T01:40:52.362391+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -550,8 +550,8 @@
     {
       "name": "CinéChèque",
       "slug": "cinecheque",
-      "rate_text": "29.4%",
-      "percent": 29.4,
+      "rate_text": "30.2%",
+      "percent": 30.2,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -904,8 +904,8 @@
     {
       "name": "Azureva",
       "slug": "azureva",
-      "rate_text": "-10% à -25%",
-      "percent": 10.0,
+      "rate_text": "-8% à -25%",
+      "percent": 8.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
