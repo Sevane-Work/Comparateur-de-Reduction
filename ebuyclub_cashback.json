@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-20T01:39:33.977020+00:00",
+  "generated_at": "2026-10-21T01:25:04.680543+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -163,6 +163,16 @@
       "type": "direct",
       "category_seen": "Vêtements personnalisés, Accessoires de mode, Chaussures, Mode Femme, Articles de sport, Mode Homme, Lingerie",
       "link": "https://www.ebuyclub.com/reduction-about-you-11489"
+    },
+    {
+      "name": "Abritel",
+      "slug": "1911",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Hotels, Location de vacances",
+      "link": "https://www.ebuyclub.com/reduction-abritel-1911"
     },
     {
       "name": "Acer",
@@ -1273,16 +1283,6 @@
       "type": "direct",
       "category_seen": "Linge de Maison, Mobilier",
       "link": "https://www.ebuyclub.com/reduction-bemz-10808"
-    },
-    {
-      "name": "Benetton",
-      "slug": "13930",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Mode Bébé, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-benetton-13930"
     },
     {
       "name": "Benq",
@@ -3301,7 +3301,7 @@
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Divertissement",
+      "category_seen": "Divertissement, Coffrets Sport & Sensation",
       "link": "https://www.ebuyclub.com/reduction-dazn-14890"
     },
     {
@@ -3657,7 +3657,7 @@
     {
       "name": "DoktorABC",
       "slug": "18452",
-      "rate_text": "27€ remboursés",
+      "rate_text": "Jusqu'à 9,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4107,7 +4107,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4665,14 +4665,14 @@
       "link": null
     },
     {
-      "name": "Fitness Boutique Laval",
-      "slug": "219",
+      "name": "Fitness Boutique",
+      "slug": "19329",
       "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Fitness et nutrition, Articles de sport",
-      "link": null
+      "category_seen": "Fitness et nutrition",
+      "link": "https://www.ebuyclub.com/reduction-fitness-boutique-19329"
     },
     {
       "name": "Fizzer",
@@ -4857,7 +4857,7 @@
     {
       "name": "France Abonnements",
       "slug": "7662",
-      "rate_text": "Jusqu'à 5,50€ remboursés",
+      "rate_text": "Jusqu'à 9€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6107,7 +6107,7 @@
     {
       "name": "Humble Bundle",
       "slug": "17485",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 16,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6323,16 +6323,6 @@
       "type": "direct",
       "category_seen": "Transports, Voyagistes, Divertissement, Hotels",
       "link": "https://www.ebuyclub.com/reduction-i-amsterdam-9232"
-    },
-    {
-      "name": "i-Run",
-      "slug": "3748",
-      "rate_text": "Jusqu'à 4,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Articles de sport, Chaussures, Sportwear",
-      "link": "https://www.ebuyclub.com/reduction-i-run-3748"
     },
     {
       "name": "i-Run Belgique",
@@ -7521,7 +7511,7 @@
       "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Jardin et Extérieur, Linge de Maison, Livres, Bijoux, Chaussures, Mode Femme, Accessoires de mode, Cuisine et Art de la table, Bricolage, Déco",
+      "category_seen": "Bijoux, Chaussures, Mode Femme, Jardin et Extérieur, Linge de Maison, Livres, Accessoires de mode, Cuisine et Art de la table, Bricolage, Déco",
       "link": "https://www.ebuyclub.com/reduction-la-femme-moderne-11929"
     },
     {
@@ -12147,7 +12137,7 @@
     {
       "name": "Réjeanne",
       "slug": "16915",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12287,7 +12277,7 @@
     {
       "name": "Sarenza.com",
       "slug": "750",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13497,8 +13487,8 @@
     {
       "name": "TASSIMO",
       "slug": "6294",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cafés & Thés, Electromenager",
@@ -15283,16 +15273,6 @@
       "type": "direct",
       "category_seen": "Mode Homme, Mode Femme, Chaussures, Accessoires de mode",
       "link": null
-    },
-    {
-      "name": "Zonebourse",
-      "slug": "19043",
-      "rate_text": "Jusqu'à 245,50€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Banque",
-      "link": "https://www.ebuyclub.com/reduction-zonebourse-19043"
     },
     {
       "name": "Zoomalia",

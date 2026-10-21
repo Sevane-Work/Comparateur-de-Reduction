@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-20",
-  "generated_at": "2026-10-20T01:39:11.026091+00:00",
+  "captured_at": "2026-10-21",
+  "generated_at": "2026-10-21T01:24:43.571929+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -249,16 +249,6 @@
       "link": "https://www.villagesclubsdusoleil.com/?partnerCode=2033334"
     },
     {
-      "name": "Cinémas Pathé Gaumont",
-      "rate_text": null,
-      "percent": 25.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": "direct",
-      "link": null,
-      "category": "cinema"
-    },
-    {
       "name": "Amen",
       "rate_text": null,
       "percent": 20.4,
@@ -471,6 +461,15 @@
       "percent": 11.0,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Hostinger",
+      "rate_text": null,
+      "percent": 10.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -4903,6 +4902,15 @@
       "link": null
     },
     {
+      "name": "AutoFull",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Petit Bateau",
       "rate_text": null,
       "percent": 3.4,
@@ -5414,26 +5422,6 @@
       "type": "carte_cadeau",
       "cumulative_with": null,
       "link": null
-    },
-    {
-      "name": "MK2 Cinémas",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
-      "name": "CinéPass Pathé",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
     },
     {
       "name": "Logitravel",
@@ -6327,16 +6315,6 @@
       "link": null
     },
     {
-      "name": "CGR Cinémas",
-      "rate_text": null,
-      "percent": 2.2,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
       "name": "Lancôme",
       "rate_text": null,
       "percent": 2.1,
@@ -6571,16 +6549,6 @@
       "link": null
     },
     {
-      "name": "Pathé France",
-      "rate_text": null,
-      "percent": 1.7,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
       "name": "Blizzard Belgique",
       "rate_text": null,
       "percent": 1.5,
@@ -6600,6 +6568,15 @@
     },
     {
       "name": "French Bee",
+      "rate_text": null,
+      "percent": 1.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Carigami",
       "rate_text": null,
       "percent": 1.4,
       "type_detail_fr": "Réduction directe",
@@ -6678,16 +6655,6 @@
       "type": "direct",
       "cumulative_with": null,
       "link": null
-    },
-    {
-      "name": "Kinepolis Business",
-      "rate_text": null,
-      "percent": 1.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
     },
     {
       "name": "Zoomalia",
@@ -6771,13 +6738,63 @@
       "link": null
     },
     {
+      "name": "MK2 Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Kinepolis Business",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "CGR Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
       "name": "MEGARAMA",
       "rate_text": null,
-      "percent": 0.7,
+      "percent": 0.01,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
       "link": null
+    },
+    {
+      "name": "CinéPass Pathé",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Pathé France",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
     }
   ]
 }
