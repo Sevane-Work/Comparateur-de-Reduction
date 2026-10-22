@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-10-21",
-  "generated_at": "2026-10-21T01:26:45.565007+00:00",
+  "captured_at": "2026-10-22",
+  "generated_at": "2026-10-22T01:24:52.509033+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -531,8 +531,8 @@
     {
       "name": "CGR",
       "slug": "cgr",
-      "rate_text": "32.4%",
-      "percent": 32.4,
+      "rate_text": "41.8%",
+      "percent": 41.8,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -641,8 +641,8 @@
     {
       "name": "MK2",
       "slug": "mk2",
-      "rate_text": "34.9%",
-      "percent": 34.9,
+      "rate_text": "42.6%",
+      "percent": 42.6,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -705,8 +705,8 @@
     {
       "name": "UGC",
       "slug": "ugc",
-      "rate_text": "27.6%",
-      "percent": 27.6,
+      "rate_text": "39.7%",
+      "percent": 39.7,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -832,8 +832,8 @@
     {
       "name": "Promoséjours",
       "slug": "promosejours",
-      "rate_text": "Jusqu’à -35%*",
-      "percent": 35.0,
+      "rate_text": "-9%",
+      "percent": 9.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
