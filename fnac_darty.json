@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-22",
-  "generated_at": "2026-10-22T01:22:37.773732+00:00",
+  "captured_at": "2026-10-23",
+  "generated_at": "2026-10-23T01:21:06.997174+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -330,6 +330,15 @@
       "link": "https://www.europcar.fr/fr-fr/p/partenaire/passfnacdartyvp"
     },
     {
+      "name": "Weenect",
+      "rate_text": null,
+      "percent": 17.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "PlanetHoster",
       "rate_text": null,
       "percent": 17.0,
@@ -600,7 +609,7 @@
       "link": null
     },
     {
-      "name": "Marionnaud",
+      "name": "Truffaut",
       "rate_text": null,
       "percent": 10.0,
       "type_detail_fr": "Carte cadeau",
@@ -609,9 +618,9 @@
       "link": null
     },
     {
-      "name": "Truffaut",
+      "name": "Marionnaud",
       "rate_text": null,
-      "percent": 10.0,
+      "percent": 9.8,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
@@ -2877,15 +2886,6 @@
       "link": null
     },
     {
-      "name": "Auchan",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Leroy Merlin",
       "rate_text": null,
       "percent": 5.0,
@@ -2914,24 +2914,6 @@
     },
     {
       "name": "Monoprix Magasins",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Uber Eats",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Uber",
       "rate_text": null,
       "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
@@ -2982,15 +2964,6 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Auchan Drive",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -3279,6 +3252,42 @@
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Auchan",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Uber Eats",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Uber",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Auchan Drive",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -4677,15 +4686,6 @@
       "link": null
     },
     {
-      "name": "Decathlon",
-      "rate_text": null,
-      "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Deliveroo",
       "rate_text": null,
       "percent": 4.0,
@@ -4737,6 +4737,15 @@
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Decathlon",
+      "rate_text": null,
+      "percent": 3.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -5478,6 +5487,15 @@
       "link": null
     },
     {
+      "name": "Showroomprivé",
+      "rate_text": null,
+      "percent": 2.9,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "AM PM",
       "rate_text": null,
       "percent": 2.9,
@@ -5857,15 +5875,6 @@
     },
     {
       "name": "Appart'City",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Sauthon",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",

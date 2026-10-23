@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-10-22T01:24:54.167895+00:00",
+  "generated_at": "2026-10-23T01:22:21.000653+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -222,15 +222,6 @@
       "category_seen": null
     },
     {
-      "name": "La Gentle Factory",
-      "slug": "la-gentle-factory",
-      "rate_text": "3%",
-      "percent": 3.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Kozze",
       "slug": "kozze",
       "rate_text": "3%",
@@ -262,15 +253,6 @@
       "slug": "molotov",
       "rate_text": "9%",
       "percent": 9.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Netflix",
-      "slug": "netflix",
-      "rate_text": "2.4%",
-      "percent": 2.4,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -637,15 +619,6 @@
       "category_seen": null
     },
     {
-      "name": "JD Sports",
-      "slug": "jd-sports",
-      "rate_text": "4.5%",
-      "percent": 4.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Courir",
       "slug": "courir",
       "rate_text": "4.5%",
@@ -704,15 +677,6 @@
       "slug": "hema",
       "rate_text": "3%",
       "percent": 3.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Sergent Major",
-      "slug": "sergent-major",
-      "rate_text": "6%",
-      "percent": 6.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -808,15 +772,6 @@
       "category_seen": null
     },
     {
-      "name": "Rougier & Plé",
-      "slug": "rougier-ple",
-      "rate_text": "6%",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Beauty success",
       "slug": "beauty-success",
       "rate_text": "4.8%",
@@ -857,15 +812,6 @@
       "slug": "carrefour-voyages",
       "rate_text": "3.6%",
       "percent": 3.6,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Breal",
-      "slug": "breal",
-      "rate_text": "4.8%",
-      "percent": 4.8,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
