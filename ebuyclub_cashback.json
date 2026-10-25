@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-24T01:26:03.151142+00:00",
+  "generated_at": "2026-10-25T00:56:13.984242+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -227,8 +227,8 @@
     {
       "name": "adidas",
       "slug": "1356",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
+      "rate_text": "10% remboursés",
+      "percent": 10.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Articles de sport",
@@ -1717,7 +1717,7 @@
     {
       "name": "boohooMAN",
       "slug": "10882",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 13% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4017,7 +4017,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 12% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4357,7 +4357,7 @@
     {
       "name": "Europcar",
       "slug": "800",
-      "rate_text": "Jusqu'à 7,5% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4397,7 +4397,7 @@
     {
       "name": "Expedia",
       "slug": "487",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5797,8 +5797,8 @@
     {
       "name": "HEYDUDE",
       "slug": "17601",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "3,3% remboursés",
+      "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -6737,8 +6737,8 @@
     {
       "name": "iRobot",
       "slug": "7449",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -7977,7 +7977,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 7% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8057,7 +8057,7 @@
     {
       "name": "Leocare",
       "slug": "17190",
-      "rate_text": "Jusqu'à 51€ remboursés",
+      "rate_text": "Jusqu'à 128€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9217,7 +9217,7 @@
     {
       "name": "Michael Kors",
       "slug": "8735",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9897,7 +9897,7 @@
     {
       "name": "Myprotein",
       "slug": "4070",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11157,8 +11157,8 @@
     {
       "name": "Place des tendances",
       "slug": "2655",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Parfums, Cosmétiques, Mode Femme, Mode Enfant, Mode Homme",
@@ -11757,8 +11757,8 @@
     {
       "name": "Radisson Hotel",
       "slug": "6371",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "10% remboursés",
+      "percent": 10.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -13727,7 +13727,7 @@
     {
       "name": "Timberland",
       "slug": "6717",
-      "rate_text": "Jusqu'à 7,5% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13787,8 +13787,8 @@
     {
       "name": "Tommy Hilfiger",
       "slug": "7032",
-      "rate_text": "12% remboursés",
-      "percent": 12.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
@@ -14467,7 +14467,7 @@
     {
       "name": "Vevor",
       "slug": "15481",
-      "rate_text": "Jusqu'à 1,2% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14957,7 +14957,7 @@
     {
       "name": "Wild",
       "slug": "18309",
-      "rate_text": "Jusqu'à 8% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -15217,8 +15217,8 @@
     {
       "name": "YSL beauty",
       "slug": "9631",
-      "rate_text": "10% remboursés",
-      "percent": 10.0,
+      "rate_text": "6,5% remboursés",
+      "percent": 6.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Coffrets Cadeaux, Parfums, Santé et Bien-être, Cosmétiques",
