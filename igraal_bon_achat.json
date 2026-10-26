@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-10-25T00:57:39.155137+00:00",
+  "generated_at": "2026-10-26T01:06:23.454479+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -35,8 +35,8 @@
     {
       "name": "Carrefour Courses Alimentaires",
       "slug": "carrefour-courses-alimentaires",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
