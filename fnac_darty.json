@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-26",
-  "generated_at": "2026-10-26T01:03:51.386711+00:00",
+  "captured_at": "2026-10-27",
+  "generated_at": "2026-10-27T01:55:22.502018+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1536,15 +1536,6 @@
       "link": null
     },
     {
-      "name": "HIGH Everyday Couture",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Juskys",
       "rate_text": null,
       "percent": 6.8,
@@ -1762,6 +1753,15 @@
     },
     {
       "name": "Castorama",
+      "rate_text": null,
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "EPISOD",
       "rate_text": null,
       "percent": 6.0,
       "type_detail_fr": "Carte cadeau",
@@ -2959,6 +2959,15 @@
     },
     {
       "name": "Carrefour Montagne",
+      "rate_text": null,
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "NEONESS KEEPCOOL",
       "rate_text": null,
       "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
@@ -5028,15 +5037,6 @@
       "link": null
     },
     {
-      "name": "Monkey Mum",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Snowrental",
       "rate_text": null,
       "percent": 3.4,
@@ -5730,6 +5730,15 @@
       "link": null
     },
     {
+      "name": "Les Cercles de la forme",
+      "rate_text": null,
+      "percent": 2.9,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Certideal",
       "rate_text": null,
       "percent": 2.8,
@@ -6154,6 +6163,24 @@
     },
     {
       "name": "Les Lunettes d'Aurélie - Betschdorf",
+      "rate_text": null,
+      "percent": 2.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Forest Hill",
+      "rate_text": null,
+      "percent": 2.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Fitness Park",
       "rate_text": null,
       "percent": 2.5,
       "type_detail_fr": "Carte cadeau",
@@ -6675,6 +6702,15 @@
       "link": null
     },
     {
+      "name": "L'Orange bleue",
+      "rate_text": null,
+      "percent": 1.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Ethiopian Airlines",
       "rate_text": null,
       "percent": 0.9,
@@ -6709,6 +6745,65 @@
       "type": "direct",
       "cumulative_with": null,
       "link": null
+    },
+    {
+      "name": "MK2 Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Kinepolis Business",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "CGR Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "MEGARAMA",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "CinéPass Pathé",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Pathé France",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
     }
   ]
 }
