@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-27",
-  "generated_at": "2026-10-27T01:55:22.502018+00:00",
+  "captured_at": "2026-10-28",
+  "generated_at": "2026-10-28T02:04:56.874862+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1419,15 +1419,6 @@
       "link": null
     },
     {
-      "name": "Footcenter",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Roxio",
       "rate_text": null,
       "percent": 6.8,
@@ -1605,15 +1596,6 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Global Hotel Card",
-      "rate_text": null,
-      "percent": 6.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
       "link": null
     },
     {
@@ -4290,15 +4272,6 @@
       "link": null
     },
     {
-      "name": "The Cool Republic",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Warm-On",
       "rate_text": null,
       "percent": 4.1,
@@ -5119,15 +5092,6 @@
     },
     {
       "name": "HomeMaison",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "HOLY",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -6747,17 +6711,7 @@
       "link": null
     },
     {
-      "name": "MK2 Cinémas",
-      "rate_text": null,
-      "percent": 0.01,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
-      "name": "Kinepolis Business",
+      "name": "Pathé France",
       "rate_text": null,
       "percent": 0.01,
       "type_detail_fr": "Carte cadeau",
@@ -6786,7 +6740,7 @@
       "link": null
     },
     {
-      "name": "CinéPass Pathé",
+      "name": "MK2 Cinémas",
       "rate_text": null,
       "percent": 0.01,
       "type_detail_fr": "Carte cadeau",
@@ -6796,7 +6750,17 @@
       "category": "cinema"
     },
     {
-      "name": "Pathé France",
+      "name": "Kinepolis Business",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "CinéPass Pathé",
       "rate_text": null,
       "percent": 0.01,
       "type_detail_fr": "Carte cadeau",
