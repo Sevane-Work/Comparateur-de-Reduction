@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-28",
-  "generated_at": "2026-10-28T02:04:56.874862+00:00",
+  "captured_at": "2026-10-29",
+  "generated_at": "2026-10-29T02:14:38.591184+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -312,6 +312,15 @@
       "link": null
     },
     {
+      "name": "Erverte Paris",
+      "rate_text": null,
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "NordPass",
       "rate_text": null,
       "percent": 20.4,
@@ -357,16 +366,16 @@
       "link": null
     },
     {
-      "name": "Fleurance Nature",
+      "name": "Udemy",
       "rate_text": null,
-      "percent": 13.6,
+      "percent": 14.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
       "link": null
     },
     {
-      "name": "Udemy",
+      "name": "Fleurance Nature",
       "rate_text": null,
       "percent": 13.6,
       "type_detail_fr": "Réduction directe",
@@ -529,15 +538,6 @@
     },
     {
       "name": "Magnifaïk",
-      "rate_text": null,
-      "percent": 10.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Erverte Paris",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -1500,15 +1500,6 @@
       "link": null
     },
     {
-      "name": "Erborian",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Basket-Center",
       "rate_text": null,
       "percent": 6.8,
@@ -1712,15 +1703,6 @@
       "percent": 6.1,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Air Caraïbes",
-      "rate_text": null,
-      "percent": 6.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
