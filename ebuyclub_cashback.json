@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-10-29T02:15:02.692798+00:00",
+  "generated_at": "2026-10-30T02:28:36.829018+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -1185,16 +1185,6 @@
       "link": "https://www.ebuyclub.com/reduction-bayard-jeunesse-3780"
     },
     {
-      "name": "BAZARCHIC",
-      "slug": "2192",
-      "rate_text": "Jusqu'à 5,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Ventes Privées, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-bazarchic-2192"
-    },
-    {
       "name": "BAÏJA",
       "slug": "18769",
       "rate_text": "2,9% remboursés",
@@ -1495,6 +1485,16 @@
       "link": "https://www.ebuyclub.com/reduction-biovea-3559"
     },
     {
+      "name": "Bip&Go",
+      "slug": "8367",
+      "rate_text": "9€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Transports",
+      "link": "https://www.ebuyclub.com/reduction-bip-go-8367"
+    },
+    {
       "name": "Bitdefender",
       "slug": "1206",
       "rate_text": "Jusqu'à 7,5% remboursés",
@@ -1747,8 +1747,8 @@
     {
       "name": "Bosch Home",
       "slug": "8249",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -3157,8 +3157,8 @@
     {
       "name": "Cybertek",
       "slug": "19009",
-      "rate_text": "0,4% remboursés",
-      "percent": 0.4,
+      "rate_text": "Jusqu'à 1,2% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Matériel informatique, Informatique",
@@ -3797,8 +3797,8 @@
     {
       "name": "Dyson",
       "slug": "10071",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hygiène et entretien, Santé et Bien-être, Electromenager",
@@ -5525,6 +5525,16 @@
       "link": "https://www.ebuyclub.com/reduction-habitat-et-jardin-758"
     },
     {
+      "name": "Hailo",
+      "slug": "14712",
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Fournitures & Mobilier, Bricolage, Hygiène et entretien",
+      "link": "https://www.ebuyclub.com/reduction-hailo-14712"
+    },
+    {
       "name": "Hair and Beauty online",
       "slug": "8771",
       "rate_text": "3,6% remboursés",
@@ -5617,7 +5627,7 @@
     {
       "name": "Helline",
       "slug": "2021",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 5,4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7457,8 +7467,8 @@
     {
       "name": "L'Or Espresso",
       "slug": "9420",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
+      "rate_text": "5,5% remboursés",
+      "percent": 5.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cafés & Thés",
