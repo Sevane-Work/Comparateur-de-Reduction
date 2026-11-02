@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-01T02:00:19.431826+00:00",
+  "generated_at": "2026-11-02T02:14:43.573166+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -227,8 +227,8 @@
     {
       "name": "adidas",
       "slug": "1356",
-      "rate_text": "10% remboursés",
-      "percent": 10.0,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Articles de sport",
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 18% remboursés",
+      "rate_text": "Jusqu'à 17% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2137,8 +2137,8 @@
     {
       "name": "Calvin Klein",
       "slug": "12218",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Lingerie, Mode Homme, Chaussures, Mode Femme, Mode Bébé, Accessoires de mode",
@@ -2437,8 +2437,8 @@
     {
       "name": "Cecil Mode",
       "slug": "6973",
-      "rate_text": "10% remboursés",
-      "percent": 10.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Accessoires de mode",
@@ -4887,7 +4887,7 @@
     {
       "name": "France Abonnements",
       "slug": "7662",
-      "rate_text": "Jusqu'à 5,50€ remboursés",
+      "rate_text": "Jusqu'à 9€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4927,22 +4927,12 @@
     {
       "name": "Free - Forfaits Mobile",
       "slug": "17260",
-      "rate_text": "Jusqu'à 17€ remboursés",
+      "rate_text": "Jusqu'à 15€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie",
       "link": "https://www.ebuyclub.com/reduction-free-forfaits-mobile-17260"
-    },
-    {
-      "name": "Free - Internet",
-      "slug": "17259",
-      "rate_text": "Jusqu'à 41€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Internet & Téléphonie",
-      "link": "https://www.ebuyclub.com/reduction-free-internet-17259"
     },
     {
       "name": "Free People",
@@ -7897,7 +7887,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8117,7 +8107,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9497,8 +9487,8 @@
     {
       "name": "Morgan",
       "slug": "2643",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Accessoires de mode",
@@ -13715,6 +13705,16 @@
       "link": null
     },
     {
+      "name": "Tommy Hilfiger",
+      "slug": "7032",
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
+      "link": "https://www.ebuyclub.com/reduction-tommy-hilfiger-7032"
+    },
+    {
       "name": "Toner Express",
       "slug": "1342",
       "rate_text": "2,9% remboursés",
@@ -13847,8 +13847,8 @@
     {
       "name": "Transavia Holidays",
       "slug": "18567",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "0,8% remboursés",
+      "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Voyagistes",
