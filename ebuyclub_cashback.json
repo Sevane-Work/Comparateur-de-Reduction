@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-02T02:14:43.573166+00:00",
+  "generated_at": "2026-11-03T03:52:52.938156+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -357,7 +357,7 @@
     {
       "name": "Air France",
       "slug": "5612",
-      "rate_text": "Jusqu'à 0,8% remboursés",
+      "rate_text": "Jusqu'à 1,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 17% remboursés",
+      "rate_text": "Jusqu'à 14% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1517,7 +1517,7 @@
     {
       "name": "Bitdefender",
       "slug": "1206",
-      "rate_text": "Jusqu'à 7,5% remboursés",
+      "rate_text": "Jusqu'à 25% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3047,8 +3047,8 @@
     {
       "name": "Creality",
       "slug": "18540",
-      "rate_text": "1,6% remboursés",
-      "percent": 1.6,
+      "rate_text": "Jusqu'à 4,1% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Informatique, Cartouches d'encre & Consommables",
@@ -3113,16 +3113,6 @@
       "type": "direct",
       "category_seen": "Banque",
       "link": null
-    },
-    {
-      "name": "Crédit Coopératif",
-      "slug": "18709",
-      "rate_text": "48€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Banque",
-      "link": "https://www.ebuyclub.com/reduction-credit-cooperatif-18709"
     },
     {
       "name": "Cuirs Guignard",
@@ -3337,7 +3327,7 @@
     {
       "name": "DAZN",
       "slug": "14890",
-      "rate_text": "Jusqu'à 60% remboursés",
+      "rate_text": "Jusqu'à 37,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3397,8 +3387,8 @@
     {
       "name": "Deli Hemp",
       "slug": "19201",
-      "rate_text": "7,5% remboursés",
-      "percent": 7.5,
+      "rate_text": "12,5% remboursés",
+      "percent": 12.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -3817,7 +3807,7 @@
     {
       "name": "Dyson",
       "slug": "10071",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 2% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3997,7 +3987,7 @@
     {
       "name": "EDF",
       "slug": "18439",
-      "rate_text": "22,50€ remboursés",
+      "rate_text": "36€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4187,7 +4177,7 @@
     {
       "name": "ENGIE",
       "slug": "16499",
-      "rate_text": "Jusqu'à 49€ remboursés",
+      "rate_text": "Jusqu'à 55€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4233,6 +4223,16 @@
       "type": "direct",
       "category_seen": "Chaussures, Mode Femme, Accessoires de mode",
       "link": "https://www.ebuyclub.com/reduction-eram-1941"
+    },
+    {
+      "name": "Erborian",
+      "slug": "11061",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Cosmétiques",
+      "link": "https://www.ebuyclub.com/reduction-erborian-11061"
     },
     {
       "name": "Eric Favre",
@@ -5787,8 +5787,8 @@
     {
       "name": "High Society CBD",
       "slug": "18208",
-      "rate_text": "7,5% remboursés",
-      "percent": 7.5,
+      "rate_text": "12,5% remboursés",
+      "percent": 12.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -7565,6 +7565,16 @@
       "link": "https://www.ebuyclub.com/reduction-la-poste-mobile-3916"
     },
     {
+      "name": "La Redoute",
+      "slug": "298",
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Déco, Mobilier, Grande Taille, Jeux Vidéo & Console, Cuisine et Art de la table, Accessoires de mode, Articles de sport, Lingerie, Mode Enfant, Mode Homme, Mode Femme, Son Vidéo & Photo, Chaussures, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Electromenager, Gadgets, Futures Mamans, Mode Bébé, Puériculture",
+      "link": "https://www.ebuyclub.com/reduction-la-redoute-298"
+    },
+    {
       "name": "La Roche Posay",
       "slug": "8274",
       "rate_text": "5% remboursés",
@@ -8697,8 +8707,8 @@
     {
       "name": "Make Up For Ever",
       "slug": "14472",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "Jusqu'à 6% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques",
@@ -8737,8 +8747,8 @@
     {
       "name": "Mama Kana CBD",
       "slug": "18331",
-      "rate_text": "7,5% remboursés",
-      "percent": 7.5,
+      "rate_text": "12,5% remboursés",
+      "percent": 12.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -8797,8 +8807,8 @@
     {
       "name": "Manutan",
       "slug": "712",
-      "rate_text": "1% remboursés",
-      "percent": 1.0,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Matériel informatique, Fournitures & Mobilier, Emballages & Expédition",
@@ -9067,8 +9077,8 @@
     {
       "name": "Merit Beauty",
       "slug": "18457",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques, Santé et Bien-être",
@@ -9077,7 +9087,7 @@
     {
       "name": "Merrell",
       "slug": "6578",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 0,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11127,7 +11137,7 @@
     {
       "name": "Playstation Direct",
       "slug": "18069",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12287,7 +12297,7 @@
     {
       "name": "Saucony",
       "slug": "16928",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 0,4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12493,6 +12503,16 @@
       "type": "direct",
       "category_seen": "GPS & Accessoires, Articles de sport",
       "link": "https://www.ebuyclub.com/reduction-shark-helmets-19204"
+    },
+    {
+      "name": "SharkNinja",
+      "slug": "15725",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Cuisine et Art de la table, Electromenager",
+      "link": "https://www.ebuyclub.com/reduction-sharkninja-15725"
     },
     {
       "name": "SHEIN",
@@ -13517,7 +13537,7 @@
     {
       "name": "Temu",
       "slug": "17329",
-      "rate_text": "Jusqu'à 0,8% remboursés",
+      "rate_text": "Jusqu'à 35% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",

@@ -1,55 +1,10 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-11-02",
-  "generated_at": "2026-11-02T02:14:42.044347+00:00",
+  "captured_at": "2026-11-03",
+  "generated_at": "2026-11-03T03:52:51.025182+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
-    {
-      "name": "Levi S",
-      "slug": "levi-s-3658",
-      "rate_text": "Jusqu’à 6% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "L Or Espresso",
-      "slug": "l-or-espresso-9420",
-      "rate_text": "5,5% rembours",
-      "percent": 5.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Franklin Pet Food",
-      "slug": "franklin-pet-food-18455",
-      "rate_text": "Jusqu’à 7% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Fortuneo",
-      "slug": "fortuneo-4842",
-      "rate_text": "Jusqu’à 108€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Tommy Hilfiger",
-      "slug": "tommy-hilfiger-7032",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
     {
       "name": "Hotels",
       "slug": "hotels-498",
@@ -89,7 +44,7 @@
     {
       "name": "Aliexpress",
       "slug": "aliexpress-6325",
-      "rate_text": "Jusqu’à 18% rembours",
+      "rate_text": "Jusqu’à 14% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -98,7 +53,7 @@
     {
       "name": "Temu",
       "slug": "temu-17329",
-      "rate_text": "Jusqu’à 0,8% rembours",
+      "rate_text": "Jusqu’à 35% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -152,7 +107,7 @@
     {
       "name": "Air France",
       "slug": "air-france-5612",
-      "rate_text": "Jusqu’à 0,8% rembours",
+      "rate_text": "Jusqu’à 1,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -249,85 +204,22 @@
       "category_seen": "achats-professionnels"
     },
     {
-      "name": "Inmac Wstore",
-      "slug": "inmac-wstore-2831",
-      "rate_text": "Jusqu’à 2,5% rembours",
+      "name": "Engie",
+      "slug": "engie-16499",
+      "rate_text": "Jusqu’à 55€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Pc Componentes",
-      "slug": "pc-componentes-13651",
-      "rate_text": "Jusqu’à 3,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
+      "category_seen": "alimentation-boissons"
     },
     {
       "name": "Lidl",
       "slug": "lidl-7180",
-      "rate_text": "Jusqu’à 4% rembours",
+      "rate_text": "Jusqu’à 3% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Sephora",
-      "slug": "sephora-683",
-      "rate_text": "Jusqu’à 2,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Autodoc",
-      "slug": "autodoc-9071",
-      "rate_text": "Jusqu’à 6,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Disneyland Paris",
-      "slug": "disneyland-paris-4387",
-      "rate_text": "Jusqu’à 15€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Castorama",
-      "slug": "castorama-276",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Nocibe",
-      "slug": "nocibe-925",
-      "rate_text": "Jusqu’à 5,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Lastminute",
-      "slug": "lastminute-205",
-      "rate_text": "Jusqu’à 39€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
+      "category_seen": "alimentation-boissons"
     },
     {
       "name": "Joybuy",
@@ -336,97 +228,7 @@
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Asos",
-      "slug": "asos-3419",
-      "rate_text": "Jusqu’à 2,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Lego",
-      "slug": "lego-5933",
-      "rate_text": "Jusqu’à 4% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Raja",
-      "slug": "raja-523",
-      "rate_text": "Jusqu’à 3% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Air Caraibes",
-      "slug": "air-caraibes-14076",
-      "rate_text": "Jusqu’à 7,2€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Hp",
-      "slug": "hp-733",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Bruneau",
-      "slug": "bruneau-3196",
-      "rate_text": "Jusqu’à 3,3% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Marionnaud",
-      "slug": "marionnaud-522",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "B B Hotels",
-      "slug": "b-b-hotels-3980",
-      "rate_text": "3% rembours",
-      "percent": 3.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Emma",
-      "slug": "emma-9314",
-      "rate_text": "Jusqu’à 4,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Histoire D Or",
-      "slug": "histoire-d-or-5790",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
+      "category_seen": "alimentation-boissons"
     },
     {
       "name": "Monoprix",
@@ -487,6 +289,15 @@
       "slug": "vinatis-6567",
       "rate_text": "Jusqu’à 2,9% rembours",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "alimentation-boissons"
+    },
+    {
+      "name": "L Or Espresso",
+      "slug": "l-or-espresso-9420",
+      "rate_text": "5,5% rembours",
+      "percent": 5.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "alimentation-boissons"
@@ -555,6 +366,15 @@
       "category_seen": "alimentation-boissons"
     },
     {
+      "name": "Bonjour Drink",
+      "slug": "bonjour-drink-18551",
+      "rate_text": "6% rembours",
+      "percent": 6.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "alimentation-boissons"
+    },
+    {
       "name": "Le Petit Ballon",
       "slug": "le-petit-ballon-6893",
       "rate_text": "3% rembours",
@@ -591,175 +411,13 @@
       "category_seen": "alimentation-boissons"
     },
     {
-      "name": "Hellofresh",
-      "slug": "hellofresh-10365",
-      "rate_text": "Jusqu’à 12€ rembours",
+      "name": "Autodoc",
+      "slug": "autodoc-9071",
+      "rate_text": "Jusqu’à 6,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Colipays",
-      "slug": "colipays-4597",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Yoursurprise",
-      "slug": "yoursurprise-3875",
-      "rate_text": "5,8% rembours",
-      "percent": 5.8,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Famille Mary",
-      "slug": "famille-mary-1448",
-      "rate_text": "Jusqu’à 7% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Domino S Pizza",
-      "slug": "domino-s-pizza-2875",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Flunch Traiteur",
-      "slug": "flunch-traiteur-17063",
-      "rate_text": "3,5% rembours",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Ahead",
-      "slug": "ahead-19214",
-      "rate_text": "4,1% rembours",
-      "percent": 4.1,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Jura",
-      "slug": "jura-18333",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Bonne Maman",
-      "slug": "bonne-maman-16913",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "La Maison Du Chocolat",
-      "slug": "la-maison-du-chocolat-11346",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Comptoirs Richard",
-      "slug": "comptoirs-richard-7073",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Une Petite Mousse",
-      "slug": "une-petite-mousse-10183",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Naturalia",
-      "slug": "naturalia-13549",
-      "rate_text": "Jusqu’à 2,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Peugeot Saveurs",
-      "slug": "peugeot-saveurs-10835",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Takeaway Belgique",
-      "slug": "takeaway-belgique-9698",
-      "rate_text": "Jusqu’à 5,8% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Topdrinks",
-      "slug": "topdrinks-18470",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Trois Fois Vin",
-      "slug": "trois-fois-vin-6080",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Monbento",
-      "slug": "monbento-4945",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
-      "name": "Yfood",
-      "slug": "yfood-12982",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
+      "category_seen": "auto-moto"
     },
     {
       "name": "Oscaro",
@@ -1095,33 +753,6 @@
       "category_seen": "auto-moto"
     },
     {
-      "name": "Fc Moto",
-      "slug": "fc-moto-5948",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "auto-moto"
-    },
-    {
-      "name": "Winparts",
-      "slug": "winparts-12649",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "auto-moto"
-    },
-    {
-      "name": "Buybestgear",
-      "slug": "buybestgear-16116",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "auto-moto"
-    },
-    {
       "name": "Achat Or Et Argent",
       "slug": "achat-or-et-argent-9877",
       "rate_text": "0,4% rembours",
@@ -1248,6 +879,15 @@
       "category_seen": "banque-assurances"
     },
     {
+      "name": "Fortuneo",
+      "slug": "fortuneo-4842",
+      "rate_text": "Jusqu’à 108€ rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "banque-assurances"
+    },
+    {
       "name": "Ulygo",
       "slug": "ulygo-14904",
       "rate_text": "3,7% rembours",
@@ -1338,10 +978,28 @@
       "category_seen": "banque-assurances"
     },
     {
-      "name": "Ysl Beauty",
-      "slug": "ysl-beauty-9631",
-      "rate_text": "6,5% rembours",
-      "percent": 6.5,
+      "name": "Sephora",
+      "slug": "sephora-683",
+      "rate_text": "Jusqu’à 2,5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "beaute-sante"
+    },
+    {
+      "name": "Nocibe",
+      "slug": "nocibe-925",
+      "rate_text": "Jusqu’à 5,5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "beaute-sante"
+    },
+    {
+      "name": "Marionnaud",
+      "slug": "marionnaud-522",
+      "rate_text": "Jusqu’à 2% rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
@@ -1349,7 +1007,7 @@
     {
       "name": "Dyson",
       "slug": "dyson-10071",
-      "rate_text": "Jusqu’à 4% rembours",
+      "rate_text": "Jusqu’à 2% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1428,19 +1086,19 @@
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Darty Pro",
-      "slug": "darty-pro-9979",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
+      "name": "Bulk",
+      "slug": "bulk-7413",
+      "rate_text": "Jusqu’à 4,1% rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Bulk",
-      "slug": "bulk-7413",
-      "rate_text": "Jusqu’à 4,1% rembours",
-      "percent": null,
+      "name": "Darty Pro",
+      "slug": "darty-pro-9979",
+      "rate_text": "2% rembours",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
@@ -1500,18 +1158,18 @@
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Percko",
-      "slug": "percko-9064",
-      "rate_text": "Jusqu’à 2% rembours",
+      "name": "Dr Pierre Ricaud",
+      "slug": "dr-pierre-ricaud-450",
+      "rate_text": "Jusqu’à 5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Dr Pierre Ricaud",
-      "slug": "dr-pierre-ricaud-450",
-      "rate_text": "Jusqu’à 5% rembours",
+      "name": "Percko",
+      "slug": "percko-9064",
+      "rate_text": "Jusqu’à 2% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1556,101 +1214,29 @@
     {
       "name": "Mama Kana Cbd",
       "slug": "mama-kana-cbd-18331",
-      "rate_text": "7,5% rembours",
-      "percent": 7.5,
+      "rate_text": "12,5% rembours",
+      "percent": 12.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Parfumdreams",
-      "slug": "parfumdreams-10030",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
+      "name": "Adopt",
+      "slug": "adopt-8959",
+      "rate_text": "8% rembours",
+      "percent": 8.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Everdrop",
-      "slug": "everdrop-16188",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
+      "name": "Ticketmaster",
+      "slug": "ticketmaster-8084",
+      "rate_text": "3% rembours",
+      "percent": 3.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Les Secrets De Loly",
-      "slug": "les-secrets-de-loly-18517",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Yesstyle",
-      "slug": "yesstyle-2105",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Fleurance Nature",
-      "slug": "fleurance-nature-888",
-      "rate_text": "Jusqu’à 8,3% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Securimed",
-      "slug": "securimed-5441",
-      "rate_text": "3,3% rembours",
-      "percent": 3.3,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Oral B",
-      "slug": "oral-b-13615",
-      "rate_text": "Jusqu’à 6,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "L Occitane",
-      "slug": "l-occitane-2064",
-      "rate_text": "Jusqu’à 2,9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Pin Up Secret",
-      "slug": "pin-up-secret-16930",
-      "rate_text": "3,3% rembours",
-      "percent": 3.3,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
-      "name": "Asambeauty",
-      "slug": "asambeauty-14087",
-      "rate_text": "Jusqu’à 6,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
+      "category_seen": "culture"
     },
     {
       "name": "Mondoffice",
@@ -1675,6 +1261,15 @@
       "slug": "micromania-1069",
       "rate_text": "Jusqu’à 2,9% rembours",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "culture"
+    },
+    {
+      "name": "La Redoute",
+      "slug": "la-redoute-298",
+      "rate_text": "2% rembours",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "culture"
@@ -1826,7 +1421,7 @@
     {
       "name": "Playstation Direct",
       "slug": "playstation-direct-18069",
-      "rate_text": "Jusqu’à 2,9% rembours",
+      "rate_text": "Jusqu’à 6% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1860,121 +1455,13 @@
       "category_seen": "culture"
     },
     {
-      "name": "Viator Une Entreprise Tripadvisor",
-      "slug": "viator-une-entreprise-tripadvisor-6196",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Plopsaland",
-      "slug": "plopsaland-6595",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Walibi Rhones Alpes",
-      "slug": "walibi-rhones-alpes-2604",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Bose",
-      "slug": "bose-874",
-      "rate_text": "Jusqu’à 1,6% rembours",
+      "name": "Lego",
+      "slug": "lego-5933",
+      "rate_text": "Jusqu’à 3,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "France Abonnements",
-      "slug": "france-abonnements-7662",
-      "rate_text": "Jusqu’à 9€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "My Nintendo Store",
-      "slug": "my-nintendo-store-18294",
-      "rate_text": "Jusqu’à 2,9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Fnac Belgique",
-      "slug": "fnac-belgique-9890",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Campings",
-      "slug": "campings-10356",
-      "rate_text": "1,2% rembours",
-      "percent": 1.2,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Michenaud",
-      "slug": "michenaud-2012",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Antalis",
-      "slug": "antalis-16135",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Billet Viagogo",
-      "slug": "billet-viagogo-1643",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Viapresse",
-      "slug": "viapresse-89",
-      "rate_text": "Jusqu’à 23,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Disney",
-      "slug": "disney-12134",
-      "rate_text": "Jusqu’à 14,5€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
+      "category_seen": "enfant-puericulture"
     },
     {
       "name": "H M",
@@ -2067,6 +1554,15 @@
       "category_seen": "enfant-puericulture"
     },
     {
+      "name": "Levi S",
+      "slug": "levi-s-3658",
+      "rate_text": "Jusqu’à 5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "enfant-puericulture"
+    },
+    {
       "name": "Disney Store",
       "slug": "disney-store-4100",
       "rate_text": "1,6% rembours",
@@ -2094,136 +1590,10 @@
       "category_seen": "enfant-puericulture"
     },
     {
-      "name": "Mango",
-      "slug": "mango-3921",
-      "rate_text": "0,5% rembours",
-      "percent": 0.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "New Balance",
-      "slug": "new-balance-7344",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Modz",
-      "slug": "modz-1544",
-      "rate_text": "Jusqu’à 2,9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Galaxus",
-      "slug": "galaxus-17217",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Yoox",
-      "slug": "yoox-442",
-      "rate_text": "1,5% rembours",
-      "percent": 1.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Puma",
-      "slug": "puma-2788",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Michael Kors",
-      "slug": "michael-kors-8735",
-      "rate_text": "Jusqu’à 4% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Ugg",
-      "slug": "ugg-4991",
-      "rate_text": "Jusqu’à 2,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "La Grande Recre",
-      "slug": "la-grande-recre-6712",
-      "rate_text": "3% rembours",
-      "percent": 3.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Ralph Lauren",
-      "slug": "ralph-lauren-6695",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Joueclub",
-      "slug": "joueclub-4914",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Under Armour",
-      "slug": "under-armour-6810",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Sports Direct",
-      "slug": "sports-direct-8293",
-      "rate_text": "1,5% rembours",
-      "percent": 1.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Mytheresa",
-      "slug": "mytheresa-1692",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
-      "name": "Farfetch",
-      "slug": "farfetch-12030",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
+      "name": "Tommy Hilfiger",
+      "slug": "tommy-hilfiger-7032",
+      "rate_text": "4% rembours",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
@@ -2247,10 +1617,37 @@
       "category_seen": "fleurs-cadeaux"
     },
     {
+      "name": "La Grande Recre",
+      "slug": "la-grande-recre-6712",
+      "rate_text": "3% rembours",
+      "percent": 3.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fleurs-cadeaux"
+    },
+    {
+      "name": "Ysl Beauty",
+      "slug": "ysl-beauty-9631",
+      "rate_text": "6,5% rembours",
+      "percent": 6.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fleurs-cadeaux"
+    },
+    {
       "name": "Parfumsmoinschers",
       "slug": "parfumsmoinschers-3075",
       "rate_text": "1% rembours",
       "percent": 1.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fleurs-cadeaux"
+    },
+    {
+      "name": "Fnac Belgique",
+      "slug": "fnac-belgique-9890",
+      "rate_text": "Jusqu’à 5% rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "fleurs-cadeaux"
@@ -2278,6 +1675,15 @@
       "slug": "l-homme-moderne-3575",
       "rate_text": "2,5% rembours",
       "percent": 2.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "fleurs-cadeaux"
+    },
+    {
+      "name": "Yoursurprise",
+      "slug": "yoursurprise-3875",
+      "rate_text": "5,8% rembours",
+      "percent": 5.8,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "fleurs-cadeaux"
@@ -2391,10 +1797,28 @@
       "category_seen": "fleurs-cadeaux"
     },
     {
-      "name": "Free Internet",
-      "slug": "free-internet-17259",
-      "rate_text": "Jusqu’à 41€ rembours",
+      "name": "Inmac Wstore",
+      "slug": "inmac-wstore-2831",
+      "rate_text": "Jusqu’à 2,5% rembours",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "high-tech"
+    },
+    {
+      "name": "Pc Componentes",
+      "slug": "pc-componentes-13651",
+      "rate_text": "Jusqu’à 3,5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "high-tech"
+    },
+    {
+      "name": "Hp",
+      "slug": "hp-733",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "high-tech"
@@ -2526,6 +1950,15 @@
       "category_seen": "high-tech"
     },
     {
+      "name": "Galaxus",
+      "slug": "galaxus-17217",
+      "rate_text": "2,9% rembours",
+      "percent": 2.9,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "high-tech"
+    },
+    {
       "name": "Google Store",
       "slug": "google-store-17355",
       "rate_text": "2,5% rembours",
@@ -2571,54 +2004,36 @@
       "category_seen": "high-tech"
     },
     {
-      "name": "Huawei",
-      "slug": "huawei-12090",
-      "rate_text": "3,5% rembours",
-      "percent": 3.5,
+      "name": "Castorama",
+      "slug": "castorama-276",
+      "rate_text": "2% rembours",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "high-tech"
+      "category_seen": "habitat-deco"
     },
     {
-      "name": "Samsung Pro",
-      "slug": "samsung-pro-16132",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "high-tech"
-    },
-    {
-      "name": "Jbl",
-      "slug": "jbl-5937",
-      "rate_text": "Jusqu’à 4,1% rembours",
+      "name": "Emma",
+      "slug": "emma-9314",
+      "rate_text": "Jusqu’à 4,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "high-tech"
-    },
-    {
-      "name": "Acer",
-      "slug": "acer-8660",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "high-tech"
-    },
-    {
-      "name": "Photoweb",
-      "slug": "photoweb-614",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "high-tech"
+      "category_seen": "habitat-deco"
     },
     {
       "name": "Manomano Pro",
       "slug": "manomano-pro-18226",
       "rate_text": "Jusqu’à 4,5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "habitat-deco"
+    },
+    {
+      "name": "Sharkninja",
+      "slug": "sharkninja-15725",
+      "rate_text": "Jusqu’à 2,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2688,100 +2103,19 @@
       "category_seen": "habitat-deco"
     },
     {
-      "name": "Miliboo",
-      "slug": "miliboo-1134",
-      "rate_text": "Jusqu’à 2% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Habitat Et Jardin",
-      "slug": "habitat-et-jardin-758",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Songmics",
-      "slug": "songmics-12568",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Roborock",
-      "slug": "roborock-18162",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Made In Design",
-      "slug": "made-in-design-932",
-      "rate_text": "Jusqu’à 3,3% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Francoise Saget",
-      "slug": "francoise-saget-603",
-      "rate_text": "Jusqu’à 4,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Ultra Premium Direct",
-      "slug": "ultra-premium-direct-6648",
-      "rate_text": "Jusqu’à 9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Rowenta",
-      "slug": "rowenta-14494",
-      "rate_text": "2,9% rembours",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Maxi Zoo",
-      "slug": "maxi-zoo-13562",
-      "rate_text": "Jusqu’à 4,1% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "habitat-deco"
-    },
-    {
-      "name": "Jd Sports",
-      "slug": "jd-sports-8887",
-      "rate_text": "Jusqu’à 4% rembours",
+      "name": "Asos",
+      "slug": "asos-3419",
+      "rate_text": "Jusqu’à 2,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
     },
     {
-      "name": "Calvin Klein",
-      "slug": "calvin-klein-12218",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
+      "name": "Histoire D Or",
+      "slug": "histoire-d-or-5790",
+      "rate_text": "2,9% rembours",
+      "percent": 2.9,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
@@ -2814,6 +2148,15 @@
       "category_seen": "mode-accessoires"
     },
     {
+      "name": "Jd Sports",
+      "slug": "jd-sports-8887",
+      "rate_text": "Jusqu’à 4% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "mode-accessoires"
+    },
+    {
       "name": "Pandora",
       "slug": "pandora-6715",
       "rate_text": "2,9% rembours",
@@ -2832,40 +2175,22 @@
       "category_seen": "mode-accessoires"
     },
     {
-      "name": "Cache Cache",
-      "slug": "cache-cache-2989",
-      "rate_text": "Jusqu’à 3,7% rembours",
+      "name": "Myprotein",
+      "slug": "myprotein-4070",
+      "rate_text": "Jusqu’à 7% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "mode-accessoires"
+      "category_seen": "sports-loisirs"
     },
     {
-      "name": "Vib S",
-      "slug": "vib-s-13503",
-      "rate_text": "Jusqu’à 4,5% rembours",
-      "percent": null,
+      "name": "Fiido",
+      "slug": "fiido-18599",
+      "rate_text": "4% rembours",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Morgan",
-      "slug": "morgan-2643",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Halara",
-      "slug": "halara-15767",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
+      "category_seen": "sports-loisirs"
     },
     {
       "name": "Stradivarius",
@@ -2874,58 +2199,13 @@
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "mode-accessoires"
+      "category_seen": "sports-loisirs"
     },
     {
-      "name": "Bonobo",
-      "slug": "bonobo-3392",
-      "rate_text": "Jusqu’à 4,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Crocs",
-      "slug": "crocs-1903",
-      "rate_text": "3,5% rembours",
-      "percent": 3.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Pull Bear",
-      "slug": "pull-bear-7263",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Chaussea",
-      "slug": "chaussea-8304",
-      "rate_text": "Jusqu’à 2,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Daxon",
-      "slug": "daxon-6375",
-      "rate_text": "Jusqu’à 2,9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Myprotein",
-      "slug": "myprotein-4070",
-      "rate_text": "Jusqu’à 7% rembours",
-      "percent": null,
+      "name": "New Balance",
+      "slug": "new-balance-7344",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sports-loisirs"
@@ -2949,10 +2229,37 @@
       "category_seen": "sports-loisirs"
     },
     {
+      "name": "Puma",
+      "slug": "puma-2788",
+      "rate_text": "Jusqu’à 2% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sports-loisirs"
+    },
+    {
       "name": "About You",
       "slug": "about-you-11489",
       "rate_text": "Jusqu’à 4,1% rembours",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sports-loisirs"
+    },
+    {
+      "name": "Under Armour",
+      "slug": "under-armour-6810",
+      "rate_text": "1,6% rembours",
+      "percent": 1.6,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "sports-loisirs"
+    },
+    {
+      "name": "Sports Direct",
+      "slug": "sports-direct-8293",
+      "rate_text": "1,5% rembours",
+      "percent": 1.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sports-loisirs"
@@ -3003,76 +2310,40 @@
       "category_seen": "sports-loisirs"
     },
     {
-      "name": "Costway",
-      "slug": "costway-11595",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sports-loisirs"
-    },
-    {
-      "name": "Private Sport Shop",
-      "slug": "private-sport-shop-8196",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sports-loisirs"
-    },
-    {
-      "name": "Am Nutrition",
-      "slug": "am-nutrition-14800",
-      "rate_text": "Jusqu’à 4,1% rembours",
+      "name": "Disneyland Paris",
+      "slug": "disneyland-paris-4387",
+      "rate_text": "Jusqu’à 15€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "sports-loisirs"
+      "category_seen": "voyages"
     },
     {
-      "name": "Foot Store",
-      "slug": "foot-store-17408",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sports-loisirs"
-    },
-    {
-      "name": "Columbia",
-      "slug": "columbia-7590",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "sports-loisirs"
-    },
-    {
-      "name": "Fitadium",
-      "slug": "fitadium-3207",
-      "rate_text": "Jusqu’à 2,9% rembours",
+      "name": "Lastminute",
+      "slug": "lastminute-205",
+      "rate_text": "Jusqu’à 39€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "sports-loisirs"
+      "category_seen": "voyages"
     },
     {
-      "name": "Snipes",
-      "slug": "snipes-10211",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
+      "name": "Air Caraibes",
+      "slug": "air-caraibes-14076",
+      "rate_text": "Jusqu’à 7,2€ rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "sports-loisirs"
+      "category_seen": "voyages"
     },
     {
-      "name": "La Boutique Officielle Fff",
-      "slug": "la-boutique-officielle-fff-5778",
-      "rate_text": "0,8% rembours",
-      "percent": 0.8,
+      "name": "B B Hotels",
+      "slug": "b-b-hotels-3980",
+      "rate_text": "3% rembours",
+      "percent": 3.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
-      "category_seen": "sports-loisirs"
+      "category_seen": "voyages"
     },
     {
       "name": "Ouigo",
@@ -3318,46 +2589,10 @@
       "category_seen": "voyages"
     },
     {
-      "name": "Hotels Ibis Budget",
-      "slug": "hotels-ibis-budget-6500",
-      "rate_text": "Jusqu’à 1% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyages"
-    },
-    {
-      "name": "Hotels Pullman",
-      "slug": "hotels-pullman-6359",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyages"
-    },
-    {
-      "name": "Iberia",
-      "slug": "iberia-7119",
-      "rate_text": "Jusqu’à 0,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyages"
-    },
-    {
-      "name": "Avis",
-      "slug": "avis-499",
-      "rate_text": "Jusqu’à 5,8% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyages"
-    },
-    {
       "name": "Carrefour",
       "slug": "carrefour-10310",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
+      "rate_text": "3,6% rembours",
+      "percent": 3.6,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -3367,8 +2602,8 @@
     {
       "name": "Auchan",
       "slug": "auchan-307",
-      "rate_text": "4% rembours",
-      "percent": 4.0,
+      "rate_text": "3% rembours",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -3461,7 +2696,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Tommy Hilfiger",
@@ -3730,8 +2965,8 @@
     {
       "name": "Carrefour Market",
       "slug": "carrefour-market-7155",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
+      "rate_text": "3,6% rembours",
+      "percent": 3.6,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -3992,17 +3227,6 @@
       "stackable_cashback_rate_text": null
     },
     {
-      "name": "Animalis",
-      "slug": "animalis-13587",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": null
-    },
-    {
       "name": "Lastminute Vols",
       "slug": "lastminute-vols-17965",
       "rate_text": "5% rembours",
@@ -4180,17 +3404,6 @@
       "stackable_cashback_rate_text": "Jusqu'à 1,5% de cashback"
     },
     {
-      "name": "Mademoiselle Bio",
-      "slug": "mademoiselle-bio-1475",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 4,1% de cashback"
-    },
-    {
       "name": "Clarins",
       "slug": "clarins-3165",
       "rate_text": "8% rembours",
@@ -4204,8 +3417,8 @@
     {
       "name": "Carrefour Voyages",
       "slug": "carrefour-voyages-4988",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
+      "rate_text": "3,6% rembours",
+      "percent": 3.6,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -4518,28 +3731,6 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": null
-    },
-    {
-      "name": "Decitre",
-      "slug": "decitre-5349",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN MAGASIN",
-      "stackable_cashback_rate_text": null
-    },
-    {
-      "name": "Furet Du Nord",
-      "slug": "furet-du-nord-2213",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN MAGASIN",
       "stackable_cashback_rate_text": null
     },
     {

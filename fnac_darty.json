@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-02",
-  "generated_at": "2026-11-02T02:14:25.703357+00:00",
+  "captured_at": "2026-11-03",
+  "generated_at": "2026-11-03T03:52:28.656092+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -148,6 +148,15 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://fnacdarty.vtf-vacances.com/fr_FR/"
+    },
+    {
+      "name": "Bitdefender",
+      "rate_text": null,
+      "percent": 35.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "Internxt",
@@ -411,6 +420,15 @@
       "link": null
     },
     {
+      "name": "Trainline",
+      "rate_text": null,
+      "percent": 13.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Spartoo",
       "rate_text": null,
       "percent": 13.0,
@@ -511,15 +529,6 @@
     },
     {
       "name": "Aiper",
-      "rate_text": null,
-      "percent": 10.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Bitdefender",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -907,6 +916,15 @@
     },
     {
       "name": "Avis",
+      "rate_text": null,
+      "percent": 8.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Make Up For Ever",
       "rate_text": null,
       "percent": 8.2,
       "type_detail_fr": "Réduction directe",
@@ -1492,6 +1510,15 @@
     },
     {
       "name": "Rougier & Plé",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Erborian",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -2995,15 +3022,6 @@
     },
     {
       "name": "Rosetta Stone",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Make Up For Ever",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -4668,15 +4686,6 @@
       "link": null
     },
     {
-      "name": "IKEA Belgique",
-      "rate_text": null,
-      "percent": 3.9,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Misako",
       "rate_text": null,
       "percent": 3.9,
@@ -4903,6 +4912,15 @@
     },
     {
       "name": "Pull&Bear",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "IKEA Belgique",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5368,16 +5386,6 @@
       "type": "direct",
       "cumulative_with": null,
       "link": null
-    },
-    {
-      "name": "MK2 Cinémas",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
     },
     {
       "name": "Koolbox Xefi",
@@ -5938,15 +5946,6 @@
       "link": null
     },
     {
-      "name": "Trainline",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "La Grande Récré",
       "rate_text": null,
       "percent": 2.8,
@@ -6272,6 +6271,15 @@
     },
     {
       "name": "Netflix",
+      "rate_text": null,
+      "percent": 2.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Intersport",
       "rate_text": null,
       "percent": 2.4,
       "type_detail_fr": "Carte cadeau",
@@ -6739,6 +6747,16 @@
       "type": "carte_cadeau",
       "cumulative_with": null,
       "link": null
+    },
+    {
+      "name": "MK2 Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
     },
     {
       "name": "Kinepolis Business",
