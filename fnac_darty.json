@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-03",
-  "generated_at": "2026-11-03T03:52:28.656092+00:00",
+  "captured_at": "2026-11-04",
+  "generated_at": "2026-11-04T02:57:10.798710+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1104,6 +1104,15 @@
       "link": null
     },
     {
+      "name": "passione beauty",
+      "rate_text": null,
+      "percent": 7.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Expedia",
       "rate_text": null,
       "percent": 7.0,
@@ -1663,15 +1672,6 @@
     },
     {
       "name": "Miliboo",
-      "rate_text": null,
-      "percent": 6.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "passione beauty",
       "rate_text": null,
       "percent": 6.2,
       "type_detail_fr": "Réduction directe",
@@ -5019,6 +5019,33 @@
       "link": null
     },
     {
+      "name": "AWOL Vision",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Omio",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Valerion",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Snowrental",
       "rate_text": null,
       "percent": 3.4,
@@ -5757,6 +5784,15 @@
       "link": null
     },
     {
+      "name": "Swarovski",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Kérastase",
       "rate_text": null,
       "percent": 2.8,
@@ -6482,6 +6518,15 @@
       "percent": 2.1,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Havas voyages",
+      "rate_text": null,
+      "percent": 2.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
