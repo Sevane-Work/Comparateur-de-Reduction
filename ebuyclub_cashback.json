@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-04T02:57:33.117765+00:00",
+  "generated_at": "2026-11-05T03:20:49.228619+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 11% remboursés",
+      "rate_text": "Jusqu'à 8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1877,8 +1877,8 @@
     {
       "name": "Brico Dépôt",
       "slug": "6377",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "0,8% remboursés",
+      "percent": 0.8,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bricolage",
@@ -2213,16 +2213,6 @@
       "type": "direct",
       "category_seen": "Divertissement",
       "link": "https://www.ebuyclub.com/reduction-canal-862"
-    },
-    {
-      "name": "Canon",
-      "slug": "8889",
-      "rate_text": "Jusqu'à 1,6% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Son Vidéo & Photo, Développement Photo",
-      "link": "https://www.ebuyclub.com/reduction-canon-8889"
     },
     {
       "name": "CapCut",
@@ -3697,8 +3687,8 @@
     {
       "name": "Donner",
       "slug": "17062",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
+      "rate_text": "5,5% remboursés",
+      "percent": 5.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Musique",
@@ -4875,6 +4865,16 @@
       "link": "https://www.ebuyclub.com/reduction-france-abonnements-7662"
     },
     {
+      "name": "Franklin pet food",
+      "slug": "18455",
+      "rate_text": "Jusqu'à 7% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Animaux",
+      "link": "https://www.ebuyclub.com/reduction-franklin-pet-food-18455"
+    },
+    {
       "name": "Franssen Loisirs",
       "slug": "15644",
       "rate_text": "3,7% remboursés",
@@ -4907,7 +4907,7 @@
     {
       "name": "Free - Forfaits Mobile",
       "slug": "17260",
-      "rate_text": "Jusqu'à 15€ remboursés",
+      "rate_text": "Jusqu'à 17€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5897,8 +5897,8 @@
     {
       "name": "Homary",
       "slug": "16063",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cuisine et Art de la table, Déco, Mobilier",
@@ -6467,7 +6467,7 @@
     {
       "name": "iMobie",
       "slug": "18461",
-      "rate_text": "Jusqu'à 25% remboursés",
+      "rate_text": "Jusqu'à 37,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9415,6 +9415,16 @@
       "link": "https://www.ebuyclub.com/reduction-mondoffice-444"
     },
     {
+      "name": "MoneyGram",
+      "slug": "6853",
+      "rate_text": "16€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Banque",
+      "link": "https://www.ebuyclub.com/reduction-moneygram-6853"
+    },
+    {
       "name": "Monoeuvre",
       "slug": "6875",
       "rate_text": "4,1% remboursés",
@@ -10043,6 +10053,16 @@
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Gadgets",
       "link": "https://www.ebuyclub.com/reduction-nivocase-10792"
+    },
+    {
+      "name": "Nixon",
+      "slug": "19358",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Accessoires de mode",
+      "link": "https://www.ebuyclub.com/reduction-nixon-19358"
     },
     {
       "name": "Nocibé",
@@ -11935,16 +11955,6 @@
       "link": "https://www.ebuyclub.com/reduction-rougier-ple-5386"
     },
     {
-      "name": "Rowenta",
-      "slug": "14494",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Electromenager",
-      "link": "https://www.ebuyclub.com/reduction-rowenta-14494"
-    },
-    {
       "name": "Roxio",
       "slug": "916",
       "rate_text": "5% remboursés",
@@ -13467,7 +13477,7 @@
     {
       "name": "Tediber",
       "slug": "18496",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
