@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-05T03:20:49.228619+00:00",
+  "generated_at": "2026-11-06T03:18:39.755852+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -2215,6 +2215,16 @@
       "link": "https://www.ebuyclub.com/reduction-canal-862"
     },
     {
+      "name": "Canon",
+      "slug": "8889",
+      "rate_text": "Jusqu'à 3% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Son Vidéo & Photo, Développement Photo",
+      "link": "https://www.ebuyclub.com/reduction-canon-8889"
+    },
+    {
       "name": "CapCut",
       "slug": "18428",
       "rate_text": "Jusqu'à 30% remboursés",
@@ -2657,8 +2667,8 @@
     {
       "name": "CLEOR",
       "slug": "3754",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Bijoux",
@@ -4365,14 +4375,14 @@
       "link": "https://www.ebuyclub.com/reduction-evancy-11855"
     },
     {
-      "name": "Everdrop",
-      "slug": "16188",
+      "name": "Expedia",
+      "slug": "487",
       "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
-      "category_seen": "Hygiène et entretien, Cosmétiques, Santé et Bien-être",
-      "link": "https://www.ebuyclub.com/reduction-everdrop-16188"
+      "category_seen": "Hotels, Location de voiture, Location de vacances, Voyagistes",
+      "link": "https://www.ebuyclub.com/reduction-expedia-487"
     },
     {
       "name": "Expedia Belgique",
@@ -4913,16 +4923,6 @@
       "type": "direct",
       "category_seen": "Internet & Téléphonie",
       "link": "https://www.ebuyclub.com/reduction-free-forfaits-mobile-17260"
-    },
-    {
-      "name": "Free - Internet",
-      "slug": "17259",
-      "rate_text": "Jusqu'à 41€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Internet & Téléphonie",
-      "link": "https://www.ebuyclub.com/reduction-free-internet-17259"
     },
     {
       "name": "Free People",
@@ -6873,16 +6873,6 @@
       "type": "direct",
       "category_seen": "Magazine & Presse",
       "link": "https://www.ebuyclub.com/reduction-jemabonne-5479"
-    },
-    {
-      "name": "Jet tours",
-      "slug": "4014",
-      "rate_text": "30€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Voyagistes",
-      "link": "https://www.ebuyclub.com/reduction-jet-tours-4014"
     },
     {
       "name": "Jeulia",
@@ -11377,8 +11367,8 @@
     {
       "name": "Pro Breeze",
       "slug": "18661",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager, Santé et Bien-être",
@@ -11805,16 +11795,6 @@
       "link": "https://www.ebuyclub.com/reduction-redbubble-10261"
     },
     {
-      "name": "Redcare Pharmacie",
-      "slug": "7079",
-      "rate_text": "Jusqu'à 7,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Santé et Bien-être",
-      "link": "https://www.ebuyclub.com/reduction-redcare-pharmacie-7079"
-    },
-    {
       "name": "Redmagic",
       "slug": "10664",
       "rate_text": "1% remboursés",
@@ -12105,16 +12085,6 @@
       "link": "https://www.ebuyclub.com/reduction-rejeanne-16915"
     },
     {
-      "name": "Rêve de Pan",
-      "slug": "8031",
-      "rate_text": "Jusqu'à 2% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Puériculture, Mode Bébé, Jouets, Mode Enfant",
-      "link": "https://www.ebuyclub.com/reduction-reve-de-pan-8031"
-    },
-    {
       "name": "Sabon",
       "slug": "5900",
       "rate_text": "4,1% remboursés",
@@ -12157,7 +12127,7 @@
     {
       "name": "Samsung",
       "slug": "1288",
-      "rate_text": "Jusqu'à 1% remboursés",
+      "rate_text": "Jusqu'à 2% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13827,8 +13797,8 @@
     {
       "name": "Transavia Holidays",
       "slug": "18567",
-      "rate_text": "0,8% remboursés",
-      "percent": 0.8,
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Voyagistes",
@@ -14027,7 +13997,7 @@
     {
       "name": "Udemy",
       "slug": "8414",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
