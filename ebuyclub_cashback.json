@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-06T03:18:39.755852+00:00",
+  "generated_at": "2026-11-07T02:38:13.128321+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 8% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1127,8 +1127,8 @@
     {
       "name": "BALSAM HILL",
       "slug": "19270",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Déco",
@@ -1197,7 +1197,7 @@
     {
       "name": "BAZARCHIC",
       "slug": "2192",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 5,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2557,7 +2557,7 @@
     {
       "name": "Cheerz",
       "slug": "8184",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3153,6 +3153,16 @@
       "type": "direct",
       "category_seen": "Cosmétiques, Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-cut-by-fred-19353"
+    },
+    {
+      "name": "CyberGhost VPN",
+      "slug": "10709",
+      "rate_text": "80% remboursés",
+      "percent": 80.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie, Logiciels",
+      "link": "https://www.ebuyclub.com/reduction-cyberghost-vpn-10709"
     },
     {
       "name": "Cybertek",
@@ -4725,16 +4735,6 @@
       "link": "https://www.ebuyclub.com/reduction-fleurance-nature-888"
     },
     {
-      "name": "FlexiSpot",
-      "slug": "15090",
-      "rate_text": "Jusqu'à 4% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Fournitures & Mobilier, Mobilier",
-      "link": "https://www.ebuyclub.com/reduction-flexispot-15090"
-    },
-    {
       "name": "Flibco",
       "slug": "17373",
       "rate_text": "Jusqu'à 7,5% remboursés",
@@ -5887,8 +5887,8 @@
     {
       "name": "HOM",
       "slug": "1453",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "5,5% remboursés",
+      "percent": 5.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Homme",
@@ -7847,8 +7847,8 @@
     {
       "name": "Lee",
       "slug": "17684",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Enfant, Mode Homme, Mode Femme",
@@ -10017,7 +10017,7 @@
     {
       "name": "Nirio",
       "slug": "18981",
-      "rate_text": "16€ remboursés",
+      "rate_text": "23€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11367,8 +11367,8 @@
     {
       "name": "Pro Breeze",
       "slug": "18661",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager, Santé et Bien-être",
@@ -11873,6 +11873,16 @@
       "type": "direct",
       "category_seen": "Banque",
       "link": "https://www.ebuyclub.com/reduction-revolut-16366"
+    },
+    {
+      "name": "Revolut Business",
+      "slug": "19361",
+      "rate_text": "Jusqu'à 120€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Banque",
+      "link": "https://www.ebuyclub.com/reduction-revolut-business-19361"
     },
     {
       "name": "Revue Technique Automobile",
@@ -12743,6 +12753,16 @@
       "type": "direct",
       "category_seen": "Gadgets, Fournitures & Mobilier, Divertissement, Internet & Téléphonie, Hygiène et entretien",
       "link": "https://www.ebuyclub.com/reduction-smartobjet-15079"
+    },
+    {
+      "name": "Smash-Expert",
+      "slug": "18010",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Articles de sport, Sportwear",
+      "link": null
     },
     {
       "name": "Smol",
@@ -13813,6 +13833,16 @@
       "type": "direct",
       "category_seen": "Santé et Bien-être",
       "link": "https://www.ebuyclub.com/reduction-treatwell-5496"
+    },
+    {
+      "name": "Trek Expert",
+      "slug": "15758",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Articles de sport",
+      "link": null
     },
     {
       "name": "Trend Micro",

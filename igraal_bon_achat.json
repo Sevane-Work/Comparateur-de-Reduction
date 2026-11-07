@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-11-06T03:20:43.102462+00:00",
+  "generated_at": "2026-11-07T02:39:20.890781+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -53,8 +53,8 @@
     {
       "name": "Carrefour Courses Alimentaires",
       "slug": "carrefour-courses-alimentaires",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -107,8 +107,8 @@
     {
       "name": "Auchan",
       "slug": "auchan",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -566,8 +566,8 @@
     {
       "name": "Intermarché",
       "slug": "intermarche",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.75%",
+      "percent": 2.75,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -593,8 +593,8 @@
     {
       "name": "Airbnb",
       "slug": "airbnb",
-      "rate_text": "3.2%",
-      "percent": 3.2,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -631,6 +631,15 @@
       "slug": "foot-locker",
       "rate_text": "4.47%",
       "percent": 4.47,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Redcare Pharmacie",
+      "slug": "redcare-pharmacie",
+      "rate_text": "2%",
+      "percent": 2.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -817,15 +826,6 @@
       "category_seen": null
     },
     {
-      "name": "LEGO®",
-      "slug": "lego",
-      "rate_text": "4.99%",
-      "percent": 4.99,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Electro depot",
       "slug": "electro-depot",
       "rate_text": "2.44%",
@@ -864,8 +864,8 @@
     {
       "name": "IKEA",
       "slug": "ikea",
-      "rate_text": "3.75%",
-      "percent": 3.75,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1008,8 +1008,8 @@
     {
       "name": "Zalando",
       "slug": "zalando",
-      "rate_text": "7%",
-      "percent": 7.0,
+      "rate_text": "6.75%",
+      "percent": 6.75,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1046,6 +1046,15 @@
       "slug": "gifi",
       "rate_text": "3%",
       "percent": 3.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Showroomprivé",
+      "slug": "showroomprive",
+      "rate_text": "2.45%",
+      "percent": 2.45,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1258,15 +1267,6 @@
       "category_seen": null
     },
     {
-      "name": "Sephora",
-      "slug": "sephora",
-      "rate_text": "4%",
-      "percent": 4.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Sarenza.com",
       "slug": "sarenza-com",
       "rate_text": "4.76%",
@@ -1298,15 +1298,6 @@
       "slug": "cewe",
       "rate_text": "6%",
       "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Orchestra",
-      "slug": "orchestra",
-      "rate_text": "3.5%",
-      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1557,8 +1548,8 @@
     {
       "name": "Castorama",
       "slug": "castorama",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "6%",
+      "percent": 6.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null

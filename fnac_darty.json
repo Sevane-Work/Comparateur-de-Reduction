@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-06",
-  "generated_at": "2026-11-06T03:18:13.026785+00:00",
+  "captured_at": "2026-11-07",
+  "generated_at": "2026-11-07T02:37:51.208486+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -724,6 +724,15 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://passfnacdarty.fram.fr/"
+    },
+    {
+      "name": "Jet Tours",
+      "rate_text": null,
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "MSC Croisières",
@@ -2724,6 +2733,15 @@
       "link": null
     },
     {
+      "name": "HOM",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Christophe Robin",
       "rate_text": null,
       "percent": 5.5,
@@ -3193,15 +3211,6 @@
     },
     {
       "name": "DFDS SEAWAYS",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "HOM",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
