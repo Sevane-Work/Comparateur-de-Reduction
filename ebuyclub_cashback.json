@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-07T02:38:13.128321+00:00",
+  "generated_at": "2026-11-08T02:12:20.218983+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -227,8 +227,8 @@
     {
       "name": "adidas",
       "slug": "1356",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Chaussures, Mode Homme, Mode Enfant, Articles de sport",
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 9% remboursés",
+      "rate_text": "Jusqu'à 11% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1727,7 +1727,7 @@
     {
       "name": "boohooMAN",
       "slug": "10882",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 13% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2127,8 +2127,8 @@
     {
       "name": "Calvin Klein",
       "slug": "12218",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "12% remboursés",
+      "percent": 12.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Lingerie, Mode Homme, Chaussures, Mode Femme, Mode Bébé, Accessoires de mode",
@@ -2213,16 +2213,6 @@
       "type": "direct",
       "category_seen": "Divertissement",
       "link": "https://www.ebuyclub.com/reduction-canal-862"
-    },
-    {
-      "name": "Canon",
-      "slug": "8889",
-      "rate_text": "Jusqu'à 3% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Son Vidéo & Photo, Développement Photo",
-      "link": "https://www.ebuyclub.com/reduction-canon-8889"
     },
     {
       "name": "CapCut",
@@ -4017,7 +4007,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4137,7 +4127,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4383,16 +4373,6 @@
       "type": "direct",
       "category_seen": "Location de vacances",
       "link": "https://www.ebuyclub.com/reduction-evancy-11855"
-    },
-    {
-      "name": "Expedia",
-      "slug": "487",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Hotels, Location de voiture, Location de vacances, Voyagistes",
-      "link": "https://www.ebuyclub.com/reduction-expedia-487"
     },
     {
       "name": "Expedia Belgique",
@@ -4837,7 +4817,7 @@
     {
       "name": "Fortuneo",
       "slug": "4842",
-      "rate_text": "Jusqu'à 108€ remboursés",
+      "rate_text": "Jusqu'à 170€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6847,7 +6827,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8063,6 +8043,16 @@
       "type": "direct",
       "category_seen": "Articles de sport, Divertissement",
       "link": "https://www.ebuyclub.com/reduction-leurre-de-la-peche-16796"
+    },
+    {
+      "name": "Levi's®",
+      "slug": "3658",
+      "rate_text": "Jusqu'à 5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Mode Homme, Mode Enfant, Mode Femme, Chaussures, Accessoires de mode",
+      "link": "https://www.ebuyclub.com/reduction-levi-s-3658"
     },
     {
       "name": "LG Electronics",
@@ -11795,6 +11785,16 @@
       "link": "https://www.ebuyclub.com/reduction-redbubble-10261"
     },
     {
+      "name": "Redcare Pharmacie",
+      "slug": "7079",
+      "rate_text": "Jusqu'à 7,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être",
+      "link": "https://www.ebuyclub.com/reduction-redcare-pharmacie-7079"
+    },
+    {
       "name": "Redmagic",
       "slug": "10664",
       "rate_text": "1% remboursés",
@@ -13807,7 +13807,7 @@
     {
       "name": "Trainline",
       "slug": "7358",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
