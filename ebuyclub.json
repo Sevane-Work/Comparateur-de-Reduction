@@ -1,8 +1,8 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-11-08",
-  "generated_at": "2026-11-08T02:12:18.782478+00:00",
+  "captured_at": "2026-11-09",
+  "generated_at": "2026-11-09T02:30:09.605763+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
     {
@@ -1122,19 +1122,19 @@
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Bulk",
-      "slug": "bulk-7413",
-      "rate_text": "Jusqu’à 4,1% rembours",
-      "percent": null,
+      "name": "Darty Pro",
+      "slug": "darty-pro-9979",
+      "rate_text": "2% rembours",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Darty Pro",
-      "slug": "darty-pro-9979",
-      "rate_text": "2% rembours",
-      "percent": 2.0,
+      "name": "Bulk",
+      "slug": "bulk-7413",
+      "rate_text": "Jusqu’à 4,1% rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
@@ -1239,15 +1239,6 @@
       "category_seen": "beaute-sante"
     },
     {
-      "name": "Thalasseo",
-      "slug": "thalasseo-792",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "beaute-sante"
-    },
-    {
       "name": "Mama Kana Cbd",
       "slug": "mama-kana-cbd-18331",
       "rate_text": "12,5% rembours",
@@ -1257,10 +1248,28 @@
       "category_seen": "beaute-sante"
     },
     {
+      "name": "Thalasseo",
+      "slug": "thalasseo-792",
+      "rate_text": "1,6% rembours",
+      "percent": 1.6,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "beaute-sante"
+    },
+    {
       "name": "Securimed",
       "slug": "securimed-5441",
       "rate_text": "3,3% rembours",
       "percent": 3.3,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "beaute-sante"
+    },
+    {
+      "name": "Parfumdreams",
+      "slug": "parfumdreams-10030",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "beaute-sante"
@@ -1360,15 +1369,6 @@
       "slug": "weekendesk-4115",
       "rate_text": "1,6% rembours",
       "percent": 1.6,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Cultura",
-      "slug": "cultura-686",
-      "rate_text": "9% rembours",
-      "percent": 9.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "culture"
@@ -1529,8 +1529,8 @@
     {
       "name": "Adidas",
       "slug": "adidas-1356",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
+      "rate_text": "4,5% rembours",
+      "percent": 4.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
@@ -1572,18 +1572,18 @@
       "category_seen": "enfant-puericulture"
     },
     {
-      "name": "Etsy",
-      "slug": "etsy-2534",
-      "rate_text": "Jusqu’à 2% rembours",
+      "name": "Lacoste",
+      "slug": "lacoste-3680",
+      "rate_text": "Jusqu’à 2,9% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
     },
     {
-      "name": "Lacoste",
-      "slug": "lacoste-3680",
-      "rate_text": "Jusqu’à 2,9% rembours",
+      "name": "Etsy",
+      "slug": "etsy-2534",
+      "rate_text": "Jusqu’à 2% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1617,19 +1617,19 @@
       "category_seen": "enfant-puericulture"
     },
     {
-      "name": "Disney Store",
-      "slug": "disney-store-4100",
-      "rate_text": "1,6% rembours",
-      "percent": 1.6,
+      "name": "Damart",
+      "slug": "damart-824",
+      "rate_text": "0,8% rembours",
+      "percent": 0.8,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
     },
     {
-      "name": "Damart",
-      "slug": "damart-824",
-      "rate_text": "0,8% rembours",
-      "percent": 0.8,
+      "name": "Disney Store",
+      "slug": "disney-store-4100",
+      "rate_text": "1,6% rembours",
+      "percent": 1.6,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
@@ -2078,7 +2078,7 @@
     {
       "name": "Emma",
       "slug": "emma-9314",
-      "rate_text": "Jusqu’à 5% rembours",
+      "rate_text": "Jusqu’à 10% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2094,18 +2094,18 @@
       "category_seen": "habitat-deco"
     },
     {
-      "name": "Id Market",
-      "slug": "id-market-10950",
-      "rate_text": "Jusqu’à 4% rembours",
+      "name": "Sharkninja",
+      "slug": "sharkninja-15725",
+      "rate_text": "Jusqu’à 2,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "habitat-deco"
     },
     {
-      "name": "Sharkninja",
-      "slug": "sharkninja-15725",
-      "rate_text": "Jusqu’à 2,5% rembours",
+      "name": "Id Market",
+      "slug": "id-market-10950",
+      "rate_text": "Jusqu’à 4% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2143,6 +2143,15 @@
       "slug": "brico-depot-6377",
       "rate_text": "0,8% rembours",
       "percent": 0.8,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "habitat-deco"
+    },
+    {
+      "name": "Habitat Et Jardin",
+      "slug": "habitat-et-jardin-758",
+      "rate_text": "2% rembours",
+      "percent": 2.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "habitat-deco"
@@ -2213,7 +2222,7 @@
     {
       "name": "Jd Sports",
       "slug": "jd-sports-8887",
-      "rate_text": "Jusqu’à 4% rembours",
+      "rate_text": "Jusqu’à 5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2400,19 +2409,19 @@
       "category_seen": "sports-loisirs"
     },
     {
-      "name": "Costway",
-      "slug": "costway-11595",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
+      "name": "Am Nutrition",
+      "slug": "am-nutrition-14800",
+      "rate_text": "Jusqu’à 4,1% rembours",
+      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sports-loisirs"
     },
     {
-      "name": "Am Nutrition",
-      "slug": "am-nutrition-14800",
-      "rate_text": "Jusqu’à 4,1% rembours",
-      "percent": null,
+      "name": "Costway",
+      "slug": "costway-11595",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "sports-loisirs"
@@ -3181,17 +3190,6 @@
       "stackable_cashback_rate_text": null
     },
     {
-      "name": "Etam",
-      "slug": "etam-546",
-      "rate_text": "7% rembours",
-      "percent": 7.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": null
-    },
-    {
       "name": "Showroomprive",
       "slug": "showroomprive-1403",
       "rate_text": "2,5% rembours",
@@ -3879,17 +3877,6 @@
       "slug": "google-play-13534",
       "rate_text": "3,5% rembours",
       "percent": 3.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": null
-    },
-    {
-      "name": "Respire",
-      "slug": "respire-14953",
-      "rate_text": "8% rembours",
-      "percent": 8.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -5017,17 +5004,6 @@
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
       "stackable_cashback_rate_text": null
-    },
-    {
-      "name": "Electrolux",
-      "slug": "electrolux-16361",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau",
-      "type": "carte_cadeau",
-      "category_seen": "bons-d-achat",
-      "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 10% de cashback"
     },
     {
       "name": "L Atelier Du Dejante",
