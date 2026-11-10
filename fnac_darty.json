@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-09",
-  "generated_at": "2026-11-09T02:29:48.420329+00:00",
+  "captured_at": "2026-11-10",
+  "generated_at": "2026-11-10T04:32:02.254312+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1146,15 +1146,6 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "ASOS",
-      "rate_text": null,
-      "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -4434,15 +4425,6 @@
       "link": null
     },
     {
-      "name": "Nike",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Courir",
       "rate_text": null,
       "percent": 4.1,
@@ -4732,15 +4714,6 @@
     },
     {
       "name": "Decathlon",
-      "rate_text": null,
-      "percent": 3.8,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "La Grande Récré",
       "rate_text": null,
       "percent": 3.8,
       "type_detail_fr": "Carte cadeau",
@@ -5974,15 +5947,6 @@
     },
     {
       "name": "Le Roi de la Fenêtre",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "La Grande Récré",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
