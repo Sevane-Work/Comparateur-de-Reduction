@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-11T02:38:58.071861+00:00",
+  "generated_at": "2026-11-12T03:41:50.674025+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 18% remboursés",
+      "rate_text": "Jusqu'à 14% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -783,6 +783,16 @@
       "type": "direct",
       "category_seen": "Mode Enfant, Mode Homme, Mode Femme, Mode Bébé",
       "link": "https://www.ebuyclub.com/reduction-armor-lux-2982"
+    },
+    {
+      "name": "asambeauty",
+      "slug": "14087",
+      "rate_text": "Jusqu'à 6,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Santé et Bien-être, Cosmétiques",
+      "link": "https://www.ebuyclub.com/reduction-asambeauty-14087"
     },
     {
       "name": "asgoodasnew",
@@ -1707,7 +1717,7 @@
     {
       "name": "boohoo",
       "slug": "6778",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2563,6 +2573,16 @@
       "type": "direct",
       "category_seen": "Chaussures, Accessoires de mode",
       "link": null
+    },
+    {
+      "name": "Cheerz",
+      "slug": "8184",
+      "rate_text": "Jusqu'à 6,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Développement Photo",
+      "link": "https://www.ebuyclub.com/reduction-cheerz-8184"
     },
     {
       "name": "Chicco",
@@ -4827,7 +4847,7 @@
     {
       "name": "Foot Locker",
       "slug": "6711",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5997,8 +6017,8 @@
     {
       "name": "Honor",
       "slug": "10294",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie",
@@ -6707,8 +6727,8 @@
     {
       "name": "iRobot",
       "slug": "7449",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -9125,16 +9145,6 @@
       "link": null
     },
     {
-      "name": "Michael Kors",
-      "slug": "8735",
-      "rate_text": "Jusqu'à 4% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
-      "link": "https://www.ebuyclub.com/reduction-michael-kors-8735"
-    },
-    {
       "name": "Michenaud",
       "slug": "2012",
       "rate_text": "2,5% remboursés",
@@ -10183,16 +10193,6 @@
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Logiciels professionnels, Informatique",
       "link": null
-    },
-    {
-      "name": "NordVPN",
-      "slug": "8981",
-      "rate_text": "40% remboursés",
-      "percent": 40.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Logiciels, Informatique, Internet & Téléphonie",
-      "link": "https://www.ebuyclub.com/reduction-nordvpn-8981"
     },
     {
       "name": "North Sails",
@@ -15187,8 +15187,8 @@
     {
       "name": "YSL beauty",
       "slug": "9631",
-      "rate_text": "Jusqu'à 6,5% remboursés",
-      "percent": null,
+      "rate_text": "6,5% remboursés",
+      "percent": 6.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Coffrets Cadeaux, Parfums, Santé et Bien-être, Cosmétiques",
