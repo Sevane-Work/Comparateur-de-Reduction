@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-12",
-  "generated_at": "2026-11-12T03:41:30.943293+00:00",
+  "captured_at": "2026-11-13",
+  "generated_at": "2026-11-13T03:18:56.741265+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -723,7 +723,7 @@
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
-      "link": null
+      "link": "https://passfnacdarty.jettours.com/"
     },
     {
       "name": "MSC Croisières",
@@ -1014,6 +1014,15 @@
       "link": null
     },
     {
+      "name": "Jow",
+      "rate_text": null,
+      "percent": 7.7,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "King Jouet",
       "rate_text": null,
       "percent": 7.6,
@@ -1249,15 +1258,6 @@
     },
     {
       "name": "Corel",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Jow",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -3067,6 +3067,15 @@
     },
     {
       "name": "Leurre de la pêche",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Linvosges Belgique",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -4902,6 +4911,15 @@
       "link": null
     },
     {
+      "name": "Transavia Holidays",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Kiehl's",
       "rate_text": null,
       "percent": 3.4,
@@ -5083,15 +5101,6 @@
     },
     {
       "name": "Belvilla",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Mileade",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -6036,15 +6045,6 @@
       "link": null
     },
     {
-      "name": "Carrefour location",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Morgan",
       "rate_text": null,
       "percent": 2.8,
@@ -6114,6 +6114,15 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Mileade",
+      "rate_text": null,
+      "percent": 2.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
       "link": null
     },
     {
@@ -6595,15 +6604,6 @@
     },
     {
       "name": "Malaysia Airlines",
-      "rate_text": null,
-      "percent": 1.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Transavia Holidays",
       "rate_text": null,
       "percent": 1.4,
       "type_detail_fr": "Réduction directe",

@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-11-12",
-  "generated_at": "2026-11-12T03:43:22.040114+00:00",
+  "captured_at": "2026-11-13",
+  "generated_at": "2026-11-13T03:20:06.375978+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -197,7 +197,7 @@
     {
       "name": "Bosch",
       "slug": "bosch",
-      "rate_text": "-5% à -25%",
+      "rate_text": "-5% à -35%",
       "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -224,8 +224,8 @@
     {
       "name": "Pathé Gaumont",
       "slug": "pathe-gaumont",
-      "rate_text": "43.8%",
-      "percent": 43.8,
+      "rate_text": "41.3%",
+      "percent": 41.3,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -279,8 +279,8 @@
     {
       "name": "Siemens",
       "slug": "siemens",
-      "rate_text": "Jusqu'à -35%*",
-      "percent": 35.0,
+      "rate_text": "-5% à -35%",
+      "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
