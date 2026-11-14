@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-13",
-  "generated_at": "2026-11-13T03:18:56.741265+00:00",
+  "captured_at": "2026-11-14",
+  "generated_at": "2026-11-14T02:57:27.619948+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -600,15 +600,6 @@
       "link": null
     },
     {
-      "name": "Campings.com",
-      "rate_text": null,
-      "percent": 10.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://www.campings.com/ce/cpc/?login_token=a0694e40c7e95d8659067a1e5ec10b53c881a42ec4a2fb28551b422cac5a5353"
-    },
-    {
       "name": "Etam",
       "rate_text": null,
       "percent": 10.0,
@@ -1014,15 +1005,6 @@
       "link": null
     },
     {
-      "name": "Jow",
-      "rate_text": null,
-      "percent": 7.7,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "King Jouet",
       "rate_text": null,
       "percent": 7.6,
@@ -1258,6 +1240,15 @@
     },
     {
       "name": "Corel",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Jow",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -2307,6 +2298,15 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "COUCOO CABANES",
+      "rate_text": null,
+      "percent": 5.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
       "link": null
     },
     {
@@ -4308,6 +4308,15 @@
       "link": null
     },
     {
+      "name": "The Cool Republic",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Warm-On",
       "rate_text": null,
       "percent": 4.1,
@@ -4983,15 +4992,6 @@
       "link": null
     },
     {
-      "name": "Victoria Beckham",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Gites.fr",
       "rate_text": null,
       "percent": 3.4,
@@ -5065,6 +5065,15 @@
     },
     {
       "name": "Snowrental",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Womanizer",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
