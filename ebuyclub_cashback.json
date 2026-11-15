@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-14T02:57:55.538806+00:00",
+  "generated_at": "2026-11-15T02:29:22.813819+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -167,8 +167,8 @@
     {
       "name": "Abritel",
       "slug": "1911",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "7% remboursés",
+      "percent": 7.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels, Location de vacances",
@@ -447,7 +447,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 11% remboursés",
+      "rate_text": "Jusqu'à 14% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -883,16 +883,6 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Ventes Privées",
       "link": "https://www.ebuyclub.com/reduction-atelier-goldner-16699"
-    },
-    {
-      "name": "Athena",
-      "slug": "8005",
-      "rate_text": "6% remboursés",
-      "percent": 6.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Lingerie",
-      "link": "https://www.ebuyclub.com/reduction-athena-8005"
     },
     {
       "name": "Au Forum du Bâtiment",
@@ -1347,8 +1337,8 @@
     {
       "name": "Besson Chaussures",
       "slug": "13550",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "5,5% remboursés",
+      "percent": 5.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -2557,7 +2547,7 @@
     {
       "name": "Cheerz",
       "slug": "8184",
-      "rate_text": "Jusqu'à 6,5% remboursés",
+      "rate_text": "Jusqu'à 8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4037,7 +4027,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4133,6 +4123,16 @@
       "type": "direct",
       "category_seen": "Mode Homme",
       "link": null
+    },
+    {
+      "name": "Emirates",
+      "slug": "1249",
+      "rate_text": "1,5% remboursés",
+      "percent": 1.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Transports, Vols, Hotels",
+      "link": "https://www.ebuyclub.com/reduction-emirates-1249"
     },
     {
       "name": "Emirates Holidays",
@@ -4827,7 +4827,7 @@
     {
       "name": "Foot Locker",
       "slug": "6711",
-      "rate_text": "Jusqu'à 11% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4957,7 +4957,7 @@
     {
       "name": "Free - Forfaits Mobile",
       "slug": "17260",
-      "rate_text": "Jusqu'à 17€ remboursés",
+      "rate_text": "Jusqu'à 15€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6907,7 +6907,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7607,8 +7607,8 @@
     {
       "name": "La Redoute",
       "slug": "298",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Déco, Mobilier, Grande Taille, Jeux Vidéo & Console, Cuisine et Art de la table, Accessoires de mode, Articles de sport, Lingerie, Mode Enfant, Mode Homme, Mode Femme, Son Vidéo & Photo, Chaussures, Jouets, Fournitures & Mobilier, Jardin et Extérieur, Linge de Maison, Electromenager, Gadgets, Futures Mamans, Mode Bébé, Puériculture",
@@ -8127,7 +8127,7 @@
     {
       "name": "Levi's®",
       "slug": "3658",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8157,7 +8157,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8707,7 +8707,7 @@
     {
       "name": "Maisons du Monde",
       "slug": "5141",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9143,6 +9143,16 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Chaussures, Mode Femme, Mode Enfant, Mode Homme",
       "link": null
+    },
+    {
+      "name": "Michael Kors",
+      "slug": "8735",
+      "rate_text": "Jusqu'à 4% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Chaussures, Mode Femme, Mode Homme, Mode Enfant, Accessoires de mode",
+      "link": "https://www.ebuyclub.com/reduction-michael-kors-8735"
     },
     {
       "name": "Michenaud",
@@ -12807,7 +12817,7 @@
     {
       "name": "Slam Jam",
       "slug": "17736",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13443,16 +13453,6 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Chaussures, Mode Homme",
       "link": null
-    },
-    {
-      "name": "Swarovski",
-      "slug": "984",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Bijoux, Luxe",
-      "link": "https://www.ebuyclub.com/reduction-swarovski-984"
     },
     {
       "name": "SwissEcoShop.ch",
@@ -14183,6 +14183,16 @@
       "type": "direct",
       "category_seen": "Son Vidéo & Photo",
       "link": null
+    },
+    {
+      "name": "Ultra Premium Direct",
+      "slug": "6648",
+      "rate_text": "Jusqu'à 9% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Animaux",
+      "link": "https://www.ebuyclub.com/reduction-ultra-premium-direct-6648"
     },
     {
       "name": "Ultra Premium Direct Belgique",
@@ -15065,16 +15075,6 @@
       "link": "https://www.ebuyclub.com/reduction-x-sense-15991"
     },
     {
-      "name": "Xiaomi",
-      "slug": "12940",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Internet & Téléphonie",
-      "link": "https://www.ebuyclub.com/reduction-xiaomi-12940"
-    },
-    {
       "name": "XPPen",
       "slug": "13355",
       "rate_text": "Jusqu'à 4% remboursés",
@@ -15397,8 +15397,8 @@
     {
       "name": "ZWILLING",
       "slug": "9010",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cuisine et Art de la table",
