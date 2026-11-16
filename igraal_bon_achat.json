@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-11-15T02:30:26.341726+00:00",
+  "generated_at": "2026-11-16T02:40:41.627272+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -17,8 +17,8 @@
     {
       "name": "Netto",
       "slug": "netto",
-      "rate_text": "2.49%",
-      "percent": 2.49,
+      "rate_text": "2.51%",
+      "percent": 2.51,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -530,8 +530,8 @@
     {
       "name": "Grand optical",
       "slug": "grand-optical",
-      "rate_text": "7.49%",
-      "percent": 7.49,
+      "rate_text": "6.5%",
+      "percent": 6.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -602,8 +602,8 @@
     {
       "name": "Airbnb",
       "slug": "airbnb",
-      "rate_text": "3.19%",
-      "percent": 3.19,
+      "rate_text": "3.21%",
+      "percent": 3.21,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -837,8 +837,8 @@
     {
       "name": "Babbel",
       "slug": "babbel",
-      "rate_text": "5.01%",
-      "percent": 5.01,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1008,8 +1008,8 @@
     {
       "name": "Zalando",
       "slug": "zalando",
-      "rate_text": "7.01%",
-      "percent": 7.01,
+      "rate_text": "7%",
+      "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1314,8 +1314,8 @@
     {
       "name": "Nike",
       "slug": "nike",
-      "rate_text": "8%",
-      "percent": 8.0,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1368,8 +1368,8 @@
     {
       "name": "Leroy Merlin",
       "slug": "leroy-merlin",
-      "rate_text": "3.49%",
-      "percent": 3.49,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
