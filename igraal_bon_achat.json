@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-11-16T02:40:41.627272+00:00",
+  "generated_at": "2026-11-17T05:01:18.962477+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -17,8 +17,8 @@
     {
       "name": "Netto",
       "slug": "netto",
-      "rate_text": "2.51%",
-      "percent": 2.51,
+      "rate_text": "2.5%",
+      "percent": 2.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -179,8 +179,8 @@
     {
       "name": "OOPLA",
       "slug": "oopla",
-      "rate_text": "2.99%",
-      "percent": 2.99,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -215,8 +215,8 @@
     {
       "name": "Coton Vert",
       "slug": "coton-vert",
-      "rate_text": "2.34%",
-      "percent": 2.34,
+      "rate_text": "2.35%",
+      "percent": 2.35,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -260,8 +260,8 @@
     {
       "name": "GreenGo",
       "slug": "greengo",
-      "rate_text": "4.49%",
-      "percent": 4.49,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -602,8 +602,17 @@
     {
       "name": "Airbnb",
       "slug": "airbnb",
-      "rate_text": "3.21%",
-      "percent": 3.21,
+      "rate_text": "3.2%",
+      "percent": 3.2,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Campings.com",
+      "slug": "campings-com",
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -684,8 +693,8 @@
     {
       "name": "Deliveroo",
       "slug": "deliveroo",
-      "rate_text": "2.99%",
-      "percent": 2.99,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -729,8 +738,8 @@
     {
       "name": "FlixBus",
       "slug": "flixbus",
-      "rate_text": "2.99%",
-      "percent": 2.99,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -927,8 +936,8 @@
     {
       "name": "JouéClub",
       "slug": "joueclub",
-      "rate_text": "2.49%",
-      "percent": 2.49,
+      "rate_text": "2.5%",
+      "percent": 2.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1035,8 +1044,8 @@
     {
       "name": "Gifi",
       "slug": "gifi",
-      "rate_text": "2.99%",
-      "percent": 2.99,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1062,8 +1071,8 @@
     {
       "name": "Gémo",
       "slug": "gemo",
-      "rate_text": "5.99%",
-      "percent": 5.99,
+      "rate_text": "6%",
+      "percent": 6.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1557,8 +1566,8 @@
     {
       "name": "Castorama",
       "slug": "castorama",
-      "rate_text": "4.49%",
-      "percent": 4.49,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1586,6 +1595,15 @@
       "slug": "apple",
       "rate_text": "2%",
       "percent": 2.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "rate_text": "1%",
+      "percent": 1.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
