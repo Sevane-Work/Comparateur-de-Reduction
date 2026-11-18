@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-11-17",
-  "generated_at": "2026-11-17T05:01:18.039280+00:00",
+  "captured_at": "2026-11-18",
+  "generated_at": "2026-11-18T04:07:17.804294+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -17,8 +17,8 @@
     {
       "name": "Jet Tours",
       "slug": "jet-tours",
-      "rate_text": "Jusqu'à -300€*",
-      "percent": null,
+      "rate_text": "Jusqu'à -30%",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -858,8 +858,8 @@
     {
       "name": "Promoséjours",
       "slug": "promosejours",
-      "rate_text": "-9%",
-      "percent": 9.0,
+      "rate_text": "Jusqu'à -30%",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
