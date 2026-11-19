@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-18",
-  "generated_at": "2026-11-18T04:05:27.030591+00:00",
+  "captured_at": "2026-11-19",
+  "generated_at": "2026-11-19T04:01:43.305201+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1770,15 +1770,6 @@
       "link": null
     },
     {
-      "name": "Eram",
-      "rate_text": null,
-      "percent": 6.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "EPISOD",
       "rate_text": null,
       "percent": 6.0,
@@ -3436,6 +3427,15 @@
     },
     {
       "name": "GreenGo",
+      "rate_text": null,
+      "percent": 4.7,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Eram",
       "rate_text": null,
       "percent": 4.7,
       "type_detail_fr": "Carte cadeau",
@@ -6141,15 +6141,6 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Mileade",
-      "rate_text": null,
-      "percent": 2.6,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
       "link": null
     },
     {

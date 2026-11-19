@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-18T04:05:51.988168+00:00",
+  "generated_at": "2026-11-19T04:02:05.861207+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -347,7 +347,7 @@
     {
       "name": "Air France",
       "slug": "5612",
-      "rate_text": "Jusqu'à 1,5% remboursés",
+      "rate_text": "Jusqu'à 0,8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -437,7 +437,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 8% remboursés",
+      "rate_text": "Jusqu'à 18% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4837,7 +4837,7 @@
     {
       "name": "Foot Locker",
       "slug": "6711",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4927,7 +4927,7 @@
     {
       "name": "Franklin pet food",
       "slug": "18455",
-      "rate_text": "Jusqu'à 7% remboursés",
+      "rate_text": "Jusqu'à 8,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6917,7 +6917,7 @@
     {
       "name": "JD Sports",
       "slug": "8887",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7687,7 +7687,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 2,9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10957,8 +10957,8 @@
     {
       "name": "Philips Home Appliance (Électroménager)",
       "slug": "19277",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Electromenager",
@@ -11167,8 +11167,8 @@
     {
       "name": "Plaud",
       "slug": "18512",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Logiciels",
@@ -12557,7 +12557,7 @@
     {
       "name": "SHEIN",
       "slug": "7494",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12843,16 +12843,6 @@
       "type": "direct",
       "category_seen": "Mode Bébé, Mode Enfant",
       "link": "https://www.ebuyclub.com/reduction-smallable-1632"
-    },
-    {
-      "name": "Smartbox",
-      "slug": "1044",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Hotels, Coffrets Cadeaux, Divertissement",
-      "link": "https://www.ebuyclub.com/reduction-smartbox-1044"
     },
     {
       "name": "SmartObjet",
@@ -13777,8 +13767,8 @@
     {
       "name": "Tommy Hilfiger",
       "slug": "7032",
-      "rate_text": "12% remboursés",
-      "percent": 12.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
@@ -13817,8 +13807,8 @@
     {
       "name": "Tootbus",
       "slug": "16118",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "5,5% remboursés",
+      "percent": 5.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Location de voiture, Transports",
@@ -14185,6 +14175,16 @@
       "link": null
     },
     {
+      "name": "Ultra Premium Direct",
+      "slug": "6648",
+      "rate_text": "Jusqu'à 9% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Animaux",
+      "link": "https://www.ebuyclub.com/reduction-ultra-premium-direct-6648"
+    },
+    {
       "name": "Ultra Premium Direct Belgique",
       "slug": "18236",
       "rate_text": "Jusqu'à 3,3% remboursés",
@@ -14213,16 +14213,6 @@
       "type": "direct",
       "category_seen": "Assurances",
       "link": null
-    },
-    {
-      "name": "Ulys (Particulier)",
-      "slug": "5823",
-      "rate_text": "6€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Transports",
-      "link": "https://www.ebuyclub.com/reduction-ulys-particulier-5823"
     },
     {
       "name": "Un Amour de Tapis",
@@ -15063,6 +15053,16 @@
       "type": "direct",
       "category_seen": "Gadgets",
       "link": "https://www.ebuyclub.com/reduction-x-sense-15991"
+    },
+    {
+      "name": "Xiaomi",
+      "slug": "12940",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie",
+      "link": "https://www.ebuyclub.com/reduction-xiaomi-12940"
     },
     {
       "name": "XPPen",
