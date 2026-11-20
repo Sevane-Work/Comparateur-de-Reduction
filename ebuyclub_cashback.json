@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-19T04:02:05.861207+00:00",
+  "generated_at": "2026-11-20T03:54:50.580266+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -697,7 +697,7 @@
     {
       "name": "Aosom",
       "slug": "8486",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -1025,6 +1025,16 @@
       "link": "https://www.ebuyclub.com/reduction-avis-499"
     },
     {
+      "name": "AWOL Vision",
+      "slug": "19356",
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Informatique, Son Vidéo & Photo",
+      "link": "https://www.ebuyclub.com/reduction-awol-vision-19356"
+    },
+    {
       "name": "B&B HOTELS",
       "slug": "3980",
       "rate_text": "3% remboursés",
@@ -1277,8 +1287,8 @@
     {
       "name": "Belvilla",
       "slug": "1518",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "Jusqu'à 3,3% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Voyagistes, Location de vacances, Hotels",
@@ -1367,7 +1377,7 @@
     {
       "name": "Bexley",
       "slug": "129",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3777,7 +3787,7 @@
     {
       "name": "Dr Pierre Ricaud",
       "slug": "450",
-      "rate_text": "Jusqu'à 9% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4927,7 +4937,7 @@
     {
       "name": "Franklin pet food",
       "slug": "18455",
-      "rate_text": "Jusqu'à 8,5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5337,8 +5347,8 @@
     {
       "name": "Goelia shop",
       "slug": "18315",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme",
@@ -7447,7 +7457,7 @@
     {
       "name": "L'Occitane",
       "slug": "2064",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8695,6 +8705,16 @@
       "link": "https://www.ebuyclub.com/reduction-maison-montagut-6253"
     },
     {
+      "name": "Maison Vayrou",
+      "slug": "19385",
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Cuisine et Art de la table",
+      "link": "https://www.ebuyclub.com/reduction-maison-vayrou-19385"
+    },
+    {
       "name": "Maisonic",
       "slug": "1144",
       "rate_text": "1,6% remboursés",
@@ -9475,6 +9495,16 @@
       "link": "https://www.ebuyclub.com/reduction-mondoffice-444"
     },
     {
+      "name": "Money Walkie",
+      "slug": "19152",
+      "rate_text": "7,5% remboursés",
+      "percent": 7.5,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Banque",
+      "link": "https://www.ebuyclub.com/reduction-money-walkie-19152"
+    },
+    {
       "name": "MoneyGram",
       "slug": "6853",
       "rate_text": "2,50€ remboursés",
@@ -9893,6 +9923,16 @@
       "type": "direct",
       "category_seen": "Animaux",
       "link": "https://www.ebuyclub.com/reduction-medor-et-compagnie-3913"
+    },
+    {
+      "name": "Nacon",
+      "slug": "19386",
+      "rate_text": "3,3% remboursés",
+      "percent": 3.3,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Jeux Vidéo & Console",
+      "link": "https://www.ebuyclub.com/reduction-nacon-19386"
     },
     {
       "name": "Nars Cosmetics",
@@ -12307,7 +12347,7 @@
     {
       "name": "Sans Complexe",
       "slug": "6197",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 8% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12843,6 +12883,16 @@
       "type": "direct",
       "category_seen": "Mode Bébé, Mode Enfant",
       "link": "https://www.ebuyclub.com/reduction-smallable-1632"
+    },
+    {
+      "name": "Smartbox",
+      "slug": "1044",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Hotels, Coffrets Cadeaux, Divertissement",
+      "link": "https://www.ebuyclub.com/reduction-smartbox-1044"
     },
     {
       "name": "SmartObjet",
@@ -13433,16 +13483,6 @@
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Chaussures, Mode Homme",
       "link": null
-    },
-    {
-      "name": "Swarovski",
-      "slug": "984",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Bijoux, Luxe",
-      "link": "https://www.ebuyclub.com/reduction-swarovski-984"
     },
     {
       "name": "SwissEcoShop.ch",
@@ -14577,8 +14617,8 @@
     {
       "name": "Vino.com",
       "slug": "16727",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Vins & Alcool",
@@ -15197,7 +15237,7 @@
     {
       "name": "YouScribe",
       "slug": "18632",
-      "rate_text": "Jusqu'à 20€ remboursés",
+      "rate_text": "Jusqu'à 33€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
