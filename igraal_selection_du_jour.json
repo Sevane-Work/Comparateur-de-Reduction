@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/selection/",
   "captured_at": null,
-  "generated_at": "2026-11-20T03:55:54.869699+00:00",
+  "generated_at": "2026-11-21T03:53:23.217194+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
@@ -15,7 +15,7 @@
       "boosted": true,
       "boost_du_jour": true,
       "normal_rate_text": "11 €",
-      "expires_at": "2026-11-20T23:00:00+00:00",
+      "expires_at": "2026-11-21T23:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -33,8 +33,8 @@
     },
     {
       "name": "adidas",
-      "rate_text": "60% remise Tennis : Jusqu'à 60% de promo sur une multitude d'articles +13 % DE CASHBACK",
-      "percent": 60.0,
+      "rate_text": "50% BLACK FRIDAY Black Friday : Jusqu'à 50% offerts sur une multitude de produits +13 % DE CASHBACK",
+      "percent": 50.0,
       "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
       "type": "direct",
       "category_seen": null,
@@ -59,8 +59,8 @@
     },
     {
       "name": "Roborock",
-      "rate_text": "250€ remise Black Friday : Bénéficiez de 250€ de promotion sur le F25 Steam Set +5 % DE CASHBACK",
-      "percent": 5.0,
+      "rate_text": "250€ remise Black Friday : Bénéficiez de 250€ de promotion sur le F25 Steam Set +6 % DE CASHBACK",
+      "percent": 6.0,
       "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
       "type": "direct",
       "category_seen": null,

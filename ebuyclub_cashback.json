@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-20T03:54:50.580266+00:00",
+  "generated_at": "2026-11-21T03:51:45.183690+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -437,7 +437,7 @@
     {
       "name": "AliExpress",
       "slug": "6325",
-      "rate_text": "Jusqu'à 18% remboursés",
+      "rate_text": "Jusqu'à 14% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2157,8 +2157,8 @@
     {
       "name": "Calvin Klein",
       "slug": "12218",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Lingerie, Mode Homme, Chaussures, Mode Femme, Mode Bébé, Accessoires de mode",
@@ -2333,16 +2333,6 @@
       "type": "direct",
       "category_seen": "Assurances",
       "link": "https://www.ebuyclub.com/reduction-carrefour-assurance-animaux-11192"
-    },
-    {
-      "name": "Carrefour Voyages",
-      "slug": "4988",
-      "rate_text": "Jusqu'à 22,50€ remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Voyagistes, Location de vacances, Parc de Loisirs, Hotels",
-      "link": "https://www.ebuyclub.com/reduction-carrefour-voyages-4988"
     },
     {
       "name": "Cartouche du Toner",
@@ -2687,8 +2677,8 @@
     {
       "name": "CLEOR",
       "slug": "3754",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Bijoux",
@@ -3837,7 +3827,7 @@
     {
       "name": "Dyson",
       "slug": "10071",
-      "rate_text": "Jusqu'à 4% remboursés",
+      "rate_text": "Jusqu'à 2% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4167,7 +4157,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4647,8 +4637,8 @@
     {
       "name": "Fever",
       "slug": "17730",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "7,5% remboursés",
+      "percent": 7.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Divertissement, Billetterie",
@@ -5213,6 +5203,16 @@
       "type": "direct",
       "category_seen": "Poker et Jeux en ligne",
       "link": null
+    },
+    {
+      "name": "Geographical Norway",
+      "slug": "19387",
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Sportwear, Mode Femme, Chaussures, Mode Homme",
+      "link": "https://www.ebuyclub.com/reduction-geographical-norway-19387"
     },
     {
       "name": "Gerflor (Particulier)",
@@ -6027,8 +6027,8 @@
     {
       "name": "Honor",
       "slug": "10294",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "8% remboursés",
+      "percent": 8.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie",
@@ -6497,8 +6497,8 @@
     {
       "name": "iHerb",
       "slug": "8251",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Fitness et nutrition, Santé et Bien-être, Epicerie & Restaurants",
@@ -10437,7 +10437,7 @@
     {
       "name": "Ohm Énergie",
       "slug": "10994",
-      "rate_text": "Jusqu'à 30€ remboursés",
+      "rate_text": "22,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11797,8 +11797,8 @@
     {
       "name": "Radisson Hotel",
       "slug": "6371",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "10% remboursés",
+      "percent": 10.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -12367,7 +12367,7 @@
     {
       "name": "Sarenza.com",
       "slug": "750",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13485,6 +13485,16 @@
       "link": null
     },
     {
+      "name": "Swarovski",
+      "slug": "984",
+      "rate_text": "8% remboursés",
+      "percent": 8.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Bijoux, Luxe",
+      "link": "https://www.ebuyclub.com/reduction-swarovski-984"
+    },
+    {
       "name": "SwissEcoShop.ch",
       "slug": "10061",
       "rate_text": "2,9% remboursés",
@@ -13607,7 +13617,7 @@
     {
       "name": "Temu",
       "slug": "17329",
-      "rate_text": "Jusqu'à 20% remboursés",
+      "rate_text": "Jusqu'à 25% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14027,8 +14037,8 @@
     {
       "name": "Trois Fois Vin",
       "slug": "6080",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Vins & Alcool",
@@ -14237,8 +14247,8 @@
     {
       "name": "Ultrahuman",
       "slug": "19044",
-      "rate_text": "3,3% remboursés",
-      "percent": 3.3,
+      "rate_text": "5% remboursés",
+      "percent": 5.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -15093,16 +15103,6 @@
       "type": "direct",
       "category_seen": "Gadgets",
       "link": "https://www.ebuyclub.com/reduction-x-sense-15991"
-    },
-    {
-      "name": "Xiaomi",
-      "slug": "12940",
-      "rate_text": "Jusqu'à 2,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Internet & Téléphonie",
-      "link": "https://www.ebuyclub.com/reduction-xiaomi-12940"
     },
     {
       "name": "XPPen",
