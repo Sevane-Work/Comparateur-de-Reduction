@@ -1,28 +1,10 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-11-21",
-  "generated_at": "2026-11-21T03:51:43.826572+00:00",
+  "captured_at": "2026-11-22",
+  "generated_at": "2026-11-22T02:55:17.449431+00:00",
   "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'.",
   "offers": [
-    {
-      "name": "Emma",
-      "slug": "emma-9314",
-      "rate_text": "Jusqu’à 10% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
-    {
-      "name": "Roborock",
-      "slug": "roborock-18162",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "achats-professionnels"
-    },
     {
       "name": "Darty",
       "slug": "darty-846",
@@ -51,6 +33,15 @@
       "category_seen": "achats-professionnels"
     },
     {
+      "name": "Lego",
+      "slug": "lego-5933",
+      "rate_text": "Jusqu’à 3,5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "achats-professionnels"
+    },
+    {
       "name": "Hotels",
       "slug": "hotels-498",
       "rate_text": "5% rembours",
@@ -62,7 +53,7 @@
     {
       "name": "Shein",
       "slug": "shein-7494",
-      "rate_text": "Jusqu’à 10% rembours",
+      "rate_text": "Jusqu’à 15% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -107,7 +98,7 @@
     {
       "name": "Temu",
       "slug": "temu-17329",
-      "rate_text": "Jusqu’à 25% rembours",
+      "rate_text": "Jusqu’à 20% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -294,15 +285,6 @@
       "category_seen": "alimentation-boissons"
     },
     {
-      "name": "Vinatis",
-      "slug": "vinatis-6567",
-      "rate_text": "Jusqu’à 2,9% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "alimentation-boissons"
-    },
-    {
       "name": "E",
       "slug": "e-17263",
       "rate_text": "Jusqu’à 2,5% rembours",
@@ -332,8 +314,8 @@
     {
       "name": "Iherb",
       "slug": "iherb-8251",
-      "rate_text": "5% rembours",
-      "percent": 5.0,
+      "rate_text": "4% rembours",
+      "percent": 4.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "alimentation-boissons"
@@ -771,6 +753,15 @@
       "category_seen": "auto-moto"
     },
     {
+      "name": "Emma",
+      "slug": "emma-9314",
+      "rate_text": "Jusqu’à 10% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "banque-assurances"
+    },
+    {
       "name": "Achat Or Et Argent",
       "slug": "achat-or-et-argent-9877",
       "rate_text": "0,4% rembours",
@@ -872,7 +863,7 @@
     {
       "name": "Fortuneo",
       "slug": "fortuneo-4842",
-      "rate_text": "Jusqu’à 108€ rembours",
+      "rate_text": "Jusqu’à 170€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1250,7 +1241,7 @@
     {
       "name": "Prettylittlething",
       "slug": "prettylittlething-8724",
-      "rate_text": "Jusqu’à 4% rembours",
+      "rate_text": "Jusqu’à 10% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1518,15 +1509,6 @@
       "category_seen": "culture"
     },
     {
-      "name": "Lego",
-      "slug": "lego-5933",
-      "rate_text": "Jusqu’à 3,5% rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "enfant-puericulture"
-    },
-    {
       "name": "H M",
       "slug": "h-m-6590",
       "rate_text": "Jusqu’à 5% rembours",
@@ -1547,8 +1529,8 @@
     {
       "name": "Adidas",
       "slug": "adidas-1356",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
+      "rate_text": "4,5% rembours",
+      "percent": 4.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "enfant-puericulture"
@@ -1574,7 +1556,7 @@
     {
       "name": "Sarenza",
       "slug": "sarenza-750",
-      "rate_text": "Jusqu’à 6% rembours",
+      "rate_text": "Jusqu’à 5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -1907,8 +1889,8 @@
     {
       "name": "Honor",
       "slug": "honor-10294",
-      "rate_text": "8% rembours",
-      "percent": 8.0,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "high-tech"
@@ -2103,9 +2085,18 @@
       "category_seen": "habitat-deco"
     },
     {
+      "name": "Mammotion",
+      "slug": "mammotion-18277",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "habitat-deco"
+    },
+    {
       "name": "Maisons Du Monde",
       "slug": "maisons-du-monde-5141",
-      "rate_text": "Jusqu’à 4% rembours",
+      "rate_text": "Jusqu’à 4,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2184,10 +2175,19 @@
       "category_seen": "habitat-deco"
     },
     {
+      "name": "Groupon",
+      "slug": "groupon-2640",
+      "rate_text": "Jusqu’à 5% rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "mode-accessoires"
+    },
+    {
       "name": "Swarovski",
       "slug": "swarovski-984",
-      "rate_text": "8% rembours",
-      "percent": 8.0,
+      "rate_text": "10% rembours",
+      "percent": 10.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
@@ -2197,15 +2197,6 @@
       "slug": "eminence-8003",
       "rate_text": "6% rembours",
       "percent": 6.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Street One",
-      "slug": "street-one-6972",
-      "rate_text": "10% rembours",
-      "percent": 10.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
@@ -2224,15 +2215,6 @@
       "slug": "histoire-d-or-5790",
       "rate_text": "2,9% rembours",
       "percent": 2.9,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Groupon",
-      "slug": "groupon-2640",
-      "rate_text": "Jusqu’à 5% rembours",
-      "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
@@ -2258,7 +2240,7 @@
     {
       "name": "Jd Sports",
       "slug": "jd-sports-8887",
-      "rate_text": "Jusqu’à 5% rembours",
+      "rate_text": "Jusqu’à 4% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -2817,7 +2799,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Oxybul",
@@ -2839,7 +2821,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "UNIQUEMENT EN LIGNE",
-      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 10% de cashback"
     },
     {
       "name": "Playstation Store",
@@ -3632,7 +3614,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 4% de cashback"
     },
     {
       "name": "Illicado",
