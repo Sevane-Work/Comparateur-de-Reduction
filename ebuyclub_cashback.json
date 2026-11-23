@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-22T02:55:18.835053+00:00",
+  "generated_at": "2026-11-23T03:37:26.915902+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -2297,7 +2297,7 @@
     {
       "name": "Caroll",
       "slug": "5463",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2457,8 +2457,8 @@
     {
       "name": "Cecil Mode",
       "slug": "6973",
-      "rate_text": "10% remboursés",
-      "percent": 10.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Accessoires de mode",
@@ -2577,7 +2577,7 @@
     {
       "name": "Cheerz",
       "slug": "8184",
-      "rate_text": "Jusqu'à 6,5% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3407,8 +3407,8 @@
     {
       "name": "Deli Hemp",
       "slug": "19201",
-      "rate_text": "12,5% remboursés",
-      "percent": 12.5,
+      "rate_text": "15% remboursés",
+      "percent": 15.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -3637,7 +3637,7 @@
     {
       "name": "Disneyland Paris",
       "slug": "4387",
-      "rate_text": "Jusqu'à 19€ remboursés",
+      "rate_text": "Jusqu'à 15€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4047,7 +4047,7 @@
     {
       "name": "Electrolux",
       "slug": "16361",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4157,7 +4157,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4687,8 +4687,8 @@
     {
       "name": "Filorga",
       "slug": "18154",
-      "rate_text": "2,9% remboursés",
-      "percent": 2.9,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être, Cosmétiques",
@@ -4807,7 +4807,7 @@
     {
       "name": "Fnac",
       "slug": "58",
-      "rate_text": "Jusqu'à 8% remboursés",
+      "rate_text": "Jusqu'à 7,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5037,8 +5037,8 @@
     {
       "name": "G-Star",
       "slug": "5719",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Mode Homme",
@@ -5477,7 +5477,7 @@
     {
       "name": "Groupon",
       "slug": "2640",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 11% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5857,8 +5857,8 @@
     {
       "name": "High Society CBD",
       "slug": "18208",
-      "rate_text": "12,5% remboursés",
-      "percent": 12.5,
+      "rate_text": "15% remboursés",
+      "percent": 15.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -6077,8 +6077,8 @@
     {
       "name": "Hotels.com",
       "slug": "498",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "8% remboursés",
+      "percent": 8.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Location de vacances, Hotels",
@@ -6127,8 +6127,8 @@
     {
       "name": "Huawei",
       "slug": "12090",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Internet & Téléphonie, Gadgets, Informatique",
@@ -7767,7 +7767,7 @@
     {
       "name": "lastminute.com",
       "slug": "205",
-      "rate_text": "Jusqu'à 60€ remboursés",
+      "rate_text": "Jusqu'à 104€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7987,7 +7987,7 @@
     {
       "name": "Lenstore",
       "slug": "11341",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8377,7 +8377,7 @@
     {
       "name": "LOOKFANTASTIC",
       "slug": "6186",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8757,8 +8757,8 @@
     {
       "name": "Make Up For Ever",
       "slug": "14472",
-      "rate_text": "Jusqu'à 3,3% remboursés",
-      "percent": null,
+      "rate_text": "3,3% remboursés",
+      "percent": 3.3,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Cosmétiques",
@@ -8797,8 +8797,8 @@
     {
       "name": "Mama Kana CBD",
       "slug": "18331",
-      "rate_text": "12,5% remboursés",
-      "percent": 12.5,
+      "rate_text": "15% remboursés",
+      "percent": 15.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être",
@@ -9407,7 +9407,7 @@
     {
       "name": "Momox Shop",
       "slug": "8310",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10287,8 +10287,8 @@
     {
       "name": "Notino",
       "slug": "8778",
-      "rate_text": "1% remboursés",
-      "percent": 1.0,
+      "rate_text": "0,2% remboursés",
+      "percent": 0.2,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Santé et Bien-être, Parfums, Cosmétiques",
@@ -10515,16 +10515,6 @@
       "link": "https://www.ebuyclub.com/reduction-opisto-18620"
     },
     {
-      "name": "Opodo",
-      "slug": "280",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Voyagistes, Location de vacances, Vols, Hotels",
-      "link": "https://www.ebuyclub.com/reduction-opodo-280"
-    },
-    {
       "name": "OPPO",
       "slug": "19189",
       "rate_text": "Jusqu'à 2,5% remboursés",
@@ -10667,8 +10657,8 @@
     {
       "name": "Oxybul",
       "slug": "485",
-      "rate_text": "3% remboursés",
-      "percent": 3.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Enfant, Puériculture, Mode Bébé, Jouets",
@@ -11417,7 +11407,7 @@
     {
       "name": "PrettyLittleThing",
       "slug": "8724",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -11797,8 +11787,8 @@
     {
       "name": "Radisson Hotel",
       "slug": "6371",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -12297,7 +12287,7 @@
     {
       "name": "Samsung",
       "slug": "1288",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12337,8 +12327,8 @@
     {
       "name": "Sanitaire distribution",
       "slug": "5589",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Bricolage",
@@ -12537,7 +12527,7 @@
     {
       "name": "Sephora",
       "slug": "683",
-      "rate_text": "Jusqu'à 2,5% remboursés",
+      "rate_text": "Jusqu'à 3,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -12607,7 +12597,7 @@
     {
       "name": "SHEIN",
       "slug": "7494",
-      "rate_text": "Jusqu'à 15% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13187,7 +13177,7 @@
     {
       "name": "Speedo",
       "slug": "8863",
-      "rate_text": "Jusqu'à 4,1% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13267,7 +13257,7 @@
     {
       "name": "Starlink",
       "slug": "19357",
-      "rate_text": "36€ remboursés",
+      "rate_text": "48€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -13367,8 +13357,8 @@
     {
       "name": "Street One",
       "slug": "6972",
-      "rate_text": "10% remboursés",
-      "percent": 10.0,
+      "rate_text": "4,1% remboursés",
+      "percent": 4.1,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Mode Homme",
@@ -13607,7 +13597,7 @@
     {
       "name": "Tediber",
       "slug": "18496",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -15093,6 +15083,16 @@
       "type": "direct",
       "category_seen": "Gadgets",
       "link": "https://www.ebuyclub.com/reduction-x-sense-15991"
+    },
+    {
+      "name": "Xiaomi",
+      "slug": "12940",
+      "rate_text": "Jusqu'à 2,5% remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Internet & Téléphonie",
+      "link": "https://www.ebuyclub.com/reduction-xiaomi-12940"
     },
     {
       "name": "XPPen",
