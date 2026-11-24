@@ -1,7 +1,7 @@
 {
   "platform": "Boursorama Shopping (The Corner)",
-  "captured_at": "2026-10-14",
-  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 1 offre(s) retiree(s) : La Grande Récré. Mise a jour 2026-09-19 : les 6 offres cinema (category='cinema') sont desormais forcees en type='direct' (decision utilisatrice : dans l'onglet Loisirs, un billet/pass a prix reduit n'est pas presente comme une 'carte cadeau', meme quand il s'agit techniquement d'un achat de bon a l'avance - exception a la regle generale, reservee aux offres category-taguees, voir doc de suivi). | Rafraichissement du 2026-10-14 (session autonome) : re-capture complete via la page 'Toutes les enseignes' (catalogue complet sur une seule page, 176 marchands uniques, connexion personnelle de l'utilisatrice). Safe-merge applique : taux/texte mis a jour uniquement si different de la valeur existante. 1 nouveaux marchands ajoutes avec type_detail_fr='A verifier'.",
+  "captured_at": "2026-11-25",
+  "note": "Capture manuelle apres connexion personnelle de l'utilisatrice - a rafraichir periodiquement a la main (pas d'API publique disponible). type_detail_fr = libelle exact affiche sur la fiche produit (Bon d'achat / Cashback / Remise immediate). type = mapping vers le schema du comparateur (direct / carte_cadeau). Rafraichissement du 2026-09-17 : taux relus en direct sur la page 'Toutes les enseignes' (175 marchands, identiques a la capture du 2026-09-15) ; le type de chaque marchand est repris de la capture precedente (l'ecran de liste n'affiche pas le type, seule la fiche produit individuelle le fait). Aucun nouveau marchand, aucun disparu. Mise a jour 2026-09-17 (suite a la demande de l'utilisatrice) : les offres marquees 'Indisponible' (aucune reduction active actuellement) ont ete retirees du fichier - le comparateur ne doit lister que des offres avec une reduction reelle et actuellement valable. 1 offre(s) retiree(s) : La Grande Récré. Mise a jour 2026-09-19 : les 6 offres cinema (category='cinema') sont desormais forcees en type='direct' (decision utilisatrice : dans l'onglet Loisirs, un billet/pass a prix reduit n'est pas presente comme une 'carte cadeau', meme quand il s'agit techniquement d'un achat de bon a l'avance - exception a la regle generale, reservee aux offres category-taguees, voir doc de suivi). | Rafraichissement du 2026-10-14 (session autonome) : re-capture complete via la page 'Toutes les enseignes' (catalogue complet sur une seule page, 176 marchands uniques, connexion personnelle de l'utilisatrice). Safe-merge applique : taux/texte mis a jour uniquement si different de la valeur existante. 1 nouveaux marchands ajoutes avec type_detail_fr='A verifier'. | Rafraichissement du 2026-11-25 (gros check general) : re-capture complete via la page 'Toutes les enseignes' (186 entrees brutes). Safe-merge applique.",
   "offers": [
     {
       "name": "Abritel",
@@ -138,7 +138,7 @@
     },
     {
       "name": "Cafeyn",
-      "rate_text": "3 mois offerts puis 9,99€",
+      "rate_text": "3 mois offerts",
       "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
@@ -273,8 +273,8 @@
     },
     {
       "name": "Deezer Premium",
-      "rate_text": "De -22% à -37%",
-      "percent": 22.0,
+      "rate_text": "De -21% à -36%",
+      "percent": 21.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -315,8 +315,8 @@
     },
     {
       "name": "Emma",
-      "rate_text": "-10%",
-      "percent": 10.0,
+      "rate_text": "-15% au lieu de -10%",
+      "percent": 15.0,
       "type_detail_fr": "Cashback",
       "type": "direct"
     },
@@ -343,8 +343,8 @@
     },
     {
       "name": "Eram",
-      "rate_text": "-6%",
-      "percent": 6.0,
+      "rate_text": "-8%",
+      "percent": 8.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -504,7 +504,7 @@
     },
     {
       "name": "HelloFresh",
-      "rate_text": "Jusqu'à 100€ offerts + 1 poêle offerte",
+      "rate_text": "Jusqu'à 100€ offerts + 1 dessert à vie",
       "percent": null,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
@@ -539,8 +539,8 @@
     },
     {
       "name": "IKEA",
-      "rate_text": "-4%",
-      "percent": 4.0,
+      "rate_text": "-5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -863,8 +863,8 @@
     },
     {
       "name": "Parc de Branféré",
-      "rate_text": "-14%",
-      "percent": 14.0,
+      "rate_text": "De -17% à -23%",
+      "percent": 17.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -941,15 +941,15 @@
     },
     {
       "name": "RED by SFR - Box",
-      "rate_text": "Jusqu'à -7%",
-      "percent": 7.0,
+      "rate_text": "Jusqu'à -15%",
+      "percent": 15.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
       "name": "RED by SFR - Forfaits mobiles",
-      "rate_text": "Jusqu'à -10%",
-      "percent": 10.0,
+      "rate_text": "Jusqu'à -15%",
+      "percent": 15.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -976,35 +976,35 @@
     },
     {
       "name": "Safari de Peaugres",
-      "rate_text": "-15%",
-      "percent": 15.0,
+      "rate_text": "-21% et -22%",
+      "percent": 21.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
     {
       "name": "Samsung",
-      "rate_text": "Jusqu'à -42%",
-      "percent": 42.0,
+      "rate_text": "Jusqu'à -40%",
+      "percent": 40.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
       "name": "Samsung Gaming",
-      "rate_text": "Jusqu'à -47%",
-      "percent": 47.0,
+      "rate_text": "Jusqu'à -30%",
+      "percent": 30.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
       "name": "Samsung Maison",
-      "rate_text": "Jusqu'à -50%",
-      "percent": 50.0,
+      "rate_text": "Jusqu'à -40%",
+      "percent": 40.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
     {
       "name": "Samsung Watch",
-      "rate_text": "-30%",
+      "rate_text": "Jusqu'à -30%",
       "percent": 30.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
@@ -1088,8 +1088,8 @@
     },
     {
       "name": "TheFork",
-      "rate_text": "-7%",
-      "percent": 7.0,
+      "rate_text": "-9% au lieu de -7%",
+      "percent": 9.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -1145,8 +1145,8 @@
     },
     {
       "name": "Upway",
-      "rate_text": "-8%",
-      "percent": 8.0,
+      "rate_text": "-7%",
+      "percent": 7.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
     },
@@ -1173,7 +1173,7 @@
     },
     {
       "name": "VTF",
-      "rate_text": "-8% à -10%",
+      "rate_text": "-8% à -37%",
       "percent": 8.0,
       "type_detail_fr": "Remise immédiate",
       "type": "direct"
@@ -1243,8 +1243,8 @@
     },
     {
       "name": "Zalando",
-      "rate_text": "-8%",
-      "percent": 8.0,
+      "rate_text": "-15%",
+      "percent": 15.0,
       "type_detail_fr": "Bon d'achat",
       "type": "carte_cadeau"
     },
@@ -1322,6 +1322,83 @@
       "name": "Roblox",
       "rate_text": "-6%",
       "percent": 6.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Airbnb",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Aroma-Zone",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Bonobo",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Bréal",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "BUT",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Cache Cache",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Conforama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Deezer Famille",
+      "rate_text": "De -16% à -23%",
+      "percent": 16.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Printemps",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Whirlpool",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
+      "type": "direct"
+    },
+    {
+      "name": "Withings",
+      "rate_text": "-20%",
+      "percent": 20.0,
       "type_detail_fr": "A verifier (detecte via le catalogue 'Toutes les enseignes', type non confirme)",
       "type": "direct"
     }
