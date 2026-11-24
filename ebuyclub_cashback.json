@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-23T03:37:26.915902+00:00",
+  "generated_at": "2026-11-24T06:52:15.295705+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -2345,6 +2345,16 @@
       "link": "https://www.ebuyclub.com/reduction-carrefour-assurance-animaux-11192"
     },
     {
+      "name": "Carrefour Voyages",
+      "slug": "4988",
+      "rate_text": "Jusqu'à 27€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Voyagistes, Location de vacances, Parc de Loisirs, Hotels",
+      "link": "https://www.ebuyclub.com/reduction-carrefour-voyages-4988"
+    },
+    {
       "name": "Cartouche du Toner",
       "slug": "5767",
       "rate_text": "12% remboursés",
@@ -3097,8 +3107,8 @@
     {
       "name": "Crocs",
       "slug": "1903",
-      "rate_text": "3,5% remboursés",
-      "percent": 3.5,
+      "rate_text": "4,5% remboursés",
+      "percent": 4.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -3347,7 +3357,7 @@
     {
       "name": "DAZN",
       "slug": "14890",
-      "rate_text": "Jusqu'à 37,5% remboursés",
+      "rate_text": "Jusqu'à 50% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -4887,7 +4897,7 @@
     {
       "name": "Fortuneo",
       "slug": "4842",
-      "rate_text": "Jusqu'à 170€ remboursés",
+      "rate_text": "Jusqu'à 108€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6077,8 +6087,8 @@
     {
       "name": "Hotels.com",
       "slug": "498",
-      "rate_text": "8% remboursés",
-      "percent": 8.0,
+      "rate_text": "2,5% remboursés",
+      "percent": 2.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Location de vacances, Hotels",
@@ -6103,16 +6113,6 @@
       "type": "direct",
       "category_seen": "Gadgets, Informatique",
       "link": null
-    },
-    {
-      "name": "HRK Game",
-      "slug": "9189",
-      "rate_text": "1,6% remboursés",
-      "percent": 1.6,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Logiciels, Informatique, Jeux Vidéo & Console",
-      "link": "https://www.ebuyclub.com/reduction-hrk-game-9189"
     },
     {
       "name": "HRS",
@@ -7697,7 +7697,7 @@
     {
       "name": "Lacoste",
       "slug": "3680",
-      "rate_text": "Jusqu'à 2,9% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7767,7 +7767,7 @@
     {
       "name": "lastminute.com",
       "slug": "205",
-      "rate_text": "Jusqu'à 104€ remboursés",
+      "rate_text": "Jusqu'à 6€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7807,7 +7807,7 @@
     {
       "name": "Le Col",
       "slug": "15194",
-      "rate_text": "Jusqu'à 2,5% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7947,7 +7947,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8167,7 +8167,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 10% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8377,7 +8377,7 @@
     {
       "name": "LOOKFANTASTIC",
       "slug": "6186",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 6% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -9547,8 +9547,8 @@
     {
       "name": "Morgan",
       "slug": "2643",
-      "rate_text": "2% remboursés",
-      "percent": 2.0,
+      "rate_text": "4% remboursés",
+      "percent": 4.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Femme, Accessoires de mode",
@@ -10327,7 +10327,7 @@
     {
       "name": "NRJ Mobile",
       "slug": "695",
-      "rate_text": "5,40€ remboursés",
+      "rate_text": "Jusqu'à 5,40€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10657,8 +10657,8 @@
     {
       "name": "Oxybul",
       "slug": "485",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "3% remboursés",
+      "percent": 3.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Mode Enfant, Puériculture, Mode Bébé, Jouets",
@@ -13807,8 +13807,8 @@
     {
       "name": "Tommy Hilfiger",
       "slug": "7032",
-      "rate_text": "4% remboursés",
-      "percent": 4.0,
+      "rate_text": "9% remboursés",
+      "percent": 9.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Accessoires de mode, Mode Femme, Mode Enfant, Mode Homme",
@@ -15057,7 +15057,7 @@
     {
       "name": "WW (Weight Watchers)",
       "slug": "2462",
-      "rate_text": "10,50€ remboursés",
+      "rate_text": "14€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",

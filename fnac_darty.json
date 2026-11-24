@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-23",
-  "generated_at": "2026-11-23T03:37:09.315527+00:00",
+  "captured_at": "2026-11-24",
+  "generated_at": "2026-11-24T06:51:52.591288+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -177,6 +177,15 @@
       "link": null
     },
     {
+      "name": "F-Secure",
+      "rate_text": null,
+      "percent": 34.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "EaseUS",
       "rate_text": null,
       "percent": 34.0,
@@ -220,15 +229,6 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://www.belambra.fr/?typeAction=ConnectionPartner&code=FNACD&pwd=RTGBDZA"
-    },
-    {
-      "name": "F-Secure",
-      "rate_text": null,
-      "percent": 27.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
     },
     {
       "name": "Mosa Lingua",
@@ -547,6 +547,15 @@
     },
     {
       "name": "Magnifaïk",
+      "rate_text": null,
+      "percent": 10.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Spreadshirt",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -1285,6 +1294,15 @@
     },
     {
       "name": "Lee",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Wrangler",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -2454,6 +2472,33 @@
       "link": null
     },
     {
+      "name": "Piecesauto.fr",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Piecesauto24.com",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Jako",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "About You",
       "rate_text": null,
       "percent": 5.5,
@@ -2850,6 +2895,15 @@
       "link": null
     },
     {
+      "name": "Ikea",
+      "rate_text": null,
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Leroy Merlin",
       "rate_text": null,
       "percent": 5.0,
@@ -3067,6 +3121,15 @@
     },
     {
       "name": "Belvilla",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "INDERWEAR",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3435,6 +3498,15 @@
       "link": null
     },
     {
+      "name": "La Chaise Longue",
+      "rate_text": null,
+      "percent": 4.7,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Laboratoires Biarritz",
       "rate_text": null,
       "percent": 4.6,
@@ -3483,15 +3555,6 @@
       "name": "JD Sports",
       "rate_text": null,
       "percent": 4.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Ikea",
-      "rate_text": null,
-      "percent": 4.35,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
@@ -3841,6 +3904,24 @@
     },
     {
       "name": "Footshop",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Titleist",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Vila Galé",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -5029,6 +5110,24 @@
     },
     {
       "name": "Privé by Zalando",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Liu Jo",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Regatta",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -6397,6 +6496,15 @@
     },
     {
       "name": "Ferryhopper",
+      "rate_text": null,
+      "percent": 2.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Vinatis",
       "rate_text": null,
       "percent": 2.1,
       "type_detail_fr": "Réduction directe",

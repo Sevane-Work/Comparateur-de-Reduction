@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/selection/",
   "captured_at": null,
-  "generated_at": "2026-11-23T03:38:14.905431+00:00",
+  "generated_at": "2026-11-24T06:53:55.986338+00:00",
   "note": "Selection du jour d'iGraal (fr.igraal.com/selection/), taux relances/boostes pour la journee en cours, distincte du catalogue cashback general (igraal.json). Chaque offre porte 'expires_at' (ISO) : le site doit ignorer a l'affichage toute offre dont la date est depassee, meme si ce fichier n' a pas encore ete rafraichi (retour automatique au taux normal iGraal). Page publique, aucune connexion requise.",
   "offers": [
     {
@@ -15,7 +15,7 @@
       "boosted": true,
       "boost_du_jour": true,
       "normal_rate_text": "2 %",
-      "expires_at": "2026-11-23T23:00:00+00:00",
+      "expires_at": "2026-11-24T23:00:00+00:00",
       "highlight_category": null
     },
     {
@@ -33,8 +33,8 @@
     },
     {
       "name": "Puma",
-      "rate_text": "25% BLACK FRIDAY Black Week : 25% de remise au maximum sur plusieurs produits +11 % DE CASHBACK",
-      "percent": 25.0,
+      "rate_text": "40% BLACK FRIDAY Black Week : 40% de remise au maximum sur plusieurs produits +11 % DE CASHBACK",
+      "percent": 40.0,
       "type_detail_fr": "Cashback booste (offre du jour, temporaire)",
       "type": "direct",
       "category_seen": null,

@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-11-23",
-  "generated_at": "2026-11-23T03:38:13.150899+00:00",
+  "captured_at": "2026-11-24",
+  "generated_at": "2026-11-24T06:53:53.496657+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -129,6 +129,15 @@
       "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Whirlpool",
+      "slug": "whirlpool",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -1065,8 +1074,8 @@
     {
       "name": "Vacancéole",
       "slug": "vacanceole",
-      "rate_text": "-8% à -45%",
-      "percent": 8.0,
+      "rate_text": "Jusqu'à -40%*",
+      "percent": 40.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
