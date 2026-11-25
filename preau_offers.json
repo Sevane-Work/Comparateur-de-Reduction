@@ -1,0 +1,617 @@
+{
+  "platform": "Préau (Ministère de l'Éducation nationale)",
+  "captured_at": "2026-11-25",
+  "note": "Capture initiale du 2026-11-25 (gros check general, 8e plateforme ajoutee au comparateur). Préau est le site d'avantages du Ministère de l'Éducation nationale (benefices CSE/CSEN), catalogue 'Carte-cadeau' a www.preau.education.fr/vie-quotidienne-cartes/carte-cadeau.html, batie sur une stack Magento standard (confirme par le parametre d'URL 'product_list_limit'). 91 enseignes listees au total le jour de la capture. METHODE ETABLIE (a reutiliser telle quelle pour les rafraichissements futurs - repond a la demande explicite de l'utilisatrice de trouver la methode la plus efficace) : 1) Lister les enseignes : ouvrir la page catalogue avec '?product_list_limit=36' (36 fiches par page, ce qui reduit la pagination a 3 pages pour ~91 enseignes au lieu de 8 a 12/page), puis sur chaque page executer en JS 'Array.from(document.querySelectorAll(\"li\")).filter(li => li.querySelector(\"a.btn-primary\"))' (exclut automatiquement les enseignes en rupture de stock, qui n'ont pas de bouton 'Voir' - E. Leclerc etait dans ce cas le 2026-11-25) puis lire 'li.querySelector(\".product-info\").children[0].innerText' pour le nom et 'li.querySelector(\"a.btn-primary\").getAttribute(\"href\")' pour le lien produit individuel - la page liste n'affiche NI taux NI categorie, seulement nom + lien. Extraire en lots de ~10-18 fiches par appel JS (au-dela, la sortie de l'outil est tronquee cote outil, pas cote page). 2) Recuperer le taux : contrairement aux autres plateformes du comparateur, Préau n'affiche le pourcentage de reduction QUE sur la fiche produit individuelle de chaque enseigne (jamais sur la vignette liste). Il faut donc visiter individuellement les ~90 pages produit. Le taux est encode de facon fiable dans 'document.querySelector(\"span.price\").textContent' sur l'ecrasante majorite des fiches. Pour accelerer ce passage obligatoire par fiche, naviguer + extraire en 'browser_batch' (plusieurs paires navigate+JS dans un seul appel outil) et faire tourner DEUX onglets en parallele (deux appels browser_batch independants dans le meme tour) : ~90 fiches traitees en environ 15 appels outils au lieu de ~180. 3) Cas particuliers rencontres le 2026-11-25, a surveiller lors des prochains rafraichissements : - 'Greengo' : la fiche affiche DEUX span.price (prix plein 100,00€ et prix remise 90,00€) en plus du pourcentage '-10%' ; bien prendre le span contenant un '%', pas le premier span.price trouve. - 'Wonderbox' : aucun span.price present sur la fiche (pas de widget 'montant de la carte' structure) ; le '-15%' n'apparait que dans le texte marketing libre ('Profitez de -15% sur les coffrets cadeaux*'). Taux repris quand meme car explicite et non ambigu, mais fiche atypique a re-verifier a la main si le texte marketing change de formulation. - 'De jolies choses', 'ÉthiK'avantages', 'Terre de Fèves' : ce sont des pages de renvoi vers un partenaire externe (bouton 'Découvrir', aucun 'Ajouter au panier', aucun pourcentage affiche nulle part sur la page) - ce ne sont pas des cartes cadeaux achetables sur Préau lui-meme, donc EXCLUES du fichier (pas de donnee a capturer, contrairement aux autres cas 'A verifier' du comparateur qui ont un taux mais un type incertain). 'ÉthiK'avantages' en particulier est elle-meme une plateforme/agregateur de reductions, pas une enseigne unique - a rapprocher des tuiles d'agregation deja exclues chez Ulys (OFFRES CINEMAS, etc.). - 'E. Leclerc' : 'Rupture de stock' au moment de la capture, aucun bouton 'Voir' donc deja absent de l'extraction en lot (filtre 'a.btn-primary') - jamais atteint la phase de capture du taux. Fichier final : 87 enseignes avec un taux confirme, sur 91 enseignes listees au total le 2026-11-25 (1 rupture de stock absente de l'extraction + 3 renvois partenaires exclus lors de la capture du taux individuel, 1 cas type Wonderbox inclus malgre l'absence de widget structure). Classement : page 'Carte-cadeau' du site Préau -> type='carte_cadeau' / type_detail_fr='Carte cadeau' pour toutes les entrees, par analogie avec la convention Happypal (plateforme a perimetre 100% carte cadeau). Aucun champ 'category' applicable : la taxonomie 'category' du comparateur est reservee aux offres Loisirs (cinema/parc/zoo/musee, voir CATEGORY_LABELS dans comparateur-reductions.html) et aucune des 86 enseignes Préau ne correspond a ces 4 categories. A VERIFIER (fusion inter-plateformes) : 'Atelier Wecandoo' (singulier, nom affiche sur la fiche Préau) pourrait ne pas se regrouper automatiquement avec l'entree existante d'une autre plateforme si celle-ci utilise 'Ateliers Wecandoo' (pluriel, forme presente dans merchant_groups.json comme alias vers 'wecandoo') - a confirmer visuellement sur le site une fois le fichier integre, et ajouter un alias 'atelier wecandoo' dans merchant_groups.json si le regroupement ne se fait pas.",
+  "platform_url": "https://www.preau.education.fr/vie-quotidienne-cartes/carte-cadeau.html",
+  "offers": [
+    {
+      "name": "3 Suisses",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Abracadaroom",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Adidas",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "AirBnb",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Amazon",
+      "rate_text": "-1.25%",
+      "percent": 1.25,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Angelina",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Animalis",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Apple",
+      "rate_text": "-2.3%",
+      "percent": 2.3,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Asos",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Atelier Wecandoo",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Au vieux Campeur",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Aubert",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Auchan",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Blissim",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bonsoirs",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Bricorama",
+      "rate_text": "-4.5%",
+      "percent": 4.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "BZB",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Carrefour",
+      "rate_text": "-5.7%",
+      "percent": 5.7,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "CASTORAMA",
+      "rate_text": "-5.7%",
+      "percent": 5.7,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cdiscount",
+      "rate_text": "-3%",
+      "percent": 3.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cheerz",
+      "rate_text": "-26%",
+      "percent": 26.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Clarins",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Conforama",
+      "rate_text": "-5.9%",
+      "percent": 5.9,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Courir",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Cultura",
+      "rate_text": "-6.5%",
+      "percent": 6.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Darjeeling",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Decathlon",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Deliveroo",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Devialet",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Electrolux",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Etam",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Fnac Darty",
+      "rate_text": "-4.5%",
+      "percent": 4.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Gémo",
+      "rate_text": "-7.75%",
+      "percent": 7.75,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Greengo",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "H&M",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "IKEA",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Intermarché",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Intersport",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jardiland",
+      "rate_text": "-8.5%",
+      "percent": 8.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "JD Sports",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Jules / Brice",
+      "rate_text": "-6.2%",
+      "percent": 6.2,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Karcher",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "King Jouet",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "L'OCCITANE",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "La Redoute",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lacoste",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lavinia",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Le Petit Ballon",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lego",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Leroy Merlin",
+      "rate_text": "-5.5%",
+      "percent": 5.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Lindt et Sprungli",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maison 123",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maisons du Monde",
+      "rate_text": "-6.5%",
+      "percent": 6.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Mango",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Marionnaud",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Maxilivres",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Monoprix",
+      "rate_text": "-4.45%",
+      "percent": 4.45,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nature et Découvertes",
+      "rate_text": "-9.4%",
+      "percent": 9.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Netflix",
+      "rate_text": "-4.4%",
+      "percent": 4.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Nike",
+      "rate_text": "-5.4%",
+      "percent": 5.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Okaïdi",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Oxybul",
+      "rate_text": "-12%",
+      "percent": 12.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Palais des thés",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Primark",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Promod",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Recyclivre",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Rituals",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SAAJ Paris",
+      "rate_text": "-13%",
+      "percent": 13.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Samaritaine",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sarenza",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Selency",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sephora",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sergent Major",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Smartbox",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "SMEG France",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Sodastream",
+      "rate_text": "-10%",
+      "percent": 10.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Spartoo",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Swarovski",
+      "rate_text": "-18%",
+      "percent": 18.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "The Fork",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Truffaut",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "UBER",
+      "rate_text": "-4%",
+      "percent": 4.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vert Marine",
+      "rate_text": "-18%",
+      "percent": 18.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Vertbaudet",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Weekendesk",
+      "rate_text": "-8%",
+      "percent": 8.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Wonderbox",
+      "rate_text": "-15%",
+      "percent": 15.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Yves Rocher",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    },
+    {
+      "name": "Zalando",
+      "rate_text": "-9%",
+      "percent": 9.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau"
+    }
+  ]
+}
