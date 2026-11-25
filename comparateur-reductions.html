@@ -385,7 +385,17 @@
        (overflow-x: hidden casse le sticky s'il est combine sur un ancetre,
        mais aucun des deux n'est plus sticky a cette largeur). */
     html, body { overflow-x: hidden; }
-    .page { flex-direction: column; gap: 0; max-width: 100%; }
+    /* Vraie cause racine du texte coupe sur telephone (signale a nouveau le
+       2026-11-26, notamment le titre H1) : .page passe en colonne ici mais
+       garde align-items: flex-start (herite de la regle de base), donc
+       .wrap (qui contient tout le contenu principal) se dimensionne a son
+       contenu ("shrink-to-fit") au lieu de remplir la largeur de l'ecran,
+       et peut deborder (ex. 445px de large sur un ecran de 375px) ; le
+       overflow-x: hidden ci-dessus masquait alors silencieusement la partie
+       debordante au lieu de la faire passer a la ligne. Corrige en forcant
+       les enfants de .page a occuper toute la largeur disponible. */
+    .page { flex-direction: column; gap: 0; max-width: 100%; align-items: stretch; }
+    .wrap { max-width: 100%; }
     .platform-filters { position: static; width: 100%; flex-basis: auto; margin-bottom: 20px; order: -1; }
     .platform-chips { flex-direction: row; flex-wrap: wrap; }
     .platform-chip { flex: 0 0 auto; }
