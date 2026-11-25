@@ -1,7 +1,7 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/cashback",
-  "generated_at": "2026-11-24T06:52:15.295705+00:00",
+  "generated_at": "2026-11-25T05:18:46.480869+00:00",
   "note": "Catalogue public ebuyclub.com/cashback, filtre data-cashbacktype='En ligne' uniquement (aucune carte a acheter, cashback credite sur le solde eBuyClub apres achat direct chez le marchand). Distinct de ebuyclub.json (catalogue 'Bon d'achat', data-cashbacktype='Magasin', achat reel d'un bon/carte). Offres 'Pas de CashBack en ce moment' exclues.",
   "offers": [
     {
@@ -317,8 +317,8 @@
     {
       "name": "Ahead",
       "slug": "19214",
-      "rate_text": "4,1% remboursés",
-      "percent": 4.1,
+      "rate_text": "16% remboursés",
+      "percent": 16.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Confiseries & Chocolats",
@@ -457,7 +457,7 @@
     {
       "name": "ALL - Accor Live Limitless",
       "slug": "296",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -2647,8 +2647,8 @@
     {
       "name": "citizenM",
       "slug": "15077",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "2,9% remboursés",
+      "percent": 2.9,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Hotels",
@@ -2957,7 +2957,7 @@
     {
       "name": "Coriolis",
       "slug": "1340",
-      "rate_text": "Jusqu'à 15€ remboursés",
+      "rate_text": "Jusqu'à 21€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -3107,8 +3107,8 @@
     {
       "name": "Crocs",
       "slug": "1903",
-      "rate_text": "4,5% remboursés",
-      "percent": 4.5,
+      "rate_text": "3,5% remboursés",
+      "percent": 3.5,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Chaussures",
@@ -4167,7 +4167,7 @@
     {
       "name": "Emma",
       "slug": "9314",
-      "rate_text": "Jusqu'à 6% remboursés",
+      "rate_text": "Jusqu'à 6,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -5025,16 +5025,6 @@
       "link": "https://www.ebuyclub.com/reduction-fulli-17589"
     },
     {
-      "name": "FunnyFuzzy",
-      "slug": "17183",
-      "rate_text": "5% remboursés",
-      "percent": 5.0,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Animaux",
-      "link": null
-    },
-    {
       "name": "Futuroscope",
       "slug": "13179",
       "rate_text": "Jusqu'à 5€ remboursés",
@@ -5223,6 +5213,16 @@
       "type": "direct",
       "category_seen": "Sportwear, Mode Femme, Chaussures, Mode Homme",
       "link": "https://www.ebuyclub.com/reduction-geographical-norway-19387"
+    },
+    {
+      "name": "Geox",
+      "slug": "6707",
+      "rate_text": "2% remboursés",
+      "percent": 2.0,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Chaussures",
+      "link": "https://www.ebuyclub.com/reduction-geox-6707"
     },
     {
       "name": "Gerflor (Particulier)",
@@ -5487,7 +5487,7 @@
     {
       "name": "Groupon",
       "slug": "2640",
-      "rate_text": "Jusqu'à 11% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6087,8 +6087,8 @@
     {
       "name": "Hotels.com",
       "slug": "498",
-      "rate_text": "2,5% remboursés",
-      "percent": 2.5,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Location de vacances, Hotels",
@@ -6247,7 +6247,7 @@
     {
       "name": "Hôtels Adagio",
       "slug": "6368",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6267,7 +6267,7 @@
     {
       "name": "Hôtels Ibis",
       "slug": "6364",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6277,7 +6277,7 @@
     {
       "name": "Hôtels Ibis Budget",
       "slug": "6500",
-      "rate_text": "Jusqu'à 1% remboursés",
+      "rate_text": "Jusqu'à 2,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6287,7 +6287,7 @@
     {
       "name": "Hôtels Ibis Style",
       "slug": "6477",
-      "rate_text": "Jusqu'à 1,6% remboursés",
+      "rate_text": "Jusqu'à 4,5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6297,7 +6297,7 @@
     {
       "name": "Hôtels Mama Shelter",
       "slug": "7067",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6307,7 +6307,7 @@
     {
       "name": "Hôtels Mercure",
       "slug": "6360",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6327,7 +6327,7 @@
     {
       "name": "Hôtels Mövenpick",
       "slug": "6267",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6337,7 +6337,7 @@
     {
       "name": "Hôtels Novotel",
       "slug": "6362",
-      "rate_text": "Jusqu'à 3,5% remboursés",
+      "rate_text": "Jusqu'à 7% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -6347,7 +6347,7 @@
     {
       "name": "Hôtels Pullman",
       "slug": "6359",
-      "rate_text": "Jusqu'à 5% remboursés",
+      "rate_text": "Jusqu'à 9% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7807,7 +7807,7 @@
     {
       "name": "Le Col",
       "slug": "15194",
-      "rate_text": "Jusqu'à 3% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -7947,7 +7947,7 @@
     {
       "name": "LEGO",
       "slug": "5933",
-      "rate_text": "Jusqu'à 4,5% remboursés",
+      "rate_text": "Jusqu'à 5% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8167,7 +8167,7 @@
     {
       "name": "Lidl",
       "slug": "7180",
-      "rate_text": "Jusqu'à 10% remboursés",
+      "rate_text": "Jusqu'à 3% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -8615,16 +8615,6 @@
       "link": "https://www.ebuyclub.com/reduction-made-in-design-932"
     },
     {
-      "name": "Made in Sport",
-      "slug": "534",
-      "rate_text": "Jusqu'à 5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Sportwear",
-      "link": "https://www.ebuyclub.com/reduction-made-in-sport-534"
-    },
-    {
       "name": "Madura",
       "slug": "10785",
       "rate_text": "Jusqu'à 2,5% remboursés",
@@ -8877,7 +8867,7 @@
     {
       "name": "Marionnaud",
       "slug": "522",
-      "rate_text": "Jusqu'à 2% remboursés",
+      "rate_text": "Jusqu'à 4% remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -10365,16 +10355,6 @@
       "link": "https://www.ebuyclub.com/reduction-nutrimea-18059"
     },
     {
-      "name": "NUXE",
-      "slug": "8192",
-      "rate_text": "Jusqu'à 5,5% remboursés",
-      "percent": null,
-      "type_detail_fr": "Cashback en ligne",
-      "type": "direct",
-      "category_seen": "Cosmétiques",
-      "link": "https://www.ebuyclub.com/reduction-nuxe-8192"
-    },
-    {
       "name": "NYX Professional Makeup",
       "slug": "8662",
       "rate_text": "Jusqu'à 2,5% remboursés",
@@ -10457,8 +10437,8 @@
     {
       "name": "Olight Store",
       "slug": "12897",
-      "rate_text": "7% remboursés",
-      "percent": 7.0,
+      "rate_text": "6% remboursés",
+      "percent": 6.0,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
       "category_seen": "Déco, Gadgets",
@@ -11497,7 +11477,7 @@
     {
       "name": "Prixtel",
       "slug": "2078",
-      "rate_text": "Jusqu'à 8€ remboursés",
+      "rate_text": "Jusqu'à 15,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",
@@ -14255,6 +14235,16 @@
       "link": null
     },
     {
+      "name": "Ulys (Particulier)",
+      "slug": "5823",
+      "rate_text": "6€ remboursés",
+      "percent": null,
+      "type_detail_fr": "Cashback en ligne",
+      "type": "direct",
+      "category_seen": "Transports",
+      "link": "https://www.ebuyclub.com/reduction-ulys-particulier-5823"
+    },
+    {
       "name": "Un Amour de Tapis",
       "slug": "1139",
       "rate_text": "4,1% remboursés",
@@ -15057,7 +15047,7 @@
     {
       "name": "WW (Weight Watchers)",
       "slug": "2462",
-      "rate_text": "14€ remboursés",
+      "rate_text": "10,50€ remboursés",
       "percent": null,
       "type_detail_fr": "Cashback en ligne",
       "type": "direct",

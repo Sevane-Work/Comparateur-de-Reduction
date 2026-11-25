@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-24",
-  "generated_at": "2026-11-24T06:51:52.591288+00:00",
+  "captured_at": "2026-11-25",
+  "generated_at": "2026-11-25T05:18:18.512325+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -1518,15 +1518,6 @@
       "link": null
     },
     {
-      "name": "Made in Sport",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "My Jolie Candle",
       "rate_text": null,
       "percent": 6.8,
@@ -1653,6 +1644,15 @@
       "link": null
     },
     {
+      "name": "Eram",
+      "rate_text": null,
+      "percent": 6.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
       "name": "Lastminute Vacances",
       "rate_text": null,
       "percent": 6.3,
@@ -1667,6 +1667,15 @@
       "percent": 6.3,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Pikolinos",
+      "rate_text": null,
+      "percent": 6.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -2589,6 +2598,15 @@
       "link": null
     },
     {
+      "name": "Cyrillus",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Léa Nature",
       "rate_text": null,
       "percent": 5.5,
@@ -3445,15 +3463,6 @@
     },
     {
       "name": "GreenGo",
-      "rate_text": null,
-      "percent": 4.7,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Eram",
       "rate_text": null,
       "percent": 4.7,
       "type_detail_fr": "Carte cadeau",
@@ -5244,15 +5253,6 @@
       "link": null
     },
     {
-      "name": "Cyrillus",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Maeva",
       "rate_text": null,
       "percent": 3.4,
@@ -6761,6 +6761,15 @@
       "percent": 0.9,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Hudson Reed",
+      "rate_text": null,
+      "percent": 0.7,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
