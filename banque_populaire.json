@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-10-05",
-  "generated_at": "2026-10-05T23:15:02.181897+00:00",
+  "captured_at": "2026-11-25",
+  "generated_at": "2026-11-25T05:20:06.189288+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -17,8 +17,8 @@
     {
       "name": "Jet Tours",
       "slug": "jet-tours",
-      "rate_text": "-9%",
-      "percent": 9.0,
+      "rate_text": "Jusqu'à -30%",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -66,6 +66,78 @@
       "percent": 8.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Cap Adrénaline",
+      "slug": "cap-adrenaline",
+      "rate_text": "12%",
+      "percent": 12.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Roblox",
+      "slug": "roblox",
+      "rate_text": "6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Breal",
+      "slug": "breal",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Cache Cache",
+      "slug": "cache-cache",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Bonobo",
+      "slug": "bonobo",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Printemps",
+      "slug": "printemps",
+      "rate_text": "6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Aroma-Zone",
+      "slug": "aroma-zone",
+      "rate_text": "7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Whirlpool",
+      "slug": "whirlpool",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
       "category_seen": null
     },
     {
@@ -134,7 +206,7 @@
     {
       "name": "Bosch",
       "slug": "bosch",
-      "rate_text": "-5% à -25%",
+      "rate_text": "-5% à -35%",
       "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -161,8 +233,8 @@
     {
       "name": "Pathé Gaumont",
       "slug": "pathe-gaumont",
-      "rate_text": "43.8%",
-      "percent": 43.8,
+      "rate_text": "41.3%",
+      "percent": 41.3,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -216,8 +288,8 @@
     {
       "name": "Siemens",
       "slug": "siemens",
-      "rate_text": "Jusqu'à -35%*",
-      "percent": 35.0,
+      "rate_text": "-5% à -35%",
+      "percent": 5.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -279,8 +351,8 @@
     {
       "name": "Ikea",
       "slug": "ikea",
-      "rate_text": "4%",
-      "percent": 4.0,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -369,8 +441,8 @@
     {
       "name": "Odalys",
       "slug": "odalys",
-      "rate_text": "-8% à -25%",
-      "percent": 8.0,
+      "rate_text": "Jusqu'à -40%",
+      "percent": 40.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -477,8 +549,8 @@
     {
       "name": "BUT",
       "slug": "but",
-      "rate_text": "7%",
-      "percent": 7.0,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -532,8 +604,8 @@
     {
       "name": "CinéChèque",
       "slug": "cinecheque",
-      "rate_text": "29.4%",
-      "percent": 29.4,
+      "rate_text": "30.2%",
+      "percent": 30.2,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -603,15 +675,6 @@
       "category_seen": null
     },
     {
-      "name": "Natalys",
-      "slug": "natalys",
-      "rate_text": "10%",
-      "percent": 10.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Mer de sable",
       "slug": "mer-de-sable",
       "rate_text": "22.6%",
@@ -619,16 +682,6 @@
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
-    },
-    {
-      "name": "MK2",
-      "slug": "mk2",
-      "rate_text": "34.9%",
-      "percent": 34.9,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "direct",
-      "category_seen": null,
-      "category": "cinema"
     },
     {
       "name": "Nausicaá",
@@ -814,8 +867,8 @@
     {
       "name": "Promoséjours",
       "slug": "promosejours",
-      "rate_text": "-9%",
-      "percent": 9.0,
+      "rate_text": "Jusqu'à -30%",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -859,8 +912,8 @@
     {
       "name": "PortAventura World",
       "slug": "portaventura",
-      "rate_text": "Jusqu'à -25%",
-      "percent": 25.0,
+      "rate_text": "*-30% billets ou hotels",
+      "percent": 30.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -886,8 +939,8 @@
     {
       "name": "Azureva",
       "slug": "azureva",
-      "rate_text": "-10% à -25%",
-      "percent": 10.0,
+      "rate_text": "-8% à -25%",
+      "percent": 8.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -922,8 +975,8 @@
     {
       "name": "Les Cercles de la Forme",
       "slug": "les-cercles-de-la-forme",
-      "rate_text": "45.2%",
-      "percent": 45.2,
+      "rate_text": "53.2%",
+      "percent": 53.2,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -940,7 +993,7 @@
     {
       "name": "FRAM",
       "slug": "fram",
-      "rate_text": "-9% à -25%*",
+      "rate_text": "-9%",
       "percent": 9.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
@@ -994,8 +1047,8 @@
     {
       "name": "Homair",
       "slug": "homair",
-      "rate_text": "-5% à -40%",
-      "percent": 5.0,
+      "rate_text": "Jusqu'à -40%",
+      "percent": 40.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null
@@ -1021,8 +1074,8 @@
     {
       "name": "Vacancéole",
       "slug": "vacanceole",
-      "rate_text": "-8% à -45%",
-      "percent": 8.0,
+      "rate_text": "Jusqu'à -40%*",
+      "percent": 40.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null

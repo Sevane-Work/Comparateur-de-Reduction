@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-10-05",
-  "generated_at": "2026-10-05T23:13:27.166504+00:00",
+  "captured_at": "2026-11-25",
+  "generated_at": "2026-11-25T05:18:18.512325+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -15,15 +15,6 @@
       "link": "https://fr.camping-and-co.com/login-ce?utm_source=partenaire&utm_medium=ce&utm_campaign=FNACDARTY#loginCSE=26FNACDARTY&passwordCSE=26FNACDARTY&autoValidate=1"
     },
     {
-      "name": "Skimium",
-      "rate_text": null,
-      "percent": 60.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://www.skimium.fr/partner/fnacdarty"
-    },
-    {
       "name": "TravelSki",
       "rate_text": null,
       "percent": 60.0,
@@ -31,6 +22,15 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://www.travelski.com/?searchTab=ski#e=1&capacity=18-18&packages%5B%5D=PF-PFP-HS&origin=NA"
+    },
+    {
+      "name": "Skimium",
+      "rate_text": null,
+      "percent": 60.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://www.skimium.fr/partner/fnacdarty"
     },
     {
       "name": "DisonsDemain",
@@ -49,6 +49,15 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://www.intersport-rent.fr/fr?idCodePromotion=12103&partenaire=564"
+    },
+    {
+      "name": "Preply",
+      "rate_text": null,
+      "percent": 54.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "Meetic Belgique",
@@ -132,15 +141,6 @@
       "link": "https://cse.homair.com/ce/fnac-darty.html"
     },
     {
-      "name": "VTF Vacances",
-      "rate_text": null,
-      "percent": 37.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://fnacdarty.vtf-vacances.com/fr_FR/"
-    },
-    {
       "name": "Vacances Bleues",
       "rate_text": null,
       "percent": 37.0,
@@ -150,7 +150,25 @@
       "link": "https://www.vacancesbleues.fr/fr/en-partenariat-avec-pass-partenaires"
     },
     {
-      "name": "EaseUS",
+      "name": "VTF Vacances",
+      "rate_text": null,
+      "percent": 37.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://fnacdarty.vtf-vacances.com/fr_FR/"
+    },
+    {
+      "name": "Bitdefender",
+      "rate_text": null,
+      "percent": 35.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Internxt",
       "rate_text": null,
       "percent": 34.0,
       "type_detail_fr": "Réduction directe",
@@ -159,7 +177,16 @@
       "link": null
     },
     {
-      "name": "Ohm Énergie",
+      "name": "F-Secure",
+      "rate_text": null,
+      "percent": 34.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "EaseUS",
       "rate_text": null,
       "percent": 34.0,
       "type_detail_fr": "Réduction directe",
@@ -186,6 +213,15 @@
       "link": "https://www.centerparcs.fr/fr-fr/partenaire-fnacdarty_sck?utm_source=FNACDARTY&utm_medium=Indirect_Sales_Partner&utm_campaign=Offre_FnacDarty"
     },
     {
+      "name": "Villages Clubs du Soleil",
+      "rate_text": null,
+      "percent": 30.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://www.villagesclubsdusoleil.com/?partnerCode=2033334"
+    },
+    {
       "name": "Belambra",
       "rate_text": null,
       "percent": 28.0,
@@ -198,6 +234,15 @@
       "name": "Mosa Lingua",
       "rate_text": null,
       "percent": 26.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Ohm Énergie",
+      "rate_text": null,
+      "percent": 25.5,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -240,23 +285,22 @@
       "link": "https://passparte.azureva-vacances.com/fr/"
     },
     {
-      "name": "Villages Clubs du Soleil",
+      "name": "Amen",
       "rate_text": null,
-      "percent": 25.0,
+      "percent": 20.4,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
-      "link": "https://www.villagesclubsdusoleil.com/?partnerCode=2033334"
+      "link": null
     },
     {
-      "name": "Cinémas Pathé Gaumont",
+      "name": "AVG",
       "rate_text": null,
-      "percent": 25.0,
-      "type_detail_fr": "Carte cadeau",
+      "percent": 20.4,
+      "type_detail_fr": "Réduction directe",
       "type": "direct",
-      "cumulative_with": "direct",
-      "link": null,
-      "category": "cinema"
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "CCleaner",
@@ -277,7 +321,7 @@
       "link": null
     },
     {
-      "name": "F-Secure",
+      "name": "Malwarebytes",
       "rate_text": null,
       "percent": 20.4,
       "type_detail_fr": "Réduction directe",
@@ -286,7 +330,7 @@
       "link": null
     },
     {
-      "name": "Malwarebytes",
+      "name": "Erverte Paris",
       "rate_text": null,
       "percent": 20.4,
       "type_detail_fr": "Réduction directe",
@@ -304,24 +348,6 @@
       "link": null
     },
     {
-      "name": "Amen",
-      "rate_text": null,
-      "percent": 20.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "AVG",
-      "rate_text": null,
-      "percent": 20.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Europcar",
       "rate_text": null,
       "percent": 20.0,
@@ -329,6 +355,24 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://www.europcar.fr/fr-fr/p/partenaire/passfnacdartyvp"
+    },
+    {
+      "name": "Weenect",
+      "rate_text": null,
+      "percent": 17.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Udemy",
+      "rate_text": null,
+      "percent": 17.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "PlanetHoster",
@@ -349,7 +393,7 @@
       "link": null
     },
     {
-      "name": "Udemy",
+      "name": "Fleurance Nature",
       "rate_text": null,
       "percent": 13.6,
       "type_detail_fr": "Réduction directe",
@@ -359,15 +403,6 @@
     },
     {
       "name": "Norton",
-      "rate_text": null,
-      "percent": 13.6,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Fleurance Nature",
       "rate_text": null,
       "percent": 13.6,
       "type_detail_fr": "Réduction directe",
@@ -475,7 +510,7 @@
       "link": null
     },
     {
-      "name": "Aiper",
+      "name": "Hostinger",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -484,7 +519,16 @@
       "link": null
     },
     {
-      "name": "Bitdefender",
+      "name": "Nature's Finest",
+      "rate_text": null,
+      "percent": 10.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Aiper",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -511,7 +555,7 @@
       "link": null
     },
     {
-      "name": "Erverte Paris",
+      "name": "Spreadshirt",
       "rate_text": null,
       "percent": 10.2,
       "type_detail_fr": "Réduction directe",
@@ -556,15 +600,6 @@
       "link": null
     },
     {
-      "name": "Nature's Finest",
-      "rate_text": null,
-      "percent": 10.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Biocalma",
       "rate_text": null,
       "percent": 10.2,
@@ -572,15 +607,6 @@
       "type": "direct",
       "cumulative_with": null,
       "link": null
-    },
-    {
-      "name": "Campings.com",
-      "rate_text": null,
-      "percent": 10.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://www.campings.com/ce/cpc/?login_token=a0694e40c7e95d8659067a1e5ec10b53c881a42ec4a2fb28551b422cac5a5353"
     },
     {
       "name": "Etam",
@@ -594,16 +620,7 @@
     {
       "name": "Marionnaud",
       "rate_text": null,
-      "percent": 10.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Truffaut",
-      "rate_text": null,
-      "percent": 10.0,
+      "percent": 9.8,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
@@ -613,6 +630,15 @@
       "name": "Activa Store",
       "rate_text": null,
       "percent": 9.7,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Slam Jam",
+      "rate_text": null,
+      "percent": 9.6,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -673,6 +699,33 @@
       "link": "https://www.croisiland.com/partenaires/costapassfnacdarty/"
     },
     {
+      "name": "Promoséjours",
+      "rate_text": null,
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://passfnacdarty.promosejours.com/"
+    },
+    {
+      "name": "Ôvoyages",
+      "rate_text": null,
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://fnac.darty.ovoyages.com/"
+    },
+    {
+      "name": "FRAM",
+      "rate_text": null,
+      "percent": 9.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": "https://passfnacdarty.fram.fr/"
+    },
+    {
       "name": "Jet Tours",
       "rate_text": null,
       "percent": 9.0,
@@ -709,24 +762,6 @@
       "link": "http://fnac-darty.mondialtourisme.fr/"
     },
     {
-      "name": "Promoséjours",
-      "rate_text": null,
-      "percent": 9.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://passfnacdarty.promosejours.com/"
-    },
-    {
-      "name": "Ôvoyages",
-      "rate_text": null,
-      "percent": 9.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://fnac.darty.ovoyages.com/"
-    },
-    {
       "name": "Promovacances",
       "rate_text": null,
       "percent": 9.0,
@@ -734,15 +769,6 @@
       "type": "direct",
       "cumulative_with": null,
       "link": "https://passfnacdarty.promovacances.com/"
-    },
-    {
-      "name": "FRAM",
-      "rate_text": null,
-      "percent": 9.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": "https://passfnacdarty.fram.fr/"
     },
     {
       "name": "Gémo",
@@ -773,15 +799,6 @@
     },
     {
       "name": "Goodbro",
-      "rate_text": null,
-      "percent": 8.9,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Famille Mary",
       "rate_text": null,
       "percent": 8.9,
       "type_detail_fr": "Réduction directe",
@@ -880,6 +897,33 @@
       "link": null
     },
     {
+      "name": "Franklin pet food",
+      "rate_text": null,
+      "percent": 8.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "LOOKFANTASTIC",
+      "rate_text": null,
+      "percent": 8.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Redcare Pharmacie",
+      "rate_text": null,
+      "percent": 8.2,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Avis",
       "rate_text": null,
       "percent": 8.2,
@@ -898,15 +942,6 @@
       "link": null
     },
     {
-      "name": "Franklin pet food",
-      "rate_text": null,
-      "percent": 8.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Rue des Maquettes",
       "rate_text": null,
       "percent": 8.2,
@@ -916,25 +951,7 @@
       "link": null
     },
     {
-      "name": "LOOKFANTASTIC",
-      "rate_text": null,
-      "percent": 8.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Cours Griffon",
-      "rate_text": null,
-      "percent": 8.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Redcare Pharmacie",
       "rate_text": null,
       "percent": 8.2,
       "type_detail_fr": "Réduction directe",
@@ -1042,6 +1059,15 @@
       "link": null
     },
     {
+      "name": "Donner",
+      "rate_text": null,
+      "percent": 7.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "NoFlyStore",
       "rate_text": null,
       "percent": 7.5,
@@ -1078,6 +1104,24 @@
       "link": null
     },
     {
+      "name": "La Roche Posay",
+      "rate_text": null,
+      "percent": 7.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "passione beauty",
+      "rate_text": null,
+      "percent": 7.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Expedia",
       "rate_text": null,
       "percent": 7.0,
@@ -1105,15 +1149,6 @@
       "link": null
     },
     {
-      "name": "ASOS",
-      "rate_text": null,
-      "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Maison 123",
       "rate_text": null,
       "percent": 7.0,
@@ -1132,11 +1167,47 @@
       "link": null
     },
     {
-      "name": "EPISOD",
+      "name": "Qobuz",
       "rate_text": null,
-      "percent": 7.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Molotov TV",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Melvita",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "School Online University",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Tostadora",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -1177,6 +1248,24 @@
       "link": null
     },
     {
+      "name": "Corel",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Jow",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "City Sightseeing",
       "rate_text": null,
       "percent": 6.8,
@@ -1204,7 +1293,16 @@
       "link": null
     },
     {
-      "name": "Dolce Gusto",
+      "name": "Lee",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Wrangler",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1214,15 +1312,6 @@
     },
     {
       "name": "Simply Supplements",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Melvita",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1348,7 +1437,25 @@
       "link": null
     },
     {
-      "name": "Footcenter",
+      "name": "Trainline",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Govee",
+      "rate_text": null,
+      "percent": 6.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Big Bus Tours",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1384,7 +1491,7 @@
       "link": null
     },
     {
-      "name": "School Online University",
+      "name": "Famille Mary",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1411,24 +1518,6 @@
       "link": null
     },
     {
-      "name": "Tostadora",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Made in Sport",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "My Jolie Candle",
       "rate_text": null,
       "percent": 6.8,
@@ -1439,15 +1528,6 @@
     },
     {
       "name": "Rougier & Plé",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Donner",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1475,15 +1555,6 @@
     },
     {
       "name": "Bergamotte",
-      "rate_text": null,
-      "percent": 6.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "HIGH Everyday Couture",
       "rate_text": null,
       "percent": 6.8,
       "type_detail_fr": "Réduction directe",
@@ -1564,12 +1635,21 @@
       "link": null
     },
     {
-      "name": "Global Hotel Card",
+      "name": "Truffaut",
       "rate_text": null,
       "percent": 6.4,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
-      "cumulative_with": null,
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Eram",
+      "rate_text": null,
+      "percent": 6.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -1591,7 +1671,7 @@
       "link": null
     },
     {
-      "name": "Interflora",
+      "name": "Pikolinos",
       "rate_text": null,
       "percent": 6.2,
       "type_detail_fr": "Réduction directe",
@@ -1600,7 +1680,7 @@
       "link": null
     },
     {
-      "name": "passione beauty",
+      "name": "Interflora",
       "rate_text": null,
       "percent": 6.2,
       "type_detail_fr": "Réduction directe",
@@ -1654,15 +1734,6 @@
       "link": null
     },
     {
-      "name": "Miliboo",
-      "rate_text": null,
-      "percent": 6.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "CopyTop",
       "rate_text": null,
       "percent": 6.2,
@@ -1675,24 +1746,6 @@
       "name": "Françoise Saget",
       "rate_text": null,
       "percent": 6.2,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Bab'in",
-      "rate_text": null,
-      "percent": 6.0,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Air Caraïbes",
-      "rate_text": null,
-      "percent": 6.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -1717,7 +1770,7 @@
       "link": null
     },
     {
-      "name": "Eram",
+      "name": "EPISOD",
       "rate_text": null,
       "percent": 6.0,
       "type_detail_fr": "Carte cadeau",
@@ -1844,15 +1897,6 @@
     },
     {
       "name": "Quitoque",
-      "rate_text": null,
-      "percent": 5.8,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Quiksilver",
       "rate_text": null,
       "percent": 5.8,
       "type_detail_fr": "Carte cadeau",
@@ -2248,7 +2292,7 @@
       "link": null
     },
     {
-      "name": "NEONESS KEEPCOOL",
+      "name": "COUCOO CABANES",
       "rate_text": null,
       "percent": 5.8,
       "type_detail_fr": "Carte cadeau",
@@ -2262,6 +2306,15 @@
       "percent": 5.8,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Daniel Wellington",
+      "rate_text": null,
+      "percent": 5.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -2284,88 +2337,7 @@
       "link": null
     },
     {
-      "name": "NFL Shop",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Fanatics",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "BAZARCHIC",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Monkey Mum",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Vistaprint",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Nocibé",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Orchestra",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Petit Bateau",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Ysabel Mora",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "About You",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2419,7 +2391,7 @@
       "link": null
     },
     {
-      "name": "AM Nutrition",
+      "name": "Noobiotik",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2428,7 +2400,124 @@
       "link": null
     },
     {
-      "name": "Noobiotik",
+      "name": "Motointegrator",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Strellson",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Sport Découverte",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "NFL Shop",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Fanatics",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "BAZARCHIC",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Nocibé",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Ysabel Mora",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Hôtels Rixos",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Piecesauto.fr",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Piecesauto24.com",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Jako",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "About You",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "AM Nutrition",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2509,6 +2598,15 @@
       "link": null
     },
     {
+      "name": "Cyrillus",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Léa Nature",
       "rate_text": null,
       "percent": 5.5,
@@ -2519,15 +2617,6 @@
     },
     {
       "name": "Mes-bijoux.fr",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Motointegrator",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2563,34 +2652,7 @@
       "link": null
     },
     {
-      "name": "Strellson",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Maxi Zoo",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Sport Découverte",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Slam Jam",
       "rate_text": null,
       "percent": 5.5,
       "type_detail_fr": "Réduction directe",
@@ -2698,6 +2760,15 @@
       "link": null
     },
     {
+      "name": "HOM",
+      "rate_text": null,
+      "percent": 5.5,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Christophe Robin",
       "rate_text": null,
       "percent": 5.5,
@@ -2734,15 +2805,6 @@
       "link": null
     },
     {
-      "name": "i-Run Belgique",
-      "rate_text": null,
-      "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Goldcar",
       "rate_text": null,
       "percent": 5.5,
@@ -2764,15 +2826,6 @@
       "name": "ALL - Accor Live Limitless",
       "rate_text": null,
       "percent": 5.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Guard Industrie",
-      "rate_text": null,
-      "percent": 5.3,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -2833,15 +2886,6 @@
       "link": null
     },
     {
-      "name": "Owari",
-      "rate_text": null,
-      "percent": 5.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "NUXE",
       "rate_text": null,
       "percent": 5.1,
@@ -2869,12 +2913,12 @@
       "link": null
     },
     {
-      "name": "Auchan",
+      "name": "Ikea",
       "rate_text": null,
       "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
-      "cumulative_with": "direct",
+      "cumulative_with": null,
       "link": null
     },
     {
@@ -2906,24 +2950,6 @@
     },
     {
       "name": "Monoprix Magasins",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Uber Eats",
-      "rate_text": null,
-      "percent": 5.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Uber",
       "rate_text": null,
       "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
@@ -2977,12 +3003,75 @@
       "link": null
     },
     {
-      "name": "Auchan Drive",
+      "name": "NEONESS KEEPCOOL",
       "rate_text": null,
       "percent": 5.0,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
-      "cumulative_with": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "GetYourGuide",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Clarins Belgique",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Bruneau",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Destinia",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Europcar Belgique",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Dockers",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Rosetta Stone",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
       "link": null
     },
     {
@@ -3004,7 +3093,16 @@
       "link": null
     },
     {
-      "name": "GetYourGuide",
+      "name": "Leurre de la pêche",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Linvosges Belgique",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3031,7 +3129,7 @@
       "link": null
     },
     {
-      "name": "La Roche Posay",
+      "name": "Atelier Goldner",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3040,7 +3138,7 @@
       "link": null
     },
     {
-      "name": "Clarins Belgique",
+      "name": "Belvilla",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3049,7 +3147,7 @@
       "link": null
     },
     {
-      "name": "Bruneau",
+      "name": "INDERWEAR",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3077,15 +3175,6 @@
     },
     {
       "name": "Champion Direct",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Destinia",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3157,25 +3246,7 @@
       "link": null
     },
     {
-      "name": "Europcar Belgique",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "IZIPIZI",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Laguiole Honoré Durand",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3203,15 +3274,6 @@
     },
     {
       "name": "DFDS SEAWAYS",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "HOM",
       "rate_text": null,
       "percent": 4.8,
       "type_detail_fr": "Réduction directe",
@@ -3265,21 +3327,48 @@
       "link": null
     },
     {
+      "name": "Auchan",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
+      "name": "Uber Eats",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Uber",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Auchan Drive",
+      "rate_text": null,
+      "percent": 4.8,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
       "name": "Compactor",
       "rate_text": null,
       "percent": 4.7,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Camif",
-      "rate_text": null,
-      "percent": 4.7,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
       "link": null
     },
     {
@@ -3418,9 +3507,27 @@
       "link": null
     },
     {
+      "name": "La Chaise Longue",
+      "rate_text": null,
+      "percent": 4.7,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Laboratoires Biarritz",
       "rate_text": null,
       "percent": 4.6,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Zen Hotels",
+      "rate_text": null,
+      "percent": 4.5,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
@@ -3445,15 +3552,6 @@
       "link": null
     },
     {
-      "name": "Zen Hotels",
-      "rate_text": null,
-      "percent": 4.5,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Café Coton",
       "rate_text": null,
       "percent": 4.4,
@@ -3466,15 +3564,6 @@
       "name": "JD Sports",
       "rate_text": null,
       "percent": 4.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Ikea",
-      "rate_text": null,
-      "percent": 4.35,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": null,
@@ -3616,33 +3705,6 @@
       "link": null
     },
     {
-      "name": "Boden",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Click&Boat",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Guzzini",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "eDreams",
       "rate_text": null,
       "percent": 4.1,
@@ -3670,33 +3732,6 @@
       "link": null
     },
     {
-      "name": "Maisons du Monde",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Morin",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Footshop",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Opodo",
       "rate_text": null,
       "percent": 4.1,
@@ -3706,43 +3741,7 @@
       "link": null
     },
     {
-      "name": "365 Rider",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Nisbets",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Puma",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Metalmonde",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Helena Rubinstein",
+      "name": "Place des tendances",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -3752,15 +3751,6 @@
     },
     {
       "name": "Barceló",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Lenstore",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -3814,15 +3804,6 @@
       "link": null
     },
     {
-      "name": "Agoda",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Diesel",
       "rate_text": null,
       "percent": 4.1,
@@ -3850,6 +3831,168 @@
       "link": null
     },
     {
+      "name": "XLMoto",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Screwfix",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "RAJA",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "ApriL Belgique",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Trip.com",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Boden",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Click&Boat",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Guzzini",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Morin",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Footshop",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Titleist",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Vila Galé",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "365 Rider",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Nisbets",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Puma",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Metalmonde",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Helena Rubinstein",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Agoda",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Hôtels Novotel",
       "rate_text": null,
       "percent": 4.1,
@@ -3869,15 +4012,6 @@
     },
     {
       "name": "Hôtels Mercure",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "XLMoto",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4048,15 +4182,6 @@
       "link": null
     },
     {
-      "name": "Screwfix",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Marc Orian",
       "rate_text": null,
       "percent": 4.1,
@@ -4075,7 +4200,7 @@
       "link": null
     },
     {
-      "name": "RAJA",
+      "name": "FC-Moto",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4084,16 +4209,7 @@
       "link": null
     },
     {
-      "name": "ApriL Belgique",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Trip.com",
+      "name": "FlexiSpot",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4237,6 +4353,15 @@
       "link": null
     },
     {
+      "name": "The Cool Republic",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Warm-On",
       "rate_text": null,
       "percent": 4.1,
@@ -4283,15 +4408,6 @@
     },
     {
       "name": "Tamaris",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Vinatis",
       "rate_text": null,
       "percent": 4.1,
       "type_detail_fr": "Réduction directe",
@@ -4432,15 +4548,6 @@
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
       "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Sobrico",
-      "rate_text": null,
-      "percent": 4.1,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
       "link": null
     },
     {
@@ -4615,6 +4722,15 @@
       "link": null
     },
     {
+      "name": "Maisons du Monde",
+      "rate_text": null,
+      "percent": 4.0,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Abritel",
       "rate_text": null,
       "percent": 4.0,
@@ -4633,15 +4749,6 @@
       "link": null
     },
     {
-      "name": "Decathlon",
-      "rate_text": null,
-      "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Deliveroo",
       "rate_text": null,
       "percent": 4.0,
@@ -4651,35 +4758,16 @@
       "link": null
     },
     {
-      "name": "CinéPass Pathé",
+      "name": "Misako",
       "rate_text": null,
-      "percent": 4.0,
-      "type_detail_fr": "Carte cadeau",
+      "percent": 3.9,
+      "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
+      "link": null
     },
     {
       "name": "Voyage Privé",
-      "rate_text": null,
-      "percent": 3.9,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "IKEA Belgique",
-      "rate_text": null,
-      "percent": 3.9,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Misako",
       "rate_text": null,
       "percent": 3.9,
       "type_detail_fr": "Réduction directe",
@@ -4706,17 +4794,7 @@
       "link": null
     },
     {
-      "name": "MK2 Cinémas",
-      "rate_text": null,
-      "percent": 3.9,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
-      "name": "La Grande Récré",
+      "name": "Decathlon",
       "rate_text": null,
       "percent": 3.8,
       "type_detail_fr": "Carte cadeau",
@@ -4851,6 +4929,132 @@
       "link": null
     },
     {
+      "name": "Hertz",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Hertz Belgique",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "AutoFull",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Petit Bateau",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Kiehl's",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Pull&Bear",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "IKEA Belgique",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "ASMC",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "ManoMano Pro",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "ManoMano",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Gites.fr",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "ParfumsMoinsChers.com",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Plaud",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Zendure",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Kitbag",
       "rate_text": null,
       "percent": 3.4,
@@ -4860,7 +5064,34 @@
       "link": null
     },
     {
+      "name": "AWOL Vision",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Omio",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Snowrental",
+      "rate_text": null,
+      "percent": 3.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Womanizer",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -4896,7 +5127,7 @@
       "link": null
     },
     {
-      "name": "Belvilla",
+      "name": "Liu Jo",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -4905,7 +5136,7 @@
       "link": null
     },
     {
-      "name": "Mileade",
+      "name": "Regatta",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -4923,15 +5154,6 @@
       "link": null
     },
     {
-      "name": "Kiehl's",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Bett1",
       "rate_text": null,
       "percent": 3.4,
@@ -4941,43 +5163,7 @@
       "link": null
     },
     {
-      "name": "Pull&Bear",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Anker SOLIX",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "HomeMaison",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "HOLY",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Walibi Rhônes Alpes",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5067,43 +5253,7 @@
       "link": null
     },
     {
-      "name": "Cyrillus",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "ASMC",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Maeva",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "ManoMano Pro",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "ManoMano",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5121,7 +5271,7 @@
       "link": null
     },
     {
-      "name": "Victoria Beckham",
+      "name": "Les Petits Citrons",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5140,15 +5290,6 @@
     },
     {
       "name": "Snowrental UK",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Gites.fr",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5184,7 +5325,7 @@
       "link": null
     },
     {
-      "name": "ParfumsMoinsChers.com",
+      "name": "ZooSafari de Thoiry",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5202,34 +5343,7 @@
       "link": null
     },
     {
-      "name": "Plaud",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Zendure",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Shop2Shop",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Dockers",
       "rate_text": null,
       "percent": 3.4,
       "type_detail_fr": "Réduction directe",
@@ -5346,15 +5460,6 @@
       "link": null
     },
     {
-      "name": "Les Cercles de la forme",
-      "rate_text": null,
-      "percent": 3.4,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Logitravel",
       "rate_text": null,
       "percent": 3.2,
@@ -5410,6 +5515,15 @@
     },
     {
       "name": "Alltricks",
+      "rate_text": null,
+      "percent": 2.9,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Showroomprivé",
       "rate_text": null,
       "percent": 2.9,
       "type_detail_fr": "Carte cadeau",
@@ -5652,16 +5766,7 @@
       "link": null
     },
     {
-      "name": "Forest Hill",
-      "rate_text": null,
-      "percent": 2.9,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Fitness Park",
+      "name": "Les Cercles de la forme",
       "rate_text": null,
       "percent": 2.9,
       "type_detail_fr": "Carte cadeau",
@@ -5679,24 +5784,6 @@
       "link": null
     },
     {
-      "name": "Crocs",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Boutique PSG",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Foot Locker",
       "rate_text": null,
       "percent": 2.8,
@@ -5706,34 +5793,7 @@
       "link": null
     },
     {
-      "name": "Appart'City",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Sauthon",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "lastminute.com",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Deporvillage",
+      "name": "Wilson",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -5751,7 +5811,7 @@
       "link": null
     },
     {
-      "name": "Lidl",
+      "name": "Swarovski",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -5796,15 +5856,6 @@
       "link": null
     },
     {
-      "name": "Asus",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Shoes.fr",
       "rate_text": null,
       "percent": 2.8,
@@ -5814,7 +5865,97 @@
       "link": null
     },
     {
-      "name": "Rêve de Pan",
+      "name": "Biotyfull Box",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Bahia Principe",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "shark helmets",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Cairn",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Crocs",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Boutique PSG",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Appart'City",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Deporvillage",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Lidl",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "YesStyle",
+      "rate_text": null,
+      "percent": 2.8,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Asus",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -5824,15 +5965,6 @@
     },
     {
       "name": "Bexley",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Tediber",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -5868,61 +6000,7 @@
       "link": null
     },
     {
-      "name": "Biotyfull Box",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Trainline",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "La Grande Récré",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Bahia Principe",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Charles Tyrwhitt",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "shark helmets",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Cairn",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -5977,15 +6055,6 @@
     },
     {
       "name": "Pandacola",
-      "rate_text": null,
-      "percent": 2.8,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Carrefour location",
       "rate_text": null,
       "percent": 2.8,
       "type_detail_fr": "Réduction directe",
@@ -6057,24 +6126,6 @@
       "link": null
     },
     {
-      "name": "JouéClub",
-      "rate_text": null,
-      "percent": 2.7,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
-      "name": "Daniel Wellington",
-      "rate_text": null,
-      "percent": 2.6,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Airbnb",
       "rate_text": null,
       "percent": 2.5,
@@ -6111,17 +6162,34 @@
       "link": null
     },
     {
-      "name": "CGR Cinémas",
+      "name": "Forest Hill",
       "rate_text": null,
       "percent": 2.5,
       "type_detail_fr": "Carte cadeau",
-      "type": "direct",
+      "type": "carte_cadeau",
       "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
+      "link": null
+    },
+    {
+      "name": "Fitness Park",
+      "rate_text": null,
+      "percent": 2.5,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
     },
     {
       "name": "Castorama",
+      "rate_text": null,
+      "percent": 2.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "New Era",
       "rate_text": null,
       "percent": 2.4,
       "type_detail_fr": "Réduction directe",
@@ -6140,15 +6208,6 @@
     },
     {
       "name": "Concept Usine",
-      "rate_text": null,
-      "percent": 2.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "New Era",
       "rate_text": null,
       "percent": 2.4,
       "type_detail_fr": "Réduction directe",
@@ -6247,7 +6306,16 @@
       "link": null
     },
     {
-      "name": "Place des tendances",
+      "name": "Intersport",
+      "rate_text": null,
+      "percent": 2.4,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "lastminute.com",
       "rate_text": null,
       "percent": 2.1,
       "type_detail_fr": "Réduction directe",
@@ -6266,15 +6334,6 @@
     },
     {
       "name": "Zooplus",
-      "rate_text": null,
-      "percent": 2.1,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Perfume's Club",
       "rate_text": null,
       "percent": 2.1,
       "type_detail_fr": "Réduction directe",
@@ -6302,6 +6361,15 @@
     },
     {
       "name": "Centauro",
+      "rate_text": null,
+      "percent": 2.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Gisou",
       "rate_text": null,
       "percent": 2.1,
       "type_detail_fr": "Réduction directe",
@@ -6436,6 +6504,15 @@
       "link": null
     },
     {
+      "name": "Vinatis",
+      "rate_text": null,
+      "percent": 2.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Bourse des vols",
       "rate_text": null,
       "percent": 2.1,
@@ -6463,23 +6540,13 @@
       "link": null
     },
     {
-      "name": "1055",
-      "rate_text": null,
-      "percent": 2.1,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "Pathé France",
+      "name": "Havas voyages",
       "rate_text": null,
       "percent": 2.0,
-      "type_detail_fr": "Carte cadeau",
+      "type_detail_fr": "Réduction directe",
       "type": "direct",
       "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
+      "link": null
     },
     {
       "name": "Label Emmaüs",
@@ -6518,16 +6585,6 @@
       "link": null
     },
     {
-      "name": "Kinepolis Business",
-      "rate_text": null,
-      "percent": 1.6,
-      "type_detail_fr": "Carte cadeau",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null,
-      "category": "cinema"
-    },
-    {
       "name": "Blizzard Belgique",
       "rate_text": null,
       "percent": 1.5,
@@ -6542,6 +6599,33 @@
       "percent": 1.5,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "French Bee",
+      "rate_text": null,
+      "percent": 1.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Carigami",
+      "rate_text": null,
+      "percent": 1.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Malaysia Airlines",
+      "rate_text": null,
+      "percent": 1.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -6582,25 +6666,16 @@
       "link": null
     },
     {
-      "name": "Ma Carte Cadeau",
-      "rate_text": null,
-      "percent": 1.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
-      "name": "PartyLite",
-      "rate_text": null,
-      "percent": 1.4,
-      "type_detail_fr": "Réduction directe",
-      "type": "direct",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "PandaHall",
+      "rate_text": null,
+      "percent": 1.4,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "Ma Carte Cadeau",
       "rate_text": null,
       "percent": 1.4,
       "type_detail_fr": "Réduction directe",
@@ -6636,15 +6711,6 @@
       "link": null
     },
     {
-      "name": "L'Orange bleue",
-      "rate_text": null,
-      "percent": 1.2,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": null,
-      "link": null
-    },
-    {
       "name": "Yankee Candle",
       "rate_text": null,
       "percent": 1.1,
@@ -6672,6 +6738,15 @@
       "link": null
     },
     {
+      "name": "L'Orange bleue",
+      "rate_text": null,
+      "percent": 1.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
       "name": "Ethiopian Airlines",
       "rate_text": null,
       "percent": 0.9,
@@ -6690,11 +6765,11 @@
       "link": null
     },
     {
-      "name": "MEGARAMA",
+      "name": "Hudson Reed",
       "rate_text": null,
-      "percent": 0.8,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
+      "percent": 0.7,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
@@ -6715,6 +6790,65 @@
       "type": "direct",
       "cumulative_with": null,
       "link": null
+    },
+    {
+      "name": "Pathé France",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "CGR Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "MEGARAMA",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "MK2 Cinémas",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "Kinepolis Business",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
+    },
+    {
+      "name": "CinéPass Pathé",
+      "rate_text": null,
+      "percent": 0.01,
+      "type_detail_fr": "Carte cadeau",
+      "type": "direct",
+      "cumulative_with": null,
+      "link": null,
+      "category": "cinema"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-10-05T23:15:04.070851+00:00",
+  "generated_at": "2026-11-25T05:20:08.005572+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
       "name": "Oxybul",
       "slug": "oxybul",
-      "rate_text": "9%",
-      "percent": 9.0,
+      "rate_text": "8.99%",
+      "percent": 8.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -17,8 +17,17 @@
     {
       "name": "Netto",
       "slug": "netto",
-      "rate_text": "2.4%",
-      "percent": 2.4,
+      "rate_text": "2.5%",
+      "percent": 2.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Niche Beauty",
+      "slug": "niche-beauty",
+      "rate_text": "6.14%",
+      "percent": 6.14,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -26,8 +35,8 @@
     {
       "name": "Brico Cash",
       "slug": "brico-cash",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -35,8 +44,8 @@
     {
       "name": "Carrefour Courses Alimentaires",
       "slug": "carrefour-courses-alimentaires",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -53,8 +62,8 @@
     {
       "name": "Recyclivre",
       "slug": "recyclivre",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -62,8 +71,8 @@
     {
       "name": "Place des Tendances",
       "slug": "place-des-tendances",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -89,8 +98,8 @@
     {
       "name": "Auchan",
       "slug": "auchan",
-      "rate_text": "4%",
-      "percent": 4.0,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -107,8 +116,8 @@
     {
       "name": "Les Raffineurs",
       "slug": "les-raffineurs",
-      "rate_text": "4.26%",
-      "percent": 4.26,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -116,17 +125,8 @@
     {
       "name": "Fever",
       "slug": "fever",
-      "rate_text": "5.4%",
-      "percent": 5.4,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Illicado",
-      "slug": "illicado",
-      "rate_text": "2.4%",
-      "percent": 2.4,
+      "rate_text": "4.99%",
+      "percent": 4.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -143,8 +143,8 @@
     {
       "name": "Maison de la presse",
       "slug": "maison-de-la-presse",
-      "rate_text": "1.8%",
-      "percent": 1.8,
+      "rate_text": "1.5%",
+      "percent": 1.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -161,8 +161,8 @@
     {
       "name": "Nénés Paris",
       "slug": "nenes-paris",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -179,8 +179,8 @@
     {
       "name": "RRRAW Cacao Factory",
       "slug": "rrraw-cacao-factory",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -197,8 +197,8 @@
     {
       "name": "Label Emmaüs",
       "slug": "label-emmaus",
-      "rate_text": "1.8%",
-      "percent": 1.8,
+      "rate_text": "1.75%",
+      "percent": 1.75,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -206,8 +206,8 @@
     {
       "name": "Coton Vert",
       "slug": "coton-vert",
-      "rate_text": "2.4%",
-      "percent": 2.4,
+      "rate_text": "2.35%",
+      "percent": 2.35,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -215,8 +215,8 @@
     {
       "name": "Emeu Kidstore Eco-responsable",
       "slug": "emeu-kidstore-eco-responsable",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -226,15 +226,6 @@
       "slug": "le-petit-local",
       "rate_text": "2%",
       "percent": 2.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "La Gentle Factory",
-      "slug": "la-gentle-factory",
-      "rate_text": "3%",
-      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -260,8 +251,17 @@
     {
       "name": "GreenGo",
       "slug": "greengo",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.5%",
+      "percent": 4.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Superprof",
+      "slug": "superprof",
+      "rate_text": "2.04%",
+      "percent": 2.04,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -269,17 +269,8 @@
     {
       "name": "Molotov",
       "slug": "molotov",
-      "rate_text": "9%",
-      "percent": 9.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Netflix",
-      "slug": "netflix",
-      "rate_text": "2.4%",
-      "percent": 2.4,
+      "rate_text": "8.99%",
+      "percent": 8.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -287,8 +278,8 @@
     {
       "name": "The Trust Society",
       "slug": "the-trust-society",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -296,8 +287,8 @@
     {
       "name": "Comme Avant",
       "slug": "comme-avant",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -305,8 +296,8 @@
     {
       "name": "Yes-Yes",
       "slug": "yes-yes",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -314,8 +305,8 @@
     {
       "name": "EL MARKET",
       "slug": "el-market",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -323,8 +314,8 @@
     {
       "name": "Carrefour City",
       "slug": "carrefour-city",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -332,8 +323,8 @@
     {
       "name": "We Dress Fair",
       "slug": "we-dress-fair",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.49%",
+      "percent": 4.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -341,8 +332,8 @@
     {
       "name": "Atelier Populaire",
       "slug": "atelier-populaire",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -350,8 +341,8 @@
     {
       "name": "Carrefour Contact",
       "slug": "carrefour-contact",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -359,8 +350,8 @@
     {
       "name": "Carrefour Express",
       "slug": "carrefour-express",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -368,8 +359,8 @@
     {
       "name": "Carrefour Montagne",
       "slug": "carrefour-montagne",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -377,8 +368,8 @@
     {
       "name": "Umaï",
       "slug": "umai",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -386,8 +377,8 @@
     {
       "name": "NOELIE",
       "slug": "noelie",
-      "rate_text": "9%",
-      "percent": 9.0,
+      "rate_text": "8.99%",
+      "percent": 8.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -395,17 +386,35 @@
     {
       "name": "Sobrico",
       "slug": "sobrico",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
     },
     {
-      "name": "Xbox Design Lab",
-      "slug": "xbox-design-lab",
-      "rate_text": "6.5%",
-      "percent": 6.5,
+      "name": "Xbox",
+      "slug": "xbox",
+      "rate_text": "5.99%",
+      "percent": 5.99,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Karcher",
+      "slug": "karcher",
+      "rate_text": "6.14%",
+      "percent": 6.14,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Nextory",
+      "slug": "nextory",
+      "rate_text": "4.09%",
+      "percent": 4.09,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -413,8 +422,8 @@
     {
       "name": "Electrolux",
       "slug": "electrolux",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.49%",
+      "percent": 4.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -422,8 +431,8 @@
     {
       "name": "Funbooker",
       "slug": "funbooker",
-      "rate_text": "7.2%",
-      "percent": 7.2,
+      "rate_text": "7%",
+      "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -431,8 +440,8 @@
     {
       "name": "Kombo",
       "slug": "kombo",
-      "rate_text": "2.64%",
-      "percent": 2.64,
+      "rate_text": "2.5%",
+      "percent": 2.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -440,8 +449,8 @@
     {
       "name": "Respire.co",
       "slug": "respire-co",
-      "rate_text": "7.8%",
-      "percent": 7.8,
+      "rate_text": "7.5%",
+      "percent": 7.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -449,8 +458,8 @@
     {
       "name": "Abracadaroom",
       "slug": "abracadaroom",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4.49%",
+      "percent": 4.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -476,8 +485,17 @@
     {
       "name": "MonjardinBio.com",
       "slug": "monjardinbio-com",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Ulysse Travel",
+      "slug": "ulysse-travel",
+      "rate_text": "2.04%",
+      "percent": 2.04,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -501,10 +519,19 @@
       "category_seen": null
     },
     {
+      "name": "Grand optical",
+      "slug": "grand-optical",
+      "rate_text": "6.66%",
+      "percent": 6.66,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Calvin Klein",
       "slug": "calvin-klein",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -512,8 +539,8 @@
     {
       "name": "Panafrica",
       "slug": "panafrica",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -530,8 +557,8 @@
     {
       "name": "Primark",
       "slug": "primark",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "6%",
+      "percent": 6.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -539,8 +566,8 @@
     {
       "name": "Intermarché",
       "slug": "intermarche",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.2%",
+      "percent": 3.2,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -557,8 +584,8 @@
     {
       "name": "Uber Eats",
       "slug": "uber-eats",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -566,8 +593,8 @@
     {
       "name": "Airbnb",
       "slug": "airbnb",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "3.2%",
+      "percent": 3.2,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -575,8 +602,26 @@
     {
       "name": "Campings.com",
       "slug": "campings-com",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Au vieux campeur",
+      "slug": "au-vieux-campeur",
+      "rate_text": "5.99%",
+      "percent": 5.99,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Truffaut",
+      "slug": "truffaut",
+      "rate_text": "6.5%",
+      "percent": 6.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -591,10 +636,19 @@
       "category_seen": null
     },
     {
+      "name": "Redcare Pharmacie",
+      "slug": "redcare-pharmacie",
+      "rate_text": "2.04%",
+      "percent": 2.04,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "GetYourGuide",
       "slug": "getyourguide",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -611,8 +665,8 @@
     {
       "name": "Gaumont Pathé",
       "slug": "gaumont-pathe",
-      "rate_text": "18%",
-      "percent": 18.0,
+      "rate_text": "17.99%",
+      "percent": 17.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "direct",
       "category_seen": null,
@@ -646,15 +700,6 @@
       "category_seen": null
     },
     {
-      "name": "JD Sports",
-      "slug": "jd-sports",
-      "rate_text": "4.5%",
-      "percent": 4.5,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Courir",
       "slug": "courir",
       "rate_text": "4.5%",
@@ -666,8 +711,8 @@
     {
       "name": "Selency",
       "slug": "selency",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -677,6 +722,15 @@
       "slug": "flixbus",
       "rate_text": "3%",
       "percent": 3.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Rakuten TV",
+      "slug": "rakuten-tv",
+      "rate_text": "7.17%",
+      "percent": 7.17,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -718,10 +772,10 @@
       "category_seen": null
     },
     {
-      "name": "Sergent Major",
-      "slug": "sergent-major",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "name": "Decitre",
+      "slug": "decitre",
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -729,8 +783,17 @@
     {
       "name": "Jacadi",
       "slug": "jacadi",
-      "rate_text": "8.4%",
-      "percent": 8.4,
+      "rate_text": "8%",
+      "percent": 8.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "H&M",
+      "slug": "h-m",
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -738,8 +801,8 @@
     {
       "name": "Deezer",
       "slug": "deezer",
-      "rate_text": "10.8%",
-      "percent": 10.8,
+      "rate_text": "9.99%",
+      "percent": 9.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -747,17 +810,8 @@
     {
       "name": "Cap adrenaline",
       "slug": "cap-adrenaline",
-      "rate_text": "6%",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "LEGO®",
-      "slug": "lego",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -765,17 +819,17 @@
     {
       "name": "Electro depot",
       "slug": "electro-depot",
-      "rate_text": "2.5%",
-      "percent": 2.5,
+      "rate_text": "2%",
+      "percent": 2.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
     },
     {
-      "name": "Rituals",
-      "slug": "rituals",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "name": "Babbel",
+      "slug": "babbel",
+      "rate_text": "4.61%",
+      "percent": 4.61,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -783,8 +837,17 @@
     {
       "name": "Ticketac",
       "slug": "ticketac",
-      "rate_text": "6.6%",
-      "percent": 6.6,
+      "rate_text": "6.5%",
+      "percent": 6.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "IKEA",
+      "slug": "ikea",
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -792,17 +855,35 @@
     {
       "name": "Citadium",
       "slug": "citadium",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
     },
     {
-      "name": "Rougier & Plé",
-      "slug": "rougier-ple",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "name": "Blissim",
+      "slug": "blissim",
+      "rate_text": "8.19%",
+      "percent": 8.19,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "TheFork",
+      "slug": "thefork",
+      "rate_text": "4.49%",
+      "percent": 4.49,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Ma Carte Cadeau",
+      "slug": "ma-carte-cadeau",
+      "rate_text": "2.04%",
+      "percent": 2.04,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -810,8 +891,8 @@
     {
       "name": "Beauty success",
       "slug": "beauty-success",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.5%",
+      "percent": 4.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -837,8 +918,17 @@
     {
       "name": "Izac",
       "slug": "izac",
-      "rate_text": "5.4%",
-      "percent": 5.4,
+      "rate_text": "4.99%",
+      "percent": 4.99,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "MMV",
+      "slug": "mmv",
+      "rate_text": "4.09%",
+      "percent": 4.09,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -846,17 +936,17 @@
     {
       "name": "Carrefour Voyages",
       "slug": "carrefour-voyages",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
     },
     {
-      "name": "Breal",
-      "slug": "breal",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "name": "Mango",
+      "slug": "mango",
+      "rate_text": "6%",
+      "percent": 6.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -873,8 +963,8 @@
     {
       "name": "C&A",
       "slug": "c-a",
-      "rate_text": "8.4%",
-      "percent": 8.4,
+      "rate_text": "8%",
+      "percent": 8.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -882,8 +972,17 @@
     {
       "name": "Maison 123",
       "slug": "maison-123",
-      "rate_text": "7.2%",
-      "percent": 7.2,
+      "rate_text": "5.83%",
+      "percent": 5.83,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Camping and co",
+      "slug": "camping-and-co",
+      "rate_text": "4.61%",
+      "percent": 4.61,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -909,17 +1008,8 @@
     {
       "name": "Passage du désir",
       "slug": "passage-du-desir",
-      "rate_text": "4.2%",
-      "percent": 4.2,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "ASOS",
-      "slug": "asos",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -934,10 +1024,37 @@
       "category_seen": null
     },
     {
+      "name": "Showroomprivé",
+      "slug": "showroomprive",
+      "rate_text": "2.49%",
+      "percent": 2.49,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Qobuz",
+      "slug": "qobuz",
+      "rate_text": "4.09%",
+      "percent": 4.09,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "Gémo",
       "slug": "gemo",
-      "rate_text": "6.1%",
-      "percent": 6.1,
+      "rate_text": "6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "DC Shoes",
+      "slug": "dc-shoes",
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -945,8 +1062,8 @@
     {
       "name": "Okaïdi",
       "slug": "okaidi",
-      "rate_text": "11%",
-      "percent": 11.0,
+      "rate_text": "10.99%",
+      "percent": 10.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -954,8 +1071,8 @@
     {
       "name": "Roxy",
       "slug": "roxy",
-      "rate_text": "5.2%",
-      "percent": 5.2,
+      "rate_text": "5%",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -963,8 +1080,8 @@
     {
       "name": "Quiksilver",
       "slug": "quiksilver",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -972,8 +1089,8 @@
     {
       "name": "Comtesse du Barry",
       "slug": "comtesse-du-barry",
-      "rate_text": "12%",
-      "percent": 12.0,
+      "rate_text": "11.99%",
+      "percent": 11.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -981,8 +1098,17 @@
     {
       "name": "BUT",
       "slug": "but",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4.49%",
+      "percent": 4.49,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Natalys",
+      "slug": "natalys",
+      "rate_text": "4.09%",
+      "percent": 4.09,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -990,8 +1116,8 @@
     {
       "name": "Microsoft Store",
       "slug": "microsoft-store",
-      "rate_text": "1.5%",
-      "percent": 1.5,
+      "rate_text": "1.49%",
+      "percent": 1.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -999,8 +1125,8 @@
     {
       "name": "Eram",
       "slug": "eram",
-      "rate_text": "4.84%",
-      "percent": 4.84,
+      "rate_text": "6.59%",
+      "percent": 6.59,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1008,8 +1134,8 @@
     {
       "name": "Weekendesk",
       "slug": "weekendesk",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1017,8 +1143,8 @@
     {
       "name": "Mademoiselle Bio",
       "slug": "mademoiselle-bio",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1026,8 +1152,8 @@
     {
       "name": "Clarins",
       "slug": "clarins",
-      "rate_text": "7.8%",
-      "percent": 7.8,
+      "rate_text": "7.5%",
+      "percent": 7.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1044,8 +1170,8 @@
     {
       "name": "Yves Rocher",
       "slug": "yves-rocher",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1053,8 +1179,8 @@
     {
       "name": "Wonderbox",
       "slug": "wonderbox",
-      "rate_text": "9%",
-      "percent": 9.0,
+      "rate_text": "8.99%",
+      "percent": 8.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1062,8 +1188,8 @@
     {
       "name": "Vertbaudet",
       "slug": "vertbaudet",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.5%",
+      "percent": 5.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1071,8 +1197,8 @@
     {
       "name": "Tommy Hilfiger",
       "slug": "tommy-hilfiger",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1080,8 +1206,8 @@
     {
       "name": "Swarovski",
       "slug": "swarovski",
-      "rate_text": "9.6%",
-      "percent": 9.6,
+      "rate_text": "9.49%",
+      "percent": 9.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1089,8 +1215,8 @@
     {
       "name": "Spartoo",
       "slug": "spartoo",
-      "rate_text": "8.1%",
-      "percent": 8.1,
+      "rate_text": "7.99%",
+      "percent": 7.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1107,8 +1233,17 @@
     {
       "name": "Sixt",
       "slug": "sixt",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Sephora",
+      "slug": "sephora",
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1116,8 +1251,8 @@
     {
       "name": "Sarenza.com",
       "slug": "sarenza-com",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.49%",
+      "percent": 4.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1125,8 +1260,8 @@
     {
       "name": "Promod",
       "slug": "promod",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1134,8 +1269,8 @@
     {
       "name": "Pierre & Vacances",
       "slug": "pierre-vacances",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1143,17 +1278,17 @@
     {
       "name": "Cewe",
       "slug": "cewe",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
     },
     {
-      "name": "Nike",
-      "slug": "nike",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "name": "Orchestra",
+      "slug": "orchestra",
+      "rate_text": "3.58%",
+      "percent": 3.58,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1161,8 +1296,8 @@
     {
       "name": "Nature et découvertes",
       "slug": "nature-et-decouvertes",
-      "rate_text": "6.9%",
-      "percent": 6.9,
+      "rate_text": "6.84%",
+      "percent": 6.84,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1170,8 +1305,8 @@
     {
       "name": "Monoprix",
       "slug": "monoprix",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "3.49%",
+      "percent": 3.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1179,8 +1314,8 @@
     {
       "name": "Maty",
       "slug": "maty",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1188,8 +1323,8 @@
     {
       "name": "Marionnaud",
       "slug": "marionnaud",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1197,8 +1332,8 @@
     {
       "name": "Made In Design",
       "slug": "made-in-design",
-      "rate_text": "3.6%",
-      "percent": 3.6,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1206,8 +1341,8 @@
     {
       "name": "Leroy Merlin",
       "slug": "leroy-merlin",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1215,8 +1350,8 @@
     {
       "name": "lastminute.com",
       "slug": "lastminute-com",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.74%",
+      "percent": 4.74,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1224,8 +1359,8 @@
     {
       "name": "Lavinia",
       "slug": "lavinia",
-      "rate_text": "6.6%",
-      "percent": 6.6,
+      "rate_text": "6.5%",
+      "percent": 6.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1233,8 +1368,8 @@
     {
       "name": "La Redoute",
       "slug": "la-redoute",
-      "rate_text": "3.9%",
-      "percent": 3.9,
+      "rate_text": "3.84%",
+      "percent": 3.84,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1251,17 +1386,8 @@
     {
       "name": "Kiabi",
       "slug": "kiabi",
-      "rate_text": "3.6%",
-      "percent": 3.6,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
-      "name": "Jules",
-      "slug": "jules",
-      "rate_text": "5%",
-      "percent": 5.0,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1278,8 +1404,8 @@
     {
       "name": "Fnac Spectacles",
       "slug": "fnac-spectacles",
-      "rate_text": "2.5%",
-      "percent": 2.5,
+      "rate_text": "2.49%",
+      "percent": 2.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1287,8 +1413,8 @@
     {
       "name": "Fnac",
       "slug": "fnac",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1296,8 +1422,8 @@
     {
       "name": "Florajet",
       "slug": "florajet",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1305,8 +1431,8 @@
     {
       "name": "Etam",
       "slug": "etam",
-      "rate_text": "7.5%",
-      "percent": 7.5,
+      "rate_text": "7%",
+      "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1314,8 +1440,8 @@
     {
       "name": "DPAM (Du Pareil au Même)",
       "slug": "dpam-du-pareil-au-meme",
-      "rate_text": "6%",
-      "percent": 6.0,
+      "rate_text": "5.99%",
+      "percent": 5.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1323,8 +1449,8 @@
     {
       "name": "Dr Pierre Ricaud",
       "slug": "dr-pierre-ricaud",
-      "rate_text": "9.6%",
-      "percent": 9.6,
+      "rate_text": "9.49%",
+      "percent": 9.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1332,8 +1458,8 @@
     {
       "name": "Decathlon",
       "slug": "decathlon",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "3.4%",
+      "percent": 3.4,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1341,8 +1467,8 @@
     {
       "name": "Darty",
       "slug": "darty",
-      "rate_text": "3.2%",
-      "percent": 3.2,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1350,8 +1476,8 @@
     {
       "name": "Cyrillus",
       "slug": "cyrillus",
-      "rate_text": "4.8%",
-      "percent": 4.8,
+      "rate_text": "4.75%",
+      "percent": 4.75,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1359,8 +1485,8 @@
     {
       "name": "Cultura",
       "slug": "cultura",
-      "rate_text": "3.9%",
-      "percent": 3.9,
+      "rate_text": "3.99%",
+      "percent": 3.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1368,8 +1494,8 @@
     {
       "name": "Conforama",
       "slug": "conforama",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4.49%",
+      "percent": 4.49,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1377,8 +1503,8 @@
     {
       "name": "Center Parcs",
       "slug": "center-parcs",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1395,8 +1521,17 @@
     {
       "name": "Castorama",
       "slug": "castorama",
-      "rate_text": "5.5%",
-      "percent": 5.5,
+      "rate_text": "4.5%",
+      "percent": 4.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Best Western",
+      "slug": "best-western",
+      "rate_text": "4.09%",
+      "percent": 4.09,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1420,10 +1555,19 @@
       "category_seen": null
     },
     {
+      "name": "Amazon",
+      "slug": "amazon",
+      "rate_text": "1.02%",
+      "percent": 1.02,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
       "name": "AM PM",
       "slug": "am-pm",
-      "rate_text": "3%",
-      "percent": 3.0,
+      "rate_text": "2.99%",
+      "percent": 2.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1431,8 +1575,8 @@
     {
       "name": "ALL - Accor Live Limitless",
       "slug": "all-accor-live-limitless",
-      "rate_text": "4.84%",
-      "percent": 4.84,
+      "rate_text": "4.79%",
+      "percent": 4.79,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1440,8 +1584,8 @@
     {
       "name": "3 Suisses",
       "slug": "3-suisses",
-      "rate_text": "4.2%",
-      "percent": 4.2,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
