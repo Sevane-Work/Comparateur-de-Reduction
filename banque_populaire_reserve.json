@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
-  "captured_at": "2026-09-17",
+  "captured_at": "2026-11-25",
   "generated_at": "2026-09-17T19:02:55.589734+00:00",
-  "note": "Sous-ensemble 'reserve societaire' du catalogue Banque Populaire Extra+X : 22 enseignes presentes sur le vrai site mais absentes de l'API publique utilisee par fetch_banque_populaire.py (restrictions.member=true cote API, taux non recuperable sans authentification personnelle - verifie le 2026-09-17, endpoint direct renvoie 401 meme avec cookies de session). Capture manuelle, meme routine que The Corner/Ulys/Happypal : connexion personnelle de l'utilisateur + lecture en direct par Claude, a rafraichir ponctuellement (pas d'automatisation quotidienne possible pour ce sous-ensemble). Fusionne avec banque_populaire.json sous le meme filtre plateforme (memes valeurs 'platform').",
+  "note": "Sous-ensemble 'reserve societaire' du catalogue Banque Populaire Extra+X : 22 enseignes presentes sur le vrai site mais absentes de l'API publique utilisee par fetch_banque_populaire.py (restrictions.member=true cote API, taux non recuperable sans authentification personnelle - verifie le 2026-09-17, endpoint direct renvoie 401 meme avec cookies de session). Capture manuelle, meme routine que The Corner/Ulys/Happypal : connexion personnelle de l'utilisateur + lecture en direct par Claude, a rafraichir ponctuellement (pas d'automatisation quotidienne possible pour ce sous-ensemble). Fusionne avec banque_populaire.json sous le meme filtre plateforme (memes valeurs 'platform'). | Re-verification du 2026-10-14 (session autonome) : les 22 enseignes re-controlees individuellement via la barre de recherche du site (connexion personnelle de l utilisatrice) - aucun changement de taux detecte, les 22 valeurs sont confirmees identiques. | Re-verification du 2026-11-25 (gros check general) : les 22 enseignes re-controlees individuellement via la barre de recherche du site (connexion personnelle de l utilisatrice) - aucun changement de taux detecte, les 22 valeurs sont confirmees identiques. | Complement du 2026-11-25 : suite a une question de l utilisatrice sur la fiabilite de la methode de recherche par nom (qui ne peut pas detecter un enseigne nouvellement ajoutee puisqu elle ne cherche que les noms deja connus), parcours complet des 8 categories du site (Alimentation/Loisirs/Enfants/Maison/Vacances/Shopping/Sport/Mobilite, 151 fiches vues, 145 enseignes uniques apres dedoublonnage entre categories) via extraction des liens produits par JavaScript (slug + taux affiches, sans avoir besoin de visiter 151 fiches individuelles). Comparaison programmatique contre les 147 enseignes deja connues (125 automatisees + 22 reserve) : 6 enseignes non trouvees dans aucun des deux fichiers, confirmees absentes par recherche de nom egalement -> ajoutees ci-dessous (Bonobo -7%, Breal -7%, Conforama -5%, Printemps -6%, Roblox -6%, Whirlpool -11% Cashback).",
   "offers": [
     {
       "name": "Monoprix",
@@ -200,6 +200,60 @@
       "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Bonobo",
+      "slug": "bonobo",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Bréal",
+      "slug": "breal",
+      "rate_text": "-7%",
+      "percent": 7.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Conforama",
+      "slug": "conforama",
+      "rate_text": "-5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Printemps",
+      "slug": "printemps",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Roblox",
+      "slug": "roblox",
+      "rate_text": "-6%",
+      "percent": 6.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Whirlpool",
+      "slug": "whirlpool",
+      "rate_text": "-11%",
+      "percent": 11.0,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
       "category_seen": null
     }
   ],
