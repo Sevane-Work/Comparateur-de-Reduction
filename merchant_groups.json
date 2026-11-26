@@ -2,15 +2,14 @@
   "aliases": {
     "am pm": "ampm",
     "am.pm": "ampm",
+    "atelier wecandoo": "wecandoo",
     "ateliers wecandoo": "wecandoo",
     "carrefour voyage": "carrefourvoyage",
     "carrefour voyages": "carrefourvoyage",
+    "cgr cinemas": "cgr",
     "cinemas pathe": "pathe",
     "cinemas pathe gaumont": "pathe",
     "cinepass pathe": "pathe",
-    "pathe gaumont": "pathe",
-    "cgr cinemas": "cgr",
-    "gaumont pathe": "pathe",
     "controle technique moncade - anglet": "moncade",
     "controle technique moncade - bayonne mousserolles": "moncade",
     "controle technique moncade - bayonne sainte croix": "moncade",
@@ -35,6 +34,7 @@
     "du pareil au meme": "dpam",
     "fnac darty": "dartyfnac",
     "forest hill": "foresthill",
+    "gaumont pathe": "pathe",
     "gyl": "gyl",
     "gyl bag": "gyl",
     "h m": "hm",
@@ -64,6 +64,7 @@
     "o'green oak pub - mont de marsan": "ogreenoak",
     "pathe": "pathe",
     "pathe france": "pathe",
+    "pathe gaumont": "pathe",
     "playstation store": "playstationstore",
     "pokoon - boulogne-sur-mer": "pokoon",
     "pokoon - calais": "pokoon",
@@ -150,5 +151,11 @@
     "carrefourvoyage": "Carrefour Voyages",
     "dartyfnac": "FNAC DARTY"
   },
-  "ambiguous": ["pathe", "moncade", "dominos", "vandb", "pokoon"]
+  "ambiguous": [
+    "pathe",
+    "moncade",
+    "dominos",
+    "vandb",
+    "pokoon"
+  ]
 }
