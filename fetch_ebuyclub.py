@@ -52,6 +52,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from urllib.error import HTTPError, URLError
@@ -271,6 +272,60 @@ def fetch_bons_dachat():
 
 
 
+def normalize_name(name):
+    """Normalise un nom d'enseigne (accents retires, casse ignoree) pour
+    les comparaisons de doublons entre catalogues - memes principes que la
+    fonction normalize() cote site (comparateur-reductions.html)."""
+    s = unicodedata.normalize("NFD", name or "")
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return s.strip().lower()
+
+
+def drop_cashback_duplicates(offers, cashback_path="ebuyclub_cashback.json"):
+    """Retire les offres type="direct" deja presentes (meme nom, compare
+    sans accents/casse) dans ebuyclub_cashback.json, qui est la source
+    dediee et plus complete pour le catalogue "cashback en ligne" (voir
+    fetch_ebuyclub_cashback.py). Sans ce filtre, ce script re-scrape une
+    partie du meme catalogue via les pages categorie et reintroduit des
+    doublons a chaque run automatique (signale par l'utilisatrice le
+    2026-11-25 puis a nouveau le 2026-11-26 apres un rafraichissement
+    automatique qui avait efface une premiere correction manuelle - voir
+    claude/suivi-projet-comparateur-reductions.md). Si ebuyclub_cashback.json
+    est absent (ex : etape precedente du workflow en echec), on ne filtre
+    rien plutot que de risquer de tout exclure a tort.
+    """
+    try:
+        with open(cashback_path, encoding="utf-8") as f:
+            cashback_data = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        print(
+            "  [!] " + cashback_path + " introuvable/invalide : pas de "
+            "dedoublonnage applique pour ce run",
+            file=sys.stderr,
+        )
+        return offers
+
+    cashback_names = {
+        normalize_name(o.get("name", ""))
+        for o in cashback_data.get("offers", [])
+    }
+
+    kept = []
+    removed = 0
+    for o in offers:
+        if o["type"] == "direct" and normalize_name(o.get("name", "")) in cashback_names:
+            removed += 1
+            continue
+        kept.append(o)
+
+    if removed:
+        print(
+            "  [i] " + str(removed) + " offre(s) 'direct' retiree(s) (deja dans "
+            + cashback_path + ")",
+            file=sys.stderr,
+        )
+    return kept
+
 CATEGORY_PATTERNS = [
     ("cinema", re.compile(r"mk2|gaumont|path[ée]|\bugc\b|cin[ée]|\bcgr\b|kinepolis", re.IGNORECASE)),
 ]
@@ -321,7 +376,8 @@ def main():
         if key not in all_offers:
             all_offers[key] = o
 
-    tagged_offers = tag_category(list(all_offers.values()))
+    deduped_offers = drop_cashback_duplicates(list(all_offers.values()))
+    tagged_offers = tag_category(deduped_offers)
 
     result = {
         "platform": PLATFORM,
@@ -339,6 +395,10 @@ def main():
             "directement). Les marchands affichant 'Pas de CashBack en ce moment' "
             "sont exclus. Certaines offres carte_cadeau ont un taux de cashback "
             "en ligne cumulable, capture dans 'stackable_cashback_rate_text'."
+            " Les offres 'direct' deja presentes (meme nom, accents/casse"
+            " ignores) dans ebuyclub_cashback.json sont retirees : ce"
+            " fichier dedie est la source la plus complete pour le"
+            " catalogue cashback en ligne (voir fetch_ebuyclub_cashback.py)."
         ),
         "offers": tagged_offers,
     }
