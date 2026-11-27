@@ -2,7 +2,7 @@
   "platform": "iGraal",
   "platform_url": "https://fr.igraal.com/bon-achat",
   "captured_at": null,
-  "generated_at": "2026-11-26T04:50:36.834747+00:00",
+  "generated_at": "2026-11-27T04:54:26.000799+00:00",
   "note": "Catalogue 'Bon d'achat' d'iGraal (fr.igraal.com/bon-achat), distinct du catalogue cashback general (igraal.json). Page publique, aucune connexion requise. Taux = pourcentage de reduction sur le prix facial de la carte cadeau.",
   "offers": [
     {
@@ -44,8 +44,8 @@
     {
       "name": "Carrefour Courses Alimentaires",
       "slug": "carrefour-courses-alimentaires",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "4%",
+      "percent": 4.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -981,8 +981,8 @@
     {
       "name": "Zalando",
       "slug": "zalando",
-      "rate_text": "7.5%",
-      "percent": 7.5,
+      "rate_text": "7%",
+      "percent": 7.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1186,15 +1186,6 @@
       "category_seen": null
     },
     {
-      "name": "Tommy Hilfiger",
-      "slug": "tommy-hilfiger",
-      "rate_text": "6%",
-      "percent": 6.0,
-      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
-      "type": "carte_cadeau",
-      "category_seen": null
-    },
-    {
       "name": "Swarovski",
       "slug": "swarovski",
       "rate_text": "9.5%",
@@ -1359,8 +1350,8 @@
     {
       "name": "La Redoute",
       "slug": "la-redoute",
-      "rate_text": "4.5%",
-      "percent": 4.5,
+      "rate_text": "3.84%",
+      "percent": 3.84,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1377,8 +1368,8 @@
     {
       "name": "Kiabi",
       "slug": "kiabi",
-      "rate_text": "4%",
-      "percent": 4.0,
+      "rate_text": "3.5%",
+      "percent": 3.5,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1404,8 +1395,8 @@
     {
       "name": "Fnac",
       "slug": "fnac",
-      "rate_text": "3.5%",
-      "percent": 3.5,
+      "rate_text": "3%",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null
@@ -1514,6 +1505,15 @@
       "slug": "castorama",
       "rate_text": "4.5%",
       "percent": 4.5,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
+      "category_seen": null
+    },
+    {
+      "name": "Camif",
+      "slug": "camif",
+      "rate_text": "4.99%",
+      "percent": 4.99,
       "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
       "type": "carte_cadeau",
       "category_seen": null

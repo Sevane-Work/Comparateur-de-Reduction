@@ -1,8 +1,8 @@
 {
   "platform": "Banque Populaire (Extra+X)",
   "platform_url": "https://www.banquepopulaire.fr/comptes-cartes/avantages-extrax/",
-  "captured_at": "2026-11-26",
-  "generated_at": "2026-11-26T04:50:34.120199+00:00",
+  "captured_at": "2026-11-27",
+  "generated_at": "2026-11-27T04:54:23.389769+00:00",
   "note": "Catalogue public de l'espace avantages Banque Populaire (Extra+X), servi par l'API tierce publique ReducFactory (aucune connexion necessaire, verifie techniquement). 'carte_cadeau' = bon d'achat achete et paye directement au prix remise (voucher_product), seul mecanisme necessitant l'achat effectif d'une carte/d'un bon. 'direct' = reduction sur un achat fait directement chez le marchand, que le remboursement soit immediat (direct_discount_product) ou differe sur une cagnotte (cashback_product) - corrige le 2026-09-18, memes conventions que iGraal/eBuyClub, voir doc de suivi.",
   "offers": [
     {
@@ -138,6 +138,15 @@
       "percent": 11.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
+      "category_seen": null
+    },
+    {
+      "name": "TicketMaster",
+      "slug": "ticketmaster",
+      "rate_text": "5%",
+      "percent": 5.0,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "carte_cadeau",
       "category_seen": null
     },
     {
@@ -684,6 +693,16 @@
       "category_seen": null
     },
     {
+      "name": "MK2",
+      "slug": "mk2",
+      "rate_text": "34.9%",
+      "percent": 34.9,
+      "type_detail_fr": "Bon d'achat / carte cadeau (prix remisé payé directement)",
+      "type": "direct",
+      "category_seen": null,
+      "category": "cinema"
+    },
+    {
       "name": "Nausicaá",
       "slug": "nausicaa",
       "rate_text": "16.1%",
@@ -912,8 +931,8 @@
     {
       "name": "PortAventura World",
       "slug": "portaventura",
-      "rate_text": "*-30% billets ou hotels",
-      "percent": 30.0,
+      "rate_text": "Jusqu'à -25%",
+      "percent": 25.0,
       "type_detail_fr": "Réduction directe",
       "type": "direct",
       "category_seen": null

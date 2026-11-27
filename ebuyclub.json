@@ -1,9 +1,9 @@
 {
   "platform": "eBuyClub",
   "platform_url": "https://www.ebuyclub.com/bons-d-achat",
-  "captured_at": "2026-11-26",
-  "generated_at": "2026-11-26T04:49:16.443037+00:00",
-  "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'. Les offres 'direct' deja presentes (meme nom, accents/casse ignores) dans ebuyclub_cashback.json sont retirees : ce fichier dedie est la source la plus complete pour le catalogue cashback en ligne (voir fetch_ebuyclub_cashback.py). Correction appliquee manuellement le 2026-11-26 suite a un rafraichissement automatique ayant efface une premiere correction du meme type (voir note precedente et claude/suivi-projet-comparateur-reductions.md) ; desormais appliquee automatiquement par fetch_ebuyclub.py a chaque run.",
+  "captured_at": "2026-11-27",
+  "generated_at": "2026-11-27T04:53:05.001055+00:00",
+  "note": "Deux catalogues publics eBuyClub combines : 'direct' = cashback en ligne classique (www.ebuyclub.com/cashback, credite sur le solde du compte, retirable sans montant minimum d'apres la FAQ du site) et 'carte_cadeau' = bons d'achat (www.ebuyclub.com/bons-d-achat, meme mecanisme de credit en solde qu'iGraal, PAS un prix remise paye directement). Les marchands affichant 'Pas de CashBack en ce moment' sont exclus. Certaines offres carte_cadeau ont un taux de cashback en ligne cumulable, capture dans 'stackable_cashback_rate_text'. Les offres 'direct' deja presentes (meme nom, accents/casse ignores) dans ebuyclub_cashback.json sont retirees : ce fichier dedie est la source la plus complete pour le catalogue cashback en ligne (voir fetch_ebuyclub_cashback.py).",
   "offers": [
     {
       "name": "Hotels",
@@ -26,7 +26,7 @@
     {
       "name": "Fnac",
       "slug": "fnac-58",
-      "rate_text": "Jusqu’à 7,5% rembours",
+      "rate_text": "Jusqu’à 9% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -55,6 +55,15 @@
       "slug": "e-17263",
       "rate_text": "Jusqu’à 2,5% rembours",
       "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "alimentation-boissons"
+    },
+    {
+      "name": "Vinatis",
+      "slug": "vinatis-6567",
+      "rate_text": "2,5% rembours",
+      "percent": 2.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "alimentation-boissons"
@@ -105,18 +114,18 @@
       "category_seen": "auto-moto"
     },
     {
-      "name": "Ad",
-      "slug": "ad-9032",
-      "rate_text": "Jusqu’à 6€ rembours",
+      "name": "Piecesauto24",
+      "slug": "piecesauto24-8882",
+      "rate_text": "Jusqu’à 5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "auto-moto"
     },
     {
-      "name": "Piecesauto24",
-      "slug": "piecesauto24-8882",
-      "rate_text": "Jusqu’à 5% rembours",
+      "name": "Ad",
+      "slug": "ad-9032",
+      "rate_text": "Jusqu’à 6€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -141,6 +150,15 @@
       "category_seen": "auto-moto"
     },
     {
+      "name": "Hello Bank",
+      "slug": "hello-bank-5785",
+      "rate_text": "Jusqu’à 96€ rembours",
+      "percent": null,
+      "type_detail_fr": "Cashback",
+      "type": "direct",
+      "category_seen": "banque-assurances"
+    },
+    {
       "name": "Achat Or Et Argent",
       "slug": "achat-or-et-argent-9877",
       "rate_text": "0,4% rembours",
@@ -159,9 +177,9 @@
       "category_seen": "banque-assurances"
     },
     {
-      "name": "Hello Bank",
-      "slug": "hello-bank-5785",
-      "rate_text": "Jusqu’à 96€ rembours",
+      "name": "L Olivier Assurance Habitation",
+      "slug": "l-olivier-assurance-habitation-13940",
+      "rate_text": "17,5€ rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -199,15 +217,6 @@
       "slug": "ticketmaster-8084",
       "rate_text": "3% rembours",
       "percent": 3.0,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "culture"
-    },
-    {
-      "name": "Ticketac",
-      "slug": "ticketac-5842",
-      "rate_text": "6,5% rembours",
-      "percent": 6.5,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "culture"
@@ -323,7 +332,7 @@
     {
       "name": "Groupon",
       "slug": "groupon-2640",
-      "rate_text": "Jusqu’à 5% rembours",
+      "rate_text": "Jusqu’à 6,5% rembours",
       "percent": null,
       "type_detail_fr": "Cashback",
       "type": "direct",
@@ -341,8 +350,8 @@
     {
       "name": "Histoire D Or",
       "slug": "histoire-d-or-5790",
-      "rate_text": "4,5% rembours",
-      "percent": 4.5,
+      "rate_text": "10% rembours",
+      "percent": 10.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
@@ -359,20 +368,11 @@
     {
       "name": "Nike",
       "slug": "nike-1145",
-      "rate_text": "6% rembours",
-      "percent": 6.0,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Cashback",
       "type": "direct",
       "category_seen": "mode-accessoires"
-    },
-    {
-      "name": "Ulys Particulier",
-      "slug": "ulys-particulier-5823",
-      "rate_text": "6€ rembours",
-      "percent": null,
-      "type_detail_fr": "Cashback",
-      "type": "direct",
-      "category_seen": "voyages"
     },
     {
       "name": "Lastminute",
@@ -413,8 +413,8 @@
     {
       "name": "Carrefour",
       "slug": "carrefour-10310",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -424,8 +424,8 @@
     {
       "name": "Auchan",
       "slug": "auchan-307",
-      "rate_text": "3% rembours",
-      "percent": 3.0,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -435,8 +435,8 @@
     {
       "name": "Intermarche",
       "slug": "intermarche-15102",
-      "rate_text": "2,5% rembours",
-      "percent": 2.5,
+      "rate_text": "3% rembours",
+      "percent": 3.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -507,7 +507,7 @@
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
       "usage_location": "EN LIGNE + EN MAGASIN",
-      "stackable_cashback_rate_text": "Jusqu'à 7,5% de cashback"
+      "stackable_cashback_rate_text": "Jusqu'à 9% de cashback"
     },
     {
       "name": "Zalando",
@@ -853,8 +853,8 @@
     {
       "name": "Carrefour Market",
       "slug": "carrefour-market-7155",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",
@@ -1305,8 +1305,8 @@
     {
       "name": "Carrefour Voyages",
       "slug": "carrefour-voyages-4988",
-      "rate_text": "3,6% rembours",
-      "percent": 3.6,
+      "rate_text": "5% rembours",
+      "percent": 5.0,
       "type_detail_fr": "Bon d'achat / carte cadeau",
       "type": "carte_cadeau",
       "category_seen": "bons-d-achat",

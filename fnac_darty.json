@@ -1,8 +1,8 @@
 {
   "platform": "Fnac Darty Pass",
   "platform_url": "https://www.passfnacdarty.com",
-  "captured_at": "2026-11-26",
-  "generated_at": "2026-11-26T04:48:50.209167+00:00",
+  "captured_at": "2026-11-27",
+  "generated_at": "2026-11-27T04:52:46.910950+00:00",
   "note": "Catalogue public (aucune connexion necessaire), deux API : cashback direct et remise carte cadeau (Ebon). Un marchand avec les deux types d'offres apparait comme deux entrees distinctes partageant le meme 'name'. Le champ 'cumulative_with' indique, pour une offre carte cadeau, si elle est cumulable avec l'offre cashback direct du meme marchand sur Fnac Darty Pass (aucune info de cumul disponible dans l'autre sens).",
   "offers": [
     {
@@ -2922,6 +2922,15 @@
       "link": null
     },
     {
+      "name": "Auchan",
+      "rate_text": null,
+      "percent": 5.0,
+      "type_detail_fr": "Carte cadeau",
+      "type": "carte_cadeau",
+      "cumulative_with": "direct",
+      "link": null
+    },
+    {
       "name": "Leroy Merlin",
       "rate_text": null,
       "percent": 5.0,
@@ -3327,15 +3336,6 @@
       "link": null
     },
     {
-      "name": "Auchan",
-      "rate_text": null,
-      "percent": 4.8,
-      "type_detail_fr": "Carte cadeau",
-      "type": "carte_cadeau",
-      "cumulative_with": "direct",
-      "link": null
-    },
-    {
       "name": "Uber Eats",
       "rate_text": null,
       "percent": 4.8,
@@ -3701,6 +3701,15 @@
       "percent": 4.2,
       "type_detail_fr": "Carte cadeau",
       "type": "carte_cadeau",
+      "cumulative_with": null,
+      "link": null
+    },
+    {
+      "name": "NYX Professional Makeup",
+      "rate_text": null,
+      "percent": 4.1,
+      "type_detail_fr": "Réduction directe",
+      "type": "direct",
       "cumulative_with": null,
       "link": null
     },
